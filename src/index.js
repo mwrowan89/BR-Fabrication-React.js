@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import HomePage from './HomePage';
-import Nav from './Nav';
+import App from './App/App';
+import HomePage from './Home/HomePage';
+import Nav from './Nav/Nav';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

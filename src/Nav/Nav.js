@@ -1,7 +1,7 @@
 import React from "react";
 import "./Nav.css"
-import InstagramLogo from './assets/Screenshot (19).png';
-import FacebookLogo from './assets/facbook logo11.png';
+import InstagramLogo from '../assets/Screenshot (19).png';
+import FacebookLogo from '../assets/facbook logo11.png';
 
 function Nav() {
   return (

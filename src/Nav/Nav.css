@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('./assets/13.JPG');
+    background-image: url('../assets/13.JPG');
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 2vw 5vw 0vw 5vw;
@@ -16,14 +16,18 @@
 }
 
 h3{
-    color: rgb(77, 76, 76);
-    margin-top: -1vw;
+    color: rgba(211, 211, 211, 0.689);
+    margin-top: -.5vw;
 }
 
 .links {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-bottom: 1vw;
-    margin-top: -1vw;
+    margin-top: -1.5vw;
+    color: white;
+}
+
+img {
+    margin-top: 5px;
 }
