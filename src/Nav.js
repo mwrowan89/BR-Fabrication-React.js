@@ -6,7 +6,7 @@ import FacebookLogo from './assets/facbook logo11.png';
 function Nav() {
   return (
     <div className="greetings">
-    <h1> BR Fabrication</h1><br/>
+    <h1> BR Fabrication</h1>
     <h3>Heirloom Quality Furniture for Commercial & Residential Spaces</h3> <br/>
       <div className="links">
         <a href="https://www.instagram.com/fromcheftotable/" target="_blank" rel="noopener noreferrer"><img id="insta" src={InstagramLogo} width="33" height="33" alt="Instagram link"/></a> &nbsp; || &nbsp;
