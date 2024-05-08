@@ -3,11 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80vw;
     background-image: url('./assets/13.JPG');
     background-size: 100%;
     background-repeat: no-repeat;
-    margin: 1vw 10vw 0vw 10vw;
+    margin: 2vw 5vw 0vw 5vw;
+
 }
 
 .greetings h1{
@@ -16,7 +16,7 @@
 }
 
 h3{
-    color: rgb(97, 96, 96);
+    color: rgb(77, 76, 76);
     margin-top: -1vw;
 }
 
