@@ -1,9 +1,9 @@
 import React from "react";
-import "./Nav.css"
+import "./Header.css"
 import InstagramLogo from '../assets/Screenshot (19).png';
 import FacebookLogo from '../assets/facbook logo11.png';
 
-function Nav() {
+function Header() {
   return (
     <div className="greetings">
     <h1> BR Fabrication</h1>
@@ -16,5 +16,5 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Header;
 
