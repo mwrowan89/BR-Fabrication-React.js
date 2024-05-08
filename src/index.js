@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App/App';
-import HomePage from './Home/HomePage';
-import Nav from './Nav/Nav';
+import App from './Home/Home';
+import Nav from './Header/Header';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,8 +12,6 @@ root.render(
     <Nav /><br/>
     </div>
     <App />
-    
-    <HomePage />
   </React.StrictMode>
 );
 
