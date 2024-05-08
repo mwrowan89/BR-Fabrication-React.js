@@ -1,5 +1,5 @@
 import { Form } from "react-router-dom";
-import HomePage from "./HomePage";
+import Nav from "../Nav/Nav";
 
 export default function ContactUs() {
   const contact = {
@@ -12,7 +12,7 @@ export default function ContactUs() {
   };
 
   return (
-    <><HomePage />
+    <> <Nav />
     <div id="contact">
       <div>
         <img

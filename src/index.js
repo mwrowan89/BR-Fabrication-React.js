@@ -7,7 +7,6 @@ import {
 import './index.css';
 import ErrorPage from "./error-page";
 import ContactUs from "./routes/ContactUs";
-import App from './App/App';
 import AboutPage from './About/AboutPage'
 import Header from './Header/Header';
 import reportWebVitals from './reportWebVitals';
@@ -17,13 +16,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <HomePage />,
-    errorElement: <ErrorPage />,
-    // children: [
-    //   {
-    //     path: "contacts/:contactId",
-    //     element: <Contact />,
-    //   },
-    // ],
+    errorElement: <ErrorPage />
   },
   {
     path: "/about",

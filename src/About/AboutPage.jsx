@@ -1,10 +1,10 @@
 import React from "react";
 import BenSanding from "../assets/BenSanding.jpg"
-import Root from "../routes/HomePage";
+import Nav from "../Nav/Nav";
 
 function About() {
   return (
-    <><Root />
+    <><Nav/>
     <div>
       <div className="about">
         <img src={BenSanding} height="800vh" width="600vw" alt="Ben Sanding" />
