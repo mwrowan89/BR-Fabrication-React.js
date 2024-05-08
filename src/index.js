@@ -13,7 +13,6 @@ import Contact from "./routes/Contact";
 import App from './App/App';
 import AboutPage from './About/AboutPage'
 import Nav from './Nav/Nav';
-import Home from './Home/Home';
 import Header from './Header/Header';
 import reportWebVitals from './reportWebVitals';
 
@@ -41,7 +40,6 @@ root.render(
     <div className='Nav'>
     <Header /><br/>
     <Nav/>
-    <Home />
     </div>
     <RouterProvider router={router} />
     <App />
