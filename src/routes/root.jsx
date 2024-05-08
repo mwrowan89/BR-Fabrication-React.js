@@ -35,7 +35,7 @@ export default function Root() {
               <Link to={`about`}>Your Name</Link>
               </li>
               <li>
-              <Link to={`contacts/2`}>Your Friend</Link>
+              <Link to={`/`}>Your Friend</Link>
               </li>
             </ul>
           </nav>
