@@ -5,33 +5,34 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css';
-import Root from "./routes/root";
 import ErrorPage from "./error-page";
-import Contact from "./routes/Contact";
-
-
+import ContactUs from "./routes/ContactUs";
 import App from './App/App';
 import AboutPage from './About/AboutPage'
-import Nav from './Nav/Nav';
 import Header from './Header/Header';
 import reportWebVitals from './reportWebVitals';
+import HomePage from './routes/HomePage';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <HomePage />,
     errorElement: <ErrorPage />,
-    children: [
-      {
-        path: "contacts/:contactId",
-        element: <Contact />,
-      },
-    ],
+    // children: [
+    //   {
+    //     path: "contacts/:contactId",
+    //     element: <Contact />,
+    //   },
+    // ],
   },
   {
     path: "/about",
     element: <AboutPage />
-  }
+  },
+  {
+    path: "/contact",
+    element: <ContactUs />
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -39,10 +40,8 @@ root.render(
   <React.StrictMode>
     <div className='Nav'>
     <Header /><br/>
-    <Nav/>
     </div>
     <RouterProvider router={router} />
-    <App />
   </React.StrictMode>
 );
 

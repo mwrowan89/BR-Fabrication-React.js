@@ -1,6 +1,7 @@
 import { Form } from "react-router-dom";
+import HomePage from "./HomePage";
 
-export default function Contact() {
+export default function ContactUs() {
   const contact = {
     first: "Your",
     last: "Name",
@@ -11,6 +12,7 @@ export default function Contact() {
   };
 
   return (
+    <><HomePage />
     <div id="contact">
       <div>
         <img
@@ -68,6 +70,7 @@ export default function Contact() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
