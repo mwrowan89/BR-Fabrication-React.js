@@ -38,7 +38,7 @@ function PhotoSlide() {
       return () => {
         clearInterval(timer);
       };
-    });
+    }, [currentIndex]);
 
     const startSlide = () => {
       setTimer(setInterval(next, 5000));

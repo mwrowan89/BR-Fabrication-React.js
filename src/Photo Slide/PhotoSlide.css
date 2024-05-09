@@ -8,6 +8,9 @@
     margin:1vw 0vw 5vw 0vw;
 }
 
+img {
+    transition: 1s ease-in-out;
+}
 
 .prev,
 .next {
