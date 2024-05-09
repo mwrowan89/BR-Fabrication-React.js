@@ -4,17 +4,17 @@ import "./Nav.css";
 export default function Nav() {
   return (
     <>
-      <div className="nav-bar">
+      <div>
         <nav>
           <ul className="nav-items">
             <li>
-              <Link to="/">Home</Link>
+              <Link className="nav-link" to="/">Home</Link> &nbsp;
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link className="nav-link" to="/about">About</Link> &nbsp;
             </li>
             <li>
-              <Link to="contact">Contact Us</Link>
+              <Link className="nav-link" to="/contact">Contact Us</Link>
             </li>
           </ul>
         </nav>

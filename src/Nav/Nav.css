@@ -1,12 +1,39 @@
-.nav-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: red;
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
 }
 
 .nav-items {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 0 3rem;
+  font-size: 1.2rem;
+  border-left: 1px solid var(--color-border);
+}
+
+.nav-link {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Link color */
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.308); /* Background color on hover */
+  color: white; /* Text color on hover */
+}
+.nav-link:not(:last-of-type) {
+  border-right: 1px solid white;
 }
