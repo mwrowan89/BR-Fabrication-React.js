@@ -9,6 +9,7 @@ import ErrorPage from "./error-page";
 import ContactUs from "./routes/ContactUs";
 import AboutPage from './routes/AboutPage'
 import Header from './Header/Header';
+import Gallery from './routes/Gallery';
 import reportWebVitals from './reportWebVitals';
 import HomePage from './routes/HomePage';
 
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <ContactUs />
+  },
+  {
+    path: "/gallery",
+    element: <Gallery />
   },
 ]);
 
