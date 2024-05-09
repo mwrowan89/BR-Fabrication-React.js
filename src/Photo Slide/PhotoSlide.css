@@ -1,0 +1,40 @@
+.slide-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 60vw;
+    object-fit: contain;
+    margin:1vw 0vw 5vw 0vw;
+}
+
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin: 80px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    transition: 0.7s ease;
+    border-radius: 0 4px 4px 0;
+    text-decoration: none;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+}
+
+.prev {
+    left: 0;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
