@@ -1,0 +1,8 @@
+.footer {
+    border-top: 2px solid white;
+    width: 95vw;
+    margin-left: -18vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+}

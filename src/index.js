@@ -10,6 +10,7 @@ import ContactUs from "./routes/ContactUs";
 import AboutPage from './routes/AboutPage'
 import Header from './Header/Header';
 import Gallery from './routes/Gallery';
+import Footer from './Footer/Footer';
 import reportWebVitals from './reportWebVitals';
 import HomePage from './routes/HomePage';
 
@@ -40,6 +41,7 @@ root.render(
     <Header /><br/>
     </div>
     <RouterProvider router={router} />
+    <Footer />
   </React.StrictMode>
 );
 
