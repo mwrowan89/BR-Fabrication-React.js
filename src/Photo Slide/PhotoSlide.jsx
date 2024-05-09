@@ -67,10 +67,11 @@ function PhotoSlide() {
         <>
             <div className="photo-slide">
                 
-                <img className="slide-images" src={currentImg} alt="" />
+                <img className="slide-image" src={currentImg} alt="" />
+
             <div className="buttons"> 
-            <a className="prev" onClick={handleClick} href="#">&#10094; Previous</a>
-            <a className="next" onClick={handleClick} href="#">Next &#10095;</a>
+            <a className="prev" onClick={handleClick} href="/">&#10094; Previous</a>
+            <a className="next" onClick={handleClick} href="/">Next &#10095;</a>
             </div>
             </div>
             

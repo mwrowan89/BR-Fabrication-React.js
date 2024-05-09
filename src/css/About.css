@@ -1,0 +1,15 @@
+.about {
+    display: flex;
+    margin: 20px;
+    width: 62vw;
+  }
+  
+  .about-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 28px;
+    color: #bcbbbbd0;
+    line-height: 1.6;
+  }

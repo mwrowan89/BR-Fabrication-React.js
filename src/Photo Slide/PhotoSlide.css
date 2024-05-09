@@ -1,4 +1,4 @@
-.slide-images {
+.slide-image {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@
     margin:1vw 0vw 5vw 0vw;
 }
 
-img {
+.slide-images {
     transition: 1s ease-in-out;
 }
 
