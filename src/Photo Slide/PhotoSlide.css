@@ -22,7 +22,7 @@
     margin: 80px;
     color: white;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 15px;
     transition: 0.7s ease;
     border-radius: 0 4px 4px 0;
     text-decoration: none;
@@ -31,10 +31,12 @@
 
 .next {
     right: 0;
+    margin-right: 10vw;
 }
 
 .prev {
     left: 0;
+    margin-left: 10vw;
 }
 
 .prev:hover,

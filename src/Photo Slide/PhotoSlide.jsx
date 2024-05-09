@@ -41,7 +41,7 @@ function PhotoSlide() {
     }, [currentIndex]);
 
     const startSlide = () => {
-      setTimer(setInterval(next, 5000));
+      setTimer(setInterval(next, 8000));
     }
 
     const next = () => {
