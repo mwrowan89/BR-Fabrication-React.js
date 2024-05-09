@@ -1,5 +1,5 @@
 import React from "react";
-import '../Home/Home.css';
+import '../css/Home.css';
 import Nav from "../Nav/Nav";
 
 export default function HomePage() {

@@ -7,7 +7,7 @@ import {
 import './index.css';
 import ErrorPage from "./error-page";
 import ContactUs from "./routes/ContactUs";
-import AboutPage from './About/AboutPage'
+import AboutPage from './routes/AboutPage'
 import Header from './Header/Header';
 import reportWebVitals from './reportWebVitals';
 import HomePage from './routes/HomePage';
