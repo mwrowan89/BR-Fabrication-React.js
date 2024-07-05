@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/Home.css";
 import Nav from "../components/Nav";
-import PhotoSlide from "../Photo Slide/PhotoSlide";
+import PhotoSlide from "../components/PhotoSlide";
 
 export default function HomePage() {
   return (
