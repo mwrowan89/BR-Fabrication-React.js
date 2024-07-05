@@ -1,44 +1,42 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./index.css";
 import ErrorPage from "./error-page";
 import ContactUs from "./routes/ContactUs";
-import AboutPage from './routes/AboutPage'
-import Header from './Header/Header';
-import Gallery from './routes/Gallery';
-import Footer from './Footer/Footer';
-import reportWebVitals from './reportWebVitals';
-import HomePage from './routes/HomePage';
+import AboutPage from "./routes/AboutPage";
+import Header from "./Header/Header";
+import Gallery from "./routes/Gallery";
+import Footer from "./components/Footer/Footer";
+import reportWebVitals from "./reportWebVitals";
+import HomePage from "./routes/HomePage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <HomePage />,
-    errorElement: <ErrorPage />
+    errorElement: <ErrorPage />,
   },
   {
     path: "/about",
-    element: <AboutPage />
+    element: <AboutPage />,
   },
   {
     path: "/contact",
-    element: <ContactUs />
+    element: <ContactUs />,
   },
   {
     path: "/gallery",
-    element: <Gallery />
+    element: <Gallery />,
   },
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <div className='Nav'>
-    <Header /><br/>
+    <div className="Nav">
+      <Header />
+      <br />
     </div>
     <RouterProvider router={router} />
     <Footer />
