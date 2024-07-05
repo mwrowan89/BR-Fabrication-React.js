@@ -5,7 +5,7 @@ import "./index.css";
 import ErrorPage from "./error-page";
 import ContactUs from "./routes/ContactUs";
 import AboutPage from "./routes/AboutPage";
-import Header from "./Header/Header";
+import Header from "./components/Header";
 import Gallery from "./routes/Gallery";
 import Footer from "./components/Footer/Footer";
 import reportWebVitals from "./reportWebVitals";
