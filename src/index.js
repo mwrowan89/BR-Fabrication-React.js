@@ -7,9 +7,9 @@ import ContactUs from "./routes/ContactUs";
 import AboutPage from "./routes/AboutPage";
 import Header from "./components/Header";
 import Gallery from "./routes/Gallery";
-import Footer from "./components/Footer/Footer";
 import reportWebVitals from "./reportWebVitals";
 import HomePage from "./routes/HomePage";
+import Footer from "./components/Footer";
 
 const router = createBrowserRouter([
   {
