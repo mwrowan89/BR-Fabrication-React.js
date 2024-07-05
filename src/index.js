@@ -3,12 +3,12 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import ErrorPage from "./error-page";
-import ContactUs from "./routes/ContactUs";
-import AboutPage from "./routes/AboutPage";
+import ContactUs from "./pages/ContactUs";
+import AboutPage from "./pages/AboutPage";
 import Header from "./components/Header";
-import Gallery from "./routes/Gallery";
+import Gallery from "./pages/Gallery";
 import reportWebVitals from "./reportWebVitals";
-import HomePage from "./routes/HomePage";
+import HomePage from "./pages/HomePage";
 import Footer from "./components/Footer";
 
 const router = createBrowserRouter([
