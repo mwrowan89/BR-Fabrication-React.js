@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/ContactForm.css";
 
 const ContactForm = () => {
   const contact = {
@@ -11,7 +12,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="conact-us">
+    <div className="contact-us">
       <h1>Please provide information to get in touch with us!</h1>
       <form>
         <label for="fname">First name:</label>
