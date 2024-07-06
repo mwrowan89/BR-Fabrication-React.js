@@ -1,3 +1,15 @@
 .contact-us {
+  display: flex;
+  flex-direction: column;
   color: white;
+}
+
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 10vw;
 }
