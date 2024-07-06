@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./Nav.css";
+import "../css/Nav.css";
 
 export default function Nav() {
   return (
@@ -8,16 +8,24 @@ export default function Nav() {
         <nav>
           <ul className="nav-items">
             <li>
-              <Link className="nav-link" to="/">Home</Link>
+              <Link className="nav-link" to="/">
+                Home
+              </Link>
             </li>
             <li>
-              <Link className="nav-link" to="/about">About</Link>
+              <Link className="nav-link" to="/about">
+                About
+              </Link>
             </li>
             <li>
-              <Link className="nav-link" to="/gallery">Gallery</Link>
+              <Link className="nav-link" to="/gallery">
+                Gallery
+              </Link>
             </li>
             <li>
-              <Link className="nav-link" to="/contact">Contact Us</Link>
+              <Link className="nav-link" to="/contact">
+                Contact Us
+              </Link>
             </li>
           </ul>
         </nav>
