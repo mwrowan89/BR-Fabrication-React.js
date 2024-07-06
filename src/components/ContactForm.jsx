@@ -11,14 +11,14 @@ const ContactForm = () => {
   };
 
   return (
-    <div>
+    <div className="conact-us">
       <h1>Please provide information to get in touch with us!</h1>
       <form>
         <label for="fname">First name:</label>
         <input type="text" id="fname" name="fname" />
         <label for="lname">Last name:</label>
         <input type="text" id="lname" name="lname" />
-        <input type="text" id="query" />
+        <textarea type="text" id="query" />
         <input type="submit" value="Submit" />
       </form>
     </div>
