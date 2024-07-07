@@ -4,16 +4,17 @@
   min-height: 65vh;
   align-items: center;
 }
-
-.contact-us-form {
+.contact-us-container {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
   justify-content: center;
   align-items: center;
   border: 2px solid white;
   height: 50vh;
   width: 50vw;
+}
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
 }
 input {
   width: 10vw;
@@ -28,6 +29,11 @@ input {
 #contact-us-title {
   font-size: 60px;
 }
+#contact-us-button {
+  border-radius: 10px;
+  scale: 1.2;
+  width: 6rem;
+}
 textarea {
   border: none;
   outline: none;
@@ -40,7 +46,4 @@ input {
   outline: none;
   background-color: #181818;
   color: white;
-}
-label {
-  border-bottom: 1px solid white;
 }
