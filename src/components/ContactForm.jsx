@@ -25,7 +25,7 @@ const ContactForm = () => {
         <img id="contact-us-image" src={image} alt="andros taverna" />
       </div>
       <form className="contact-us-form">
-        <h1>Contact Us</h1>
+        <h1 id="contact-us-title">Contact Us</h1>
         <label>
           First Name:
           <input

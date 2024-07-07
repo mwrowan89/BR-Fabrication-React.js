@@ -2,6 +2,8 @@
   display: flex;
   color: white;
   min-height: 65vh;
+  align-items: center;
+  width: 100vw;
 }
 
 .contact-us-form {
@@ -10,6 +12,9 @@
   gap: 20px;
   justify-content: center;
   align-items: center;
+  border: 2px solid white;
+  height: 50vh;
+  width: 50vw;
 }
 input {
   width: 10vw;
@@ -20,4 +25,7 @@ input {
 #contact-us-image {
   height: 65vh;
   width: 25vw;
+}
+#contact-us-title {
+  font-size: 60px;
 }
