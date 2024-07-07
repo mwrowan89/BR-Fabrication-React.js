@@ -3,7 +3,6 @@
   color: white;
   min-height: 65vh;
   align-items: center;
-  width: 100vw;
 }
 
 .contact-us-form {
@@ -28,4 +27,20 @@ input {
 }
 #contact-us-title {
   font-size: 60px;
+}
+.textarea {
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: red;
+  width: 100px;
+}
+input {
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  opacity: 0;
+}
+label {
+  border-bottom: 1px solid white;
 }

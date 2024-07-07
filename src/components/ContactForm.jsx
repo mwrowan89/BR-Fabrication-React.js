@@ -4,11 +4,9 @@ import image from "../assets/images/Andros.png";
 
 const ContactForm = () => {
   const [contact, setContact] = useState({
-    first: "",
-    last: "",
+    full: "",
     email: "",
-    twitter: "your_handle",
-    notes: "Some notes",
+    message: "Some notes",
   });
 
   const handleChange = (e) => {
@@ -27,27 +25,19 @@ const ContactForm = () => {
       <form className="contact-us-form">
         <h1 id="contact-us-title">Contact Us</h1>
         <label>
-          First Name:
+          Full Name <br />
           <input
+            id="textarea"
             type="text"
-            name="first"
-            placeholder="First"
+            name="full"
             value={contact.first}
             onChange={handleChange}
           />
         </label>
         <label>
-          Last Name:
+          Email <br />
           <input
-            type="text"
-            name="last"
-            value={contact.last}
-            onChange={handleChange}
-          />
-        </label>
-        <label>
-          Email:
-          <input
+            id="textarea"
             type="text"
             name="email"
             value={contact.email}
@@ -55,18 +45,10 @@ const ContactForm = () => {
           />
         </label>
         <label>
-          Twitter Handle:
-          <input
-            type="text"
-            name="twitter"
-            value={contact.twitter}
-            onChange={handleChange}
-          />
-        </label>
-        <label>
-          Notes:
+          Message <br />
           <textarea
-            name="notes"
+            id="textarea"
+            name="message"
             value={contact.notes}
             onChange={handleChange}
           />
