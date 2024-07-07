@@ -1,6 +1,7 @@
 .contact-us {
   display: flex;
   flex-direction: column;
+  align-items: center;
   color: white;
   min-height: 65vh;
 }
@@ -8,6 +9,7 @@
 .contact-us-form {
   display: flex;
   flex-direction: column;
+  gap: 20px;
   justify-content: center;
   align-items: center;
 }

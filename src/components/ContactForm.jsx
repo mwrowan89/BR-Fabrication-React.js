@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import "../css/ContactForm.css";
+import image from "../assets/images/Andros.png";
 
 const ContactForm = () => {
   const [contact, setContact] = useState({
-    first: "Your",
-    last: "Name",
-    avatar: "https://placekitten.com/g/200/200",
+    first: "",
+    last: "",
+    email: "",
     twitter: "your_handle",
     notes: "Some notes",
   });
@@ -20,13 +21,17 @@ const ContactForm = () => {
 
   return (
     <div className="contact-us">
-      <h1>Please provide information to get in touch with us!</h1>
+      <div className="contact-us-image">
+        <img src={image} alt="andros taverna" />
+      </div>
       <form className="contact-us-form">
+        <h1>Contact Us</h1>
         <label>
           First Name:
           <input
             type="text"
             name="first"
+            placeholder="First"
             value={contact.first}
             onChange={handleChange}
           />
@@ -41,11 +46,11 @@ const ContactForm = () => {
           />
         </label>
         <label>
-          Avatar URL:
+          Email:
           <input
             type="text"
-            name="avatar"
-            value={contact.avatar}
+            name="email"
+            value={contact.email}
             onChange={handleChange}
           />
         </label>
