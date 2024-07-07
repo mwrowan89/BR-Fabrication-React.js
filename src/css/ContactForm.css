@@ -28,18 +28,18 @@ input {
 #contact-us-title {
   font-size: 60px;
 }
-.textarea {
+textarea {
   border: none;
-  border-bottom: 1px solid white;
   outline: none;
-  color: red;
-  width: 100px;
+  background-color: #181818;
+  color: white;
 }
 input {
   border: none;
   border-bottom: 1px solid white;
   outline: none;
-  opacity: 0;
+  background-color: #181818;
+  color: white;
 }
 label {
   border-bottom: 1px solid white;
