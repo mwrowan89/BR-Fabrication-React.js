@@ -22,7 +22,7 @@ const ContactForm = () => {
   return (
     <div className="contact-us">
       <div className="contact-us-image">
-        <img src={image} alt="andros taverna" />
+        <img id="contact-us-image" src={image} alt="andros taverna" />
       </div>
       <form className="contact-us-form">
         <h1>Contact Us</h1>
