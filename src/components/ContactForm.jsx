@@ -58,6 +58,7 @@ const ContactForm = () => {
                 onChange={handleChange}
               />
             </label>
+            <br />
             <button id="contact-us-button" type="submit">
               Contact Us
             </button>

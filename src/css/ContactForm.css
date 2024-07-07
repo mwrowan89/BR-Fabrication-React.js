@@ -9,8 +9,9 @@
   justify-content: space-evenly;
   align-items: center;
   border: 2px solid white;
-  height: 40vh;
+  height: 45vh;
   width: 30vw;
+  margin: 10px;
 }
 .contact-us-form {
   display: flex;
