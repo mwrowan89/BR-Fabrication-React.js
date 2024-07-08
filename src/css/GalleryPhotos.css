@@ -6,10 +6,16 @@
   width: 30vw;
   object-fit: cover;
   padding: 20px;
+  border-radius: 30px;
+}
+#gallery-img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
 .gallery-images-container {
   display: flex;
-  width: 80vw;
   flex-wrap: wrap;
   justify-content: center;
+  width: 70vw;
+  margin-left: -5vw;
 }
