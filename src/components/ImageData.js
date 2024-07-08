@@ -1,4 +1,4 @@
-const ImageData = [
+const imageData = [
   { id: 1, src: "../assets/images/1.jpg", alt: "Golden Acacia Dining Table" },
   { id: 2, src: "../assets/images/2.jpg", alt: "Golden Acacia Dining Table" },
   { id: 3, src: "../assets/images/9.jpeg", alt: "Golden Acacia Dining Table" },
@@ -47,4 +47,4 @@ const ImageData = [
   },
 ];
 
-export default ImageData;
+export default imageData;
