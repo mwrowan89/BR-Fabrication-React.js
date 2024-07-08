@@ -1,50 +1,49 @@
-const imageData = [
-  { id: 1, src: "../assets/images/1.jpg", alt: "Golden Acacia Dining Table" },
-  { id: 2, src: "../assets/images/2.jpg", alt: "Golden Acacia Dining Table" },
-  { id: 3, src: "../assets/images/9.jpeg", alt: "Golden Acacia Dining Table" },
-  { id: 4, src: "../assets/images/4.jpg", alt: "Golden Acacia Dining Table" },
-  { id: 5, src: "../assets/images/5.jpg", alt: "Golden Acacia Dining Table" },
-  { id: 6, src: "../assets/images/6.jpeg", alt: "Golden Acacia Dining Table" },
-  { id: 7, src: "../assets/images/7.jpg", alt: "Golden Acacia Dining Table" },
-  { id: 8, src: "../assets/images/8.jpg", alt: "Golden Acacia Dining Table" },
-  { id: 9, src: "../assets/images/11.jpg", alt: "Golden Acacia Dining Table" },
-  { id: 10, src: "../assets/images/9.png", alt: "Golden Acacia Dining Table" },
-  { id: 11, src: "../assets/images/10.png", alt: "Golden Acacia Dining Table" },
-  { id: 12, src: "../assets/images/12.png", alt: "Golden Acacia Dining Table" },
-  { id: 13, src: "../assets/images/13.png", alt: "Golden Acacia Dining Table" },
-  { id: 14, src: "../assets/images/14.png", alt: "Golden Acacia Dining Table" },
-  { id: 15, src: "../assets/images/15.png", alt: "Golden Acacia Dining Table" },
-  { id: 16, src: "../assets/images/16.png", alt: "Golden Acacia Dining Table" },
-  {
-    id: 17,
-    src: "../assets/images/commercial1.jpg",
-    alt: "Golden Acacia Dining Table",
-  },
-  {
-    id: 18,
-    src: "../assets/images/commercial2.jpg",
-    alt: "Golden Acacia Dining Table",
-  },
-  {
-    id: 19,
-    src: "../assets/images/IMG_1589.jpg",
-    alt: "Golden Acacia Dining Table",
-  },
-  {
-    id: 20,
-    src: "../assets/images/IMG_1649.jpg",
-    alt: "Golden Acacia Dining Table",
-  },
-  {
-    id: 21,
-    src: "../assets/images/bakan1.png",
-    alt: "Golden Acacia Dining Table",
-  },
-  {
-    id: 22,
-    src: "../assets/images/bakan2.png",
-    alt: "Golden Acacia Dining Table",
-  },
-];
+import useState from "react";
+import image1 from "../assets/images/1.jpg";
+import image2 from "../assets/images/2.jpg";
+import image3 from "../assets/images/9.jpeg";
+import image4 from "../assets/images/4.jpg";
+import image5 from "../assets/images/5.jpg";
+import image6 from "../assets/images/6.jpeg";
+import image7 from "../assets/images/7.jpg";
+import image8 from "../assets/images/8.jpg";
+import image9 from "../assets/images/commercial1.jpg";
+import image10 from "../assets/images/commercial2.jpg";
+import image11 from "../assets/images/11.jpg";
+import image12 from "../assets/images/IMG_1589.jpg";
+import image14 from "../assets/images/IMG_1649.jpg";
+import image15 from "../assets/images/bakan1.png";
+import image16 from "../assets/images/bakan2.png";
+import image17 from "../assets/images/9.png";
+import image18 from "../assets/images/10.png";
+import image20 from "../assets/images/12.png";
+import image21 from "../assets/images/13.png";
+import image22 from "../assets/images/14.png";
+import image23 from "../assets/images/15.png";
+import image24 from "../assets/images/16.png";
 
+const imageData = [
+  image16,
+  image18,
+  image15,
+  image12,
+  image17,
+  image23,
+  image20,
+  image24,
+  image21,
+  image14,
+  image10,
+  image9,
+  image11,
+  image3,
+  image2,
+  image6,
+  image4,
+  image5,
+  image7,
+  image1,
+  image8,
+  image22,
+];
 export default imageData;
