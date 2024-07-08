@@ -1,5 +1,5 @@
 import React from "react";
-import BenSanding from "../assets/BenSanding.jpg";
+import BenSanding from "../assets/images/BenSanding.jpg";
 import Nav from "../components/Nav";
 import "../css/About.css";
 

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../css/ContactForm.css";
 import image from "../assets/images/Andros.png";
-import InstagramLogo from "../assets/Screenshot (19).png";
+import InstagramLogo from "../assets/images/Screenshot (19).png";
 import FacebookLogo from "../assets/facbook logo11.png";
 
 const ContactForm = () => {
