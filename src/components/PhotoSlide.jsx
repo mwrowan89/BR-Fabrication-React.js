@@ -29,7 +29,7 @@ function PhotoSlide() {
   const currentImg = imageData[Math.abs(currentIndex) % imageData.length];
 
   const handleClick = (event) => {
-    event.preventDefault(); // Prevent default behavior of anchor tag
+    event.preventDefault();
     if (event.target.className === "prev") {
       prev();
     } else if (event.target.className === "next") {
