@@ -40,7 +40,7 @@ function PhotoSlide() {
   return (
     <>
       <div className="photo-slide">
-        <img className="slide-image" src={currentImg} alt="" />
+        <img className="slide-image" src={currentImg.src} alt="" />
 
         <div className="buttons">
           <a className="prev" onClick={handleClick} href="/">
