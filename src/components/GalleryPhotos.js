@@ -25,7 +25,7 @@ import image24 from "../assets/images/16.png";
 
 const GalleryPhotos = () => {
   return (
-    <div className="gallery-images-conatiner">
+    <div className="gallery-images-container">
       <img id="gallery-img" src={image1} alt="image1" />
       <img id="gallery-img" src={image2} alt="image1" />
       <img id="gallery-img" src={image3} alt="image1" />

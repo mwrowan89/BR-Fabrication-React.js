@@ -7,3 +7,9 @@
   object-fit: cover;
   padding: 20px;
 }
+.gallery-images-container {
+  display: flex;
+  width: 80vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
