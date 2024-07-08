@@ -6,9 +6,7 @@ const GalleryPhotos = () => {
   return (
     <div className="gallery-images-container">
       {ImageData.map((image) => (
-        <div key={image.index}>
-          <img src={image} alt="any" />
-        </div>
+        <img key={image.id} src={image.src} alt="any" />
       ))}
     </div>
   );

@@ -1,4 +1,3 @@
-import useState from "react";
 import image1 from "../assets/images/1.jpg";
 import image2 from "../assets/images/2.jpg";
 import image3 from "../assets/images/9.jpeg";
@@ -19,31 +18,31 @@ import image18 from "../assets/images/10.png";
 import image20 from "../assets/images/12.png";
 import image21 from "../assets/images/13.png";
 import image22 from "../assets/images/14.png";
-import image23 from "../assets/images/15.png";
-import image24 from "../assets/images/16.png";
+import image13 from "../assets/images/15.png";
+import image19 from "../assets/images/16.png";
 
 const imageData = [
-  image16,
-  image18,
-  image15,
-  image12,
-  image17,
-  image23,
-  image20,
-  image24,
-  image21,
-  image14,
-  image10,
-  image9,
-  image11,
-  image3,
-  image2,
-  image6,
-  image4,
-  image5,
-  image7,
-  image1,
-  image8,
-  image22,
+  { id: 1, src: image1, alt: "Golden Acacia Dining Table" },
+  { id: 2, src: image2, alt: "Golden Acacia Dining Table" },
+  { id: 3, src: image3, alt: "Golden Acacia Dining Table" },
+  { id: 4, src: image4, alt: "Golden Acacia Dining Table" },
+  { id: 5, src: image5, alt: "Golden Acacia Dining Table" },
+  { id: 6, src: image6, alt: "Golden Acacia Dining Table" },
+  { id: 7, src: image7, alt: "Golden Acacia Dining Table" },
+  { id: 8, src: image8, alt: "Golden Acacia Dining Table" },
+  { id: 9, src: image9, alt: "Golden Acacia Dining Table" },
+  { id: 10, src: image10, alt: "Golden Acacia Dining Table" },
+  { id: 11, src: image11, alt: "Golden Acacia Dining Table" },
+  { id: 12, src: image12, alt: "Golden Acacia Dining Table" },
+  { id: 13, src: image13, alt: "Golden Acacia Dining Table" },
+  { id: 14, src: image14, alt: "Golden Acacia Dining Table" },
+  { id: 15, src: image15, alt: "Golden Acacia Dining Table" },
+  { id: 16, src: image16, alt: "Golden Acacia Dining Table" },
+  { id: 17, src: image17, alt: "Golden Acacia Dining Table" },
+  { id: 18, src: image18, alt: "Golden Acacia Dining Table" },
+  { id: 19, src: image19, alt: "Golden Acacia Dining Table" },
+  { id: 20, src: image20, alt: "Golden Acacia Dining Table" },
+  { id: 21, src: image21, alt: "Golden Acacia Dining Table" },
+  { id: 22, src: image22, alt: "Golden Acacia Dining Table" },
 ];
 export default imageData;
