@@ -13,8 +13,8 @@ const GalleryPhotos = () => {
   return (
     <div>
       <div className="com-res-btns">
-        <h2>Commercial Works</h2>
-        <h2>Residential Works</h2>
+        <h2 onClick={() => setSelection("com")}>Commercial Works</h2>
+        <h2 onClick={() => setSelection("res")}>Residential Works</h2>
       </div>
       <div className="gallery-images-container">
         {ImageData.map((image) => (
