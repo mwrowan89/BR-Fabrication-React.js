@@ -10,16 +10,22 @@ const GalleryPhotos = () => {
     navigate(`${path}?query=${query}`);
   };
   return (
-    <div className="gallery-images-container">
-      {ImageData.map((image) => (
-        <img
-          onClick={() => handleNavigation("/details", image.id)}
-          id="gallery-image"
-          key={image.id}
-          src={image.src}
-          alt={image.desc}
-        />
-      ))}
+    <div>
+      <div className="com-res-btns">
+        <h2>Commercial Works</h2>
+        <h2>Residential Works</h2>
+      </div>
+      <div className="gallery-images-container">
+        {ImageData.map((image) => (
+          <img
+            onClick={() => handleNavigation("/details", image.id)}
+            id="gallery-image"
+            key={image.id}
+            src={image.src}
+            alt={image.desc}
+          />
+        ))}
+      </div>
     </div>
   );
 };

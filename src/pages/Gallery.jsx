@@ -6,7 +6,6 @@ function Gallery() {
   return (
     <>
       <Nav />
-      <h1>Gallery</h1>
       <GalleryPhotos />
     </>
   );

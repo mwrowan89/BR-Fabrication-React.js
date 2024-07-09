@@ -34,9 +34,9 @@ const imageData = [
     id: 2,
     src: image2,
     alt: "Golden Acacia Dining Table",
-    desc: "12' Dark Golden Acacia dining table in West Hampton",
-    title: "Dark Acacia",
-    customer: "residential",
+    desc: "30' Dark Golden Acacia dining table in New York City",
+    title: "Golden Acacia Restaurant Table",
+    customer: "commercial",
   },
   {
     id: 3,
