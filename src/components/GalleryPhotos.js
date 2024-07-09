@@ -17,7 +17,7 @@ const GalleryPhotos = () => {
           id="gallery-image"
           key={image.id}
           src={image.src}
-          alt="any"
+          alt={image.desc}
         />
       ))}
     </div>

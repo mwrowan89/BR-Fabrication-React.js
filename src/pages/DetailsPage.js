@@ -14,6 +14,9 @@ const DetailsPage = () => {
   return (
     <div>
       <Nav />
+      <a className="back" href="/gallery">
+        &#10094; Back to Gallery
+      </a>
       {image ? (
         <div>
           <h2>{image.title}</h2>
