@@ -26,3 +26,17 @@
   width: 70vw;
   justify-content: space-evenly;
 }
+
+/* details page css */
+.details-page-title,
+.details-page-desc {
+  color: white;
+}
+.details-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.details-page a {
+  color: white;
+}

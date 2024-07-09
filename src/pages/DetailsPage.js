@@ -12,16 +12,16 @@ const DetailsPage = () => {
   const image = imageData.find((img) => img.id === imageId);
 
   return (
-    <div>
+    <div className="details-page">
       <Nav />
       <a className="back" href="/gallery">
         &#10094; Back to Gallery
       </a>
       {image ? (
-        <div>
+        <div className="details-page-container">
           <h2 className="details-page-title">{image.title}</h2>
           <img src={image.src} alt={image.desc} />
-          <p>{image.desc}</p>
+          <p className="details-page-desc">{image.desc}</p>
         </div>
       ) : (
         <p>No image found.</p>
