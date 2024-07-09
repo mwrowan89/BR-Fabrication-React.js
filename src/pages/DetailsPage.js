@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import imageData from "../components/ImageData";
+import Nav from "../components/Nav";
 
 const DetailsPage = () => {
   const location = useLocation();
@@ -12,9 +13,11 @@ const DetailsPage = () => {
 
   return (
     <div>
+      <Nav />
       {image ? (
         <div>
-          <h2>{image.id}</h2>
+          <h2>{image.title}</h2>
+          <img src={image.src} alt={image.desc} />
           <p>{image.desc}</p>
         </div>
       ) : (
