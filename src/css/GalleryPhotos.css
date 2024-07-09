@@ -11,6 +11,7 @@
 #gallery-image:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 .gallery-images-container {
   display: flex;
@@ -25,6 +26,7 @@
   margin-left: -5vw;
   width: 70vw;
   justify-content: space-evenly;
+  cursor: pointer;
 }
 
 /* details page css */
@@ -39,4 +41,8 @@
 }
 .details-page a {
   color: white;
+}
+#details-page-img {
+  max-height: 90vh;
+  max-width: 80vw;
 }

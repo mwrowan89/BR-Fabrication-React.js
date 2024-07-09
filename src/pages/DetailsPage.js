@@ -20,7 +20,7 @@ const DetailsPage = () => {
       {image ? (
         <div className="details-page-container">
           <h2 className="details-page-title">{image.title}</h2>
-          <img src={image.src} alt={image.desc} />
+          <img id="details-page-img" src={image.src} alt={image.desc} />
           <p className="details-page-desc">{image.desc}</p>
         </div>
       ) : (
@@ -29,5 +29,7 @@ const DetailsPage = () => {
     </div>
   );
 };
+
+// CSS located in GalleryPhotos.css
 
 export default DetailsPage;
