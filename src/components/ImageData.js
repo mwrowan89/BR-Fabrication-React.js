@@ -22,7 +22,12 @@ import image13 from "../assets/images/15.png";
 import image19 from "../assets/images/16.png";
 
 const imageData = [
-  { id: 1, src: image1, alt: "Golden Acacia Dining Table" },
+  {
+    id: 1,
+    src: image1,
+    alt: "Golden Acacia Dining Table",
+    desc: "12' Dark Golden Acacia dining table in West Hampton",
+  },
   { id: 2, src: image2, alt: "Golden Acacia Dining Table" },
   { id: 3, src: image3, alt: "Golden Acacia Dining Table" },
   { id: 4, src: image4, alt: "Golden Acacia Dining Table" },
