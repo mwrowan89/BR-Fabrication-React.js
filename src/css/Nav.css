@@ -28,14 +28,17 @@ nav a {
 .nav-link {
   text-decoration: none;
   color: white;
+  border-left: 1px solid white;
 }
 
 .nav-link:hover {
   background-color: rgba(255, 255, 255, 0.308);
 }
-.nav-link {
-  border-right: 1px solid white;
+
+.one {
+  border-left: none;
 }
-.nav-link:focus  {
+
+.nav-link:focus {
   background-color: transparent !important;
 }
