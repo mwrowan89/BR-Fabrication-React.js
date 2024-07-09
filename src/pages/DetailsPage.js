@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
+import imageData from "../components/ImageData";
 
-const DetailsPage = ({ imageData }) => {
+const DetailsPage = () => {
   const location = useLocation();
   const query = new URLSearchParams(location.search).get("query");
 
   const imageId = parseInt(query, 10);
 
-  const image = imageData.find((img) => image.id === imageId);
+  const image = imageData.find((img) => img.id === imageId);
 
   return (
     <div>
