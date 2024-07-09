@@ -10,6 +10,7 @@ import Gallery from "./pages/Gallery";
 import reportWebVitals from "./reportWebVitals";
 import HomePage from "./pages/HomePage";
 import Footer from "./components/Footer";
+import DetailsPage from "./pages/DetailsPage";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/gallery",
     element: <Gallery />,
+  },
+  {
+    path: "/details",
+    element: <DetailsPage />,
   },
 ]);
 
