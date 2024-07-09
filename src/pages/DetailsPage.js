@@ -20,8 +20,8 @@ const DetailsPage = () => {
       {image ? (
         <div className="details-page-container">
           <h2 className="details-page-title">{image.title}</h2>
-          <img id="details-page-img" src={image.src} alt={image.desc} />
           <p className="details-page-desc">{image.desc}</p>
+          <img id="details-page-img" src={image.src} alt={image.desc} />
         </div>
       ) : (
         <p>No image found.</p>
