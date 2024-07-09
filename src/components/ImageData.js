@@ -10,16 +10,14 @@ import image9 from "../assets/images/commercial1.jpg";
 import image10 from "../assets/images/commercial2.jpg";
 import image11 from "../assets/images/11.jpg";
 import image12 from "../assets/images/IMG_1589.jpg";
+import image13 from "../assets/images/15.png";
 import image14 from "../assets/images/IMG_1649.jpg";
 import image15 from "../assets/images/bakan1.png";
 import image16 from "../assets/images/bakan2.png";
-import image17 from "../assets/images/9.png";
+import image17 from "../assets/images/14.png";
 import image18 from "../assets/images/10.png";
-import image20 from "../assets/images/12.png";
-import image21 from "../assets/images/13.png";
-import image22 from "../assets/images/14.png";
-import image13 from "../assets/images/15.png";
 import image19 from "../assets/images/16.png";
+import image20 from "../assets/images/13.png";
 
 const imageData = [
   {
@@ -129,74 +127,58 @@ const imageData = [
   {
     id: 14,
     src: image14,
-    alt: "Golden Acacia Dining Table",
-    desc: "12' Dark Golden Acacia dining table in West Hampton",
-    title: "Dark Acacia",
-    customer: "residential",
+    alt: "White Oak Pencil Desk",
+    desc: "This desk is made from rift white oak with two drawers for a sleak design",
+    title: "White Oak Pencil Desk",
+    customer: "res",
   },
   {
     id: 15,
     src: image15,
-    alt: "Golden Acacia Dining Table",
-    desc: "12' Dark Golden Acacia dining table in West Hampton",
-    title: "Dark Acacia",
-    customer: "residential",
+    alt: "Golden Acacia Cookie",
+    desc: "This roughly sixty inch round live edge round dining table is hosted within a restaurant in Milan",
+    title: "Golden Acacia Cookie",
+    customer: "com",
   },
   {
     id: 16,
     src: image16,
-    alt: "Golden Acacia Dining Table",
-    desc: "12' Dark Golden Acacia dining table in West Hampton",
-    title: "Dark Acacia",
-    customer: "residential",
+    alt: "Golden Acacia Cookie",
+    desc: "This roughly sixty inch round live edge round dining table is hosted within a restaurant in Milan",
+    title: "Golden Acacia Cookie",
+    customer: "com",
   },
   {
     id: 17,
     src: image17,
-    alt: "Golden Acacia Dining Table",
-    desc: "12' Dark Golden Acacia dining table in West Hampton",
-    title: "Dark Acacia",
-    customer: "residential",
+    alt: "Dark Walnut Dining Table",
+    desc: "10' Dark Walnut dining table in West Hampton",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
   },
   {
     id: 18,
     src: image18,
     alt: "Golden Acacia Dining Table",
-    desc: "12' Dark Golden Acacia dining table in West Hampton",
-    title: "Dark Acacia",
-    customer: "residential",
+    desc: "This 9' Dark Golden Acacia dining table in West Hampton features custom legs as well as a ceruse finish.",
+    title: "Golden Acacia Dining Table",
+    customer: "res",
   },
   {
     id: 19,
     src: image19,
-    alt: "Golden Acacia Dining Table",
-    desc: "12' Dark Golden Acacia dining table in West Hampton",
-    title: "Dark Acacia",
-    customer: "residential",
+    alt: "White Oak Round",
+    desc: "24-Inch round table with tapered legs",
+    title: "White Oak Round",
+    customer: "res",
   },
   {
     id: 20,
     src: image20,
-    alt: "Golden Acacia Dining Table",
-    desc: "12' Dark Golden Acacia dining table in West Hampton",
-    title: "Dark Acacia",
-    customer: "residential",
-  },
-  {
-    id: 21,
-    src: image21,
-    alt: "Golden Acacia Dining Table",
-    desc: "12' Dark Golden Acacia dining table in West Hampton",
-    title: "Dark Acacia",
-    customer: "residential",
-  },
-  {
-    id: 22,
-    src: image22,
-    alt: "Golden Acacia Dining Table",
-    desc: "12' Dark Golden Acacia dining table in West Hampton",
-    title: "Dark Acacia",
-    customer: "residential",
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
   },
 ];
 export default imageData;

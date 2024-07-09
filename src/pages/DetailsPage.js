@@ -19,7 +19,7 @@ const DetailsPage = () => {
       </a>
       {image ? (
         <div>
-          <h2>{image.title}</h2>
+          <h2 className="details-page-title">{image.title}</h2>
           <img src={image.src} alt={image.desc} />
           <p>{image.desc}</p>
         </div>
