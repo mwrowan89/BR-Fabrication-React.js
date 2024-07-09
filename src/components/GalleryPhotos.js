@@ -13,7 +13,7 @@ const GalleryPhotos = () => {
     <div className="gallery-images-container">
       {ImageData.map((image) => (
         <img
-          onClick={handleNavigation("/details", image.id)}
+          onClick={() => handleNavigation("/details", image.id)}
           id="gallery-image"
           key={image.id}
           src={image.src}

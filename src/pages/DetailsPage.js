@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useLocation } from "react-router-dom";
 import imageData from "../components/ImageData";
 import Nav from "../components/Nav";
