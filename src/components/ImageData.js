@@ -90,6 +90,7 @@ const imageData = [
     desc: "12' Dark Golden Acacia dining table in West Hampton",
     title: "Dark Acacia Dining Table",
     customer: "res",
+    page: 1,
   },
   {
     id: 2,
@@ -98,6 +99,7 @@ const imageData = [
     desc: "30' Dark Golden Acacia dining table in New York City",
     title: "Golden Acacia Restaurant Table",
     customer: "com",
+    page: 1,
   },
   {
     id: 3,
@@ -106,6 +108,7 @@ const imageData = [
     desc: "24-Inch round side table with tapered legs",
     title: "White Oak Side Table",
     customer: "res",
+    page: 1,
   },
   {
     id: 4,
@@ -114,6 +117,7 @@ const imageData = [
     desc: "10' Golden Acacia slab displayed at a food hall in Salt Lake City",
     title: "Golden Acacia Decorative Slab",
     customer: "com",
+    page: 1,
   },
   {
     id: 5,
@@ -122,6 +126,7 @@ const imageData = [
     desc: "30' Golden Acacia dining for a food hall in Salt Lake City, seats 50",
     title: "30-Foot Golden Acacia Dining Table",
     customer: "com",
+    page: 1,
   },
   {
     id: 6,
@@ -130,6 +135,7 @@ const imageData = [
     desc: "Assortment of round Golden Acacia dining table in a food hall in Salt Lake City. The largest table is a giant Acacia root transformed into a table.",
     title: "Golden Acacia Dining Tables",
     customer: "com",
+    page: 1,
   },
   {
     id: 7,
@@ -138,6 +144,7 @@ const imageData = [
     desc: "Fossilized stone tables made for a restaurant in Chicago",
     title: "Fossilized Stone Tables",
     customer: "com",
+    page: 1,
   },
   {
     id: 8,
@@ -146,6 +153,7 @@ const imageData = [
     desc: "10' Golden Acacia dining table for a residence in Chicago",
     title: "Golden Acacia Dining Table",
     customer: "res",
+    page: 1,
   },
   {
     id: 9,
@@ -154,6 +162,7 @@ const imageData = [
     desc: "Sixty-six inch round table made out of solid white oak with a stone lazy suzan for a restaurant in Chicago",
     title: "66-Inch Solid White Oak Round",
     customer: "com",
+    page: 1,
   },
   {
     id: 10,
@@ -162,6 +171,7 @@ const imageData = [
     desc: "This eight foot solid white oak dining table resides in a restaurant in downtown Chicago.",
     title: "8-Foot Solid White Oak Dining Table",
     customer: "com",
+    page: 1,
   },
   {
     id: 11,
@@ -170,6 +180,7 @@ const imageData = [
     desc: "This mirror is surrounded with Maka wood that was recovered from the bottom of a river in Thailand.",
     title: "Exotic Maka Wood Mirror",
     customer: "res",
+    page: 2,
   },
   {
     id: 12,
@@ -178,6 +189,7 @@ const imageData = [
     desc: "This 10' table for a residence in northern Chicago features our intense black stain and custom legs all made from solid ash.",
     title: "Ten Foot Ash Dining Table",
     customer: "res",
+    page: 2,
   },
   {
     id: 13,
@@ -186,6 +198,7 @@ const imageData = [
     desc: 'This massive 88" round table is made of solid ash with a custom stain and base for a customer in East Hampton, NY.',
     title: "Eighty-Eight Inch Ash Round Table",
     customer: "res",
+    page: 2,
   },
   {
     id: 14,
@@ -194,6 +207,7 @@ const imageData = [
     desc: "This desk is made from rift white oak with two drawers for a sleak design",
     title: "White Oak Pencil Desk",
     customer: "res",
+    page: 2,
   },
   {
     id: 15,
@@ -202,6 +216,7 @@ const imageData = [
     desc: "This roughly sixty inch round live edge round dining table is hosted within a restaurant in Milan",
     title: "Golden Acacia Cookie",
     customer: "com",
+    page: 2,
   },
   {
     id: 16,
@@ -210,6 +225,7 @@ const imageData = [
     desc: "This roughly sixty inch round live edge round dining table is hosted within a restaurant in Milan",
     title: "Golden Acacia Cookie",
     customer: "com",
+    page: 2,
   },
   {
     id: 17,
@@ -218,6 +234,7 @@ const imageData = [
     desc: "10' Dark Walnut dining table in West Hampton",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 2,
   },
   {
     id: 18,
@@ -226,6 +243,7 @@ const imageData = [
     desc: "This 9' Dark Golden Acacia dining table in West Hampton features custom legs as well as a ceruse finish.",
     title: "Golden Acacia Dining Table",
     customer: "res",
+    page: 2,
   },
   {
     id: 19,
@@ -234,6 +252,7 @@ const imageData = [
     desc: "24-Inch round table with tapered legs",
     title: "White Oak Round",
     customer: "res",
+    page: 2,
   },
   {
     id: 20,
@@ -242,6 +261,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 2,
   },
 
   //Need to update desc info from here on
@@ -253,6 +273,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 3,
   },
   {
     id: 22,
@@ -261,6 +282,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 3,
   },
   {
     id: 23,
@@ -269,6 +291,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 3,
   },
   {
     id: 24,
@@ -277,6 +300,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 3,
   },
   {
     id: 25,
@@ -285,6 +309,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 3,
   },
   {
     id: 26,
@@ -293,6 +318,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 3,
   },
   {
     id: 27,
@@ -301,6 +327,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 3,
   },
   {
     id: 28,
@@ -309,6 +336,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 3,
   },
   {
     id: 29,
@@ -317,6 +345,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 3,
   },
   {
     id: 30,
@@ -325,6 +354,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 3,
   },
   {
     id: 31,
@@ -333,6 +363,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 4,
   },
   {
     id: 32,
@@ -341,6 +372,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 4,
   },
   {
     id: 33,
@@ -349,6 +381,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 4,
   },
   {
     id: 34,
@@ -357,6 +390,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 4,
   },
   {
     id: 35,
@@ -365,6 +399,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 4,
   },
   {
     id: 36,
@@ -373,6 +408,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 4,
   },
   {
     id: 37,
@@ -381,6 +417,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 4,
   },
   {
     id: 38,
@@ -389,6 +426,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 4,
   },
   {
     id: 39,
@@ -397,6 +435,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 4,
   },
   {
     id: 40,
@@ -405,6 +444,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 4,
   },
   {
     id: 41,
@@ -413,6 +453,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 5,
   },
   {
     id: 42,
@@ -421,6 +462,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 5,
   },
   {
     id: 43,
@@ -429,6 +471,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 5,
   },
   {
     id: 44,
@@ -437,6 +480,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 5,
   },
   {
     id: 45,
@@ -445,6 +489,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 5,
   },
   {
     id: 46,
@@ -453,6 +498,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 5,
   },
   {
     id: 47,
@@ -461,6 +507,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 5,
   },
   {
     id: 48,
@@ -469,6 +516,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 5,
   },
   {
     id: 49,
@@ -477,6 +525,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 5,
   },
   {
     id: 50,
@@ -485,6 +534,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 5,
   },
   {
     id: 51,
@@ -493,6 +543,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 6,
   },
   {
     id: 52,
@@ -501,6 +552,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 6,
   },
   {
     id: 53,
@@ -509,6 +561,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 6,
   },
   {
     id: 54,
@@ -517,6 +570,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 6,
   },
   {
     id: 55,
@@ -525,6 +579,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 6,
   },
   {
     id: 56,
@@ -533,6 +588,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 6,
   },
   {
     id: 57,
@@ -541,6 +597,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 6,
   },
   {
     id: 58,
@@ -549,6 +606,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 6,
   },
   {
     id: 59,
@@ -557,6 +615,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 6,
   },
   {
     id: 60,
@@ -565,6 +624,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 6,
   },
   {
     id: 61,
@@ -573,6 +633,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 7,
   },
   {
     id: 62,
@@ -581,6 +642,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 7,
   },
   {
     id: 63,
@@ -589,6 +651,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 7,
   },
   {
     id: 64,
@@ -597,6 +660,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 7,
   },
   {
     id: 65,
@@ -605,6 +669,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 7,
   },
   {
     id: 66,
@@ -613,6 +678,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 7,
   },
   {
     id: 67,
@@ -621,6 +687,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 7,
   },
   {
     id: 68,
@@ -629,6 +696,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 7,
   },
   {
     id: 69,
@@ -637,6 +705,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 7,
   },
   {
     id: 70,
@@ -645,6 +714,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 7,
   },
   {
     id: 71,
@@ -653,6 +723,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 8,
   },
   {
     id: 72,
@@ -661,6 +732,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 8,
   },
   {
     id: 73,
@@ -669,6 +741,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 8,
   },
   {
     id: 74,
@@ -677,6 +750,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 8,
   },
   {
     id: 75,
@@ -685,6 +759,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 8,
   },
   {
     id: 76,
@@ -693,6 +768,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 8,
   },
   {
     id: 77,
@@ -701,6 +777,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 8,
   },
   {
     id: 78,
@@ -709,6 +786,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 8,
   },
   {
     id: 79,
@@ -717,6 +795,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 8,
   },
   {
     id: 80,
@@ -725,6 +804,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 8,
   },
   {
     id: 81,
@@ -733,6 +813,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 9,
   },
   {
     id: 82,
@@ -741,6 +822,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 9,
   },
   {
     id: 83,
@@ -749,6 +831,7 @@ const imageData = [
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
     customer: "res",
+    page: 9,
   },
 ];
 export default imageData;
