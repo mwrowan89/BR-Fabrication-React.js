@@ -4,17 +4,19 @@ import imageData from "../components/ImageData";
 import Nav from "../components/Nav";
 
 const DetailsPage = () => {
-  const location = useLocation();
-  const query = new URLSearchParams(location.search).get("query");
   const navigate = useNavigate();
-
-  const imageId = parseInt(query, 10);
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const page = queryParams.get("page") || 1;
+  const selection = queryParams.get("selection") || "all";
+  const imageId = Number(queryParams.get("id"));
 
   const image = imageData.find((img) => img.id === imageId);
 
   const goBack = () => {
-    navigate(-1);
+    navigate(`/gallery?page=${page}&selection=${selection}`);
   };
+
   return (
     <div className="details-page">
       <Nav />

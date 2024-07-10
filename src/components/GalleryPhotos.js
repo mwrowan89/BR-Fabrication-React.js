@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import "../css/GalleryPhotos.css";
 import ImageData from "./ImageData";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 const GalleryPhotos = () => {
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const initialPage = parseInt(queryParams.get("page")) || 1;
+  const initialSelection = queryParams.get("selection") || "all";
+
   const [selection, setSelection] = useState("all");
   const [page, setPage] = useState(1);
   const imagesPerPage = 10;
@@ -13,8 +18,8 @@ const GalleryPhotos = () => {
   const endIndex = startIndex + imagesPerPage;
   const currentImages = ImageData.slice(startIndex, endIndex);
 
-  const handleNavigation = (path, query) => {
-    navigate(`${path}?query=${query}`);
+  const handleNavigation = (path, id) => {
+    navigate(`${path}?id=${id}&page=${page}&selection=${selection}`);
   };
 
   const nextPage = () => {
