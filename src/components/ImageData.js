@@ -35,6 +35,52 @@ import image34 from "../assets/images/44.jpg";
 import image35 from "../assets/images/45.jpg";
 import image36 from "../assets/images/46.jpg";
 import image37 from "../assets/images/23.JPG";
+import image38 from "../assets/images/30.JPG";
+import image39 from "../assets/images/31.JPG";
+import image40 from "../assets/images/39.JPG";
+import image41 from "../assets/images/40.JPG";
+import image42 from "../assets/images/41.JPG";
+import image43 from "../assets/images/42.JPG";
+import image44 from "../assets/images/43.JPG";
+import image45 from "../assets/images/48.JPG";
+import image46 from "../assets/images/49.JPG";
+import image47 from "../assets/images/47.jpg";
+import image48 from "../assets/images/50.jpg";
+import image49 from "../assets/images/51.jpg";
+import image50 from "../assets/images/52.jpg";
+import image51 from "../assets/images/53.jpg";
+import image52 from "../assets/images/54.jpg";
+import image53 from "../assets/images/55.jpg";
+import image54 from "../assets/images/56.jpg";
+import image55 from "../assets/images/57.jpg";
+import image56 from "../assets/images/58.JPG";
+import image57 from "../assets/images/60.png";
+import image58 from "../assets/images/61.png";
+import image59 from "../assets/images/62.png";
+import image60 from "../assets/images/63.png";
+import image61 from "../assets/images/64.png";
+import image62 from "../assets/images/65.png";
+import image63 from "../assets/images/66.png";
+import image64 from "../assets/images/67.png";
+import image65 from "../assets/images/68.png";
+import image66 from "../assets/images/69.png";
+import image67 from "../assets/images/70.png";
+import image68 from "../assets/images/71.png";
+import image69 from "../assets/images/72.png";
+import image70 from "../assets/images/73.png";
+import image71 from "../assets/images/74.png";
+import image72 from "../assets/images/75.png";
+import image73 from "../assets/images/76.png";
+import image74 from "../assets/images/77.png";
+import image75 from "../assets/images/78.png";
+import image76 from "../assets/images/79.png";
+import image77 from "../assets/images/80.png";
+import image78 from "../assets/images/81.png";
+import image79 from "../assets/images/82.png";
+import image80 from "../assets/images/83.png";
+import image81 from "../assets/images/84.png";
+import image82 from "../assets/images/85.png";
+import image83 from "../assets/images/90.png";
 
 const imageData = [
   {
@@ -192,6 +238,345 @@ const imageData = [
   {
     id: 20,
     src: image20,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+
+  //Need to update desc info from here on
+
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
     alt: "Dark Walnut Dining Table",
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
