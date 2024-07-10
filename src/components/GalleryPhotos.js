@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../css/GalleryPhotos.css";
-import ImageData from "./ImageData";
 import { useNavigate, useLocation } from "react-router-dom";
 import imageData from "./ImageData";
 
