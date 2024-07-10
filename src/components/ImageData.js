@@ -18,6 +18,23 @@ import image17 from "../assets/images/14.png";
 import image18 from "../assets/images/10.png";
 import image19 from "../assets/images/16.png";
 import image20 from "../assets/images/13.png";
+import image21 from "../assets/images/24.jpeg";
+import image22 from "../assets/images/25.CR2.jpg";
+import image23 from "../assets/images/26.jpg";
+import image24 from "../assets/images/27.jpg";
+import image25 from "../assets/images/28.jpg";
+import image26 from "../assets/images/29.jpg";
+import image27 from "../assets/images/32.jpg";
+import image28 from "../assets/images/33.jpg";
+import image29 from "../assets/images/34.jpg";
+import image30 from "../assets/images/35.jpg";
+import image31 from "../assets/images/36.jpg";
+import image32 from "../assets/images/37.jpg";
+import image33 from "../assets/images/38.jpg";
+import image34 from "../assets/images/44.jpg";
+import image35 from "../assets/images/45.jpg";
+import image36 from "../assets/images/46.jpg";
+import image37 from "../assets/images/23.JPG";
 
 const imageData = [
   {
@@ -175,6 +192,22 @@ const imageData = [
   {
     id: 20,
     src: image20,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image21,
+    alt: "Dark Walnut Dining Table",
+    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
+  },
+  {
+    id: 21,
+    src: image22,
     alt: "Dark Walnut Dining Table",
     desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
     title: "Dark Walnut Dining Table",
