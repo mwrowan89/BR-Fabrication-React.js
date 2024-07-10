@@ -9,6 +9,10 @@ const GalleryPhotos = () => {
   const imagesPerPage = 10;
   const navigate = useNavigate();
 
+  const startIndex = (page - 1) * imagesPerPage;
+  const endIndex = startIndex + imagesPerPage;
+  const currentImages = ImageData.slice(startIndex, endIndex);
+
   const handleNavigation = (path, query) => {
     navigate(`${path}?query=${query}`);
   };
@@ -21,10 +25,6 @@ const GalleryPhotos = () => {
       setPage((page) => page - 1);
     }
   };
-
-  const startIndex = (page - 1) * imagesPerPage;
-  const endIndex = startIndex + imagesPerPage;
-  const currentImages = ImageData.slice(startIndex, endIndex);
 
   return (
     <div>
