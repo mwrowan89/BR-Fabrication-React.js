@@ -15,10 +15,15 @@ const GalleryPhotos = () => {
 
   const handleNavigation = (path, id) => {
     navigate(`${path}?id=${id}&page=${page}&selection=${selection}`);
+    scrollToTop();
   };
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   const nextPage = () => {
     setPage((page) => page + 1);
+    scrollToTop();
   };
   const prevPage = () => {
     if (page > 1) {
