@@ -36,6 +36,9 @@
   border-radius: 10px;
   scale: 1.2;
   width: 6rem;
+  color: white;
+  padding: 3px;
+  background-color: rgb(34, 34, 168);
 }
 textarea {
   border: none;
