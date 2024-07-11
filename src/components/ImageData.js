@@ -264,8 +264,6 @@ const imageData = [
     page: 2,
   },
 
-  //Need to update desc info from here on
-
   {
     id: 21,
     src: image21,
@@ -392,6 +390,9 @@ const imageData = [
     customer: "res",
     page: 4,
   },
+
+  //Need to update desc info from here on
+
   {
     id: 35,
     src: image35,
