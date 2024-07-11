@@ -45,6 +45,7 @@ const GalleryPhotos = () => {
 
   useEffect(() => {
     getImages();
+    // eslint-disable-next-line
   }, [selection]);
 
   return (
