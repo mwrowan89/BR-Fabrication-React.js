@@ -35,7 +35,7 @@ import image34 from "../assets/images/44.jpg";
 import image35 from "../assets/images/45.jpg";
 import image36 from "../assets/images/46.jpg";
 import image37 from "../assets/images/23.JPG";
-import image38 from "../assets/images/30.JPG";
+import image38 from "../assets/images/30.png";
 import image39 from "../assets/images/31.JPG";
 import image40 from "../assets/images/39.JPG";
 import image41 from "../assets/images/40.JPG";

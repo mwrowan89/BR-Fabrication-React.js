@@ -45,7 +45,7 @@ const GalleryPhotos = () => {
           ) : null
         )}
       </div>
-      <div className="next-prev-buttons">
+      <div className="gallery-next-prev-btn">
         <h3
           id="prev"
           onClick={(e) => {

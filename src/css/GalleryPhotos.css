@@ -28,6 +28,14 @@
   justify-content: space-evenly;
   cursor: pointer;
 }
+.gallery-next-prev-btn {
+  width: 60vw;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2vw;
+  border-top: 2px solid white;
+  color: white;
+}
 
 /* details page css */
 .details-page-title,
