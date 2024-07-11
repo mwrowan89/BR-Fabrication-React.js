@@ -36,15 +36,19 @@ const GalleryPhotos = () => {
     setSelection(newSelection);
     if (selection === "all") {
       setImages(imageData);
-    } else if (selection === "com") {
+    }
+    if (selection === "com") {
       setImages(imageData.filter((image) => image.customer === "com"));
-    } else if (selection === "res") {
+    }
+    if (selection === "res") {
       setImages(imageData.filter((image) => image.customer === "res"));
     }
+    setSelection(newSelection);
+    console.log(selection);
   };
 
   useEffect(() => {
-    getImages();
+    getImages(selection);
     // eslint-disable-next-line
   }, [selection]);
 
