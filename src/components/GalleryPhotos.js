@@ -9,7 +9,7 @@ const GalleryPhotos = () => {
   const queryParams = new URLSearchParams(location.search);
   const initialPage = parseInt(queryParams.get("page")) || 1;
   const initialSelection = queryParams.get("selection") || "all";
-  const [images, setImages] = useState([]);
+  const [filteredImages, setFilteredImages] = useState([]);
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -20,7 +20,7 @@ const GalleryPhotos = () => {
   const itemsPerPage = 10;
   const startIndex = (page - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
-  const currentImages = images.slice(startIndex, endIndex);
+  const currentImages = filteredImages.slice(startIndex, endIndex);
 
   // const navigate = useNavigate();
 
@@ -52,46 +52,43 @@ const GalleryPhotos = () => {
     }
   };
 
-  const getImages = (newSelection) => {
-    setSelection(newSelection);
-    if (selection === "all") {
-      setImages(imageData);
+  const filterImages = (newSelection) => {
+    let filtered = [];
+    if (newSelection === "all") {
+      filtered = imageData;
+    } else if (newSelection === "com") {
+      filtered = imageData.filter((image) => image.customer === "com");
+    } else if (newSelection === "res") {
+      filtered = imageData.filter((image) => image.customer === "res");
     }
-    if (selection === "com") {
-      setImages(imageData.filter((image) => image.customer === "com"));
-    }
-    if (selection === "res") {
-      setImages(imageData.filter((image) => image.customer === "res"));
-    }
-    setSelection(newSelection);
+    setFilteredImages(filtered);
   };
 
   useEffect(() => {
-    getImages(selection);
+    filterImages(selection);
+    setPage(1);
     // eslint-disable-next-line
   }, [selection]);
 
   return (
     <div>
       <div className="com-res-btns">
-        <h2 onClick={() => getImages("com")}>Commercial Works</h2>
-        <h2 onClick={() => getImages("res")}>Residential Works</h2>
+        <h2 onClick={() => setSelection("com")}>Commercial Works</h2>
+        <h2 onClick={() => setSelection("res")}>Residential Works</h2>
       </div>
       <div className="gallery-images-container">
-        {currentImages.map((image) =>
-          image.page === page ? (
-            <img
-              onClick={(e) => {
-                openModal(image);
-                console.log(image);
-              }}
-              id="gallery-image"
-              key={image.id}
-              src={image.src}
-              alt={image.desc}
-            />
-          ) : null
-        )}
+        {currentImages.map((image) => (
+          <img
+            onClick={(e) => {
+              openModal(image);
+              console.log(image);
+            }}
+            id="gallery-image"
+            key={image.id}
+            src={image.src}
+            alt={image.desc}
+          />
+        ))}
       </div>
       <div className="gallery-next-prev-btn">
         <h3
