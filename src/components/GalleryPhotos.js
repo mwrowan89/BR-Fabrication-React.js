@@ -15,6 +15,13 @@ const GalleryPhotos = () => {
 
   const [selection, setSelection] = useState(initialSelection);
   const [page, setPage] = useState(initialPage);
+
+  //Page Logic
+  const itemsPerPage = 10;
+  const startIndex = (page - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const currentImages = images.slice(startIndex, endIndex);
+
   // const navigate = useNavigate();
 
   // const handleNavigation = (path, id) => {
@@ -71,22 +78,20 @@ const GalleryPhotos = () => {
         <h2 onClick={() => getImages("res")}>Residential Works</h2>
       </div>
       <div className="gallery-images-container">
-        {images
-          .filter((image) => image.page === page)
-          .map((image) =>
-            image.page === page ? (
-              <img
-                onClick={(e) => {
-                  openModal(image);
-                  console.log(image);
-                }}
-                id="gallery-image"
-                key={image.id}
-                src={image.src}
-                alt={image.desc}
-              />
-            ) : null
-          )}
+        {currentImages.map((image) =>
+          image.page === page ? (
+            <img
+              onClick={(e) => {
+                openModal(image);
+                console.log(image);
+              }}
+              id="gallery-image"
+              key={image.id}
+              src={image.src}
+              alt={image.desc}
+            />
+          ) : null
+        )}
       </div>
       <div className="gallery-next-prev-btn">
         <h3
