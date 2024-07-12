@@ -432,7 +432,7 @@ const imageData = [
     alt: "Bathroom Mirrors",
     desc: "Bathroom mirror shadow boxes made for multiple restaurants in Chicago.",
     title: "Vanity Mirrors",
-    customer: "res",
+    customer: "com",
     page: 4,
   },
   {

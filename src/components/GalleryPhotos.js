@@ -61,8 +61,12 @@ const GalleryPhotos = () => {
   return (
     <div>
       <div className="com-res-btns">
-        <h2 onClick={() => setSelection("com")}>Commercial Works</h2>
-        <h2 onClick={() => setSelection("res")}>Residential Works</h2>
+        <h2 id="com-btn" onClick={() => setSelection("com")}>
+          Commercial Works
+        </h2>
+        <h2 id="res-btn" onClick={() => setSelection("res")}>
+          Residential Works
+        </h2>
       </div>
       <div className="gallery-images-container">
         {currentImages.map((image) => (
