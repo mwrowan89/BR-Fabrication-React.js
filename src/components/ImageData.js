@@ -114,7 +114,7 @@ const imageData = [
     id: 4,
     src: image4,
     alt: "Golden Acacia Decorative Slab",
-    desc: "10' Golden Acacia slab displayed at a food hall in Salt Lake City",
+    desc: "12' Golden Acacia slab displayed at a food hall in Salt Lake City",
     title: "Golden Acacia Decorative Slab",
     customer: "com",
     page: 1,
@@ -390,9 +390,6 @@ const imageData = [
     customer: "res",
     page: 4,
   },
-
-  //Need to update desc info from here on
-
   {
     id: 35,
     src: image35,
@@ -447,6 +444,8 @@ const imageData = [
     customer: "res",
     page: 4,
   },
+  //Need to update desc info from here on
+
   {
     id: 41,
     src: image41,
