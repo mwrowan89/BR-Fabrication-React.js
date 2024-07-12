@@ -75,7 +75,9 @@
   margin-top: 5vh;
   margin-left: 10vw;
   background-color: rgba(0, 0, 0, 0.868);
-  border: 2px solid red;
+}
+.pop-up-window:focus {
+  outline: none;
 }
 .pop-up-result-info {
   display: flex;
@@ -83,9 +85,6 @@
   justify-content: center;
   align-items: center;
   color: white;
-}
-.pop-up-conatiner {
-  border: none;
 }
 #pop-up-image {
   max-height: 30vw;
