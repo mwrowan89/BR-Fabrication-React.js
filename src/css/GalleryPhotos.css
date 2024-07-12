@@ -97,4 +97,5 @@
 #pop-up-image {
   max-height: 30vw;
   max-width: 60vw;
+  border-radius: 5px;
 }
