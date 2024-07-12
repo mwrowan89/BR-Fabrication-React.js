@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../css/GalleryPhotos.css";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import imageData from "./ImageData";
 import PopUpDetails from "./PopUpDetails";
 
@@ -11,25 +11,25 @@ const GalleryPhotos = () => {
   const initialSelection = queryParams.get("selection") || "all";
   const [images, setImages] = useState([]);
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  const [selectedResult, setSelectedResult] = useState(null);
+  const [selectedImage, setSelectedImage] = useState(null);
 
   const [selection, setSelection] = useState(initialSelection);
   const [page, setPage] = useState(initialPage);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const handleNavigation = (path, id) => {
-    navigate(`${path}?id=${id}&page=${page}&selection=${selection}`);
-    scrollToTop();
-  };
+  // const handleNavigation = (path, id) => {
+  //   navigate(`${path}?id=${id}&page=${page}&selection=${selection}`);
+  //   scrollToTop();
+  // };
 
-  const openModal = (result) => {
-    setSelectedResult(result);
+  const openModal = (image) => {
+    setSelectedImage(image);
     setModalIsOpen(true);
   };
 
   const closeModal = () => {
     setModalIsOpen(false);
-    setSelectedResult(null);
+    setSelectedImage(null);
   };
 
   const scrollToTop = () => {
@@ -77,7 +77,7 @@ const GalleryPhotos = () => {
           .map((image) =>
             image.page === page ? (
               <img
-                onClick={() => openModal}
+                onClick={() => openModal(image)}
                 id="gallery-image"
                 key={image.id}
                 src={image.src}
@@ -110,7 +110,7 @@ const GalleryPhotos = () => {
       <PopUpDetails
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
-        result={selectedResult}
+        result={selectedImage}
       />
     </div>
   );

@@ -3,7 +3,7 @@ import Modal from "react-modal";
 
 Modal.setAppElement("#root");
 
-const PopUpDetails = (isOpen, onRequestClose, result) => {
+const PopUpDetails = (isOpen, onRequestClose, image) => {
   return (
     <div>
       <Modal
@@ -13,24 +13,11 @@ const PopUpDetails = (isOpen, onRequestClose, result) => {
         contentLabel="Result Details"
       >
         <div className="pop-up">
-          {result && (
+          {image && (
             <div className="pop-up-results">
-              <img
-                src={
-                  result.poster_path && result.Poster !== "N/A"
-                    ? `https://image.tmdb.org/t/p/w500${result.poster_path}`
-                    : "./NotFound.jpeg"
-                }
-                alt={`${result.Title} poster`}
-              />
-              <h1>{result.title || result.original_name}</h1>
-              <p>{result.overview}</p>
+              <h1>Whoa</h1>
               <div className="pop-up-results-more-info">
-                <p>Release Date: {result.release_date}</p>
-                <p>
-                  TMDB Viewer Rating: {Math.round(result.vote_average)} / 10
-                </p>
-                <p>Vote Count: {result.vote_count}</p>
+                <h2>{image.desc}</h2>
               </div>
 
               <h2 className="close-x" onClick={onRequestClose}>
