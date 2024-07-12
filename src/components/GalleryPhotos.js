@@ -69,6 +69,7 @@ const GalleryPhotos = () => {
           <img
             onClick={(e) => {
               openModal(image);
+              console.table(image);
             }}
             id="gallery-image"
             key={image.id}
