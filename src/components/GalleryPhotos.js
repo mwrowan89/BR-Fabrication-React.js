@@ -1,33 +1,21 @@
 import React, { useState, useEffect } from "react";
 import "../css/GalleryPhotos.css";
-import { useLocation } from "react-router-dom";
 import imageData from "./ImageData";
 import PopUpDetails from "./PopUpDetails";
 
 const GalleryPhotos = () => {
-  const location = useLocation();
-  const queryParams = new URLSearchParams(location.search);
-  const initialPage = parseInt(queryParams.get("page")) || 1;
-  const initialSelection = queryParams.get("selection") || "all";
   const [filteredImages, setFilteredImages] = useState([]);
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
 
-  const [selection, setSelection] = useState(initialSelection);
-  const [page, setPage] = useState(initialPage);
+  const [selection, setSelection] = useState("all");
+  const [page, setPage] = useState(1);
 
   //Page Logic
   const itemsPerPage = 10;
   const startIndex = (page - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
   const currentImages = filteredImages.slice(startIndex, endIndex);
-
-  // const navigate = useNavigate();
-
-  // const handleNavigation = (path, id) => {
-  //   navigate(`${path}?id=${id}&page=${page}&selection=${selection}`);
-  //   scrollToTop();
-  // };
 
   const openModal = (image) => {
     setSelectedImage(image);
@@ -81,7 +69,6 @@ const GalleryPhotos = () => {
           <img
             onClick={(e) => {
               openModal(image);
-              console.log(image);
             }}
             id="gallery-image"
             key={image.id}
