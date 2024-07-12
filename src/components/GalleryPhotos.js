@@ -57,7 +57,6 @@ const GalleryPhotos = () => {
       setImages(imageData.filter((image) => image.customer === "res"));
     }
     setSelection(newSelection);
-    console.log(selection);
   };
 
   useEffect(() => {
@@ -77,7 +76,10 @@ const GalleryPhotos = () => {
           .map((image) =>
             image.page === page ? (
               <img
-                onClick={() => openModal(image)}
+                onClick={(e) => {
+                  openModal(image);
+                  console.log(image);
+                }}
                 id="gallery-image"
                 key={image.id}
                 src={image.src}
@@ -110,7 +112,7 @@ const GalleryPhotos = () => {
       <PopUpDetails
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
-        result={selectedImage}
+        image={selectedImage}
       />
     </div>
   );

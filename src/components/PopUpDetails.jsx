@@ -3,7 +3,7 @@ import Modal from "react-modal";
 
 Modal.setAppElement("#root");
 
-const PopUpDetails = (isOpen, onRequestClose, image) => {
+const PopUpDetails = ({ isOpen, onRequestClose, image }) => {
   return (
     <div>
       <Modal
