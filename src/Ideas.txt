@@ -1,7 +1,5 @@
 --Add collections restaurants, aspen etc.
 
---Change up fonts
-
 --Add multiple photos to gallery pop-up
 
 --Add more designs to design page?
