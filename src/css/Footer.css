@@ -4,5 +4,12 @@
   margin-left: -18vw;
   color: white;
   display: grid;
-  grid-template-areas: 1fr 1fr, 1fr 1fr;
+  grid-template-areas: 2fr 2fr, 2fr 2fr;
+  place-content: center;
+}
+.links-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }

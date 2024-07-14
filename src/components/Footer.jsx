@@ -10,7 +10,8 @@ function Footer() {
       <h4>Contact Information</h4>
       <p>Email: ben@fromcheftotable.com</p>
       <p>Phone: (312)-555-4800 </p>
-      <div className="links">
+
+      <div className="links-footer">
         <a
           href="https://www.instagram.com/fromcheftotable/"
           target="_blank"
