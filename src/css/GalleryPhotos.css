@@ -100,3 +100,6 @@
   max-width: 60vw;
   border-radius: 5px;
 }
+#pop-up-title {
+  text-decoration: underline;
+}

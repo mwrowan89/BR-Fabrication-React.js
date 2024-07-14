@@ -387,7 +387,7 @@ const imageData = [
     alt: "Walnut Log Reception",
     desc: "Custom carved Walnut log featuring a glass cigar case, brass trim, shelving/storage and a light stain is located at a restaurant in South Florida.",
     title: "Walnut Log Reception Desk",
-    customer: "res",
+    customer: "com",
     page: 4,
   },
   {
