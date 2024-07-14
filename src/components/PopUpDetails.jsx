@@ -16,9 +16,9 @@ const PopUpDetails = ({ isOpen, onRequestClose, image }) => {
           {image && (
             <div className="pop-up-results">
               <div className="pop-up-result-info">
-                <h1>{image.title}</h1>
+                <h1 id="pop-up-title">{image.title}</h1>
                 <img id="pop-up-image" src={image.src} alt={image.desc} />
-                <h2>{image.desc}</h2>
+                <h4>{image.desc}</h4>
               </div>
 
               <h2 className="close-x" onClick={onRequestClose}>
