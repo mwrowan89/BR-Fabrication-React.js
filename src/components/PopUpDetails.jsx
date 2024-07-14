@@ -20,10 +20,6 @@ const PopUpDetails = ({ isOpen, onRequestClose, image }) => {
                 <img id="pop-up-image" src={image.src} alt={image.desc} />
                 <h4>{image.desc}</h4>
               </div>
-
-              <h2 className="close-x" onClick={onRequestClose}>
-                X
-              </h2>
             </div>
           )}
         </div>
