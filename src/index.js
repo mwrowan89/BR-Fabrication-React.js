@@ -30,10 +30,6 @@ const router = createBrowserRouter([
     path: `/gallery`,
     element: <Gallery />,
   },
-  {
-    path: "/details",
-    element: <DetailsPage />,
-  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
