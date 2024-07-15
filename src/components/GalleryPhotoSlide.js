@@ -28,7 +28,7 @@ const GalleryPhotoSlide = () => {
   return (
     <>
       <div className="photo-slide">
-        <div>
+        <div className="gallery-slide-container">
           {imageData.map((image, index) => (
             <img
               className="gallery-slide-image"

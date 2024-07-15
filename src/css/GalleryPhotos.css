@@ -103,3 +103,15 @@
 #pop-up-title {
   text-decoration: underline;
 }
+
+/* slide show css */
+.gallery-slide-image {
+  max-height: 20vh;
+  max-width: 17vw;
+}
+
+.gallery-slide-container {
+  display: flex;
+  overflow: hidden;
+  gap: 0.5vw;
+}
