@@ -18,14 +18,16 @@ const GalleryPhotoSlide = () => {
   return (
     <>
       <div className="gallery-slide-container">
-        {shuffledImages.map((image, index) => (
-          <img
-            className="gallery-slide-image"
-            key={index}
-            src={image.src}
-            alt={image.desc}
-          />
-        ))}
+        <div className="gallery-slide-track">
+          {shuffledImages.map((image, index) => (
+            <img
+              className="gallery-slide-image"
+              key={index}
+              src={image.src}
+              alt={image.desc}
+            />
+          ))}
+        </div>
       </div>
     </>
   );

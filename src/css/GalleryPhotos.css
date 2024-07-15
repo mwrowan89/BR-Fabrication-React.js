@@ -110,10 +110,44 @@
   max-width: 22vw;
   border-radius: 5px;
 }
-
+/* 
 .gallery-slide-container {
   display: flex;
   animation: scroll 10s linear infinite;
   overflow: scroll;
   gap: 0.5vw;
+} */
+
+.gallery-slide-container {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%; /* Adjust as needed */
+  animation: scroll-left 20s linear infinite; /* Adjust duration as needed */
+}
+.gallery-slide-container {
+  display: flex;
+  overflow: hidden;
+  width: 60vw;
+  justify-content: center;
+}
+
+.gallery-slide-track {
+  display: flex;
+  animation: scroll-left 100s linear infinite;
+}
+
+.gallery-slide-image {
+  flex: 0 0 auto;
+  width: 100px; /* Adjust as needed */
+  height: auto;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
