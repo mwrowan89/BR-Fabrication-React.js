@@ -5,6 +5,7 @@ import imageData from "./ImageData";
 function PhotoSlide() {
   const [timer, setTimer] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [shuffledImages, setShuffledImages] = useState([]);
 
   useEffect(() => {
     startSlide();
@@ -26,7 +27,17 @@ function PhotoSlide() {
     setCurrentIndex((prevIndex) => prevIndex - 1);
   };
 
-  const currentImg = imageData[Math.abs(currentIndex) % imageData.length];
+  useEffect(() => {
+    const shuffledArray = (array) => {
+      const shuffled = array.slice();
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      return shuffled;
+    };
+    setShuffledImages(shuffledArray(imageData));
+  }, []);
 
   const handleClick = (event) => {
     event.preventDefault();
