@@ -32,6 +32,7 @@ function PhotoSlide() {
     event.preventDefault();
     if (event.target.className === "prev") {
       prev();
+      console.log(imageData.length);
     } else if (event.target.className === "next") {
       next();
     }
@@ -40,12 +41,7 @@ function PhotoSlide() {
   return (
     <>
       <div className="photo-slide">
-        <img
-          className="slide-image"
-          id="photo-slide-image"
-          src={currentImg.src}
-          alt=""
-        />
+        <img className="slide-image" src={currentImg.src} alt="" />
 
         <div className="buttons">
           <a className="prev" onClick={handleClick} href="/">
