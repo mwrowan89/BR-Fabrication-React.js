@@ -52,7 +52,9 @@ function PhotoSlide() {
   return (
     <>
       <div className="photo-slide">
-        <img className="slide-image" src={currentImg.src} alt="" />
+        {shuffledImages.map((image, index) => (
+          <img key={index} className="slide-image" src={image.src} alt="" />
+        ))}
 
         <div className="buttons">
           <a className="prev" onClick={handleClick} href="/">
