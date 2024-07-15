@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import imageData from "./ImageData";
 import PopUpDetails from "./PopUpDetails";
+import Loading from "./Loading";
 
 const GalleryPhotoSlide = () => {
   const [shuffledImages, setShuffledImages] = useState([]);
@@ -19,6 +20,7 @@ const GalleryPhotoSlide = () => {
   };
 
   useEffect(() => {
+    setLoading(true);
     const shuffledArray = (array) => {
       const shuffled = array.slice();
       for (let i = shuffled.length - 1; i > 0; i--) {
@@ -28,22 +30,27 @@ const GalleryPhotoSlide = () => {
       return shuffled;
     };
     setShuffledImages(shuffledArray(imageData));
+    setLoading(false);
   }, []);
   return (
     <>
-      <div className="gallery-slide-container">
-        <div className="gallery-slide-track">
-          {shuffledImages.map((image, index) => (
-            <img
-              onClick={() => openModal(image)}
-              className="gallery-slide-image"
-              key={index}
-              src={image.src}
-              alt={image.desc}
-            />
-          ))}
+      {loading ? (
+        <Loading />
+      ) : (
+        <div className="gallery-slide-container">
+          <div className="gallery-slide-track">
+            {shuffledImages.map((image, index) => (
+              <img
+                onClick={() => openModal(image)}
+                className="gallery-slide-image"
+                key={index}
+                src={image.src}
+                alt={image.desc}
+              />
+            ))}
+          </div>
         </div>
-      </div>
+      )}
       <PopUpDetails
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
