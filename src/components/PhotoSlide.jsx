@@ -48,12 +48,15 @@ function PhotoSlide() {
     }
   };
   const currentImg =
-    shuffledImages[Math.abs(currentIndex) % shuffledImages.length];
+    shuffledImages.length > 0
+      ? shuffledImages[Math.abs(currentIndex) % shuffledImages.length]
+      : null;
   return (
     <>
       <div className="photo-slide">
-        <img className="slide-image" src={currentImg.src} alt="" />
-
+        {currentImg && (
+          <img className="slide-image" src={currentImg.src} alt="" />
+        )}
         <div className="buttons">
           <a className="prev" onClick={handleClick} href="/">
             &#10094; Previous
