@@ -47,6 +47,28 @@ function PhotoSlide() {
       next();
     }
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const buttons = document.querySelectorAll(".prev, .next");
+      const scrollPosition = window.scrollY + window.innerHeight;
+
+      buttons.forEach((button) => {
+        if (scrollPosition > button.offsetTop) {
+          button.classList.add("show");
+        } else {
+          button.classList.remove("show");
+        }
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   const currentImg =
     shuffledImages.length > 0
       ? shuffledImages[Math.abs(currentIndex) % shuffledImages.length]

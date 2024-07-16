@@ -27,16 +27,27 @@
   border-radius: 0 4px 4px 0;
   text-decoration: none;
   user-select: none;
+  margin-top: 100vh;
+
+  opacity: 0; /* Initially hidden */
+  transform: translateX(-100%); /* Move off the left side of the screen */
 }
 
 .next {
   right: 0;
   margin-right: 10vw;
+  transform: translateX(100%);
 }
 
 .prev {
   left: 0;
   margin-left: 10vw;
+}
+
+.prev.show,
+.next.show {
+  opacity: 1;
+  transform: translateX(0); /* Move into the view */
 }
 
 .prev:hover,
