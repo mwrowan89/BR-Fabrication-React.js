@@ -1,5 +1,11 @@
 .home-container {
-    color: blue;
-    font-size: 50px;
-
+  font-size: 50px;
+  margin-top: 90vh;
+}
+.home-page-background {
+  display: flex;
+  position: absolute;
+  margin-top: -16vw;
+  margin-left: -20vw;
+  z-index: -1;
 }
