@@ -1,4 +1,3 @@
---Fix shuffled home page slideshow images
 --Add gallery filteres for tables, decorations, etc.
 --Add collections restaurants, aspen etc.
 --Add ability to message directly about photos/create collections for inspo

@@ -7,6 +7,7 @@ const GalleryPhotos = () => {
   const [filteredImages, setFilteredImages] = useState([]);
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
+  const [type, setType] = useState("all");
 
   const [selection, setSelection] = useState("all");
   const [page, setPage] = useState(1);
@@ -52,6 +53,18 @@ const GalleryPhotos = () => {
     setFilteredImages(filtered);
   };
 
+  const filterByType = (typeSelection) => {
+    let filtered = [];
+    if (typeSelection === "all") {
+      filtered = imageData;
+    } else if (typeSelection === "tables") {
+      filtered = imageData.filter((image) => image.type === "table");
+    } else if (typeSelection === "deco") {
+      filtered = imageData.filter((image) => image.type === "deco");
+    }
+    setFilteredImages(filtered);
+  };
+
   useEffect(() => {
     filterImages(selection);
     setPage(1);
@@ -66,7 +79,8 @@ const GalleryPhotos = () => {
         </h2>
         <h2 id="res-btn" onClick={() => setSelection("res")}>
           Residential Works
-        </h2>
+        </h2>{" "}
+        <br />
       </div>
       <div className="gallery-images-container">
         {currentImages.map((image) => (
