@@ -43,18 +43,16 @@ function PhotoSlide() {
     event.preventDefault();
     if (event.target.className === "prev") {
       prev();
-      console.log(imageData.length);
     } else if (event.target.className === "next") {
       next();
     }
   };
-
+  const currentImg =
+    shuffledImages[Math.abs(currentIndex) % shuffledImages.length];
   return (
     <>
       <div className="photo-slide">
-        {shuffledImages.map((image, index) => (
-          <img key={index} className="slide-image" src={image.src} alt="" />
-        ))}
+        <img className="slide-image" src={currentImg.src} alt="" />
 
         <div className="buttons">
           <a className="prev" onClick={handleClick} href="/">
