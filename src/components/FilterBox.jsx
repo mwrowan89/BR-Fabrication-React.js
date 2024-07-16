@@ -12,7 +12,7 @@ const FilterBox = ({ filterImages, filterByType }) => {
         </h2>
       </div>
       <div className="gallery-type-filter">
-        <h4 id="table-btn" onClick={() => filterByType("tables")}>
+        <h4 id="table-btn" onClick={() => filterByType("table")}>
           Tables
         </h4>
         <h4 id="deco-btn" onClick={() => filterByType("deco")}>

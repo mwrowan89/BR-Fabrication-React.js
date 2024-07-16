@@ -9,7 +9,7 @@ function Gallery() {
     <>
       <Nav />
       <GalleryPhotoSlide />
-      <GalleryApp />{" "}
+      <GalleryApp />
     </>
   );
 }
