@@ -72,6 +72,9 @@
   max-height: 90vh;
   max-width: 80vw;
 }
+.gallery-type-filter {
+  color: white;
+}
 
 /* Pop-up window css */
 .pop-up {

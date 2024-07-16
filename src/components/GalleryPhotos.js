@@ -67,6 +67,7 @@ const GalleryPhotos = () => {
 
   useEffect(() => {
     filterImages(selection);
+    filterByType(type);
     setPage(1);
     // eslint-disable-next-line
   }, [selection]);
@@ -80,7 +81,11 @@ const GalleryPhotos = () => {
         <h2 id="res-btn" onClick={() => setSelection("res")}>
           Residential Works
         </h2>{" "}
-        <br />
+      </div>
+      <div className="gallery-type-filter">
+        <h4 id="table-btn" onClick={() => setType("tables")}>
+          Tables
+        </h4>
       </div>
       <div className="gallery-images-container">
         {currentImages.map((image) => (
