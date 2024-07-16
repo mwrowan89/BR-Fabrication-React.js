@@ -28,9 +28,8 @@
   text-decoration: none;
   user-select: none;
   margin-top: 100vh;
-
-  opacity: 0; /* Initially hidden */
-  transform: translateX(-100%); /* Move off the left side of the screen */
+  opacity: 0;
+  transform: translateX(-100%);
 }
 
 .next {
@@ -47,7 +46,7 @@
 .prev.show,
 .next.show {
   opacity: 1;
-  transform: translateX(0); /* Move into the view */
+  transform: translateX(0);
 }
 
 .prev:hover,

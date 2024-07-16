@@ -20,11 +20,14 @@ function PhotoSlide() {
   };
 
   const next = () => {
-    setCurrentIndex((prevIndex) => prevIndex + 1);
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % shuffledImages.length);
   };
 
   const prev = () => {
-    setCurrentIndex((prevIndex) => prevIndex - 1);
+    setCurrentIndex(
+      (prevIndex) =>
+        (prevIndex - 1 + shuffledImages.length) % shuffledImages.length
+    );
   };
 
   useEffect(() => {
@@ -39,11 +42,10 @@ function PhotoSlide() {
     setShuffledImages(shuffledArray(imageData));
   }, []);
 
-  const handleClick = (event) => {
-    event.preventDefault();
-    if (event.target.className === "prev") {
+  const handleClick = (selection) => {
+    if (selection === "prev") {
       prev();
-    } else if (event.target.className === "next") {
+    } else if (selection === "next") {
       next();
     }
   };
@@ -80,12 +82,12 @@ function PhotoSlide() {
           <img className="slide-image" src={currentImg.src} alt="" />
         )}
         <div className="buttons">
-          <a className="prev" onClick={handleClick} href="/">
+          <p className="prev" onClick={() => handleClick("prev")}>
             &#10094; Previous
-          </a>
-          <a className="next" onClick={handleClick} href="/">
+          </p>
+          <p className="next" onClick={() => handleClick("next")}>
             Next &#10095;
-          </a>
+          </p>
         </div>
       </div>
     </>
