@@ -2,3 +2,4 @@
 --Home page images slide in left and right with dialog
 --Add collections restaurants, aspen etc.
 --Add ability to message directly about photos/create collections for inspo
+--Fixed footer look n feel
