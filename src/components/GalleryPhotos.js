@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../css/GalleryPhotos.css";
 import PopUpDetails from "./PopUpDetails";
+import FilterBox from "./FilterBox";
 
 const GalleryPhotos = ({ filteredImages = [] }) => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -8,6 +9,9 @@ const GalleryPhotos = ({ filteredImages = [] }) => {
   const [page, setPage] = useState(1);
 
   const itemsPerPage = 10;
+  useEffect(() => {
+    setPage(1);
+  }, [filteredImages]);
   const startIndex = (page - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
   const currentImages = filteredImages.slice(startIndex, endIndex);
