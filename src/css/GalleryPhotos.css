@@ -74,6 +74,8 @@
 }
 .gallery-type-filter {
   color: white;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* Pop-up window css */

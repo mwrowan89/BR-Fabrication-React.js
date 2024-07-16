@@ -86,6 +86,9 @@ const GalleryPhotos = () => {
         <h4 id="table-btn" onClick={() => setType("tables")}>
           Tables
         </h4>
+        <h4 id="deco-btn" onClick={() => setType("deco")}>
+          Decorations
+        </h4>
       </div>
       <div className="gallery-images-container">
         {currentImages.map((image) => (
