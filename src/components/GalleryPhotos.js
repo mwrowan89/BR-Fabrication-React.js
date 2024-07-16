@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../css/GalleryPhotos.css";
 import PopUpDetails from "./PopUpDetails";
-import FilterBox from "./FilterBox";
 
 const GalleryPhotos = ({ filteredImages = [] }) => {
   const [modalIsOpen, setModalIsOpen] = useState(false);

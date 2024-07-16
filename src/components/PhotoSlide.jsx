@@ -26,6 +26,7 @@ function PhotoSlide() {
         clearInterval(timer);
       };
     }
+    // eslint-disable-next-line
   }, [shuffledImages]);
 
   const startSlide = () => {

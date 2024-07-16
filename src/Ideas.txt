@@ -3,3 +3,4 @@
 --Add collections restaurants, aspen etc.
 --Add ability to message directly about photos/create collections for inspo
 --Fixed footer look n feel
+--Make page accessable on phone
