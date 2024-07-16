@@ -9,7 +9,7 @@ export default function HomePage() {
     <>
       <Nav />
       <div className="home-page-background">
-        <img src={image1} alt="w/e" />
+        <img id="home-page-background-image" src={image1} alt="w/e" />
       </div>
       <div className="home-container">
         <PhotoSlide />

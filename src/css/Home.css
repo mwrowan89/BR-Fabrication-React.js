@@ -9,3 +9,8 @@
   margin-left: -20vw;
   z-index: -1;
 }
+#home-page-background-image {
+  max-height: 105vh;
+  min-width: 100vw;
+  overflow: hidden;
+}
