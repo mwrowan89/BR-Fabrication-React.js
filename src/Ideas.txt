@@ -1,3 +1,4 @@
---Add gallery filteres for tables, decorations, etc.
+--Smooth transition between images in slide show
+--Home page images slide in left and right with dialog
 --Add collections restaurants, aspen etc.
 --Add ability to message directly about photos/create collections for inspo

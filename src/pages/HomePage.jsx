@@ -9,7 +9,11 @@ export default function HomePage() {
     <>
       <Nav />
       <div className="home-page-background">
-        <img id="home-page-background-image" src={image1} alt="w/e" />
+        <img
+          id="home-page-background-image"
+          src={image1}
+          alt="Bakan Restaurant Table"
+        />
       </div>
       <div className="home-container">
         <PhotoSlide />
