@@ -1,18 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "../css/GalleryPhotos.css";
-import imageData from "./ImageData";
 import PopUpDetails from "./PopUpDetails";
 
-const GalleryPhotos = () => {
-  const [filteredImages, setFilteredImages] = useState([]);
+const GalleryPhotos = ({ filteredImages = [] }) => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
-  const [type, setType] = useState("all");
-
-  const [selection, setSelection] = useState("all");
   const [page, setPage] = useState(1);
 
-  //Page Logic
   const itemsPerPage = 10;
   const startIndex = (page - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
@@ -31,56 +25,25 @@ const GalleryPhotos = () => {
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
+
   const nextPage = () => {
     setPage((page) => page + 1);
     scrollToTop();
   };
+
   const prevPage = () => {
     if (page > 1) {
       setPage((page) => page - 1);
     }
+    console.log(currentImages);
   };
-
-  const filterImages = (newSelection) => {
-    let filtered = [];
-    if (newSelection === "all") {
-      filtered = imageData;
-    } else if (newSelection === "com") {
-      filtered = imageData.filter((image) => image.customer === "com");
-    } else if (newSelection === "res") {
-      filtered = imageData.filter((image) => image.customer === "res");
-    }
-    setFilteredImages(filtered);
-  };
-
-  const filterByType = (typeSelection) => {
-    let filtered = [];
-    if (typeSelection === "all") {
-      filtered = imageData;
-    } else if (typeSelection === "tables") {
-      filtered = imageData.filter((image) => image.type === "table");
-    } else if (typeSelection === "deco") {
-      filtered = imageData.filter((image) => image.type === "deco");
-    }
-    setFilteredImages(filtered);
-  };
-
-  useEffect(() => {
-    filterImages(selection);
-    filterByType(type);
-    setPage(1);
-    // eslint-disable-next-line
-  }, [selection]);
 
   return (
     <div>
       <div className="gallery-images-container">
         {currentImages.map((image) => (
           <img
-            onClick={(e) => {
-              openModal(image);
-              console.table(image);
-            }}
+            onClick={() => openModal(image)}
             id="gallery-image"
             key={image.id}
             src={image.src}
