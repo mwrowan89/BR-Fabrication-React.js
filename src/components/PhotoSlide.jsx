@@ -8,12 +8,25 @@ function PhotoSlide() {
   const [shuffledImages, setShuffledImages] = useState([]);
 
   useEffect(() => {
-    startSlide();
-    return () => {
-      clearInterval(timer);
+    const shuffledArray = (array) => {
+      const shuffled = array.slice();
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      return shuffled;
     };
-    // eslint-disable-next-line
-  }, [currentIndex]);
+    setShuffledImages(shuffledArray(imageData));
+  }, []);
+
+  useEffect(() => {
+    if (shuffledImages.length > 0) {
+      startSlide();
+      return () => {
+        clearInterval(timer);
+      };
+    }
+  }, [shuffledImages]);
 
   const startSlide = () => {
     setTimer(setInterval(next, 8000));
@@ -29,18 +42,6 @@ function PhotoSlide() {
         (prevIndex - 1 + shuffledImages.length) % shuffledImages.length
     );
   };
-
-  useEffect(() => {
-    const shuffledArray = (array) => {
-      const shuffled = array.slice();
-      for (let i = shuffled.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-      }
-      return shuffled;
-    };
-    setShuffledImages(shuffledArray(imageData));
-  }, []);
 
   const handleClick = (selection) => {
     if (selection === "prev") {
