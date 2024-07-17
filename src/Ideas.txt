@@ -5,3 +5,4 @@
 --Add bedroom photos to home page and section about how versitile we are
 --change look and feel of gallery
 --Change up fonts 
+--Fix hover look on next/prev buttons
