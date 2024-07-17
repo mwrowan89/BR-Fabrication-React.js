@@ -35,7 +35,7 @@
   cursor: pointer;
   top: 40%;
   width: auto;
-  margin: 80px;
+  margin: 10vw;
   margin-top: -3vw;
   color: white;
   font-weight: bold;
@@ -66,4 +66,7 @@
 .next:hover {
   background-color: rgba(253, 253, 253, 0.503);
   border-radius: 10px;
+}
+.text h3 {
+  color: rgba(211, 211, 211, 0.689);
 }

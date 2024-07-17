@@ -9,12 +9,12 @@
   margin: 2vw 5vw 0vw 5vw;
 }
 
-.greetings h1 {
+#header-title {
   margin: 1vw 0vw 1vw 0vw;
   color: white;
 }
 
-h3 {
+#header-desc {
   color: rgba(211, 211, 211, 0.689);
   margin-top: -0.5vw;
 }

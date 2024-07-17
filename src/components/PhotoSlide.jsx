@@ -69,8 +69,6 @@ function PhotoSlide() {
       buttons.forEach((button) => {
         if (scrollPosition > button.offsetTop) {
           button.classList.add("show");
-        } else {
-          button.classList.remove("show");
         }
       });
     };
@@ -89,7 +87,11 @@ function PhotoSlide() {
   return (
     <>
       <div className="photo-slide">
-        <h1>Photoslide</h1>
+        <div className="text">
+          <h3>Showcase</h3>
+          <p>Check out our gallery for even more completed projects</p>
+        </div>
+
         {currentImg && (
           <img
             className={`slide-image ${fade ? "" : "active"}`}

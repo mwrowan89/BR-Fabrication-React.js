@@ -6,10 +6,10 @@ import FacebookLogo from "../assets/facbook logo11.png";
 function Header() {
   return (
     <div className="greetings">
-      <h1> BR Fabrication</h1>
-      <h3>
+      <h1 id="header-title"> BR Fabrication</h1>
+      <h3 id="header-desc">
         Heirloom Quality Furniture for Commercial & Residential Spaces
-      </h3>{" "}
+      </h3>
       <br />
       <div className="links">
         <a
