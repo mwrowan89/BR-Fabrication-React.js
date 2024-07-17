@@ -12,6 +12,8 @@
 .photo-slide {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  color: white;
 }
 
 .slide-image.active {
@@ -24,8 +26,8 @@
 
 .next-prev-buttons {
   display: flex;
-  margin-left: -43.8vw;
   align-items: center;
+  justify-content: center;
 }
 
 .prev,
@@ -33,16 +35,14 @@
   cursor: pointer;
   top: 40%;
   width: auto;
-  padding: 16px;
   margin: 80px;
+  margin-top: -3vw;
   color: white;
   font-weight: bold;
   font-size: 15px;
   transition: 0.7s ease;
-  border-radius: 0 4px 4px 0;
   text-decoration: none;
   user-select: none;
-  margin-top: 100vh;
   opacity: 0;
   transform: translateX(-100%);
 }
@@ -64,5 +64,6 @@
 
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(253, 253, 253, 0.503);
+  border-radius: 10px;
 }

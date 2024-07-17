@@ -89,6 +89,7 @@ function PhotoSlide() {
   return (
     <>
       <div className="photo-slide">
+        <h1>Photoslide</h1>
         {currentImg && (
           <img
             className={`slide-image ${fade ? "" : "active"}`}
