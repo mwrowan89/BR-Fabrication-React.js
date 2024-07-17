@@ -6,6 +6,12 @@
   width: 60vw;
   object-fit: contain;
   margin: 1vw 0vw 5vw 0vw;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide-image.active {
+  opacity: 1;
 }
 
 .slide-images {

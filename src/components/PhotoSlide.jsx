@@ -6,6 +6,7 @@ function PhotoSlide() {
   const [timer, setTimer] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [shuffledImages, setShuffledImages] = useState([]);
+  const [fade, setFade] = useState(false);
 
   useEffect(() => {
     const shuffledArray = (array) => {
@@ -34,14 +35,22 @@ function PhotoSlide() {
   };
 
   const next = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % shuffledImages.length);
+    setFade(true);
+    setTimeout(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % shuffledImages.length);
+      setFade(false);
+    }, 1000); // Match this duration with the CSS transition duration
   };
 
   const prev = () => {
-    setCurrentIndex(
-      (prevIndex) =>
-        (prevIndex - 1 + shuffledImages.length) % shuffledImages.length
-    );
+    setFade(true);
+    setTimeout(() => {
+      setCurrentIndex(
+        (prevIndex) =>
+          (prevIndex - 1 + shuffledImages.length) % shuffledImages.length
+      );
+      setFade(false);
+    }, 1000); // Match this duration with the CSS transition duration
   };
 
   const handleClick = (selection) => {
@@ -81,7 +90,11 @@ function PhotoSlide() {
     <>
       <div className="photo-slide">
         {currentImg && (
-          <img className="slide-image" src={currentImg.src} alt="" />
+          <img
+            className={`slide-image ${fade ? "" : "active"}`}
+            src={currentImg.src}
+            alt=""
+          />
         )}
         <div className="buttons">
           <p className="prev" onClick={() => handleClick("prev")}>
