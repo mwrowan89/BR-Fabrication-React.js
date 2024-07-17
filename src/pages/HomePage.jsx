@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import "../css/Home.css";
 import Nav from "../components/Nav";
 import PhotoSlide from "../components/PhotoSlide";
+import HomePageDesc from "../components/HomePageDesc";
 import image1 from "../assets/images/IMG_1780.JPG";
 
 export default function HomePage() {
@@ -35,6 +36,7 @@ export default function HomePage() {
         />
       </div>
       <div className="home-container">
+        <HomePageDesc />
         <PhotoSlide />
       </div>
     </>

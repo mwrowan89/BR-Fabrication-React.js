@@ -20,7 +20,6 @@
 .description-box {
   color: white;
   margin-left: -15vw;
-  margin-top: -4vw;
   width: 90vw;
 }
 #bakan-desc-img-one,
@@ -37,7 +36,7 @@
   opacity: 0;
   left: 0;
   transform: translateX(-100%);
-  transition: 0.7s ease;
+  transition: 1s ease;
 }
 .box-two {
   display: flex;

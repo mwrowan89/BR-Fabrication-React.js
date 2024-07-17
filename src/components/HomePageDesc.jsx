@@ -36,6 +36,14 @@ const HomePageDesc = () => {
           </div>
         </div>
         <div className="box-two">
+          <div className="text">
+            <h3>Our Mission</h3>
+            <p>
+              We strive to provide the most exceptionally crafted heirloom
+              quality furniture for every customer. The resources we use are all
+              ethically sourced and handcrafted in Chicago, Illinois.
+            </p>
+          </div>
           <img id="bakan-desc-img-two" src={image3} alt="Bakan" />
         </div>
       </div>
