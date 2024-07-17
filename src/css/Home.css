@@ -34,14 +34,27 @@
 .box-one {
   display: inline-flex;
   width: 70vw;
+  opacity: 0;
+  left: 0;
+  transform: translateX(-100%);
+  transition: 0.7s ease;
 }
 .box-two {
   display: flex;
   justify-content: flex-end;
+  opacity: 0;
+  right: 0;
+  transition: 0.7s ease;
+  transform: translateX(100%);
 }
 .text {
   scale: 0.5;
   word-wrap: wrap;
   margin-top: -8vw;
   margin-left: -5vw;
+}
+.box-one.show,
+.box-two.show {
+  opacity: 1;
+  transform: translateX(0);
 }

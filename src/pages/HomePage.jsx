@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import "../css/Home.css";
 import Nav from "../components/Nav";
 import PhotoSlide from "../components/PhotoSlide";
@@ -7,6 +8,26 @@ import image2 from "../assets/images/IMG_1779.JPG";
 import image3 from "../assets/images/36.jpg";
 
 export default function HomePage() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const buttons = document.querySelectorAll(".box-one, .box-two");
+      const scrollPosition = window.scrollY + window.innerHeight;
+
+      buttons.forEach((button) => {
+        if (scrollPosition > button.offsetTop) {
+          button.classList.add("show");
+        } else {
+          button.classList.remove("show");
+        }
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
       <Nav />
