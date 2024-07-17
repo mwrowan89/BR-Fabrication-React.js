@@ -17,6 +17,9 @@ export default function HomePage() {
       </div>
       <div className="home-container">
         <PhotoSlide />
+        <div className="description-box">
+          <h1>BR Fab</h1>
+        </div>
       </div>
     </>
   );

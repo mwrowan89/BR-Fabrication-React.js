@@ -1,6 +1,8 @@
 .home-container {
   font-size: 50px;
   margin-top: 90vh;
+  display: flex;
+  justify-content: space-evenly;
 }
 .home-page-background {
   display: flex;
@@ -13,4 +15,7 @@
   max-height: 105vh;
   min-width: 100vw;
   overflow: hidden;
+}
+.description-box {
+  color: white;
 }
