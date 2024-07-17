@@ -16,10 +16,17 @@ export default function HomePage() {
         />
       </div>
       <div className="home-container">
-        <PhotoSlide />
         <div className="description-box">
-          <h1>BR Fab</h1>
+          <span>
+            <img src="" />
+            <h1>BR Fab</h1>
+            <p>
+              Servicing restaurants and clients around the world, BR Fabrication
+              is a professional table manufacture.
+            </p>
+          </span>
         </div>
+        <PhotoSlide />
       </div>
     </>
   );

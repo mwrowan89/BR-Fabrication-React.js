@@ -31,7 +31,7 @@ function PhotoSlide() {
   }, [shuffledImages]);
 
   const startSlide = () => {
-    setTimer(setInterval(next, 8000));
+    setTimer(setInterval(next, 5000));
   };
 
   const next = () => {
@@ -96,7 +96,7 @@ function PhotoSlide() {
             alt=""
           />
         )}
-        <div className="buttons">
+        <div className="next-prev-buttons">
           <p className="prev" onClick={() => handleClick("prev")}>
             &#10094; Previous
           </p>

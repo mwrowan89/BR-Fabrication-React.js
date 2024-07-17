@@ -9,6 +9,10 @@
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
+.photo-slide {
+  display: flex;
+  align-items: center;
+}
 
 .slide-image.active {
   opacity: 1;
@@ -18,10 +22,15 @@
   transition: 1s ease-in-out;
 }
 
+.next-prev-buttons {
+  display: flex;
+  margin-left: -43.8vw;
+  align-items: center;
+}
+
 .prev,
 .next {
   cursor: pointer;
-  position: absolute;
   top: 40%;
   width: auto;
   padding: 16px;
@@ -40,13 +49,11 @@
 
 .next {
   right: 0;
-  margin-right: 10vw;
   transform: translateX(100%);
 }
 
 .prev {
   left: 0;
-  margin-left: 10vw;
 }
 
 .prev.show,
