@@ -4,3 +4,4 @@
 --Make page accessable on phone
 --Add bedroom photos to home page and section about how versitile we are
 --change look and feel of gallery
+--Change up fonts 
