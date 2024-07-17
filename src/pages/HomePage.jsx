@@ -16,8 +16,6 @@ export default function HomePage() {
       buttons.forEach((button) => {
         if (scrollPosition > button.offsetTop) {
           button.classList.add("show");
-        } else {
-          button.classList.remove("show");
         }
       });
     };
