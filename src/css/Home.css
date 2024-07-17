@@ -28,6 +28,7 @@
   height: 70vh;
 }
 .box-one {
+  display: inline-flex;
   width: 90vw;
 }
 .text {

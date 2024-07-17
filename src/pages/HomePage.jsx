@@ -28,11 +28,13 @@ export default function HomePage() {
                 Fabrication is a professional table manufacture.
               </p>
             </div>
-          </div>
+          </div>{" "}
+          <br />
           <div className="box-two">
             <img id="bakan-desc-img-two" src={image3} alt="Bakan" />
           </div>
         </div>
+
         <PhotoSlide />
       </div>
     </>
