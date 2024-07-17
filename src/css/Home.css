@@ -19,4 +19,15 @@
 }
 .description-box {
   color: white;
+  display: flex;
+  align-items: flex-start;
+  margin-left: -15vw;
+  margin-top: -4vw;
+}
+#bakan-desc-img {
+  height: 70vh;
+}
+.text {
+  scale: 0.5;
+  word-wrap: wrap;
 }
