@@ -87,7 +87,7 @@ function PhotoSlide() {
   return (
     <>
       <div className="photo-slide">
-        <div className="text">
+        <div className="slide-show-text">
           <h3>Showcase</h3>
           <p>Check out our gallery for even more completed projects</p>
         </div>

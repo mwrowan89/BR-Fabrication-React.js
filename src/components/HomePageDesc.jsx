@@ -2,11 +2,15 @@ import React from "react";
 import { useEffect } from "react";
 import image2 from "../assets/images/IMG_1779.JPG";
 import image3 from "../assets/images/36.jpg";
+import image4 from "../assets/images/54.jpg";
+import image5 from "../assets/images/55.jpg";
 
 const HomePageDesc = () => {
   useEffect(() => {
     const handleScroll = () => {
-      const buttons = document.querySelectorAll(".box-one, .box-two");
+      const buttons = document.querySelectorAll(
+        ".box-one, .box-two, .box-three"
+      );
       const scrollPosition = window.scrollY + window.innerHeight;
 
       buttons.forEach((button) => {
@@ -45,6 +49,11 @@ const HomePageDesc = () => {
             </p>
           </div>
           <img id="bakan-desc-img-two" src={image3} alt="Bakan" />
+        </div>
+        <div className="box-three">
+          <div>
+            <img id="aspen-desc-img-one" src={image4} alt={image4.desc} />
+          </div>
         </div>
       </div>
     </>
