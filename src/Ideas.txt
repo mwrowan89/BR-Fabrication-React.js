@@ -7,3 +7,4 @@
 --Make description on home page for slideshow
 --Finish updating imagedata comp
 --Add "get quote" option to footer
+--Add more Ben photos to about page
