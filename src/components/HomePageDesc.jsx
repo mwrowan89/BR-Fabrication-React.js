@@ -53,6 +53,8 @@ const HomePageDesc = () => {
         <div className="box-three">
           <div>
             <img id="aspen-desc-img-one" src={image4} alt={image4.desc} />
+            &nbsp;
+            <img id="aspen-desc-img-two" src={image5} alt={image5.desc} />
           </div>
         </div>
       </div>

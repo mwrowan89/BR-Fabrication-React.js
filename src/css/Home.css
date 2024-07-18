@@ -31,8 +31,9 @@
   margin-bottom: 10vw;
 }
 
-#aspen-desc-img-one {
-  height: 70vh;
+#aspen-desc-img-one,
+#aspen-desc-img-two {
+  height: 60vh;
 }
 .box-one {
   display: inline-flex;
@@ -51,9 +52,11 @@
   transform: translateX(100%);
 }
 .box-three {
-  display: inline-flex;
-  width: 70vw;
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
   opacity: 0;
+  gap: 1vw;
   left: 0;
   transform: translateX(-100%);
   transition: 1s ease;
@@ -69,4 +72,5 @@
 .box-three.show {
   opacity: 1;
   transform: translateX(0);
+  justify-content: space-around;
 }
