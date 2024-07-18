@@ -109,7 +109,7 @@ function PhotoSlide() {
             </p>
           </div>
         </div>
-        <h3>At Br</h3>
+        <h3>BR Fabrication </h3>
       </div>
     </>
   );

@@ -4,3 +4,4 @@
 --Make page accessable on phone
 --change look and feel of gallery
 --Change up fonts
+--Make description on home page for slideshow
