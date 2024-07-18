@@ -438,7 +438,7 @@ const imageData = [
     id: 36,
     src: image36,
     alt: "Full Restaurant Build",
-    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
+    desc: "This image showcases tables, seating, trim, elevated seating and so much more work done with love.",
     title: "Andros Taverna, Chicago IL",
     customer: "com",
     page: 4,

@@ -17,6 +17,7 @@ const GalleryPhotos = ({ filteredImages = [] }) => {
 
   const openModal = (image) => {
     setSelectedImage(image);
+    console.table(image);
     setModalIsOpen(true);
   };
 
