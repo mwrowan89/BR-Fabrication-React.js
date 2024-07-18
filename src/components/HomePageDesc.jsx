@@ -16,8 +16,6 @@ const HomePageDesc = () => {
       buttons.forEach((button) => {
         if (scrollPosition > button.offsetTop) {
           button.classList.add("show");
-        } else if (scrollPosition < button.offsetTop) {
-          button.classList.remove("show");
         }
       });
     };
@@ -53,7 +51,7 @@ const HomePageDesc = () => {
           <img id="bakan-desc-img-two" src={image3} alt="Bakan" />
         </div>
         <div className="box-three-whole">
-          <h3 id="box-three-title">Your Dream is Our Passion</h3>
+          <h1 id="box-three-title">Your Dream is Our Passion</h1>
 
           <div className="box-three">
             <div className="box-three-left">
