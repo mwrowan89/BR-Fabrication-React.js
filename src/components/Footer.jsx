@@ -43,6 +43,8 @@ function Footer() {
       </div>
       <div className="footer-right">
         <p>Shop Hours: </p>
+        <p>Mon-Fri: 9am-5pm</p>
+        <p>Sat-Sun: Upon request</p>
       </div>
     </div>
   );
