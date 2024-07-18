@@ -9,13 +9,15 @@ const HomePageDesc = () => {
   useEffect(() => {
     const handleScroll = () => {
       const buttons = document.querySelectorAll(
-        ".box-one, .box-two, .box-three"
+        ".box-one, .box-two, .box-three-left, .box-three-right"
       );
       const scrollPosition = window.scrollY + window.innerHeight;
 
       buttons.forEach((button) => {
         if (scrollPosition > button.offsetTop) {
           button.classList.add("show");
+        } else if (scrollPosition < button.offsetTop) {
+          button.classList.remove("show");
         }
       });
     };
@@ -51,9 +53,10 @@ const HomePageDesc = () => {
           <img id="bakan-desc-img-two" src={image3} alt="Bakan" />
         </div>
         <div className="box-three">
-          <div>
+          <div className="box-three-left">
             <img id="aspen-desc-img-one" src={image4} alt={image4.desc} />
-            &nbsp;
+          </div>
+          <div className="box-three-right">
             <img id="aspen-desc-img-two" src={image5} alt={image5.desc} />
           </div>
         </div>

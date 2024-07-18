@@ -54,12 +54,22 @@
 .box-three {
   display: flex;
   width: 90vw;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+.box-three-left {
+  display: flex;
   opacity: 0;
-  gap: 1vw;
   left: 0;
   transform: translateX(-100%);
-  transition: 1s ease;
+  transition: 0.7s ease;
+}
+.box-three-right {
+  display: flex;
+  justify-content: flex-end;
+  opacity: 0;
+  right: 0;
+  transition: 0.7s ease;
+  transform: translateX(100%);
 }
 .text {
   scale: 0.5;
@@ -69,8 +79,9 @@
 }
 .box-one.show,
 .box-two.show,
-.box-three.show {
+.box-three-left.show,
+.box-three-right.show {
   opacity: 1;
   transform: translateX(0);
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
