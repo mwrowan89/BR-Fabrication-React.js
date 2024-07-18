@@ -5,3 +5,4 @@
 --change look and feel of gallery
 --Change up fonts
 --Make description on home page for slideshow
+--Finish updating imagedata comp
