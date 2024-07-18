@@ -41,12 +41,10 @@
   opacity: 0;
   left: 0;
   transform: translateX(-100%);
-  transition: 1s ease;
+  transition: 0.7s ease;
 }
 .box-two {
   display: flex;
-  justify-content: flex-end;
-  opacity: 0;
   right: 0;
   transition: 0.7s ease;
   transform: translateX(100%);
@@ -71,16 +69,28 @@
   transition: 0.7s ease;
   transform: translateX(100%);
 }
+.box-three-whole {
+  margin-top: -10vw;
+}
 .text {
   scale: 0.5;
   word-wrap: wrap;
   margin-top: -8vw;
   margin-left: -5vw;
 }
+#box-three-title {
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  right: 0;
+  transition: 2s ease;
+  scale: 0.5;
+}
 .box-one.show,
 .box-two.show,
 .box-three-left.show,
-.box-three-right.show {
+.box-three-right.show,
+#box-three-title.show {
   opacity: 1;
   transform: translateX(0);
   justify-content: space-evenly;

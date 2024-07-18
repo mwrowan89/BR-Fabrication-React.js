@@ -9,7 +9,7 @@ const HomePageDesc = () => {
   useEffect(() => {
     const handleScroll = () => {
       const buttons = document.querySelectorAll(
-        ".box-one, .box-two, .box-three-left, .box-three-right"
+        ".box-one, .box-two, .box-three-left, .box-three-right, #box-three-title"
       );
       const scrollPosition = window.scrollY + window.innerHeight;
 
@@ -52,12 +52,16 @@ const HomePageDesc = () => {
           </div>
           <img id="bakan-desc-img-two" src={image3} alt="Bakan" />
         </div>
-        <div className="box-three">
-          <div className="box-three-left">
-            <img id="aspen-desc-img-one" src={image4} alt={image4.desc} />
-          </div>
-          <div className="box-three-right">
-            <img id="aspen-desc-img-two" src={image5} alt={image5.desc} />
+        <div className="box-three-whole">
+          <h3 id="box-three-title">Your Dream is Our Passion</h3>
+
+          <div className="box-three">
+            <div className="box-three-left">
+              <img id="aspen-desc-img-one" src={image4} alt={image4.desc} />
+            </div>
+            <div className="box-three-right">
+              <img id="aspen-desc-img-two" src={image5} alt={image5.desc} />
+            </div>
           </div>
         </div>
       </div>
