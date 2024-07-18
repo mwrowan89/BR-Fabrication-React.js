@@ -3,13 +3,15 @@
   width: 95vw;
   margin-left: -18vw;
   color: white;
-  display: grid;
-  grid-template-areas: 2fr 2fr, 2fr 2fr;
+  display: flex;
   place-content: center;
+  justify-content: space-between;
 }
 .links-footer {
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
+}
+.footer-right {
 }
