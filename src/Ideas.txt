@@ -2,7 +2,5 @@
 --Add ability to message directly about photos/create collections for inspo
 --Fix footer look n feel
 --Make page accessable on phone
---Add bedroom photos to home page and section about how versitile we are
 --change look and feel of gallery
---Change up fonts 
---Fix hover look on next/prev buttons
+--Change up fonts

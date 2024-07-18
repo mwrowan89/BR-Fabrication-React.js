@@ -1,3 +1,9 @@
+.photo-slide-whole {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
 .slide-image {
   display: flex;
   justify-content: center;

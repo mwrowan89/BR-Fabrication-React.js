@@ -86,27 +86,30 @@ function PhotoSlide() {
       : null;
   return (
     <>
-      <div className="photo-slide">
-        <div className="slide-show-text">
-          <h3>Showcase</h3>
-          <p>Check out our gallery for even more completed projects</p>
-        </div>
+      <div className="photo-slide-whole">
+        <div className="photo-slide">
+          <div className="slide-show-text">
+            <h3>Showcase</h3>
+            <p>Check out our gallery for even more completed projects</p>
+          </div>
 
-        {currentImg && (
-          <img
-            className={`slide-image ${fade ? "" : "active"}`}
-            src={currentImg.src}
-            alt=""
-          />
-        )}
-        <div className="next-prev-buttons">
-          <p className="prev" onClick={() => handleClick("prev")}>
-            &#10094; Previous
-          </p>
-          <p className="next" onClick={() => handleClick("next")}>
-            Next &#10095;
-          </p>
+          {currentImg && (
+            <img
+              className={`slide-image ${fade ? "" : "active"}`}
+              src={currentImg.src}
+              alt=""
+            />
+          )}
+          <div className="next-prev-buttons">
+            <p className="prev" onClick={() => handleClick("prev")}>
+              &#10094; Previous
+            </p>
+            <p className="next" onClick={() => handleClick("next")}>
+              Next &#10095;
+            </p>
+          </div>
         </div>
+        <h3>Hello</h3>
       </div>
     </>
   );
