@@ -6,3 +6,4 @@
 --Change up fonts
 --Make description on home page for slideshow
 --Finish updating imagedata comp
+--Add "get quote" option
