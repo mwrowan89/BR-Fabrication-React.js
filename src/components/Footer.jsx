@@ -9,7 +9,11 @@ function Footer() {
       <div className="footer-left">
         <p>All Rights Reserved BR Fabrication</p>
         <h4>Contact Information</h4>
-        <p>Email: ben@fromcheftotable.com</p>
+        <p>
+          Email:{" "}
+          <a href="mailto:ben@fromcheftotable.com">ben@fromcheftotable.com</a>
+        </p>
+
         <p>Phone: (312)-555-4800 </p>
 
         <div className="links-footer">
