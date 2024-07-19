@@ -14,7 +14,7 @@ function Footer() {
           <a href="mailto:ben@fromcheftotable.com">ben@fromcheftotable.com</a>
         </p>
 
-        <p>Phone: (312)-555-4800 </p>
+        <p>Phone: (347)-205-7721 </p>
 
         <div className="links-footer">
           <a
