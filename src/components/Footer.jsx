@@ -45,7 +45,7 @@ function Footer() {
         <p>Shop Hours: </p>
         <p>Mon-Fri: 9am-5pm</p>
         <p>Sat-Sun: Upon request</p>
-        <a href="/gallery">Request a Quote </a>
+        <a href="/contact">Request a Quote </a>
       </div>
     </div>
   );
