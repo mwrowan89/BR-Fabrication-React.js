@@ -88,11 +88,20 @@ function PhotoSlide() {
     <>
       <div className="photo-slide-whole">
         <div className="photo-slide">
-          <div className="slide-show-text">
-            <h3>Showcase</h3>
-            <p>Check out our gallery for even more completed projects</p>
+          <div className="slide-show-about">
+            <h3 id="slide-show-title">
+              Mastery in Commercial and Residential Projects
+            </h3>
+            <p id="slide-show-desc">
+              BR Fabrication stands out in the industry with its unparalleled
+              versatility, seamlessly handling both commercial and residential
+              projects. Their expertise is exemplified through their work with
+              "Lettuce Entertain You," the largest restaurant group in Chicago.
+              From intricate residential installations to large-scale commercial
+              ventures, BR Fabrication consistently delivers exceptional
+              results, showcasing their commitment to quality and innovation.
+            </p>
           </div>
-
           {currentImg && (
             <img
               className={`slide-image ${fade ? "" : "active"}`}
@@ -109,20 +118,9 @@ function PhotoSlide() {
             </p>
           </div>
         </div>
-        {/* Place content about versitile jobs */}
-        <div className="slide-show-about">
-          <h3 id="slide-show-title">
-            Mastery in Commercial and Residential Projects
-          </h3>
-          <p id="slide-show-desc">
-            BR Fabrication stands out in the industry with its unparalleled
-            versatility, seamlessly handling both commercial and residential
-            projects. Their expertise is exemplified through their work with
-            "Lettuce Entertain You," the largest restaurant group in Chicago.
-            From intricate residential installations to large-scale commercial
-            ventures, BR Fabrication consistently delivers exceptional results,
-            showcasing their commitment to quality and innovation.
-          </p>
+        <div className="slide-show-text">
+          <h3>Showcase</h3>
+          <p>Check out our gallery for even more completed projects</p>
         </div>
       </div>
     </>
