@@ -6,6 +6,7 @@ const FilterBox = ({ filterImages, filterByType }) => {
       <div className="options-list">
         <h3>Filter Gallery: </h3>
         <select
+          id="select-options"
           value={filterImages}
           onChange={(e) => filterImages(e.target.value)}
         >
