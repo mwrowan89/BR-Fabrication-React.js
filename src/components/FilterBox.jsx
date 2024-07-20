@@ -1,6 +1,6 @@
 import React from "react";
 
-const FilterBox = ({ selection, filterImages, filterByType }) => {
+const FilterBox = ({ selection, filterImages }) => {
   return (
     <>
       <div className="options-list">

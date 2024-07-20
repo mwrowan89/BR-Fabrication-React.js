@@ -6,37 +6,34 @@ import imageData from "./ImageData";
 const GalleryApp = () => {
   const [filteredImages, setFilteredImages] = useState(imageData);
   const [selection, setSelection] = useState("all");
-  const [type, setType] = useState("all");
 
   const filterImages = (newSelection) => {
     setSelection(newSelection);
   };
 
-  const filterByType = (typeSelection) => {
-    setType(typeSelection);
-  };
+  // const filterByType = (typeSelection) => {
+  //   setType(typeSelection);
+  // };
 
   useEffect(() => {
     let filtered = imageData;
 
     if (selection === "all") {
       filtered = imageData;
-    } else if (selection === "com" || "res") {
+    }
+    if (selection === "com" || "res") {
       filtered = filtered.filter((image) => image.customer === selection);
-    } else if (selection === "table" || "deco") {
+    }
+    if (selection !== "all") {
       filtered = filtered.filter((image) => image.type === selection);
     }
-
+    console.log(selection);
     setFilteredImages(filtered);
-  }, [selection, type]);
+  }, [selection]);
 
   return (
     <div>
-      <FilterBox
-        selection={selection}
-        filterImages={filterImages}
-        filterByType={filterByType}
-      />
+      <FilterBox selection={selection} filterImages={filterImages} />
       <GalleryPhotos filteredImages={filteredImages} />
     </div>
   );
