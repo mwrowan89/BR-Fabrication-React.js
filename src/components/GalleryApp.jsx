@@ -11,20 +11,19 @@ const GalleryApp = () => {
     setSelection(newSelection);
   };
 
-  // const filterByType = (typeSelection) => {
-  //   setType(typeSelection);
-  // };
-
   useEffect(() => {
     let filtered = imageData;
 
     if (selection === "all") {
       filtered = imageData;
     }
-    if (selection === "com" || "res") {
+    if (selection === "com") {
       filtered = filtered.filter((image) => image.customer === selection);
     }
-    if (selection !== "all") {
+    if (selection === "res") {
+      filtered = filtered.filter((image) => image.customer === selection);
+    }
+    if (selection === "deco") {
       filtered = filtered.filter((image) => image.type === selection);
     }
     console.log(selection);
