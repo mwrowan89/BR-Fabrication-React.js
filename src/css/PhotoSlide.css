@@ -58,9 +58,7 @@
   right: 0;
   transform: translateX(100%);
 }
-.slide-show-text {
-  display: flex;
-
+#slide-show-text {
   scale: 0.5;
 }
 .prev {
