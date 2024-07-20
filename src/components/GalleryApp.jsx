@@ -36,7 +36,11 @@ const GalleryApp = () => {
 
   return (
     <div>
-      <FilterBox filterImages={filterImages} filterByType={filterByType} />
+      <FilterBox
+        selection={selection}
+        filterImages={filterImages}
+        filterByType={filterByType}
+      />
       <GalleryPhotos filteredImages={filteredImages} />
     </div>
   );

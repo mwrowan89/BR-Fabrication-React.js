@@ -1,13 +1,13 @@
 import React from "react";
 
-const FilterBox = ({ filterImages, filterByType }) => {
+const FilterBox = ({ selection, filterImages, filterByType }) => {
   return (
     <>
       <div className="options-list">
         <h3>Filter Gallery: </h3>
         <select
           id="select-options"
-          value={filterImages}
+          value={selection}
           onChange={(e) => filterImages(e.target.value)}
         >
           <option value="all">All</option>
