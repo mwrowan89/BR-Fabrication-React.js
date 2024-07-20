@@ -10,9 +10,9 @@ const FilterBox = ({ filterImages, filterByType }) => {
           value={filterImages}
           onChange={(e) => filterImages(e.target.value)}
         >
-          <option value={"all"}>All</option>
-          <option value={"com"}>Commercial</option>
-          <option value={"res"}>Residential</option>
+          <option value="all">All</option>
+          <option value="com">Commercial</option>
+          <option value="res">Residential</option>
         </select>
       </div>
       {/* <div className="com-res-btns">

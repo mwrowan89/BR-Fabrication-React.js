@@ -19,6 +19,10 @@ const GalleryApp = () => {
   useEffect(() => {
     let filtered = imageData;
 
+    if (selection === "all") {
+      filtered = imageData;
+    }
+
     if (selection !== "all") {
       filtered = filtered.filter((image) => image.customer === selection);
     }
