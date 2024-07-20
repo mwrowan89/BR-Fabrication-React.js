@@ -79,3 +79,13 @@
 .text h3 {
   color: rgba(211, 211, 211, 0.689);
 }
+#slide-show-title {
+  font-size: 2rem;
+}
+.slide-show-about {
+  display: flex;
+  flex-direction: column;
+}
+#slide-show-desc {
+  font-size: 1.5rem;
+}

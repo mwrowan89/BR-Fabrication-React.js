@@ -109,8 +109,21 @@ function PhotoSlide() {
             </p>
           </div>
         </div>
-        {/* Place content about versitile jobs
-        <h3></h3> */}
+        {/* Place content about versitile jobs */}
+        <div className="slide-show-about">
+          <h3 id="slide-show-title">
+            Mastery in Commercial and Residential Projects
+          </h3>
+          <p id="slide-show-desc">
+            BR Fabrication stands out in the industry with its unparalleled
+            versatility, seamlessly handling both commercial and residential
+            projects. Their expertise is exemplified through their work with
+            "Lettuce Entertain You," the largest restaurant group in Chicago.
+            From intricate residential installations to large-scale commercial
+            ventures, BR Fabrication consistently delivers exceptional results,
+            showcasing their commitment to quality and innovation.
+          </p>
+        </div>
       </div>
     </>
   );
