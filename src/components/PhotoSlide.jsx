@@ -109,7 +109,8 @@ function PhotoSlide() {
             </p>
           </div>
         </div>
-        <h3>BR Fabrication </h3>
+        {/* Place content about versitile jobs
+        <h3></h3> */}
       </div>
     </>
   );
