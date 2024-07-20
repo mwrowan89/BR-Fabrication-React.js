@@ -5,7 +5,7 @@ const FilterBox = ({ filterImages, filterByType }) => {
     <>
       <div className="options-list">
         <select>
-          <input value={"com"} />
+          <option value={"com"}>Com</option>
         </select>
       </div>
       <div className="com-res-btns">
