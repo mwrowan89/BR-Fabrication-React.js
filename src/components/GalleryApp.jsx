@@ -26,7 +26,6 @@ const GalleryApp = () => {
     if (selection === "deco") {
       filtered = filtered.filter((image) => image.type === selection);
     }
-    console.log(selection);
     setFilteredImages(filtered);
   }, [selection]);
 
