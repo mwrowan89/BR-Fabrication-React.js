@@ -13,6 +13,8 @@ const FilterBox = ({ selection, filterImages, filterByType }) => {
           <option value="all">All</option>
           <option value="com">Commercial</option>
           <option value="res">Residential</option>
+          <option value="table">Tables</option>
+          <option value="deco">Decorations</option>
         </select>
       </div>
       {/* <div className="com-res-btns">

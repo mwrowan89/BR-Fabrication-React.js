@@ -21,14 +21,10 @@ const GalleryApp = () => {
 
     if (selection === "all") {
       filtered = imageData;
-    }
-
-    if (selection !== "all") {
+    } else if (selection === "com" || "res") {
       filtered = filtered.filter((image) => image.customer === selection);
-    }
-
-    if (type !== "all") {
-      filtered = filtered.filter((image) => image.type === type);
+    } else if (selection === "table" || "deco") {
+      filtered = filtered.filter((image) => image.type === selection);
     }
 
     setFilteredImages(filtered);
