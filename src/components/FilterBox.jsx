@@ -3,6 +3,11 @@ import React from "react";
 const FilterBox = ({ filterImages, filterByType }) => {
   return (
     <>
+      <div className="options-list">
+        <select>
+          <input value={"com"} />
+        </select>
+      </div>
       <div className="com-res-btns">
         <h2 id="com-btn" onClick={() => filterImages("com")}>
           Commercial Works
