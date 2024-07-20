@@ -4,11 +4,17 @@ const FilterBox = ({ filterImages, filterByType }) => {
   return (
     <>
       <div className="options-list">
-        <select>
-          <option value={"com"}>Com</option>
+        <h3>Filter Gallery: </h3>
+        <select
+          value={filterImages}
+          onChange={(e) => filterImages(e.target.value)}
+        >
+          <option value={"all"}>All</option>
+          <option value={"com"}>Commercial</option>
+          <option value={"res"}>Residential</option>
         </select>
       </div>
-      <div className="com-res-btns">
+      {/* <div className="com-res-btns">
         <h2 id="com-btn" onClick={() => filterImages("com")}>
           Commercial Works
         </h2>
@@ -23,7 +29,7 @@ const FilterBox = ({ filterImages, filterByType }) => {
         <h4 id="deco-btn" onClick={() => filterByType("deco")}>
           Decorations
         </h4>
-      </div>
+      </div> */}
     </>
   );
 };

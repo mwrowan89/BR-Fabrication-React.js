@@ -148,3 +148,9 @@
     transform: translateX(-50%);
   }
 }
+
+/* Options CSS */
+.options-list {
+  color: white;
+  text-decoration: none;
+}
