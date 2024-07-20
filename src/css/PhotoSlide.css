@@ -35,6 +35,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 15vw;
 }
 
 .prev,
@@ -42,8 +43,6 @@
   cursor: pointer;
   top: 40%;
   width: auto;
-  margin: 10vw;
-  margin-top: -3vw;
   color: white;
   font-weight: bold;
   font-size: 15px;
