@@ -2,9 +2,7 @@
 --Add ability to message directly about photos/create collections for inspo
 --Fix footer look n feel
 --Make page accessable on phone
---change look and feel of gallery
 --Change up fonts
---Make description on home page for slideshow
 --Finish updating imagedata comp
 --Add "get quote" option to footer
 --Add more Ben photos to about page
