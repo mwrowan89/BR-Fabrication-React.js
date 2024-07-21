@@ -11,7 +11,7 @@ function Header() {
         Heirloom Quality Furniture for Commercial & Residential Spaces
       </h3>
       <br />
-      <div className="links">
+      {/* <div className="links">
         <a
           href="https://www.instagram.com/fromcheftotable/"
           target="_blank"
@@ -33,7 +33,7 @@ function Header() {
         >
           <img src={FacebookLogo} width="22" height="22" alt="FaceBook Link" />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
