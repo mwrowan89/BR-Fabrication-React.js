@@ -1,11 +1,11 @@
 import React from "react";
 import "../css/Header.css";
-import InstagramLogo from "../assets/images/Screenshot (19).png";
-import FacebookLogo from "../assets/facbook logo11.png";
+// import InstagramLogo from "../assets/images/Screenshot (19).png";
+// import FacebookLogo from "../assets/facbook logo11.png";
 
 function Header() {
   return (
-    <div className="greetings">
+    <div className="header-container">
       <h1 id="header-title"> BR Fabrication</h1>
       <h3 id="header-desc">
         Heirloom Quality Furniture for Commercial & Residential Spaces
