@@ -5,6 +5,7 @@ import Nav from "../components/Nav";
 import PhotoSlide from "../components/PhotoSlide";
 import HomePageDesc from "../components/HomePageDesc";
 import image1 from "../assets/images/IMG_1780.JPG";
+import TopBanner from "../components/TopBanner";
 
 export default function HomePage() {
   useEffect(() => {
@@ -27,6 +28,7 @@ export default function HomePage() {
   }, []);
   return (
     <>
+      <TopBanner />
       <Nav />
       <div className="home-page-background">
         <img
