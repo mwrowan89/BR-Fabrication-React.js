@@ -29,6 +29,7 @@
 
 .slide-images {
   transition: 1s ease-in-out;
+  overflow: hidden;
 }
 
 .next-prev-buttons {
@@ -62,6 +63,10 @@
   scale: 0.5;
   width: 70vw;
 }
+.slide-show-text {
+  display: flex;
+  justify-content: center;
+}
 .prev {
   left: 0;
 }
@@ -90,5 +95,6 @@
   justify-content: center;
 }
 #slide-show-desc {
+  width: 70vw;
   font-size: 1.5rem;
 }
