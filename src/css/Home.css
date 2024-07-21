@@ -1,6 +1,6 @@
 .home-container {
   font-size: 50px;
-  margin-top: 90vh;
+  margin-top: 110vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -8,7 +8,7 @@
 .home-page-background {
   display: flex;
   position: absolute;
-  margin-top: -5vw;
+  margin-top: -7.5vw;
   z-index: -1;
 }
 #home-page-background-image {
@@ -18,7 +18,8 @@
 }
 .description-box {
   color: white;
-  width: 90vw;
+  width: 80vw;
+  margin-left: 10vw;
 }
 #bakan-desc-img-one,
 #bakan-desc-img-two {
@@ -69,6 +70,7 @@
 }
 .box-three-whole {
   margin-top: -10vw;
+  margin-left: -5vw;
 }
 .text {
   scale: 0.5;
