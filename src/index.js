@@ -5,12 +5,10 @@ import "./index.css";
 import ErrorPage from "./error-page";
 import ContactUs from "./pages/ContactUs";
 import AboutPage from "./pages/AboutPage";
-import Header from "./components/Header";
 import Gallery from "./pages/Gallery";
 import reportWebVitals from "./reportWebVitals";
 import HomePage from "./pages/HomePage";
 import Footer from "./components/Footer";
-import TopBanner from "./components/TopBanner";
 
 const router = createBrowserRouter([
   {
@@ -35,10 +33,6 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <TopBanner />
-    <div className="Nav">
-      <br />
-    </div>
     <RouterProvider router={router} />
     <Footer />
   </React.StrictMode>

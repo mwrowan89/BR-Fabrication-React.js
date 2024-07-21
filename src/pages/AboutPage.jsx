@@ -1,11 +1,13 @@
 import React from "react";
 import BenSanding from "../assets/images/BenSanding.jpg";
 import Nav from "../components/Nav";
+import Header from "../components/Header";
 import "../css/About.css";
 
 function About() {
   return (
     <>
+      <Header />
       <Nav />
       <div>
         <div className="about">
