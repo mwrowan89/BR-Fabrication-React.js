@@ -9,7 +9,6 @@
   display: flex;
   position: absolute;
   margin-top: -5vw;
-  margin-left: -20vw;
   z-index: -1;
 }
 #home-page-background-image {
@@ -19,7 +18,6 @@
 }
 .description-box {
   color: white;
-  margin-left: -15vw;
   width: 90vw;
 }
 #bakan-desc-img-one,
@@ -76,7 +74,6 @@
   scale: 0.5;
   word-wrap: wrap;
   margin-top: -8vw;
-  margin-left: -5vw;
 }
 #box-three-title {
   display: flex;
