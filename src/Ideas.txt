@@ -8,7 +8,6 @@
 --Add more Ben photos to about page
 --Change background of BR Fabrications
 --Remove icons at the top
---Make nav bar in caps and little bigger (check out cb2 website)
 --shop new arrivals icons (blurred background)
 --Transition from first photo to next image could be smoother (add a new banner)
 --Nav bar to be entire width of screen
