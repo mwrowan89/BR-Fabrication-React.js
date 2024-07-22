@@ -7,7 +7,7 @@ const TopBanner = () => {
       <div className="top-header-left">
         <h1>
           <a id="top-header-home-link" href="/">
-            BR Fabricatin
+            BR
           </a>
         </h1>
       </div>
