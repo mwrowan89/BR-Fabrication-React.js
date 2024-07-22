@@ -1,4 +1,4 @@
-.banner-conatiner {
+.banner-container {
   height: 5vh;
   width: 100vw;
   background-color: rgba(255, 255, 255, 0.877);
@@ -8,10 +8,7 @@
   align-items: center;
   justify-content: space-between;
   z-index: 1;
-}
-.banner-conatiner.show {
-  opacity: 0;
-  justify-content: space-evenly;
+  transition: transform 0.5s ease-in-out;
 }
 .top-header-right {
   margin-right: 2vw;
@@ -24,4 +21,12 @@
   text-decoration: none;
   border: 1px solid black;
   padding: 0px 2px 0px 2px;
+}
+
+.banner-container.hide {
+  transform: translateY(-100%);
+}
+
+.banner-container.show {
+  transform: translateY(0);
 }

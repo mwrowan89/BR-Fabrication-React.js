@@ -1,18 +1,23 @@
 import React from "react";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "../css/TopBanner.css";
 
 const TopBanner = () => {
-  useEffect(() => {
-    const handleScroll = () => {
-      const buttons = document.querySelectorAll(".banner-container");
-      const scrollPosition = window.scrollY + window.innerHeight;
+  const [scrollDirection, setScrollDirection] = useState("up");
 
-      buttons.forEach((button) => {
-        if (scrollPosition > button.offsetTop) {
-          button.classList.add("show");
-        }
-      });
+  useEffect(() => {
+    let lastScrollY = window.scrollY;
+
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY > lastScrollY) {
+        setScrollDirection("down");
+      } else {
+        setScrollDirection("up");
+      }
+
+      lastScrollY = currentScrollY;
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -22,7 +27,11 @@ const TopBanner = () => {
     };
   }, []);
   return (
-    <div className="banner-conatiner">
+    <div
+      className={`banner-container ${
+        scrollDirection === "down" ? "hide" : "show"
+      }`}
+    >
       <div className="top-header-left">
         <h1>
           <a id="top-header-home-link" href="/">
