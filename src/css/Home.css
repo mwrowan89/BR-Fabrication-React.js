@@ -94,3 +94,7 @@
   transform: translateX(0);
   justify-content: space-evenly;
 }
+
+#home-page-nav {
+  margin-top: 2vw;
+}
