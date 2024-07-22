@@ -4,7 +4,12 @@ import "../css/TopBanner.css";
 const TopBanner = () => {
   return (
     <div className="banner-conatiner">
-      <h1>BR Fabrication</h1>
+      <div className="top-header-left">
+        <h1>BR Fabrication</h1>
+      </div>
+      <div className="top-header-right">
+        <h1>Search</h1>
+      </div>
     </div>
   );
 };
