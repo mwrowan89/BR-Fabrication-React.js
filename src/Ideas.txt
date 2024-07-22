@@ -11,5 +11,5 @@
 --shop new arrivals icons (blurred background)
 --Transition from first photo to next image could be smoother (add a new banner)
 --Nav bar to be entire width of screen
-    --Make top banner reactive to scroll
+    --Make hamburger icon work with menu options
 --Gallery filter up top, turn drop down into icons 
