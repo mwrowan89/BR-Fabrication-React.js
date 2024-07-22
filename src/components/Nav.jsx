@@ -19,12 +19,12 @@ export default function Nav() {
             </li>
             <li>
               <Link className="nav-link" to="/gallery">
-                Gallery
+                GALLERY
               </Link>
             </li>
             <li>
               <Link className="nav-link" to="/contact">
-                Contact Us
+                CONTACT US
               </Link>
             </li>
           </ul>
