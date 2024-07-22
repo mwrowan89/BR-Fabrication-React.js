@@ -1,4 +1,9 @@
 .banner-conatiner {
-  height: 2vh;
+  height: 5vh;
   width: 100vw;
+  background-color: white;
+  position: fixed;
+  margin-top: -0.5vw;
+  display: flex;
+  align-items: center;
 }
