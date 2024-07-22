@@ -6,7 +6,9 @@ const TopBanner = () => {
     <div className="banner-conatiner">
       <div className="top-header-left">
         <h1>
-          <a href="/">BR Fabricatio</a>n
+          <a id="top-header-home-link" href="/">
+            BR Fabricatin
+          </a>
         </h1>
       </div>
       <div className="top-header-right">

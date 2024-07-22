@@ -14,3 +14,7 @@
 .top-header-left {
   margin-left: 0.5vw;
 }
+#top-header-home-link {
+  color: black;
+  text-decoration: none;
+}
