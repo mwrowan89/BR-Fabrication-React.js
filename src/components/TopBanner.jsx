@@ -1,7 +1,26 @@
 import React from "react";
+import { useEffect } from "react";
 import "../css/TopBanner.css";
 
 const TopBanner = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const buttons = document.querySelectorAll(".banner-container");
+      const scrollPosition = window.scrollY + window.innerHeight;
+
+      buttons.forEach((button) => {
+        if (scrollPosition > button.offsetTop) {
+          button.classList.add("show");
+        }
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div className="banner-conatiner">
       <div className="top-header-left">
