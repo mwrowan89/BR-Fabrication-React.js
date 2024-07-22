@@ -96,5 +96,6 @@
 }
 
 #home-page-nav {
+  border-top: none;
   margin-top: 2vw;
 }
