@@ -5,7 +5,9 @@ const TopBanner = () => {
   return (
     <div className="banner-conatiner">
       <div className="top-header-left">
-        <h1>BR Fabrication</h1>
+        <h1>
+          <a href="/">BR Fabricatio</a>n
+        </h1>
       </div>
       <div className="top-header-right">
         <h1>Search</h1>
