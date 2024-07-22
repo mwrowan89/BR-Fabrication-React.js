@@ -8,3 +8,9 @@
   align-items: center;
   justify-content: space-between;
 }
+.top-header-right {
+  margin-right: 1vw;
+}
+.top-header-left {
+  margin-left: 0.5vw;
+}

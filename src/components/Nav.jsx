@@ -9,12 +9,12 @@ export default function Nav() {
           <ul className="nav-items">
             <li>
               <Link className="nav-link one" to="/">
-                Home
+                HOME
               </Link>
             </li>
             <li>
               <Link className="nav-link" to="/about">
-                About
+                ABOUT
               </Link>
             </li>
             <li>
