@@ -49,10 +49,22 @@ const TopBanner = () => {
         </h1>
       </div>
       <div className="top-banner-center">
-        <h3>HOME</h3>
-        <h3>ABOUT</h3>
-        <h3>GALLERY</h3>
-        <h3>CONTACT US</h3>
+        <h3 id="menu-link">HOME</h3>
+        <h3>
+          <a id="menu-link" href="/about">
+            ABOUT
+          </a>
+        </h3>
+        <h3>
+          <a id="menu-link" href="/gallery">
+            GALLERY
+          </a>
+        </h3>
+        <h3>
+          <a id="menu-link" href="/contact">
+            CONTACT
+          </a>
+        </h3>
       </div>
       <div className="top-banner-right">
         <div onClick={toggleMenu}>
