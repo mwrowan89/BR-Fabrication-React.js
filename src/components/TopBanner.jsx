@@ -41,20 +41,20 @@ const TopBanner = () => {
         scrollDirection === "down" ? "hide" : "show"
       }`}
     >
-      <div className="top-header-left">
+      <div className="top-banner-left">
         <h1>
-          <a id="top-header-home-link" href="/">
+          <a id="top-banner-home-link" href="/">
             BR
           </a>
         </h1>
       </div>
-      <div className="top-header-center">
+      <div className="top-banner-center">
         <h3>HOME</h3>
         <h3>ABOUT</h3>
         <h3>GALLERY</h3>
         <h3>CONTACT US</h3>
       </div>
-      <div className="top-header-right">
+      <div className="top-banner-right">
         <div onClick={toggleMenu}>
           <MenuIcon />
         </div>

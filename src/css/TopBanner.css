@@ -11,16 +11,16 @@
   z-index: 1;
   transition: transform 0.5s ease-in-out;
 }
-.top-header-right {
+.top-banner-right {
   margin-right: 2vw;
   color: black;
   scale: 1.4;
   z-index: 1000;
 }
-.top-header-left {
+.top-banner-left {
   margin-left: 1vw;
 }
-#top-header-home-link {
+#top-banner-home-link {
   color: black;
   text-decoration: none;
   border: 1px solid black;
@@ -61,4 +61,7 @@ ul {
 }
 #menu-link:hover {
   background-color: rgba(0, 0, 0, 0.393);
+}
+.top-banner-center {
+  display: flex;
 }
