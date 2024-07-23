@@ -8,7 +8,7 @@
 .home-page-background {
   display: flex;
   position: absolute;
-  margin-top: -7.5vw;
+  margin-top: 1.5vw;
   margin-left: -0.4vw;
   z-index: -1;
 }

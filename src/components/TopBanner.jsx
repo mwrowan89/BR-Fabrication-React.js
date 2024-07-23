@@ -53,7 +53,9 @@ const TopBanner = () => {
           <MenuIcon />
         </div>
         {menuVisible && (
-          <div className="menu">
+          <div
+            className={`menu ${scrollDirection === "down" ? "hide" : "show"}`}
+          >
             <ul>
               <li>
                 <a id="menu-link" href="/">
