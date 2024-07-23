@@ -51,25 +51,26 @@ const TopBanner = () => {
       <div className="top-header-right">
         <div onClick={toggleMenu}>
           <SearchIcon />
+
+          {menuVisible && (
+            <div className="menu">
+              <ul>
+                <li>
+                  <a href="/">HOME</a>
+                </li>
+                <li>
+                  <a href="/about">ABOUT</a>
+                </li>
+                <li>
+                  <a href="/gallery">GALLERY</a>
+                </li>
+                <li>
+                  <a href="/contact">CONTACT US</a>
+                </li>
+              </ul>
+            </div>
+          )}
         </div>
-        {menuVisible && (
-          <div className="menu">
-            <ul>
-              <li>
-                <a href="/">HOME</a>
-              </li>
-              <li>
-                <a href="/about">ABOUT</a>
-              </li>
-              <li>
-                <a href="/gallery">GALLERY</a>
-              </li>
-              <li>
-                <a href="/contact">CONTACT US</a>
-              </li>
-            </ul>
-          </div>
-        )}
       </div>
     </div>
   );
