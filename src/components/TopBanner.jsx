@@ -72,7 +72,7 @@ const TopBanner = () => {
               </li>
               <li>
                 <a id="menu-link" href="/contact">
-                  CONTACT US
+                  CONTACT
                 </a>
               </li>
             </ul>

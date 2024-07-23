@@ -29,9 +29,9 @@ export default function HomePage() {
   return (
     <>
       <TopBanner />
-      <div id="home-page-nav">
+      {/* <div id="home-page-nav">
         <Nav />
-      </div>
+      </div> */}
 
       <div className="home-page-background">
         <img
