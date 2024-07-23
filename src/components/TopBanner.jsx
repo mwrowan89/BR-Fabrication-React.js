@@ -56,16 +56,24 @@ const TopBanner = () => {
           <div className="menu">
             <ul>
               <li>
-                <a href="/">HOME</a>
+                <a id="menu-link" href="/">
+                  HOME
+                </a>
               </li>
               <li>
-                <a href="/about">ABOUT</a>
+                <a id="menu-link" href="/about">
+                  ABOUT
+                </a>
               </li>
               <li>
-                <a href="/gallery">GALLERY</a>
+                <a id="menu-link" href="/gallery">
+                  GALLERY
+                </a>
               </li>
               <li>
-                <a href="/contact">CONTACT US</a>
+                <a id="menu-link" href="/contact">
+                  CONTACT US
+                </a>
               </li>
             </ul>
           </div>
