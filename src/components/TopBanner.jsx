@@ -48,6 +48,12 @@ const TopBanner = () => {
           </a>
         </h1>
       </div>
+      <div className="top-header-center">
+        <h3>HOME</h3>
+        <h3>ABOUT</h3>
+        <h3>GALLERY</h3>
+        <h3>CONTACT US</h3>
+      </div>
       <div className="top-header-right">
         <div onClick={toggleMenu}>
           <MenuIcon />
