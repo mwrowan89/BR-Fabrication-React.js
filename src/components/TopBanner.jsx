@@ -9,6 +9,10 @@ const TopBanner = () => {
   const SearchIcon = () => {
     return <FontAwesomeIcon icon={faBars} />;
   };
+  const [menuVisible, setMenuVisible] = useState(false);
+  const toggleMenu = () => {
+    setMenuVisible(!menuVisible);
+  };
 
   useEffect(() => {
     let lastScrollY = window.scrollY;
@@ -45,7 +49,27 @@ const TopBanner = () => {
         </h1>
       </div>
       <div className="top-header-right">
-        <SearchIcon />
+        <div onClick={toggleMenu}>
+          <SearchIcon />
+        </div>
+        {menuVisible && (
+          <div className="menu">
+            <ul>
+              <li>
+                <a href="/">HOME</a>
+              </li>
+              <li>
+                <a href="/about">ABOUT</a>
+              </li>
+              <li>
+                <a href="/gallery">GALLERY</a>
+              </li>
+              <li>
+                <a href="/contact">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        )}
       </div>
     </div>
   );
