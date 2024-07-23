@@ -6,7 +6,7 @@ import "../css/TopBanner.css";
 
 const TopBanner = () => {
   const [scrollDirection, setScrollDirection] = useState("up");
-  const SearchIcon = () => {
+  const MenuIcon = () => {
     return <FontAwesomeIcon icon={faBars} />;
   };
   const [menuVisible, setMenuVisible] = useState(false);
@@ -50,7 +50,7 @@ const TopBanner = () => {
       </div>
       <div className="top-header-right">
         <div onClick={toggleMenu}>
-          <SearchIcon />
+          <MenuIcon />
 
           {menuVisible && (
             <div className="menu">
