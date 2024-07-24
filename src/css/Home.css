@@ -54,7 +54,7 @@
 }
 .box-three {
   display: flex;
-  width: 90vw;
+  width: 100vw;
   justify-content: space-evenly;
 }
 .box-three-left {
@@ -74,7 +74,7 @@
 }
 .box-three-whole {
   margin-top: -10vw;
-  margin-left: -4vw;
+  margin-left: -10vw;
 }
 .text {
   scale: 0.5;
@@ -85,9 +85,9 @@
   display: flex;
   justify-content: center;
   opacity: 0;
-  right: 0;
   transition: 2s ease;
   scale: 0.5;
+  margin-left: -10vw;
 }
 .box-one.show,
 .box-two.show,

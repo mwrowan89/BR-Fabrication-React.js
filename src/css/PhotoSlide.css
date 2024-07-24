@@ -3,6 +3,9 @@
   flex-direction: column;
   justify-content: space-between;
   color: white;
+  background-color: black;
+  width: 100vw;
+  margin-left: -0.5vw;
 }
 
 .slide-image {
