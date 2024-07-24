@@ -7,7 +7,6 @@
 --Add "get quote" option to footer
 --Add more Ben photos to about page
 --Change background of BR Fabrications
---Remove icons at the top
 --shop new arrivals icons (blurred background)
 
 
