@@ -40,7 +40,7 @@ const HomePageDesc = () => {
           </div>
         </div>
         <div className="box-two">
-          <div className="text">
+          <div id="box-two-p" className="text">
             <h3>Our Mission</h3>
             <p>
               We strive to provide the most exceptionally crafted heirloom

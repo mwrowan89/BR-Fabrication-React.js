@@ -23,15 +23,14 @@
   width: 100vw;
   background-color: black;
   margin-left: -0.5vw;
-  padding: 2vw 10vw 2vw 10vw;
+  padding: 2vw 10vw 2vw 0vw;
 }
 #bakan-desc-img-one,
 #bakan-desc-img-two {
   height: 70vh;
 }
 #bakan-desc-img-two {
-  margin-top: -20vw;
-  margin-right: 15vw;
+  margin: -20vw 0vw 0vw -8vw;
 }
 
 #aspen-desc-img-one,
@@ -45,12 +44,14 @@
   left: 0;
   transform: translateX(-100%);
   transition: 0.7s ease;
+  margin-left: 10vw;
 }
 .box-two {
-  display: flex;
+  display: inline-flex;
   transition: 0.7s ease;
   transform: translateX(100%);
   margin-top: 4vw;
+  margin-left: -10vw;
 }
 .box-three {
   display: flex;
@@ -72,14 +73,19 @@
   transition: 0.7s ease;
   transform: translateX(100%);
 }
-.box-three-whole {
-  margin-top: -10vw;
-  margin-left: -10vw;
-}
+/* .box-three-whole {
+} */
 .text {
   scale: 0.5;
   word-wrap: wrap;
   margin-top: -12vw;
+}
+.text p {
+  width: 70vw;
+  z-index: 1;
+}
+#box-two-p {
+  margin-left: 5vw;
 }
 #box-three-title {
   display: flex;
@@ -87,7 +93,7 @@
   opacity: 0;
   transition: 2s ease;
   scale: 0.5;
-  margin-left: -10vw;
+  margin: 2vw 0 -1vw -10vw;
 }
 .box-one.show,
 .box-two.show,
