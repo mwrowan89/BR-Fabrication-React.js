@@ -3,7 +3,7 @@ import React from "react";
 const FilterBox = ({ selection, filterImages }) => {
   return (
     <>
-      <div className="options-list">
+      {/* <div className="options-list">
         <h3>Filter Gallery: </h3>
         <select
           id="select-options"
@@ -16,7 +16,7 @@ const FilterBox = ({ selection, filterImages }) => {
           <option value="table">Tables</option>
           <option value="deco">Decorations</option>
         </select>
-      </div>
+      </div> */}
       <div className="com-res-btns">
         <h2 id="com-btn" onClick={() => filterImages("com")}>
           Commercial Works
