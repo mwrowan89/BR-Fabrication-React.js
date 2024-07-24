@@ -29,9 +29,6 @@ export default function HomePage() {
   return (
     <>
       <TopBanner />
-      {/* <div id="home-page-nav">
-        <Nav />
-      </div> */}
 
       <div className="home-page-background">
         <img
@@ -41,6 +38,7 @@ export default function HomePage() {
         />
       </div>
       <div className="home-container">
+        <h1 id="transition-banner"> {} </h1>
         <HomePageDesc />
         <PhotoSlide />
       </div>

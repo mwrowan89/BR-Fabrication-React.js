@@ -102,3 +102,8 @@
   border-top: none;
   margin-top: 2vw;
 }
+#transition-banner {
+  margin-top: -1vw;
+  height: 7vw;
+  background-image: linear-gradient(white, rgba(255, 255, 255, 0.298));
+}
