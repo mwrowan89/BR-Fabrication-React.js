@@ -40,11 +40,11 @@
   width: 8vw;
   right: -1vw;
   top: 2.8vh;
+  margin-top: 0.2vw;
   color: black;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   background-color: rgba(255, 255, 255, 0.877);
   z-index: 1000;
-  /* transition: transform 0.5s ease-in-out; */
   border-radius: 10px;
 }
 .menu.hide {
@@ -62,9 +62,18 @@ ul {
   cursor: pointer;
 }
 #menu-link:hover {
-  background-color: rgba(0, 0, 0, 0.393);
+  background-color: rgba(0, 0, 0, 0.123);
+  padding: 2px;
+  border-radius: 2px;
 }
 .top-banner-center {
   display: flex;
   gap: 2vw;
+}
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }

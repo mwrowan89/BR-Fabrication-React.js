@@ -74,7 +74,7 @@ const TopBanner = () => {
           <div
             className={`menu ${scrollDirection === "down" ? "hide" : "show"}`}
           >
-            <ul>
+            <ul className="menu-list">
               <li>
                 <a id="menu-link" href="/">
                   HOME
