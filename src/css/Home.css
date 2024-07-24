@@ -8,7 +8,7 @@
 .home-page-background {
   display: flex;
   position: absolute;
-  margin-top: 1.5vw;
+  margin-top: -0.5vw;
   margin-left: -0.4vw;
   z-index: -1;
 }
@@ -16,11 +16,14 @@
   max-height: 105vh;
   min-width: 100vw;
   overflow: hidden;
+  position: fixed;
 }
 .description-box {
   color: white;
-  width: 80vw;
-  margin-left: 10vw;
+  width: 100vw;
+  background-color: black;
+  margin-left: -0.5vw;
+  padding: 2vw 10vw 2vw 10vw;
 }
 #bakan-desc-img-one,
 #bakan-desc-img-two {
@@ -28,7 +31,7 @@
 }
 #bakan-desc-img-two {
   margin-top: -20vw;
-  margin-bottom: 10vw;
+  margin-right: 15vw;
 }
 
 #aspen-desc-img-one,
@@ -45,10 +48,9 @@
 }
 .box-two {
   display: flex;
-  right: 0;
   transition: 0.7s ease;
   transform: translateX(100%);
-  margin-top: 5vw;
+  margin-top: 4vw;
 }
 .box-three {
   display: flex;
@@ -72,7 +74,7 @@
 }
 .box-three-whole {
   margin-top: -10vw;
-  margin-left: -5vw;
+  margin-left: -4vw;
 }
 .text {
   scale: 0.5;
@@ -101,9 +103,9 @@
   border-top: none;
   margin-top: 2vw;
 }
-#transition-banner {
+/* #transition-banner {
   margin-top: -1vw;
   height: 10vh;
   width: 100vw;
   background-image: linear-gradient(white, rgba(255, 255, 255, 0));
-}
+} */

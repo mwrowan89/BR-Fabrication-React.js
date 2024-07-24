@@ -32,6 +32,7 @@ const GalleryPhotoSlide = () => {
     setShuffledImages(shuffledArray(imageData));
     setLoading(false);
   }, []);
+
   return (
     <>
       {loading ? (
