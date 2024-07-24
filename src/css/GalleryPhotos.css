@@ -23,8 +23,6 @@
 .com-res-btns {
   color: white;
   display: flex;
-  margin-left: -5vw;
-  width: 70vw;
   justify-content: space-evenly;
   cursor: pointer;
 }

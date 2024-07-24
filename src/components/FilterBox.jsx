@@ -17,7 +17,7 @@ const FilterBox = ({ selection, filterImages }) => {
           <option value="deco">Decorations</option>
         </select>
       </div>
-      {/* <div className="com-res-btns">
+      <div className="com-res-btns">
         <h2 id="com-btn" onClick={() => filterImages("com")}>
           Commercial Works
         </h2>
@@ -26,13 +26,13 @@ const FilterBox = ({ selection, filterImages }) => {
         </h2>
       </div>
       <div className="gallery-type-filter">
-        <h4 id="table-btn" onClick={() => filterByType("table")}>
+        <h4 id="table-btn" onClick={() => filterImages("table")}>
           Tables
         </h4>
-        <h4 id="deco-btn" onClick={() => filterByType("deco")}>
+        <h4 id="deco-btn" onClick={() => filterImages("deco")}>
           Decorations
         </h4>
-      </div> */}
+      </div>
     </>
   );
 };
