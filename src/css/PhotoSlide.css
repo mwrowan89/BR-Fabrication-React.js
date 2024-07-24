@@ -64,7 +64,9 @@
 }
 #slide-show-text {
   scale: 0.5;
-  width: 70vw;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 .slide-show-text {
   display: flex;

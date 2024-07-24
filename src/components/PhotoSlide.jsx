@@ -120,7 +120,7 @@ function PhotoSlide() {
         </div>
         <div className="slide-show-text">
           <p id="slide-show-text">
-            Check out our <a href="/gallery">gallery</a> for more
+            Check out our &nbsp;<a href="/gallery"> gallery </a> &nbsp; for more
           </p>
         </div>
       </div>
