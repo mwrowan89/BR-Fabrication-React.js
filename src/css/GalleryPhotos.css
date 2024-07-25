@@ -119,22 +119,41 @@
   display: flex;
   overflow: hidden;
   justify-content: center;
-  position: sticky;
+  position: relative;
   border-radius: 5px;
   margin: 1vw;
 }
 
 .gallery-slide-track {
   display: flex;
-  animation: scroll-left 100s linear infinite;
+  animation: transform 0.3s ease-in-out;
   gap: 0.5vw;
 }
 
 .gallery-slide-image {
   flex: 0 0 auto;
 }
+.gallery-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  z-index: 1;
+  font-size: 1.5rem;
+}
 
-.gallery-slide-track:hover {
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
+
+/* .gallery-slide-track:hover {
   animation-play-state: paused;
   cursor: pointer;
 }
@@ -146,7 +165,7 @@
   100% {
     transform: translateX(-50%);
   }
-}
+} */
 
 /* Options CSS */
 .options-list {
