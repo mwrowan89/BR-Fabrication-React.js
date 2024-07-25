@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
 const FilterBox = ({ selection, filterImages }) => {
+  const [showDrop, setShowDrop] = useState(false);
+
+  const toggleDrop = () => {
+    setShowDrop(true);
+  };
+  const hideDrop = () => {
+    setShowDrop(false);
+  };
   return (
     <>
       {/* <div className="options-list">
@@ -19,7 +27,7 @@ const FilterBox = ({ selection, filterImages }) => {
       </div> */}
 
       <div className="gallery-type-filter">
-        <div>
+        <div onMouseEnter={toggleDrop} onMouseLeave={hideDrop}>
           <h4 id="com-btn" onClick={() => filterImages("com")}>
             Commercial Works
           </h4>
@@ -28,19 +36,21 @@ const FilterBox = ({ selection, filterImages }) => {
             <li>Restaurant Decoration</li>
           </ul>
         </div>
-        <div>
+        <div onMouseEnter={toggleDrop} onMouseLeave={hideDrop}>
           <h4 id="res-btn" onClick={() => filterImages("res")}>
             Residential Works
           </h4>
-          <ul className="res-list">
-            <li>Dining Tables</li>
-            <li>Coffee Tables</li>
-            <li>Desks</li>
-            <li>Storage</li>
-            <li>Decoration</li>
-            <li>Drips</li>
-            <li>Bedroom</li>
-          </ul>
+          {showDrop && (
+            <ul className="res-list">
+              <li>Dining Tables</li>
+              <li>Coffee Tables</li>
+              <li>Desks</li>
+              <li>Storage</li>
+              <li>Decoration</li>
+              <li>Drips</li>
+              <li>Bedroom</li>
+            </ul>
+          )}
         </div>
 
         <h4 id="table-btn" onClick={() => filterImages("table")}>

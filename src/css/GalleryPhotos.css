@@ -166,7 +166,8 @@
 }
 .com-list,
 .res-list {
-  opacity: 0;
+  opacity: 1;
+  color: black;
   background-color: white;
 }
 .com-list:hover,
