@@ -157,17 +157,12 @@
   background: rgba(255, 255, 255, 1);
 }
 
-/* Filter Options CSS */
-.gallery-type-filter {
-  color: white;
-  margin: 2vw 20vw 0vw 20vw;
-  justify-content: space-between;
-}
-
 /* FilterBox.css */
 .gallery-type-filter {
   display: flex;
-  flex-direction: column;
+  color: white;
+  margin: 2vw 20vw 0vw 20vw;
+  justify-content: space-between;
 }
 
 .dropdown {
@@ -189,7 +184,8 @@
   margin-top: 5px;
   list-style-type: none;
   padding: 0;
-  width: 200px; /* Adjust as needed */
+  width: 200px;
+  color: black;
 }
 
 .dropdown-list.show {
