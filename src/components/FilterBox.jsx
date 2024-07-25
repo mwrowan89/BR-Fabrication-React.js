@@ -17,15 +17,14 @@ const FilterBox = ({ selection, filterImages }) => {
           <option value="deco">Decorations</option>
         </select>
       </div> */}
-      <div className="com-res-btns">
-        <h2 id="com-btn" onClick={() => filterImages("com")}>
-          Commercial Works
-        </h2>
-        <h2 id="res-btn" onClick={() => filterImages("res")}>
-          Residential Works
-        </h2>
-      </div>
+
       <div className="gallery-type-filter">
+        <h4 id="com-btn" onClick={() => filterImages("com")}>
+          Commercial Works
+        </h4>
+        <h4 id="res-btn" onClick={() => filterImages("res")}>
+          Residential Works
+        </h4>
         <h4 id="table-btn" onClick={() => filterImages("table")}>
           Tables
         </h4>

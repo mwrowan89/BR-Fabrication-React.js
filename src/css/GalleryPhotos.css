@@ -71,11 +71,6 @@
   max-height: 90vh;
   max-width: 80vw;
 }
-.gallery-type-filter {
-  color: white;
-  display: flex;
-  justify-content: space-evenly;
-}
 
 /* Pop-up window css */
 .pop-up {
@@ -162,15 +157,10 @@
   background: rgba(255, 255, 255, 1);
 }
 
-/* Options CSS */
-.options-list {
+/* Filter Options CSS */
+.gallery-type-filter {
   color: white;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-#select-options {
-  height: 1.5vw;
-  width: 7vw;
+  margin: 2vw 20vw 0vw 20vw;
+  justify-content: space-between;
 }
