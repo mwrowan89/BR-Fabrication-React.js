@@ -66,25 +66,22 @@ const GalleryPhotoSlide = () => {
 
   return (
     <>
-      {loading ? (
-        <Loading />
-      ) : (
-        <div className="gallery-slide-container">
-          <button className="gallery-arrow left-arrow">&#9664;</button>
-          <div className="gallery-slide-track">
-            {imageData.map((image, index) => (
-              <img
-                onClick={() => openModal(image)}
-                className="gallery-slide-image"
-                key={index}
-                src={image.src}
-                alt={image.desc}
-              />
-            ))}
-          </div>
-          <button className="gallery-arrow right-arrow">&#9654;</button>
+      <div className="gallery-slide-container">
+        <button className="gallery-arrow left-arrow">&#9664;</button>
+        <div className="gallery-slide-track">
+          {imageData.map((image, index) => (
+            <img
+              onClick={() => openModal(image)}
+              className="gallery-slide-image"
+              key={index}
+              src={image.src}
+              alt={image.desc}
+            />
+          ))}
         </div>
-      )}
+        <button className="gallery-arrow right-arrow">&#9654;</button>
+      </div>
+
       <PopUpDetails
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
