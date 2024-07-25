@@ -153,20 +153,6 @@
   right: 10px;
 }
 
-/* .gallery-slide-track:hover {
-  animation-play-state: paused;
-  cursor: pointer;
-}
-
-@keyframes scroll-left {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-} */
-
 /* Options CSS */
 .options-list {
   color: white;
