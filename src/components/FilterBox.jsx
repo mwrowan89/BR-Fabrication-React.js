@@ -1,66 +1,44 @@
 import React, { useState } from "react";
 
-const FilterBox = ({ selection, filterImages }) => {
-  const [showDrop, setShowDrop] = useState(false);
+const FilterBox = ({ filterImages }) => {
+  const [activeDropdown, setActiveDropdown] = useState(null);
 
-  const toggleDrop = () => {
-    setShowDrop(true);
+  const handleDropdownToggle = (type) => {
+    setActiveDropdown((prev) => (prev === type ? null : type));
   };
-  const hideDrop = () => {
-    setShowDrop(false);
-  };
+
   return (
-    <>
-      {/* <div className="options-list">
-        <h3>Filter Gallery: </h3>
-        <select
-          id="select-options"
-          value={selection}
-          onChange={(e) => filterImages(e.target.value)}
+    <div className="gallery-type-filter">
+      <div
+        className={`dropdown ${activeDropdown === "com" ? "active" : ""}`}
+        onClick={() => handleDropdownToggle("com")}
+      >
+        <h4>Commercial Works</h4>
+        <ul
+          className={`dropdown-list ${activeDropdown === "com" ? "show" : ""}`}
         >
-          <option value="all">All</option>
-          <option value="com">Commercial</option>
-          <option value="res">Residential</option>
-          <option value="table">Tables</option>
-          <option value="deco">Decorations</option>
-        </select>
-      </div> */}
-
-      <div className="gallery-type-filter">
-        <div onMouseEnter={toggleDrop} onMouseLeave={hideDrop}>
-          <h4 id="com-btn" onClick={() => filterImages("com")}>
-            Commercial Works
-          </h4>
-          <ul className="com-list">
-            <li>Restaurant Tables</li>
-            <li>Restaurant Decoration</li>
-          </ul>
-        </div>
-        <div onMouseEnter={toggleDrop} onMouseLeave={hideDrop}>
-          <h4 id="res-btn" onClick={() => filterImages("res")}>
-            Residential Works
-          </h4>
-          {showDrop && (
-            <ul className="res-list">
-              <li>Dining Tables</li>
-              <li>Coffee Tables</li>
-              <li>Desks</li>
-              <li>Storage</li>
-              <li>Decoration</li>
-              <li>Drips</li>
-              <li>Bedroom</li>
-            </ul>
-          )}
-        </div>
-
-        <h4 id="table-btn" onClick={() => filterImages("table")}>
-          Tables
-        </h4>
-        <h4 id="deco-btn" onClick={() => filterImages("deco")}>
-          Decorations
-        </h4>
+          <li>Restaurant Tables</li>
+          <li>Restaurant Decoration</li>
+        </ul>
       </div>
-    </>
+      <div
+        className={`dropdown ${activeDropdown === "res" ? "active" : ""}`}
+        onClick={() => handleDropdownToggle("res")}
+      >
+        <h4>Residential Works</h4>
+        <ul
+          className={`dropdown-list ${activeDropdown === "res" ? "show" : ""}`}
+        >
+          <li>Dining Tables</li>
+          <li>Coffee Tables</li>
+          <li>Desks</li>
+          <li>Storage</li>
+          <li>Decoration</li>
+          <li>Drips</li>
+          <li>Bedroom</li>
+        </ul>
+      </div>
+    </div>
   );
 };
 

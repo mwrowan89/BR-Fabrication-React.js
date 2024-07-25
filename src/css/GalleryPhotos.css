@@ -158,20 +158,60 @@
 }
 
 /* Filter Options CSS */
-.gallery-type-filter {
+/* /* .gallery-type-filter {
   color: white;
   display: flex;
   margin: 2vw 20vw 0vw 20vw;
   justify-content: space-between;
-}
+} */
 .com-list,
 .res-list {
   opacity: 1;
   color: black;
   background-color: white;
 }
-.com-list:hover,
-.res-list:hover {
-  color: black;
-  opacity: 1;
+*/
+/* FilterBox.css */
+.gallery-type-filter {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.dropdown-list {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+  list-style-type: none;
+  padding: 0;
+  width: 200px; /* Adjust as needed */
+}
+
+.dropdown-list.show {
+  display: block;
+}
+
+.dropdown-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown-list li:last-child {
+  border-bottom: none;
+}
+
+/* Optional: Styling for the active dropdown */
+.dropdown.active h4 {
+  background-color: #f0f0f0;
 }
