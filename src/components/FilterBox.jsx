@@ -7,6 +7,11 @@ const FilterBox = ({ filterImages }) => {
     setActiveDropdown((prev) => (prev === type ? null : type));
   };
 
+  const updateImages = (newSelection) => {
+    filterImages(newSelection);
+    console.log(newSelection);
+  };
+
   return (
     <div className="gallery-type-filter">
       <div
@@ -32,9 +37,19 @@ const FilterBox = ({ filterImages }) => {
           <li id="gallery-dropdown-item">Bedroom</li>
           <li id="gallery-dropdown-item">Cabinetry</li>
           <li id="gallery-dropdown-item">Coffee Tables</li>
-          <li id="gallery-dropdown-item">Decoration</li>
+          <li
+            id="gallery-dropdown-item"
+            onClick={() => updateImages("res-deco")}
+          >
+            Decoration
+          </li>
           <li id="gallery-dropdown-item">Desks</li>
-          <li id="gallery-dropdown-item">Dining Tables</li>
+          <li
+            id="gallery-dropdown-item"
+            onClick={() => updateImages("res-table")}
+          >
+            Dining Tables
+          </li>
           <li id="gallery-dropdown-item">Drips</li>
         </ul>
       </div>
