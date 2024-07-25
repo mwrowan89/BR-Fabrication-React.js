@@ -29,13 +29,13 @@ const FilterBox = ({ filterImages }) => {
         <ul
           className={`dropdown-list ${activeDropdown === "res" ? "show" : ""}`}
         >
-          <li id="gallery-dropdown-item">Dining Tables</li>
-          <li id="gallery-dropdown-item">Coffee Tables</li>
-          <li id="gallery-dropdown-item">Desks</li>
-          <li id="gallery-dropdown-item">Storage</li>
-          <li id="gallery-dropdown-item">Decoration</li>
-          <li id="gallery-dropdown-item">Drips</li>
           <li id="gallery-dropdown-item">Bedroom</li>
+          <li id="gallery-dropdown-item">Cabinetry</li>
+          <li id="gallery-dropdown-item">Coffee Tables</li>
+          <li id="gallery-dropdown-item">Decoration</li>
+          <li id="gallery-dropdown-item">Desks</li>
+          <li id="gallery-dropdown-item">Dining Tables</li>
+          <li id="gallery-dropdown-item">Drips</li>
         </ul>
       </div>
     </div>

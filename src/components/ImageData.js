@@ -91,7 +91,7 @@ const imageData = [
     title: "Dark Acacia Dining Table",
     customer: "res",
     page: 1,
-    type: "table",
+    type: "res-table",
   },
   {
     id: 2,
@@ -111,7 +111,7 @@ const imageData = [
     title: "White Oak Side Table",
     customer: "res",
     page: 1,
-    type: "table",
+    type: "res-table",
   },
   {
     id: 4,
@@ -161,7 +161,7 @@ const imageData = [
     title: "Golden Acacia Dining Table",
     customer: "res",
     page: 1,
-    type: "table",
+    type: "res-table",
   },
   {
     id: 9,
@@ -191,7 +191,7 @@ const imageData = [
     title: "Exotic Maka Wood Mirror",
     customer: "res",
     page: 2,
-    type: "deco",
+    type: "res-deco",
   },
   {
     id: 12,
@@ -201,7 +201,7 @@ const imageData = [
     title: "Ten Foot Ash Dining Table",
     customer: "res",
     page: 2,
-    type: "table",
+    type: "res-table",
   },
   {
     id: 13,
@@ -211,7 +211,7 @@ const imageData = [
     title: "Eighty-Eight Inch Ash Round Table",
     customer: "res",
     page: 2,
-    type: "table",
+    type: "res-table",
   },
   {
     id: 14,
@@ -221,7 +221,7 @@ const imageData = [
     title: "White Oak Pencil Desk",
     customer: "res",
     page: 2,
-    type: "table",
+    type: "res-table",
   },
   {
     id: 15,
@@ -251,7 +251,7 @@ const imageData = [
     title: "Dark Walnut Dining Table",
     customer: "res",
     page: 2,
-    type: "table",
+    type: "res-table",
   },
   {
     id: 18,
@@ -261,7 +261,7 @@ const imageData = [
     title: "Golden Acacia Dining Table",
     customer: "res",
     page: 2,
-    type: "table",
+    type: "res-table",
   },
   {
     id: 19,
@@ -271,7 +271,7 @@ const imageData = [
     title: "White Oak Round",
     customer: "res",
     page: 2,
-    type: "table",
+    type: "res-table",
   },
   {
     id: 20,
@@ -281,7 +281,7 @@ const imageData = [
     title: "Dark Walnut Dining Table",
     customer: "res",
     page: 2,
-    type: "table",
+    type: "res-table",
   },
 
   {
@@ -292,7 +292,7 @@ const imageData = [
     title: "Golden Acacia Dining Table",
     customer: "res",
     page: 3,
-    type: "table",
+    type: "res-table",
   },
   {
     id: 22,
@@ -302,7 +302,7 @@ const imageData = [
     title: "Golden Acacia Log",
     customer: "res",
     page: 3,
-    type: "deco",
+    type: "res-deco",
   },
   {
     id: 23,
@@ -342,7 +342,7 @@ const imageData = [
     title: "Golden Acacia Drip Table",
     customer: "res",
     page: 3,
-    type: "table",
+    type: "res-table",
   },
   {
     id: 27,
@@ -352,7 +352,7 @@ const imageData = [
     title: "Golden Acacia Decorative Mirror",
     customer: "res",
     page: 3,
-    type: "deco",
+    type: "res-deco",
   },
   {
     id: 28,
@@ -362,7 +362,7 @@ const imageData = [
     title: "White Oak Bedside Table",
     customer: "res",
     page: 3,
-    type: "table",
+    type: "res-table",
   },
   {
     id: 29,
@@ -372,7 +372,7 @@ const imageData = [
     title: "Golden Acacia Dining Table",
     customer: "res",
     page: 3,
-    type: "table",
+    type: "res-table",
   },
   {
     id: 30,
@@ -382,7 +382,7 @@ const imageData = [
     title: "Dark Walnut Coffee Table",
     customer: "res",
     page: 3,
-    type: "table",
+    type: "res-table",
   },
   {
     id: 31,
@@ -402,7 +402,7 @@ const imageData = [
     title: "Cerused White Oak Round",
     customer: "res",
     page: 4,
-    type: "table",
+    type: "res-table",
   },
   {
     id: 33,
@@ -412,7 +412,7 @@ const imageData = [
     title: "Cerused White Oak Console Table",
     customer: "res",
     page: 4,
-    type: "table",
+    type: "res-table",
   },
   {
     id: 34,
@@ -482,7 +482,7 @@ const imageData = [
     title: "Acacia Coffee Table - Finished in Dark Walnut Stain",
     customer: "res",
     page: 4,
-    type: "table",
+    type: "res-table",
   },
   //Need to update desc info from here on
 
