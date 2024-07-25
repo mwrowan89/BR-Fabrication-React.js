@@ -19,12 +19,30 @@ const FilterBox = ({ selection, filterImages }) => {
       </div> */}
 
       <div className="gallery-type-filter">
-        <h4 id="com-btn" onClick={() => filterImages("com")}>
-          Commercial Works
-        </h4>
-        <h4 id="res-btn" onClick={() => filterImages("res")}>
-          Residential Works
-        </h4>
+        <div>
+          <h4 id="com-btn" onClick={() => filterImages("com")}>
+            Commercial Works
+          </h4>
+          <ul className="com-list">
+            <li>Restaurant Tables</li>
+            <li>Restaurant Decoration</li>
+          </ul>
+        </div>
+        <div>
+          <h4 id="res-btn" onClick={() => filterImages("res")}>
+            Residential Works
+          </h4>
+          <ul className="res-list">
+            <li>Dining Tables</li>
+            <li>Coffee Tables</li>
+            <li>Desks</li>
+            <li>Storage</li>
+            <li>Decoration</li>
+            <li>Drips</li>
+            <li>Bedroom</li>
+          </ul>
+        </div>
+
         <h4 id="table-btn" onClick={() => filterImages("table")}>
           Tables
         </h4>

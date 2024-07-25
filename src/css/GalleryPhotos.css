@@ -164,3 +164,13 @@
   margin: 2vw 20vw 0vw 20vw;
   justify-content: space-between;
 }
+.com-list,
+.res-list {
+  opacity: 0;
+  background-color: white;
+}
+.com-list:hover,
+.res-list:hover {
+  color: black;
+  opacity: 1;
+}
