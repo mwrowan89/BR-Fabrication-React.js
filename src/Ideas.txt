@@ -8,6 +8,7 @@
 --Add more Ben photos to about page
 --Change background of BR Fabrications
 --shop new arrivals icons (blurred background)
+
 --Add function to gallery filter options
 
 --Transition from first photo to next image could be smoother (add a new banner)    
