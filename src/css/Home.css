@@ -93,7 +93,7 @@
   opacity: 0;
   transition: 2s ease;
   scale: 0.5;
-  margin: 2vw 0 -1vw -10vw;
+  margin: 2vw 0 -1vw 0vw;
 }
 .box-one.show,
 .box-two.show,
@@ -102,7 +102,6 @@
 #box-three-title.show {
   opacity: 1;
   transform: translateX(0);
-  justify-content: space-evenly;
 }
 
 #home-page-nav {

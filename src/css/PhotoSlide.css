@@ -100,6 +100,7 @@
   justify-content: center;
 }
 #slide-show-desc {
+  word-wrap: wrap;
   width: 70vw;
   font-size: 1.5rem;
 }
