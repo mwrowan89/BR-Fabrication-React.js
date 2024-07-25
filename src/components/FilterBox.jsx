@@ -22,6 +22,9 @@ const FilterBox = ({ filterImages }) => {
         <ul
           className={`dropdown-list ${activeDropdown === "com" ? "show" : ""}`}
         >
+          <li id="gallery-dropdown-item" onClick={() => updateImages("com")}>
+            All
+          </li>
           <li id="gallery-dropdown-item">Restaurant Tables</li>
           <li id="gallery-dropdown-item">Restaurant Decoration</li>
         </ul>
@@ -34,6 +37,9 @@ const FilterBox = ({ filterImages }) => {
         <ul
           className={`dropdown-list ${activeDropdown === "res" ? "show" : ""}`}
         >
+          <li id="gallery-dropdown-item" onClick={() => updateImages("res")}>
+            All
+          </li>
           <li id="gallery-dropdown-item">Bedroom</li>
           <li id="gallery-dropdown-item">Cabinetry</li>
           <li id="gallery-dropdown-item">Coffee Tables</li>
