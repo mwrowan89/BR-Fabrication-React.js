@@ -158,19 +158,12 @@
 }
 
 /* Filter Options CSS */
-/* /* .gallery-type-filter {
+.gallery-type-filter {
   color: white;
-  display: flex;
   margin: 2vw 20vw 0vw 20vw;
   justify-content: space-between;
-} */
-.com-list,
-.res-list {
-  opacity: 1;
-  color: black;
-  background-color: white;
 }
-*/
+
 /* FilterBox.css */
 .gallery-type-filter {
   display: flex;
@@ -180,6 +173,7 @@
 .dropdown {
   position: relative;
   cursor: pointer;
+  width: 200px;
 }
 
 .dropdown h4 {
@@ -213,5 +207,5 @@
 
 /* Optional: Styling for the active dropdown */
 .dropdown.active h4 {
-  background-color: #f0f0f0;
+  background-color: #f0f0f056;
 }
