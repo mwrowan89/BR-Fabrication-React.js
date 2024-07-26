@@ -500,21 +500,26 @@ const imageData = [
   {
     id: 42,
     src: image42,
-    alt: "Dark Walnut Dining Table",
-    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
-    title: "Dark Walnut Dining Table",
+    alt: "Solid Ash Book Shelf",
+    desc: "This solid ash bookshelf was dreamed up and by the customer and coated with a natural clear finish.",
+    title: "Solid Ash Book Shelf",
     customer: "res",
     page: 5,
+    type: "res-deco",
   },
   {
     id: 43,
     src: image43,
-    alt: "Dark Walnut Dining Table",
-    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
-    title: "Dark Walnut Dining Table",
+    alt: "Cerused Ash Coffee Table",
+    desc: "This unique coffee table was designed to fit a smaller space and be void of sharp edges. It displays a true cerused finsih made completely of solid ash.",
+    title: "Cerused Ash Coffee Table",
     customer: "res",
     page: 5,
+    type: "res-table",
   },
+
+  //Need to update desc info from here on
+
   {
     id: 44,
     src: image44,
@@ -523,6 +528,7 @@ const imageData = [
     title: "Dark Walnut Dining Table",
     customer: "res",
     page: 5,
+    type: "res-table",
   },
   {
     id: 45,
