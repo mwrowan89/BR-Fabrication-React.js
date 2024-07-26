@@ -484,16 +484,18 @@ const imageData = [
     page: 4,
     type: "res-table",
   },
+
   //Need to update desc info from here on
 
   {
     id: 41,
     src: image41,
-    alt: "Dark Walnut Dining Table",
-    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
-    title: "Dark Walnut Dining Table",
+    alt: "Acacia Dining Table Stained Dark Walnut",
+    desc: "This 8 foot custom live edge table features solid Acacia legs and a dark walnut stain.",
+    title: "Acacia Dining Table Stained Dark Walnut",
     customer: "res",
     page: 5,
+    type: "res-table",
   },
   {
     id: 42,
