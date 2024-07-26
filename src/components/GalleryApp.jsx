@@ -39,10 +39,14 @@ const GalleryApp = () => {
       filtered = filtered.filter((image) => image.type === selection);
     }
     if (selection === "res-desk") {
-      filtered = filtered.filter((image) => image.type === selection);
+      filtered = filtered.filter(
+        (image) => Array.isArray(image.type) && image.type.includes(selection)
+      );
     }
     if (selection === "cabinetry") {
-      filtered = filtered.filter((image) => image.type === selection);
+      filtered = filtered.filter(
+        (image) => Array.isArray(image.type) && image.type.includes(selection)
+      );
     }
     setFilteredImages(filtered);
   }, [selection]);
