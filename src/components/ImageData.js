@@ -111,7 +111,7 @@ const imageData = [
     title: "White Oak Side Table",
     customer: "res",
     page: 1,
-    type: "res-table",
+    type: "res-bed",
   },
   {
     id: 4,
@@ -221,7 +221,7 @@ const imageData = [
     title: "White Oak Pencil Desk",
     customer: "res",
     page: 2,
-    type: "res-table",
+    type: "res-desk",
   },
   {
     id: 15,
@@ -362,7 +362,7 @@ const imageData = [
     title: "White Oak Bedside Table",
     customer: "res",
     page: 3,
-    type: "res-table",
+    type: "res-bed",
   },
   {
     id: 29,
@@ -382,7 +382,7 @@ const imageData = [
     title: "Dark Walnut Coffee Table",
     customer: "res",
     page: 3,
-    type: "res-table",
+    type: "res-coffee-table",
   },
   {
     id: 31,
@@ -412,7 +412,7 @@ const imageData = [
     title: "Cerused White Oak Console Table",
     customer: "res",
     page: 4,
-    type: "res-table",
+    type: "res-desk",
   },
   {
     id: 34,
@@ -482,7 +482,7 @@ const imageData = [
     title: "Acacia Coffee Table - Finished in Dark Walnut Stain",
     customer: "res",
     page: 4,
-    type: "res-table",
+    type: "res-coffee-table",
   },
   {
     id: 41,
@@ -512,11 +512,8 @@ const imageData = [
     title: "Cerused Ash Coffee Table",
     customer: "res",
     page: 5,
-    type: "res-table",
+    type: "res-coffee-table",
   },
-
-  //Need to update desc info from here on
-
   {
     id: 44,
     src: image44,
@@ -535,7 +532,7 @@ const imageData = [
     title: "Rift White Oak Pencil Desk",
     customer: "res",
     page: 5,
-    type: "res-table",
+    type: "res-desk",
   },
   {
     id: 46,
@@ -557,7 +554,6 @@ const imageData = [
     page: 5,
     type: "com-deco",
   },
-
   {
     id: 48,
     src: image48,
@@ -576,25 +572,29 @@ const imageData = [
     title: "Dark Walnut Bed Frame and Headboard",
     customer: "res",
     page: 5,
+    type: "res-bed",
   },
   {
     id: 50,
     src: image50,
-    alt: "Dark Walnut Dining Table",
-    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
-    title: "Dark Walnut Dining Table",
+    alt: "Dark Walnut Headboard",
+    desc: "A shot of a dark walnut headboard before being crane lifted into a third story of a home in Aspen, CO.",
+    title: "Dark Walnut Headboard",
     customer: "res",
     page: 5,
+    type: "res-bed",
   },
   {
     id: 51,
     src: image51,
-    alt: "Dark Walnut Dining Table",
-    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
-    title: "Dark Walnut Dining Table",
+    alt: "Shou Sugi Ban Desk and Drawers",
+    desc: "A custom floating desk made from Ash and finished in true sho sugi ban style by burning the wood to a crisp.",
+    title: "Shou Sugi Ban Desk and Drawers",
     customer: "res",
     page: 6,
+    type: "res-desk",
   },
+  //Need to update desc info from here on
   {
     id: 52,
     src: image52,
