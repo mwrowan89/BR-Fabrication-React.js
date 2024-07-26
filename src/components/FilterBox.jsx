@@ -72,7 +72,12 @@ const FilterBox = ({ filterImages }) => {
           >
             Decoration
           </li>
-          <li id="gallery-dropdown-item">Desks</li>
+          <li
+            id="gallery-dropdown-item"
+            onClick={() => updateImages("res-desk")}
+          >
+            Desks
+          </li>
           <li
             id="gallery-dropdown-item"
             onClick={() => updateImages("res-table")}

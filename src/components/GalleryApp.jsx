@@ -38,6 +38,9 @@ const GalleryApp = () => {
     if (selection === "res-coffee-table") {
       filtered = filtered.filter((image) => image.type === selection);
     }
+    if (selection === "res-desk") {
+      filtered = filtered.filter((image) => image.type === selection);
+    }
     setFilteredImages(filtered);
   }, [selection]);
 
