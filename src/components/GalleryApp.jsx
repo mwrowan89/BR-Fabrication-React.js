@@ -32,7 +32,7 @@ const GalleryApp = () => {
     if (selection === "res-table") {
       filtered = filtered.filter((image) => image.type === selection);
     }
-    if (selection === "res-deco") {
+    if (selection === "res-bed") {
       filtered = filtered.filter((image) => image.type === selection);
     }
     if (selection === "res-deco") {
