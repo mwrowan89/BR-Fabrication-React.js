@@ -550,12 +550,14 @@ const imageData = [
   {
     id: 47,
     src: image47,
-    alt: "Dark Walnut Dining Table",
-    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
-    title: "Dark Walnut Dining Table",
-    customer: "res",
+    alt: "Ash Strip Bench",
+    desc: "12' bench made of metal and ash slats for a restaurant in Chicago. We manufactured over 30 of these benches to fill the restaurant.",
+    title: "Ash Slat Bench",
+    customer: "com",
     page: 5,
+    type: "com-deco",
   },
+
   {
     id: 48,
     src: image48,
