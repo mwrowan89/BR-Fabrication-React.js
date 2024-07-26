@@ -9,7 +9,6 @@ const FilterBox = ({ filterImages }) => {
 
   const updateImages = (newSelection) => {
     filterImages(newSelection);
-    console.log(newSelection);
   };
 
   return (
@@ -18,7 +17,9 @@ const FilterBox = ({ filterImages }) => {
         className={`dropdown ${activeDropdown === "com" ? "active" : ""}`}
         onClick={() => handleDropdownToggle("com")}
       >
-        <h4>Commercial Works</h4>
+        {/* Commercial Section */}
+
+        <h4 id="gallery-filter-title">Commercial Works</h4>
         <ul
           className={`dropdown-list ${activeDropdown === "com" ? "show" : ""}`}
         >
@@ -43,7 +44,9 @@ const FilterBox = ({ filterImages }) => {
         className={`dropdown ${activeDropdown === "res" ? "active" : ""}`}
         onClick={() => handleDropdownToggle("res")}
       >
-        <h4>Residential Works</h4>
+        {/* Residential Section */}
+
+        <h4 id="gallery-filter-title">Residential Works</h4>
         <ul
           className={`dropdown-list ${activeDropdown === "res" ? "show" : ""}`}
         >
