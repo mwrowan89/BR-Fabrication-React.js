@@ -484,9 +484,6 @@ const imageData = [
     page: 4,
     type: "res-table",
   },
-
-  //Need to update desc info from here on
-
   {
     id: 41,
     src: image41,
@@ -523,9 +520,9 @@ const imageData = [
   {
     id: 44,
     src: image44,
-    alt: "Dark Walnut Dining Table",
-    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
-    title: "Dark Walnut Dining Table",
+    alt: "26' Acacia Live Edge Dining Table",
+    desc: "Massive live edge Acacia dining table for a customer outside of Boston, MA. This table features a natural finsih and custom metal legs.",
+    title: "26' Acacia Live Edge Dining Table",
     customer: "res",
     page: 5,
     type: "res-table",
@@ -533,20 +530,22 @@ const imageData = [
   {
     id: 45,
     src: image45,
-    alt: "Dark Walnut Dining Table",
-    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
-    title: "Dark Walnut Dining Table",
+    alt: "Rift White Oak Pencil Desk",
+    desc: "Rift white oak veneer pencil desk with dual drawers for a customer in East Hampton, NY. Finished with a clear natural sealant.",
+    title: "Rift White Oak Pencil Desk",
     customer: "res",
     page: 5,
+    type: "res-table",
   },
   {
     id: 46,
     src: image46,
-    alt: "Dark Walnut Dining Table",
-    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
-    title: "Dark Walnut Dining Table",
-    customer: "res",
+    alt: "Acacia Live Edge Table",
+    desc: "Custom size live edge Acacia conference table for an office in New York City.",
+    title: "Acacia Live Edge Table",
+    customer: "com",
     page: 5,
+    type: "com-table",
   },
   {
     id: 47,
