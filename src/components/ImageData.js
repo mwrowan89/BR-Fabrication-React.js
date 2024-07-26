@@ -101,7 +101,7 @@ const imageData = [
     title: "Golden Acacia Restaurant Table",
     customer: "com",
     page: 1,
-    type: "table",
+    type: "com-table",
   },
   {
     id: 3,
@@ -121,7 +121,7 @@ const imageData = [
     title: "Golden Acacia Decorative Slab",
     customer: "com",
     page: 1,
-    type: "deco",
+    type: "com-deco",
   },
   {
     id: 5,
@@ -131,7 +131,7 @@ const imageData = [
     title: "30-Foot Golden Acacia Dining Table",
     customer: "com",
     page: 1,
-    type: "table",
+    type: "com-table",
   },
   {
     id: 6,
@@ -141,7 +141,7 @@ const imageData = [
     title: "Golden Acacia Dining Tables",
     customer: "com",
     page: 1,
-    type: "table",
+    type: "com-table",
   },
   {
     id: 7,
@@ -151,7 +151,7 @@ const imageData = [
     title: "Fossilized Stone Tables",
     customer: "com",
     page: 1,
-    type: "table",
+    type: "com-table",
   },
   {
     id: 8,
@@ -171,7 +171,7 @@ const imageData = [
     title: "66-Inch Solid White Oak Round",
     customer: "com",
     page: 1,
-    type: "table",
+    type: "com-table",
   },
   {
     id: 10,
@@ -181,7 +181,7 @@ const imageData = [
     title: "8-Foot Solid White Oak Dining Table",
     customer: "com",
     page: 1,
-    type: "table",
+    type: "com-table",
   },
   {
     id: 11,
@@ -231,7 +231,7 @@ const imageData = [
     title: "Golden Acacia Cookie",
     customer: "com",
     page: 2,
-    type: "table",
+    type: "com-table",
   },
   {
     id: 16,
@@ -241,7 +241,7 @@ const imageData = [
     title: "Golden Acacia Cookie",
     customer: "com",
     page: 2,
-    type: "table",
+    type: "com-table",
   },
   {
     id: 17,
@@ -312,7 +312,7 @@ const imageData = [
     title: "Dark Acacia Dining Table",
     customer: "com",
     page: 3,
-    type: "table",
+    type: "com-table",
   },
   {
     id: 24,
@@ -322,7 +322,7 @@ const imageData = [
     title: "Dark Acacia Dining Table",
     customer: "com",
     page: 3,
-    type: "table",
+    type: "com-table",
   },
   {
     id: 25,
@@ -332,7 +332,7 @@ const imageData = [
     title: "Dark Acacia Dining Table",
     customer: "com",
     page: 3,
-    type: "table",
+    type: "com-table",
   },
   {
     id: 26,
@@ -392,7 +392,7 @@ const imageData = [
     title: "Golden Acacia Round Table",
     customer: "com",
     page: 4,
-    type: "table",
+    type: "com-table",
   },
   {
     id: 32,
@@ -422,7 +422,7 @@ const imageData = [
     title: "Walnut Log Reception Desk",
     customer: "com",
     page: 4,
-    type: "deco",
+    type: "com-deco",
   },
   {
     id: 35,
@@ -432,7 +432,7 @@ const imageData = [
     title: "Andros Taverna, Chicago IL",
     customer: "com",
     page: 4,
-    type: "deco",
+    type: "com-deco",
   },
   {
     id: 36,
@@ -442,7 +442,7 @@ const imageData = [
     title: "Andros Taverna, Chicago IL",
     customer: "com",
     page: 4,
-    type: "deco",
+    type: "com-deco",
   },
   {
     id: 37,
@@ -452,7 +452,7 @@ const imageData = [
     title: "Golden Acacia Table",
     customer: "com",
     page: 4,
-    type: "table",
+    type: "com-table",
   },
   {
     id: 38,
@@ -462,7 +462,7 @@ const imageData = [
     title: "Ash Round - Finished in Dark Walnut",
     customer: "com",
     page: 4,
-    type: "table",
+    type: "com-table",
   },
   {
     id: 39,
@@ -472,7 +472,7 @@ const imageData = [
     title: "Vanity Mirrors",
     customer: "com",
     page: 4,
-    type: "deco",
+    type: "com-deco",
   },
   {
     id: 40,
