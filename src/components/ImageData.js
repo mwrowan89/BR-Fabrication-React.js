@@ -221,7 +221,7 @@ const imageData = [
     title: "White Oak Pencil Desk",
     customer: "res",
     page: 2,
-    type: "res-desk cabinetry",
+    type: ["res-desk", "cabinetry"],
   },
   {
     id: 15,

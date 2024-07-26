@@ -38,7 +38,10 @@ const GalleryApp = () => {
     if (selection === "res-coffee-table") {
       filtered = filtered.filter((image) => image.type === selection);
     }
-    if (selection.includes("res-desk")) {
+    if (selection === "res-desk") {
+      filtered = filtered.filter((image) => image.type === selection);
+    }
+    if (selection === "cabinetry") {
       filtered = filtered.filter((image) => image.type === selection);
     }
     setFilteredImages(filtered);
