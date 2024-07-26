@@ -20,10 +20,19 @@ const GalleryApp = () => {
     if (selection === "com") {
       filtered = filtered.filter((image) => image.customer === selection);
     }
+    if (selection === "com-deco") {
+      filtered = filtered.filter((image) => image.type === selection);
+    }
+    if (selection === "com-table") {
+      filtered = filtered.filter((image) => image.type === selection);
+    }
     if (selection === "res") {
       filtered = filtered.filter((image) => image.customer === selection);
     }
     if (selection === "res-table") {
+      filtered = filtered.filter((image) => image.type === selection);
+    }
+    if (selection === "res-deco") {
       filtered = filtered.filter((image) => image.type === selection);
     }
     if (selection === "res-deco") {

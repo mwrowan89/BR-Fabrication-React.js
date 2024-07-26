@@ -25,8 +25,18 @@ const FilterBox = ({ filterImages }) => {
           <li id="gallery-dropdown-item" onClick={() => updateImages("com")}>
             All
           </li>
-          <li id="gallery-dropdown-item">Restaurant Tables</li>
-          <li id="gallery-dropdown-item">Restaurant Decoration</li>
+          <li
+            id="gallery-dropdown-item"
+            onClick={() => updateImages("com-table")}
+          >
+            Restaurant Tables
+          </li>
+          <li
+            id="gallery-dropdown-item"
+            onClick={() => updateImages("com-deco")}
+          >
+            Restaurant Decoration
+          </li>
         </ul>
       </div>
       <div
