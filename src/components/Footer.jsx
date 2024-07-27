@@ -30,7 +30,7 @@ function Footer() {
               height="33"
               alt="Instagram link"
             />
-          </a>{" "}
+          </a>
           &nbsp;|| &nbsp;
           <a
             href="https://www.facebook.com/fromcheftotable/?locale=it_IT"

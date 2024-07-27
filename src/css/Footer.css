@@ -1,10 +1,9 @@
 .footer {
   border-top: 2px solid white;
-  width: 95vw;
+  width: 100vw;
   color: white;
   display: flex;
   justify-content: space-between;
-  margin-left: 2vw;
 }
 .links-footer {
   display: flex;
