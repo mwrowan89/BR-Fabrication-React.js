@@ -181,6 +181,7 @@
   padding: 0;
   width: 200px;
   color: black;
+  z-index: 1;
 }
 
 .dropdown-list.show {
