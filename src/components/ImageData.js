@@ -81,6 +81,7 @@ import image80 from "../assets/images/83.png";
 import image81 from "../assets/images/84.png";
 import image82 from "../assets/images/85.png";
 import image83 from "../assets/images/90.png";
+import { type } from "@testing-library/user-event/dist/type";
 
 const imageData = [
   {
@@ -598,29 +599,32 @@ const imageData = [
   {
     id: 52,
     src: image52,
-    alt: "Dark Walnut Dining Table",
-    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
-    title: "Dark Walnut Dining Table",
+    alt: "Dark Walnut Bedroom Set",
+    desc: "Custom floating dark walnut bed frame with built-in side tables.",
+    title: "Dark Walnut Bedroom Set",
     customer: "res",
     page: 6,
+    type: ["res-bed", "cabinetry"],
   },
   {
     id: 53,
     src: image53,
-    alt: "Dark Walnut Dining Table",
-    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
-    title: "Dark Walnut Dining Table",
+    alt: "Dark Walnut Bedroom Set",
+    desc: "Custom dark walnut headboard made of three live-edge walnut slabs with a floating dark walnut frame. The Sidetables are made metal and walnut custom made for our client.",
+    title: "Dark Walnut Bedroom Set",
     customer: "res",
     page: 6,
+    type: ["res-bed", "cabinetry"],
   },
   {
     id: 54,
     src: image54,
-    alt: "Dark Walnut Dining Table",
-    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
-    title: "Dark Walnut Dining Table",
+    alt: "Solid White Washed Bed Side Tables",
+    desc: "Custom made solid end tables made a white wash finish for a customer in East Hampton, NY.",
+    title: "Solid White Washed Bed Side Tables",
     customer: "res",
     page: 6,
+    type: ["res-bed", "cabinetry"],
   },
   {
     id: 55,
