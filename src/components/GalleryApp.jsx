@@ -33,6 +33,11 @@ const GalleryApp = () => {
     if (selection === "res") {
       filtered = filtered.filter((image) => image.customer === selection);
     }
+    if (selection === "res-deco") {
+      filtered = filtered.filter(
+        (image) => Array.isArray(image.type) && image.type.includes(selection)
+      );
+    }
     if (selection === "res-table") {
       filtered = filtered.filter(
         (image) => Array.isArray(image.type) && image.type.includes(selection)
