@@ -666,7 +666,6 @@ const imageData = [
     type: "res-deco",
   },
   //Need to update desc info from here on
-
   {
     id: 59,
     src: image59,
