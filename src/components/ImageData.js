@@ -595,7 +595,6 @@ const imageData = [
     page: 6,
     type: ["res-desk", "cabinetry"],
   },
-  //Need to update desc info from here on
   {
     id: 52,
     src: image52,
@@ -659,12 +658,15 @@ const imageData = [
   {
     id: 58,
     src: image58,
-    alt: "Dark Walnut Dining Table",
-    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
-    title: "Dark Walnut Dining Table",
+    alt: "Reclaimed Leeche Root Trophy Base",
+    desc: "This root was found at the bottom of a river in Thailand and repurposed here to display the customers brass sculpsure.",
+    title: "Reclaimed Leeche Root Trophy Base",
     customer: "res",
     page: 6,
+    type: "res-deco",
   },
+  //Need to update desc info from here on
+
   {
     id: 59,
     src: image59,
