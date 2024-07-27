@@ -15,7 +15,8 @@ function Footer() {
         </p>
 
         <p>Phone: (347)-205-7721 </p>
-
+      </div>
+      <div className="footer-middle">
         <div className="links-footer">
           <a
             href="https://www.instagram.com/fromcheftotable/"
@@ -30,7 +31,7 @@ function Footer() {
               alt="Instagram link"
             />
           </a>{" "}
-          &nbsp; || &nbsp;
+          &nbsp;|| &nbsp;
           <a
             href="https://www.facebook.com/fromcheftotable/?locale=it_IT"
             target="_blank"
