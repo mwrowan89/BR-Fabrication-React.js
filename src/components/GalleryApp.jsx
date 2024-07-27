@@ -21,19 +21,27 @@ const GalleryApp = () => {
       filtered = filtered.filter((image) => image.customer === selection);
     }
     if (selection === "com-deco") {
-      filtered = filtered.filter((image) => image.type === selection);
+      filtered = filtered.filter(
+        (image) => Array.isArray(image.type) && image.type.includes(selection)
+      );
     }
     if (selection === "com-table") {
-      filtered = filtered.filter((image) => image.type === selection);
+      filtered = filtered.filter(
+        (image) => Array.isArray(image.type) && image.type.includes(selection)
+      );
     }
     if (selection === "res") {
       filtered = filtered.filter((image) => image.customer === selection);
     }
     if (selection === "res-table") {
-      filtered = filtered.filter((image) => image.type === selection);
+      filtered = filtered.filter(
+        (image) => Array.isArray(image.type) && image.type.includes(selection)
+      );
     }
     if (selection === "res-bed") {
-      filtered = filtered.filter((image) => image.type === selection);
+      filtered = filtered.filter(
+        (image) => Array.isArray(image.type) && image.type.includes(selection)
+      );
     }
     if (selection === "res-coffee-table") {
       filtered = filtered.filter((image) => image.type === selection);
