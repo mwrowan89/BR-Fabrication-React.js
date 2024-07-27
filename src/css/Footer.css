@@ -4,6 +4,7 @@
   color: white;
   display: flex;
   justify-content: space-between;
+  margin-left: -0.5vw;
 }
 .links-footer {
   display: flex;
