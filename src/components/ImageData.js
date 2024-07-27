@@ -412,7 +412,7 @@ const imageData = [
     title: "Cerused White Oak Console Table",
     customer: "res",
     page: 4,
-    type: "res-desk",
+    type: ["res-desk", "cabinetry"],
   },
   {
     id: 34,
@@ -532,7 +532,7 @@ const imageData = [
     title: "Rift White Oak Pencil Desk",
     customer: "res",
     page: 5,
-    type: "res-desk",
+    type: ["res-desk", "cabinetry"],
   },
   {
     id: 46,
@@ -592,7 +592,7 @@ const imageData = [
     title: "Shou Sugi Ban Desk and Drawers",
     customer: "res",
     page: 6,
-    type: "res-desk",
+    type: ["res-desk", "cabinetry"],
   },
   //Need to update desc info from here on
   {
