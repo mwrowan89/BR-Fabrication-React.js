@@ -81,7 +81,6 @@ import image80 from "../assets/images/83.png";
 import image81 from "../assets/images/84.png";
 import image82 from "../assets/images/85.png";
 import image83 from "../assets/images/90.png";
-import { type } from "@testing-library/user-event/dist/type";
 
 const imageData = [
   {
@@ -627,7 +626,7 @@ const imageData = [
   },
   {
     id: 55,
-    src: image45,
+    src: image55,
     alt: "Rift White Oak Pencil Desk",
     desc: "Rift white oak veneer pencil desk with dual drawers for a customer in East Hampton, NY. Finished with a clear natural sealant.",
     title: "Rift White Oak Pencil Desk",
