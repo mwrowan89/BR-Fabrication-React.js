@@ -49,7 +49,6 @@ const FilterBox = ({ filterImages }) => {
         <h4 id="gallery-filter-title">Residential Works</h4>
         <ul
           className={`dropdown-list ${activeDropdown === "res" ? "show" : ""}`}
-          onmo
         >
           <li id="gallery-dropdown-item" onClick={() => updateImages("res")}>
             All
