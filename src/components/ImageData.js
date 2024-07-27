@@ -642,7 +642,7 @@ const imageData = [
     title: "Rustic Oak Dining Table",
     customer: "com",
     page: 6,
-    type: "com-table",
+    type: ["com-table"],
   },
   {
     id: 57,
@@ -652,7 +652,7 @@ const imageData = [
     title: "Solid Ash Coffee Table",
     customer: "res",
     page: 6,
-    type: "res-coffee-table",
+    type: ["res-coffee-table"],
   },
   {
     id: 58,

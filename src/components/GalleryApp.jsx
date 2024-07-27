@@ -49,7 +49,9 @@ const GalleryApp = () => {
       );
     }
     if (selection === "res-coffee-table") {
-      filtered = filtered.filter((image) => image.type === selection);
+      filtered = filtered.filter(
+        (image) => Array.isArray(image.type) && image.type.includes(selection)
+      );
     }
     if (selection === "res-desk") {
       filtered = filtered.filter(
@@ -57,6 +59,11 @@ const GalleryApp = () => {
       );
     }
     if (selection === "cabinetry") {
+      filtered = filtered.filter(
+        (image) => Array.isArray(image.type) && image.type.includes(selection)
+      );
+    }
+    if (selection === "drip") {
       filtered = filtered.filter(
         (image) => Array.isArray(image.type) && image.type.includes(selection)
       );
