@@ -35,6 +35,7 @@
   margin-left: 10vw;
   border-top: 2px solid white;
   color: white;
+  cursor: pointer;
 }
 #next:hover,
 #prev:hover {

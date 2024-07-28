@@ -778,9 +778,9 @@ const imageData = [
   {
     id: 70,
     src: image70,
-    alt: "Massive Ash Outdoor Table",
+    alt: "12' Ash Outdoor Table",
     desc: "A large Ash outdoor table designed specifically by the customer and finished with a durable natural sealant. ",
-    title: "Massive Ash Outdoor Table",
+    title: "12' Ash Outdoor Table",
     customer: "res",
     page: 7,
     type: ["res-table"],
@@ -788,11 +788,12 @@ const imageData = [
   {
     id: 71,
     src: image71,
-    alt: "Dark Walnut Dining Table",
-    desc: "This is a close up shot of the beautiful figuring on a 9 foot dark walnut dining table.",
-    title: "Dark Walnut Dining Table",
-    customer: "res",
+    alt: "White Oak Conference Table",
+    desc: "One of five solid Oak conference tables made for offices in New York City. These tables are equipt with built in power strips and finsihed with a durable 2K polyurethane finish.",
+    title: "White Oak Conference Table",
+    customer: "com",
     page: 8,
+    type: ["com-table"],
   },
   {
     id: 72,
