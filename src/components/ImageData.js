@@ -342,7 +342,7 @@ const imageData = [
     title: "Golden Acacia Drip Table",
     customer: "res",
     page: 3,
-    type: ["res-table"],
+    type: ["res-table", "drip"],
   },
   {
     id: 27,
