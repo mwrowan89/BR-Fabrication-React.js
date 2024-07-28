@@ -1,5 +1,4 @@
 .about {
-  display: flex;
   margin: 20px;
   width: 70vw;
   margin: 3vw 0vw 3vw 15vw;
@@ -13,4 +12,7 @@
   font-size: 28px;
   color: #bcbbbbd0;
   line-height: 1.6;
+}
+.about-first-box {
+  display: flex;
 }
