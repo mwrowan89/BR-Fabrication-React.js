@@ -32,7 +32,6 @@ function About() {
           </div>
           <div className="about-second-box">
             <h1 className="about-description">
-              {" "}
               Ben Rioux - Owner and founder
               <br />
               <br />
