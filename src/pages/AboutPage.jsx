@@ -30,8 +30,15 @@ function About() {
               harvests the unique pieces on which they're served.
             </h1>
           </div>
-          <div>
-            <h1> Ben Rioux</h1>
+          <div className="about-second-box">
+            <h1 className="about-description">
+              {" "}
+              Ben Rioux - Owner and founder
+              <br />
+              <br />
+              Standing next to a dark walnut headboard prior to it being craned
+              into a customers bedroom on the third floor of their home.
+            </h1>
             <img
               src={image50}
               height="800vh"
