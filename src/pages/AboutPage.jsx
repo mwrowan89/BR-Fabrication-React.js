@@ -1,7 +1,7 @@
 import React from "react";
 import BenSanding from "../assets/images/BenSanding.jpg";
 import image50 from "../assets/images/52.jpg";
-
+import image79 from "../assets/images/82.png";
 import Nav from "../components/Nav";
 import Header from "../components/Header";
 import "../css/About.css";
@@ -41,6 +41,14 @@ function About() {
             </h1>
             <img
               src={image50}
+              height="800vh"
+              width="600vw"
+              alt="Ben W/ Headboard"
+            />
+          </div>
+          <div className="about-third-box">
+            <img
+              src={image79}
               height="800vh"
               width="600vw"
               alt="Ben W/ Headboard"
