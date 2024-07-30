@@ -351,7 +351,7 @@ const imageData = [
     customer: "res",
     page: 3,
     type: ["res-deco"],
-    feature: false,
+    feature: true,
   },
   {
     id: 23,
