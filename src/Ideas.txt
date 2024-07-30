@@ -2,8 +2,6 @@
 --Add ability to message directly about photos/create collections for inspo
 --Make page accessable on phone
 --Change up fonts
---Add "get quote" option to footer
---Add more Ben photos to about page
 --Change background of BR Fabrications
 --shop new arrivals icons (blurred background)
 
