@@ -54,6 +54,16 @@ const GalleryPhotoSlide = () => {
     };
   }, []);
 
+  const shuffleArray = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  };
+  const filteredImages = imageData.filter((image) => image.feature === true);
+  const shuffledImages = shuffleArray(filteredImages);
+
   return (
     <>
       <div className="gallery-slide-container">
@@ -61,21 +71,19 @@ const GalleryPhotoSlide = () => {
           &#9664;
         </button>
         <div className="gallery-slide-track" ref={trackRef}>
-          {imageData
-            .filter((image) => image.feature === true)
-            .map((image, index) => (
-              <img
-                onClick={() => {
-                  openModal(image);
-                  console.table(image);
-                }}
-                className="gallery-slide-image"
-                key={index}
-                src={image.src}
-                alt={image.desc}
-                ref={index === 0 ? slideRef : null}
-              />
-            ))}
+          {shuffledImages.map((image, index) => (
+            <img
+              onClick={() => {
+                openModal(image);
+                console.table(image);
+              }}
+              className="gallery-slide-image"
+              key={index}
+              src={image.src}
+              alt={image.desc}
+              ref={index === 0 ? slideRef : null}
+            />
+          ))}
         </div>
         <button ref={rightArrowRef} className="gallery-arrow right-arrow">
           &#9654;
