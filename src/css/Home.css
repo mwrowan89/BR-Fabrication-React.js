@@ -75,12 +75,12 @@
 }
 /* .box-three-whole {
 } */
-.text {
+.home-text {
   scale: 0.5;
   word-wrap: wrap;
   margin-top: -12vw;
 }
-.text p {
+.home-text p {
   width: 70vw;
   z-index: 1;
 }

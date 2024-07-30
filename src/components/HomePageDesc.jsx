@@ -31,7 +31,7 @@ const HomePageDesc = () => {
       <div className="description-box">
         <div className="box-one">
           <img id="bakan-desc-img-one" src={image2} alt="Bakan Feature" />
-          <div className="text">
+          <div className="home-text">
             <h3>BR Fabrications</h3>
             <p>
               Servicing restaurants and clients around the world, BR Fabrication
@@ -40,7 +40,7 @@ const HomePageDesc = () => {
           </div>
         </div>
         <div className="box-two">
-          <div id="box-two-p" className="text">
+          <div id="box-two-p" className="home-text">
             <h3>Our Mission</h3>
             <p>
               We strive to provide the most exceptionally crafted heirloom

@@ -89,6 +89,10 @@
   justify-content: center;
   align-items: center;
   color: white;
+  width: 40vw;
+}
+#pop-up-image-desc {
+  scale: 1.2;
 }
 #pop-up-image {
   max-height: 30vw;

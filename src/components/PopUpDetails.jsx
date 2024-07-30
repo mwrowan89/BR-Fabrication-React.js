@@ -17,8 +17,8 @@ const PopUpDetails = ({ isOpen, onRequestClose, image }) => {
             <div className="pop-up-results">
               <div className="pop-up-result-info">
                 <h1 id="pop-up-title">{image.title}</h1>
+                <h5 id="pop-up-image-desc">{image.desc}</h5>
                 <img id="pop-up-image" src={image.src} alt={image.desc} />
-                <h4>{image.desc}</h4>
               </div>
             </div>
           )}
