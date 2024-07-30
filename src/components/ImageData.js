@@ -912,6 +912,7 @@ const imageData = [
     customer: "res",
     page: 8,
     type: ["res-table"],
+    feature: false,
   },
   {
     id: 74,
@@ -922,6 +923,7 @@ const imageData = [
     customer: "com",
     page: 8,
     type: ["com-table"],
+    feature: false,
   },
   {
     id: 75,
@@ -932,6 +934,7 @@ const imageData = [
     customer: "com",
     page: 8,
     type: ["com-deco"],
+    feature: false,
   },
   {
     id: 76,
@@ -942,6 +945,7 @@ const imageData = [
     customer: "com",
     page: 8,
     tpye: ["com-deco"],
+    feature: false,
   },
   {
     id: 77,
@@ -952,6 +956,7 @@ const imageData = [
     customer: "com",
     page: 8,
     tpye: ["com-deco"],
+    feature: false,
   },
   {
     id: 78,
@@ -962,6 +967,7 @@ const imageData = [
     customer: "com",
     page: 8,
     type: ["com-table"],
+    feature: false,
   },
   {
     id: 79,
@@ -972,6 +978,7 @@ const imageData = [
     customer: "com",
     page: 8,
     type: ["com-deco", "cabinetry"],
+    feature: false,
   },
   {
     id: 80,
@@ -982,6 +989,7 @@ const imageData = [
     customer: "com",
     page: 8,
     type: ["com-deco", "cabinetry"],
+    feature: false,
   },
   {
     id: 81,
@@ -992,6 +1000,7 @@ const imageData = [
     customer: "com",
     page: 9,
     type: ["com-deco", "cabinetry"],
+    feature: false,
   },
   {
     id: 82,
@@ -1002,6 +1011,7 @@ const imageData = [
     customer: "com",
     page: 9,
     type: ["com-table"],
+    feature: false,
   },
   {
     id: 83,
@@ -1012,6 +1022,7 @@ const imageData = [
     customer: "res",
     page: 9,
     type: ["cabinetry"],
+    feature: false,
   },
   {
     id: 84,
@@ -1022,6 +1033,7 @@ const imageData = [
     customer: "com",
     page: 9,
     type: ["com-table", "drip"],
+    feature: false,
   },
 
   //Need to update desc info from here on
@@ -1035,6 +1047,7 @@ const imageData = [
     customer: "com",
     page: 9,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 86,
@@ -1045,6 +1058,7 @@ const imageData = [
     customer: "com",
     page: 9,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 87,
@@ -1055,6 +1069,7 @@ const imageData = [
     customer: "com",
     page: 9,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 88,
@@ -1065,6 +1080,7 @@ const imageData = [
     customer: "com",
     page: 9,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 89,
@@ -1075,6 +1091,7 @@ const imageData = [
     customer: "com",
     page: 9,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 90,
@@ -1085,6 +1102,7 @@ const imageData = [
     customer: "com",
     page: 9,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 91,
@@ -1095,6 +1113,7 @@ const imageData = [
     customer: "com",
     page: 10,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 92,
@@ -1105,6 +1124,7 @@ const imageData = [
     customer: "com",
     page: 10,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 93,
@@ -1115,6 +1135,7 @@ const imageData = [
     customer: "com",
     page: 10,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 94,
@@ -1125,6 +1146,7 @@ const imageData = [
     customer: "com",
     page: 10,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 95,
@@ -1135,6 +1157,7 @@ const imageData = [
     customer: "com",
     page: 10,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 96,
@@ -1145,6 +1168,7 @@ const imageData = [
     customer: "com",
     page: 10,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 97,
@@ -1155,6 +1179,7 @@ const imageData = [
     customer: "com",
     page: 10,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 98,
@@ -1165,6 +1190,7 @@ const imageData = [
     customer: "com",
     page: 10,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 99,
@@ -1175,6 +1201,7 @@ const imageData = [
     customer: "com",
     page: 10,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 100,
@@ -1185,6 +1212,7 @@ const imageData = [
     customer: "com",
     page: 10,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 101,
@@ -1195,6 +1223,7 @@ const imageData = [
     customer: "com",
     page: 11,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 102,
@@ -1205,6 +1234,7 @@ const imageData = [
     customer: "com",
     page: 11,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 103,
@@ -1215,6 +1245,7 @@ const imageData = [
     customer: "com",
     page: 11,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 104,
@@ -1225,6 +1256,7 @@ const imageData = [
     customer: "com",
     page: 11,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 105,
@@ -1235,6 +1267,7 @@ const imageData = [
     customer: "com",
     page: 11,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 106,
@@ -1245,6 +1278,7 @@ const imageData = [
     customer: "com",
     page: 11,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 107,
@@ -1255,6 +1289,7 @@ const imageData = [
     customer: "com",
     page: 11,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 108,
@@ -1265,6 +1300,7 @@ const imageData = [
     customer: "com",
     page: 11,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 109,
@@ -1275,6 +1311,7 @@ const imageData = [
     customer: "com",
     page: 11,
     type: ["com-table", "drip"],
+    feature: false,
   },
   {
     id: 110,
@@ -1285,6 +1322,7 @@ const imageData = [
     customer: "com",
     page: 11,
     type: ["com-table", "drip"],
+    feature: false,
   },
 ];
 export default imageData;
