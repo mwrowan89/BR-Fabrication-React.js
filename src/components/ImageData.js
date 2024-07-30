@@ -450,7 +450,7 @@ const imageData = [
     customer: "com",
     page: 4,
     type: ["com-table"],
-    feature: false,
+    feature: true,
   },
   {
     id: 32,
@@ -505,7 +505,7 @@ const imageData = [
     customer: "com",
     page: 4,
     type: ["com-deco"],
-    feature: false,
+    feature: true,
   },
   {
     id: 37,
@@ -681,7 +681,7 @@ const imageData = [
     customer: "res",
     page: 6,
     type: ["res-bed", "cabinetry"],
-    feature: false,
+    feature: true,
   },
   {
     id: 53,
@@ -692,7 +692,7 @@ const imageData = [
     customer: "res",
     page: 6,
     type: ["res-bed", "cabinetry"],
-    feature: false,
+    feature: true,
   },
   {
     id: 54,
@@ -703,7 +703,7 @@ const imageData = [
     customer: "res",
     page: 6,
     type: ["res-bed", "cabinetry"],
-    feature: false,
+    feature: true,
   },
   {
     id: 55,
@@ -736,7 +736,7 @@ const imageData = [
     customer: "res",
     page: 6,
     type: ["res-coffee-table"],
-    feature: false,
+    feature: true,
   },
   {
     id: 58,
