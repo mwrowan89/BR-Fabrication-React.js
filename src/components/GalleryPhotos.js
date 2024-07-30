@@ -41,7 +41,6 @@ const GalleryPhotos = ({ filteredImages = [] }) => {
     if (page > 1) {
       setPage((page) => page - 1);
     }
-    console.log(currentImages);
   };
 
   return (
