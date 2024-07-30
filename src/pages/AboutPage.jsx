@@ -54,11 +54,11 @@ function About() {
           </div>
           <div className="about-second-box">
             <h1 className="about-description">
-              Ben Rioux - Owner and founder
+              Ben Rioux - Owner and Founder
               <br />
               <br />
-              Standing next to a dark walnut headboard prior to it being craned
-              into a customers bedroom on the third floor of their home.
+              Standing next to a dark walnut headboard prior to it being crane
+              lifted into a customers bedroom on the third floor of their home.
             </h1>
             <img
               src={image50}
