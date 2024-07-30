@@ -74,7 +74,22 @@ function About() {
               width="600vw"
               alt="Ben W/ Headboard"
             />
-            <h1 className="about-description">Versatility in All Areas</h1>
+            <h1 className="about-description">
+              Versatility in All Areas
+              <br />
+              <br />
+              BR Fabrication is renowned for its versatility in woodworking,
+              catering to a wide range of custom projects. From crafting
+              exquisite dining tables that become the centerpiece of any home to
+              designing elegant wine cellars that add a touch of sophistication,
+              BR Fabrication showcases its expertise and creativity in every
+              piece. Their work extends beyond these specialties, embracing a
+              diverse array of woodworking projects that highlight their
+              commitment to quality and innovation. Whether it's for residential
+              or commercial spaces, BR Fabrication consistently delivers unique
+              and finely crafted solutions that meet the diverse needs and
+              tastes of their clients.
+            </h1>
           </div>
         </div>
       </div>
