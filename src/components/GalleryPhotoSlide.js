@@ -61,19 +61,21 @@ const GalleryPhotoSlide = () => {
           &#9664;
         </button>
         <div className="gallery-slide-track" ref={trackRef}>
-          {imageData.map((image, index) => (
-            <img
-              onClick={() => {
-                openModal(image);
-                console.table(image);
-              }}
-              className="gallery-slide-image"
-              key={index}
-              src={image.src}
-              alt={image.desc}
-              ref={index === 0 ? slideRef : null}
-            />
-          ))}
+          {imageData
+            .filter((image) => image.feature === true)
+            .map((image, index) => (
+              <img
+                onClick={() => {
+                  openModal(image);
+                  console.table(image);
+                }}
+                className="gallery-slide-image"
+                key={index}
+                src={image.src}
+                alt={image.desc}
+                ref={index === 0 ? slideRef : null}
+              />
+            ))}
         </div>
         <button ref={rightArrowRef} className="gallery-arrow right-arrow">
           &#9654;

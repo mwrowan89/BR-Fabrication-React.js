@@ -1267,7 +1267,7 @@ const imageData = [
     customer: "com",
     page: 11,
     type: ["com-table", "drip"],
-    feature: false,
+    feature: true,
   },
   {
     id: 106,
@@ -1322,7 +1322,7 @@ const imageData = [
     customer: "com",
     page: 11,
     type: ["com-table", "drip"],
-    feature: false,
+    feature: true,
   },
 ];
 export default imageData;
