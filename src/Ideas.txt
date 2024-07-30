@@ -2,7 +2,6 @@
 --Add ability to message directly about photos/create collections for inspo
 --Make page accessable on phone
 --Change up fonts
---Change background of BR Fabrications
 --shop new arrivals icons (blurred background)
 
 --Add function to gallery filter options
