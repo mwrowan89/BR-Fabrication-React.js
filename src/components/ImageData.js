@@ -81,7 +81,7 @@ import image80 from "../assets/images/83.png";
 import image81 from "../assets/images/84.png";
 import image82 from "../assets/images/85.png";
 import image83 from "../assets/images/90.png";
-import image91 from "../assets/images/91.jpg";
+import image84 from "../assets/images/91.jpg";
 
 const imageData = [
   {
@@ -915,6 +915,16 @@ const imageData = [
     customer: "res",
     page: 9,
     type: ["cabinetry"],
+  },
+  {
+    id: 84,
+    src: image84,
+    alt: "Golden Acacia Drip",
+    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
+    title: "Golden Acacia Drip",
+    customer: "com",
+    page: 9,
+    type: ["com-table", "drip"],
   },
 ];
 export default imageData;
