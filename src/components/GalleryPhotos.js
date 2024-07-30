@@ -31,8 +31,10 @@ const GalleryPhotos = ({ filteredImages = [] }) => {
   };
 
   const nextPage = () => {
-    setPage((page) => page + 1);
-    scrollToTop();
+    if (currentImages.length > 9) {
+      setPage((page) => page + 1);
+      scrollToTop();
+    }
   };
 
   const prevPage = () => {
