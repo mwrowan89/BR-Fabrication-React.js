@@ -34,7 +34,7 @@ function About() {
       <Nav />
       <div>
         <div className="about">
-          <div className="about-first-box">
+          <div className="about-first-box show">
             <img
               src={BenSanding}
               height="800vh"

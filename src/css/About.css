@@ -14,11 +14,22 @@
   line-height: 1.6;
 }
 .about-first-box {
+  opacity: 0;
+  transition: 2s ease;
   display: flex;
 }
 .about-second-box {
   display: flex;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: 0.7s ease;
 }
+.about-third-box {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: 0.7s ease;
+}
+.about-first-box.show,
 .about-second-box.show,
 .about-third-box.show {
   opacity: 1;
