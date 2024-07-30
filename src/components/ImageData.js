@@ -99,16 +99,15 @@ import image98 from "../assets/images/105.jpg";
 import image99 from "../assets/images/106.jpg";
 import image100 from "../assets/images/107.jpg";
 import image101 from "../assets/images/108.jpg";
-import image102 from "../assets/images/109.jpg";
-import image103 from "../assets/images/110.jpg";
-import image104 from "../assets/images/111.jpg";
-import image105 from "../assets/images/112.jpg";
-import image106 from "../assets/images/113.jpg";
-import image107 from "../assets/images/114.jpg";
-import image108 from "../assets/images/115.jpg";
-import image109 from "../assets/images/116.jpg";
-import image110 from "../assets/images/117.jpg";
-import image111 from "../assets/images/118.jpg";
+import image102 from "../assets/images/110.jpg";
+import image103 from "../assets/images/111.jpg";
+import image104 from "../assets/images/112.jpg";
+import image105 from "../assets/images/113.jpg";
+import image106 from "../assets/images/114.jpg";
+import image107 from "../assets/images/115.jpg";
+import image108 from "../assets/images/116.jpg";
+import image109 from "../assets/images/117.jpg";
+import image110 from "../assets/images/118.jpg";
 
 const imageData = [
   {
@@ -1022,7 +1021,7 @@ const imageData = [
     desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
     title: "Golden Acacia Drip",
     customer: "com",
-    page: 9,
+    page: 10,
     type: ["com-table", "drip"],
   },
   {
@@ -1032,7 +1031,7 @@ const imageData = [
     desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
     title: "Golden Acacia Drip",
     customer: "com",
-    page: 9,
+    page: 10,
     type: ["com-table", "drip"],
   },
   {
@@ -1042,7 +1041,7 @@ const imageData = [
     desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
     title: "Golden Acacia Drip",
     customer: "com",
-    page: 9,
+    page: 10,
     type: ["com-table", "drip"],
   },
   {
@@ -1052,7 +1051,7 @@ const imageData = [
     desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
     title: "Golden Acacia Drip",
     customer: "com",
-    page: 9,
+    page: 10,
     type: ["com-table", "drip"],
   },
   {
@@ -1062,7 +1061,7 @@ const imageData = [
     desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
     title: "Golden Acacia Drip",
     customer: "com",
-    page: 9,
+    page: 10,
     type: ["com-table", "drip"],
   },
   {
@@ -1072,7 +1071,7 @@ const imageData = [
     desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
     title: "Golden Acacia Drip",
     customer: "com",
-    page: 9,
+    page: 10,
     type: ["com-table", "drip"],
   },
   {
@@ -1082,7 +1081,7 @@ const imageData = [
     desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
     title: "Golden Acacia Drip",
     customer: "com",
-    page: 9,
+    page: 10,
     type: ["com-table", "drip"],
   },
   {
@@ -1092,7 +1091,127 @@ const imageData = [
     desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
     title: "Golden Acacia Drip",
     customer: "com",
-    page: 9,
+    page: 10,
+    type: ["com-table", "drip"],
+  },
+  {
+    id: 99,
+    src: image99,
+    alt: "Golden Acacia Drip",
+    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
+    title: "Golden Acacia Drip",
+    customer: "com",
+    page: 10,
+    type: ["com-table", "drip"],
+  },
+  {
+    id: 100,
+    src: image100,
+    alt: "Golden Acacia Drip",
+    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
+    title: "Golden Acacia Drip",
+    customer: "com",
+    page: 10,
+    type: ["com-table", "drip"],
+  },
+  {
+    id: 101,
+    src: image101,
+    alt: "Golden Acacia Drip",
+    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
+    title: "Golden Acacia Drip",
+    customer: "com",
+    page: 11,
+    type: ["com-table", "drip"],
+  },
+  {
+    id: 102,
+    src: image102,
+    alt: "Golden Acacia Drip",
+    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
+    title: "Golden Acacia Drip",
+    customer: "com",
+    page: 11,
+    type: ["com-table", "drip"],
+  },
+  {
+    id: 103,
+    src: image103,
+    alt: "Golden Acacia Drip",
+    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
+    title: "Golden Acacia Drip",
+    customer: "com",
+    page: 11,
+    type: ["com-table", "drip"],
+  },
+  {
+    id: 104,
+    src: image104,
+    alt: "Golden Acacia Drip",
+    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
+    title: "Golden Acacia Drip",
+    customer: "com",
+    page: 11,
+    type: ["com-table", "drip"],
+  },
+  {
+    id: 105,
+    src: image105,
+    alt: "Golden Acacia Drip",
+    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
+    title: "Golden Acacia Drip",
+    customer: "com",
+    page: 11,
+    type: ["com-table", "drip"],
+  },
+  {
+    id: 106,
+    src: image106,
+    alt: "Golden Acacia Drip",
+    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
+    title: "Golden Acacia Drip",
+    customer: "com",
+    page: 11,
+    type: ["com-table", "drip"],
+  },
+  {
+    id: 107,
+    src: image107,
+    alt: "Golden Acacia Drip",
+    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
+    title: "Golden Acacia Drip",
+    customer: "com",
+    page: 11,
+    type: ["com-table", "drip"],
+  },
+  {
+    id: 108,
+    src: image108,
+    alt: "Golden Acacia Drip",
+    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
+    title: "Golden Acacia Drip",
+    customer: "com",
+    page: 11,
+    type: ["com-table", "drip"],
+  },
+  {
+    id: 109,
+    src: image109,
+    alt: "Golden Acacia Drip",
+    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
+    title: "Golden Acacia Drip",
+    customer: "com",
+    page: 11,
+    type: ["com-table", "drip"],
+  },
+  {
+    id: 110,
+    src: image110,
+    alt: "Golden Acacia Drip",
+    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
+    title: "Golden Acacia Drip",
+    customer: "com",
+    page: 11,
     type: ["com-table", "drip"],
   },
 ];
