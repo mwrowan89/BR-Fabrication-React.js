@@ -1179,7 +1179,7 @@ const imageData = [
     customer: "com",
     page: 10,
     type: ["com-table", "drip"],
-    feature: false,
+    feature: true,
   },
   {
     id: 98,
@@ -1234,7 +1234,7 @@ const imageData = [
     customer: "com",
     page: 11,
     type: ["com-table", "drip"],
-    feature: false,
+    feature: true,
   },
   {
     id: 103,
@@ -1300,7 +1300,7 @@ const imageData = [
     customer: "com",
     page: 11,
     type: ["com-table", "drip"],
-    feature: false,
+    feature: true,
   },
   {
     id: 109,
