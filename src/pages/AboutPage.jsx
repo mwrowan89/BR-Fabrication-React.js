@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import BenSanding from "../assets/images/BenSanding.jpg";
 import image50 from "../assets/images/52.jpg";
 import image79 from "../assets/images/82.png";
@@ -7,6 +8,26 @@ import Header from "../components/Header";
 import "../css/About.css";
 
 function About() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const buttons = document.querySelectorAll(
+        ".box-one, .box-two, .box-three-left, .box-three-right, #box-three-title"
+      );
+      const scrollPosition = window.scrollY + window.innerHeight;
+
+      buttons.forEach((button) => {
+        if (scrollPosition > button.offsetTop) {
+          button.classList.add("show");
+        }
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
       <Header />
