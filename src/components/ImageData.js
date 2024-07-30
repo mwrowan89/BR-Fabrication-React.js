@@ -1190,7 +1190,7 @@ const imageData = [
     customer: "com",
     page: 10,
     type: ["com-table", "drip"],
-    feature: false,
+    feature: true,
   },
   {
     id: 99,
