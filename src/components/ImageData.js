@@ -934,7 +934,7 @@ const imageData = [
     customer: "com",
     page: 8,
     type: ["com-deco"],
-    feature: false,
+    feature: true,
   },
   {
     id: 76,
@@ -978,7 +978,7 @@ const imageData = [
     customer: "com",
     page: 8,
     type: ["com-deco", "cabinetry"],
-    feature: false,
+    feature: true,
   },
   {
     id: 80,
@@ -1047,7 +1047,7 @@ const imageData = [
     customer: "com",
     page: 9,
     type: ["com-table", "drip"],
-    feature: false,
+    feature: true,
   },
   {
     id: 86,
@@ -1058,7 +1058,7 @@ const imageData = [
     customer: "com",
     page: 9,
     type: ["com-table", "drip"],
-    feature: false,
+    feature: true,
   },
   {
     id: 87,
