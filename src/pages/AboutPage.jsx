@@ -11,7 +11,7 @@ function About() {
   useEffect(() => {
     const handleScroll = () => {
       const buttons = document.querySelectorAll(
-        ".about-second-box, .about-third-box"
+        ".about-second-box, .about-third-box, .about-first-box"
       );
       const scrollPosition = window.scrollY + window.innerHeight;
 
@@ -21,20 +21,21 @@ function About() {
         }
       });
     };
-
+    handleScroll();
     window.addEventListener("scroll", handleScroll);
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   return (
     <>
       <Header />
       <Nav />
       <div>
         <div className="about">
-          <div className="about-first-box show">
+          <div className="about-first-box">
             <img
               src={BenSanding}
               height="800vh"
