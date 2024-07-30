@@ -19,3 +19,8 @@
 .about-second-box {
   display: flex;
 }
+.about-second-box.show,
+.about-third-box.show {
+  opacity: 1;
+  transform: translateX(0);
+}
