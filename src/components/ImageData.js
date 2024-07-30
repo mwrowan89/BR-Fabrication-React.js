@@ -130,7 +130,7 @@ const imageData = [
     customer: "com",
     page: 1,
     type: ["com-table"],
-    feature: false,
+    feature: true,
   },
   {
     id: 3,
@@ -229,7 +229,7 @@ const imageData = [
     customer: "res",
     page: 2,
     type: ["res-deco"],
-    feature: false,
+    feature: true,
   },
   {
     id: 12,
@@ -240,7 +240,7 @@ const imageData = [
     customer: "res",
     page: 2,
     type: ["res-table"],
-    feature: false,
+    feature: true,
   },
   {
     id: 13,
@@ -273,7 +273,7 @@ const imageData = [
     customer: "com",
     page: 2,
     type: ["com-table"],
-    feature: false,
+    feature: true,
   },
   {
     id: 16,
@@ -284,7 +284,7 @@ const imageData = [
     customer: "com",
     page: 2,
     type: ["com-table"],
-    feature: false,
+    feature: true,
   },
   {
     id: 17,
@@ -306,7 +306,7 @@ const imageData = [
     customer: "res",
     page: 2,
     type: ["res-table"],
-    feature: false,
+    feature: true,
   },
   {
     id: 19,
@@ -328,7 +328,7 @@ const imageData = [
     customer: "res",
     page: 2,
     type: ["res-table"],
-    feature: false,
+    feature: true,
   },
 
   {
