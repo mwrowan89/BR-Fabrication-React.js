@@ -74,6 +74,7 @@ function About() {
               width="600vw"
               alt="Ben W/ Headboard"
             />
+            <h1 className="about-description">Versatility in All Areas</h1>
           </div>
         </div>
       </div>
