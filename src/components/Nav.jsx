@@ -23,6 +23,11 @@ export default function Nav() {
               </Link>
             </li>
             <li>
+              <Link className="nav-link" to="/designs">
+                GALLERY
+              </Link>
+            </li>
+            <li>
               <Link className="nav-link" to="/contact">
                 CONTACT US
               </Link>
