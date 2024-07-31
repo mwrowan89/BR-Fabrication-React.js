@@ -30,14 +30,11 @@ const DesignsPage = () => {
           </p>
         </div>
         <div className="design-box-two">
-          <div className="bow-two-left">
-            <h1 id="wine-cellar-title">800 Bottle Wine Cooler</h1>
-            <img src={image2} alt="wine celler" />
+          <h1 id="wine-cellar-title">800 Bottle Wine Cooler</h1>
+          <div className="box-two-images">
             <img id="sketch-up-wine" src={image4} alt="wine celler" />
-          </div>
-
-          <div className="box-two-right">
             <img id="sketch-up-wine" src={image3} alt="wine celler" />
+            <img src={image2} alt="wine celler" />
             <img src={image1} alt="wine celler" />
           </div>
         </div>
