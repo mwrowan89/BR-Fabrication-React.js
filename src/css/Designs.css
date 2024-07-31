@@ -17,5 +17,10 @@
 .design-box-two img {
   height: 50vh;
 }
-#sketch-up-wine {
+.design-box-two {
+  /* display: flex; */
+}
+#wine-cellar-title {
+  display: flex;
+  justify-content: center;
 }
