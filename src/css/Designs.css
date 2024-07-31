@@ -1,0 +1,16 @@
+.design-page {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.design-box-one {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+}
+#design-page-title {
+  display: flex;
+  justify-content: center;
+}
