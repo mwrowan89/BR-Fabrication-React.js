@@ -10,3 +10,5 @@
 --Gallery filter up top, turn drop down into icons 
 
 --Add multiple photos to gallery
+
+--Updated imagedata for new photos
