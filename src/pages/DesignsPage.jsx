@@ -4,6 +4,9 @@ import Nav from "../components/Nav";
 import "../css/Designs.css";
 
 import image1 from "../assets/images/Wine Cellar/IMG_1201.png";
+import image2 from "../assets/images/Wine Cellar/IMG_1202.png";
+import image3 from "../assets/images/Wine Cellar/Wine Cellar 1.jpg";
+import image4 from "../assets/images/Wine Cellar/Wine Cellar 2.jpg";
 
 const DesignsPage = () => {
   return (
@@ -28,6 +31,9 @@ const DesignsPage = () => {
         </div>
         <div className="design-box-two">
           <img src={image1} alt="wine celler" />
+          <img src={image2} alt="wine celler" />
+          <img src={image3} alt="wine celler" />
+          <img src={image4} alt="wine celler" />
         </div>
       </div>
     </div>

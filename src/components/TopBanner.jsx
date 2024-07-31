@@ -61,6 +61,11 @@ const TopBanner = () => {
           </a>
         </h3>
         <h3>
+          <a id="menu-link" href="/designs">
+            DESIGNS
+          </a>
+        </h3>
+        <h3>
           <a id="menu-link" href="/contact">
             CONTACT
           </a>
