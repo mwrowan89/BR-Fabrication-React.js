@@ -3,6 +3,8 @@ import Header from "../components/Header";
 import Nav from "../components/Nav";
 import "../css/Designs.css";
 
+import image1 from "../assets/images/Wine Cellar/IMG_1201.png";
+
 const DesignsPage = () => {
   return (
     <div>
@@ -23,6 +25,9 @@ const DesignsPage = () => {
             underscores our dedication to delivering personalized solutions that
             cater to a wide range of needs and tastes.
           </p>
+        </div>
+        <div className="design-box-two">
+          <img src={image1} alt="wine celler" />
         </div>
       </div>
     </div>
