@@ -24,7 +24,7 @@ export default function Nav() {
             </li>
             <li>
               <Link className="nav-link" to="/designs">
-                GALLERY
+                DESIGNS
               </Link>
             </li>
             <li>

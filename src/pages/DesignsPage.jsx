@@ -7,7 +7,9 @@ const DesignsPage = () => {
     <div>
       <Header />
       <Nav />
-      DesignsPage
+      <div className="design-page">
+        <h1>Custom Designs</h1>
+      </div>
     </div>
   );
 };
