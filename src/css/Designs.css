@@ -5,6 +5,8 @@
   justify-content: center;
   align-items: center;
 }
+
+/* box one */
 .design-box-one {
   display: flex;
   flex-direction: column;
@@ -14,25 +16,38 @@
   display: flex;
   justify-content: center;
 }
-.design-box-two img {
-  height: 50vh;
-}
+
+/* box two  */
 .design-box-two {
   position: relative;
-}
-.box-two-images {
-  width: 100vw;
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  gap: 0.5vw;
-}
-.box-two-left {
-  width: 80vw;
-  display: flex;
-  justify-content: space-around;
 }
 #wine-cellar-title {
   display: flex;
   justify-content: center;
+}
+.design-box-two img {
+  height: 50vh;
+}
+.box-two-images-top {
+  width: 100vw;
+  display: flex;
+  gap: 0.5vw;
+  z-index: -1;
+}
+.box-two-images-bottom {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 0.5vw;
+}
+#finished-photo {
+  transition: transform 1s ease;
+  position: relative;
+  z-index: 0;
+}
+#finished-photo:hover {
+  transform: scale(1.5);
+  z-index: 1000;
 }

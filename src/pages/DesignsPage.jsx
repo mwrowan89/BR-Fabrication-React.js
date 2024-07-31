@@ -7,6 +7,7 @@ import image1 from "../assets/images/Wine Cellar/IMG_1201.png";
 import image2 from "../assets/images/Wine Cellar/IMG_1202.png";
 import image3 from "../assets/images/Wine Cellar/Wine Cellar 1.jpg";
 import image4 from "../assets/images/Wine Cellar/Wine Cellar 2.jpg";
+import image5 from "../assets/images/Wine Cellar/IMG_7321.png";
 
 const DesignsPage = () => {
   return (
@@ -31,11 +32,14 @@ const DesignsPage = () => {
         </div>
         <div className="design-box-two">
           <h1 id="wine-cellar-title">800 Bottle Wine Cooler</h1>
-          <div className="box-two-images">
+          <div className="box-two-images-top">
             <img id="sketch-up-wine" src={image4} alt="wine celler" />
             <img id="sketch-up-wine" src={image3} alt="wine celler" />
-            <img src={image2} alt="wine celler" />
-            <img src={image1} alt="wine celler" />
+          </div>
+          <div className="box-two-images-bottom">
+            <img id="finished-photo" src={image2} alt="wine celler" />
+            <img id="finished-photo" src={image1} alt="wine celler" />
+            <img id="finished-photo" src={image5} alt="wine celler" />
           </div>
         </div>
       </div>
