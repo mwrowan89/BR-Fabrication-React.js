@@ -1,5 +1,5 @@
 import React from "react";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import Header from "../components/Header";
 import Nav from "../components/Nav";
 import "../css/Designs.css";
@@ -14,13 +14,16 @@ import video2 from "../assets/images/Wine Cellar/Cellarvideo2.mov";
 
 const DesignsPage = () => {
   const videoRef = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   const handleVideoClick = () => {
     if (videoRef.current) {
       if (videoRef.current.paused) {
         videoRef.current.play();
+        setIsPlaying(true);
       } else {
         videoRef.current.pause();
+        setIsPlaying(false);
       }
     }
   };
@@ -61,26 +64,20 @@ const DesignsPage = () => {
           </div>
           <div className="box-two-images-bottom">
             <img id="finished-photo" src={image2} alt="wine celler" />
-            <video
-              id="wine-cellar-video"
-              ref={videoRef}
-              muted
-              onClick={handleVideoClick}
-              style={{ cursor: "pointer" }}
-            >
-              <source src={video1} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-            <video
-              id="wine-cellar-video"
-              ref={videoRef}
-              muted
-              onClick={handleVideoClick}
-              style={{ cursor: "pointer" }}
-            >
-              <source src={video2} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            <div className="video-container" onClick={handleVideoClick}>
+              <video
+                id="wine-cellar-video"
+                ref={videoRef}
+                loop
+                muted
+                style={{ cursor: "pointer" }}
+              >
+                <source src={video2} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              {!isPlaying && <div className="play-button-overlay">▶️</div>}
+            </div>
+
             <img id="finished-photo" src={image1} alt="wine celler" />
             <img id="finished-photo" src={image5} alt="wine celler" />
           </div>

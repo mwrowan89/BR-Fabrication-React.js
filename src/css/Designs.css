@@ -62,3 +62,19 @@
 #wine-cellar-video {
   height: 50vh;
 }
+.video-container {
+  position: relative;
+  display: inline-block;
+}
+
+.play-button-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  pointer-events: none; /* Allows clicking through to the video */
+}
