@@ -98,10 +98,11 @@ const DesignsPage = () => {
             <img src={image6} alt="Walnut bookcase" />
             <img src={image7} alt="Walnut bookcase" />
           </div>
-
-          <img id="finished-photo" src={image8} alt="Walnut bookcase" />
-          <img id="finished-photo" src={image9} alt="Walnut bookcase" />
-          <img id="finished-photo" src={image10} alt="Walnut bookcase" />
+          <div className="box-three-bottom">
+            <img id="finished-photo" src={image9} alt="Walnut bookcase" />
+            <img id="finished-photo" src={image8} alt="Walnut bookcase" />
+            <img id="finished-photo" src={image10} alt="Walnut bookcase" />
+          </div>
         </div>
       </div>
     </div>
