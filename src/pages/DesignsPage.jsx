@@ -9,7 +9,6 @@ import image2 from "../assets/images/Wine Cellar/IMG_1202.png";
 import image3 from "../assets/images/Wine Cellar/Wine Cellar 1.jpg";
 import image4 from "../assets/images/Wine Cellar/Wine Cellar 2.jpg";
 import image5 from "../assets/images/Wine Cellar/IMG_7321.png";
-import video1 from "../assets/images/Wine Cellar/IMG_9383.MOV";
 import video2 from "../assets/images/Wine Cellar/Cellarvideo2.mov";
 
 const DesignsPage = () => {
