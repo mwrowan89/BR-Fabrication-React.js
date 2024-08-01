@@ -66,6 +66,7 @@
 }
 #finished-photo {
   transition: transform 1s ease;
+  height: 50vh;
   position: relative;
   z-index: 0;
 }

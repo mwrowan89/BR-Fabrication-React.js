@@ -3,13 +3,19 @@ import { useRef, useState } from "react";
 import Header from "../components/Header";
 import Nav from "../components/Nav";
 import "../css/Designs.css";
-
+// Wine Cooler
 import image1 from "../assets/images/Wine Cellar/IMG_1201.png";
 import image2 from "../assets/images/Wine Cellar/IMG_1202.png";
 import image3 from "../assets/images/Wine Cellar/Wine Cellar 1.jpg";
 import image4 from "../assets/images/Wine Cellar/Wine Cellar 2.jpg";
 import image5 from "../assets/images/Wine Cellar/IMG_7321.png";
 import video2 from "../assets/images/Wine Cellar/Cellarvideo2.mov";
+//Walnut Bookcase
+import image6 from "../assets/images/Bookcase/Bookcase 1.jpg";
+import image7 from "../assets/images/Bookcase/Bookcase 2.jpg";
+import image8 from "../assets/images/Bookcase/Bookcase Installed 1.png";
+import image9 from "../assets/images/Bookcase/Bookcase installed 2.png";
+import image10 from "../assets/images/Bookcase/IMG_2627_Original.png";
 
 const DesignsPage = () => {
   const videoRef = useRef(null);
@@ -86,7 +92,14 @@ const DesignsPage = () => {
           </div>
         </div>
 
-        <div className="design-box-three">Something</div>
+        <div className="design-box-three">
+          <h1>Custom Cabinetry</h1>
+          <img id="finished-photo" src={image6} alt="Walnut bookcase" />
+          <img id="finished-photo" src={image7} alt="Walnut bookcase" />
+          <img id="finished-photo" src={image8} alt="Walnut bookcase" />
+          <img id="finished-photo" src={image9} alt="Walnut bookcase" />
+          <img id="finished-photo" src={image10} alt="Walnut bookcase" />
+        </div>
       </div>
     </div>
   );
