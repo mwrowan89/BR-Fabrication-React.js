@@ -54,6 +54,7 @@ const DesignsPage = () => {
             <img id="sketch-up-wine" src={image4} alt="wine celler" />
             <img id="sketch-up-wine" src={image3} alt="wine celler" />
           </div>
+          <br />
           <div className="wine-cellar-description">
             <p>
               This wine cooler is located in a restaurant in Chicago, IL and

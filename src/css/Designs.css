@@ -5,6 +5,9 @@
   justify-content: center;
   align-items: center;
 }
+#design-page-desc {
+  font-size: 25px;
+}
 
 /* box one */
 .design-box-one {
@@ -44,8 +47,10 @@
 }
 .box-two-images-bottom {
   width: 100vw;
+  min-height: 70vh;
   display: flex;
   justify-content: center;
+  align-items: center;
   overflow-x: auto;
   scroll-behavior: smooth;
   gap: 0.5vw;
@@ -65,6 +70,7 @@
 .video-container {
   position: relative;
   display: inline-block;
+  transition: transform 1s ease;
 }
 
 .play-button-overlay {
@@ -77,4 +83,8 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   cursor: pointer;
   pointer-events: none; /* Allows clicking through to the video */
+}
+.video-container:hover {
+  transform: scale(1.5);
+  z-index: 1000;
 }
