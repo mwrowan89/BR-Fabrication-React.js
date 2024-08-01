@@ -1,5 +1,5 @@
 import React from "react";
-import { useRef, useEffect } from "react";
+import { useRef } from "react";
 import Header from "../components/Header";
 import Nav from "../components/Nav";
 import "../css/Designs.css";
@@ -10,6 +10,7 @@ import image3 from "../assets/images/Wine Cellar/Wine Cellar 1.jpg";
 import image4 from "../assets/images/Wine Cellar/Wine Cellar 2.jpg";
 import image5 from "../assets/images/Wine Cellar/IMG_7321.png";
 import video1 from "../assets/images/Wine Cellar/IMG_9383.MOV";
+import video2 from "../assets/images/Wine Cellar/Cellarvideo2.mov";
 
 const DesignsPage = () => {
   const videoRef = useRef(null);
@@ -68,6 +69,16 @@ const DesignsPage = () => {
               style={{ cursor: "pointer" }}
             >
               <source src={video1} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <video
+              id="wine-cellar-video"
+              ref={videoRef}
+              muted
+              onClick={handleVideoClick}
+              style={{ cursor: "pointer" }}
+            >
+              <source src={video2} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <img id="finished-photo" src={image1} alt="wine celler" />
