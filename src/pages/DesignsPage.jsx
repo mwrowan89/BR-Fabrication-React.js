@@ -94,8 +94,11 @@ const DesignsPage = () => {
 
         <div className="design-box-three">
           <h1>Custom Cabinetry</h1>
-          <img id="finished-photo" src={image6} alt="Walnut bookcase" />
-          <img id="finished-photo" src={image7} alt="Walnut bookcase" />
+          <div className="box-three-top">
+            <img src={image6} alt="Walnut bookcase" />
+            <img src={image7} alt="Walnut bookcase" />
+          </div>
+
           <img id="finished-photo" src={image8} alt="Walnut bookcase" />
           <img id="finished-photo" src={image9} alt="Walnut bookcase" />
           <img id="finished-photo" src={image10} alt="Walnut bookcase" />

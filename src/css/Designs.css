@@ -45,14 +45,11 @@
   display: flex;
   justify-content: center;
 }
-.design-box-two img {
-  height: 50vh;
-}
+
 .box-two-images-top {
   width: 100vw;
   display: flex;
   gap: 0.5vw;
-  z-index: -1;
 }
 .box-two-images-bottom {
   width: 100vw;
@@ -97,4 +94,13 @@
 .video-container:hover {
   transform: scale(1.5);
   z-index: 1000;
+}
+
+/* Box three */
+
+.box-three-top {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  gap: 0.5vw;
 }
