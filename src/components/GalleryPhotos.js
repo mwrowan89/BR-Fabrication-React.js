@@ -48,7 +48,10 @@ const GalleryPhotos = ({ filteredImages = [] }) => {
       <div className="gallery-images-container">
         {currentImages.map((image) => (
           <img
-            onClick={() => openModal(image)}
+            onClick={() => {
+              openModal(image);
+              console.table(image);
+            }}
             id="gallery-image"
             key={image.id}
             src={image.src}

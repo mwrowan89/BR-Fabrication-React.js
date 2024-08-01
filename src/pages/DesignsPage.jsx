@@ -14,7 +14,7 @@ import video2 from "../assets/images/Wine Cellar/Cellarvideo2.mov";
 import image6 from "../assets/images/Bookcase/Bookcase 1.jpg";
 import image7 from "../assets/images/Bookcase/Bookcase 2.jpg";
 import image8 from "../assets/images/Bookcase/Bookcase Installed 1.png";
-import image9 from "../assets/images/Bookcase/Bookcase installed 2.png";
+import image9 from "../assets/images/90.png";
 import image10 from "../assets/images/Bookcase/IMG_2627_Original.png";
 
 const DesignsPage = () => {
