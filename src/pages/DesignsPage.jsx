@@ -128,7 +128,7 @@ const DesignsPage = () => {
               }
             >
               <video
-                id="wine-cellar-video"
+                id="bookcase-video"
                 ref={bookcaseVideoRef}
                 loop
                 muted
@@ -141,8 +141,8 @@ const DesignsPage = () => {
                 <div className="play-button-overlay">▶️</div>
               )}
             </div>
-            <img id="finished-photo" src={image9} alt="Walnut bookcase" />
             <img id="finished-photo" src={image8} alt="Walnut bookcase" />
+            <img id="finished-photo" src={image9} alt="Walnut bookcase" />
           </div>
         </div>
       </div>

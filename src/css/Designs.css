@@ -72,7 +72,8 @@
   transform: scale(1.35);
   z-index: 1000;
 }
-#wine-cellar-video {
+#wine-cellar-video,
+#bookcase-video {
   height: 50vh;
 }
 .video-container {
