@@ -37,7 +37,6 @@
 
 /* box two  */
 .design-box-two {
-  position: relative;
   justify-content: center;
   align-items: center;
 }
@@ -45,7 +44,9 @@
   display: flex;
   justify-content: center;
 }
-
+#sketch-up-wine {
+  width: 50vw;
+}
 .box-two-images-top {
   width: 100vw;
   display: flex;
@@ -102,15 +103,5 @@
   width: 100vw;
   height: 50vh;
   display: flex;
-  gap: 0.5vw;
-}
-.box-three-bottom {
-  width: 100vw;
-  min-height: 70vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow-x: auto;
-  scroll-behavior: smooth;
   gap: 0.5vw;
 }
