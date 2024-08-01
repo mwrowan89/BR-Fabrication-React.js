@@ -16,12 +16,17 @@ import image7 from "../assets/images/Bookcase/Bookcase 2.jpg";
 import image8 from "../assets/images/Bookcase/Bookcase Installed 1.png";
 import image9 from "../assets/images/90.png";
 import image10 from "../assets/images/Bookcase/IMG_2627_Original.png";
+import video3 from "../assets/images/Bookcase/IMG_2654.MOV";
 
 const DesignsPage = () => {
-  const videoRef = useRef(null);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const wineVideoRef = useRef(null);
+  const [isWinePlaying, setIsWinePlaying] = useState(false);
 
-  const handleVideoClick = () => {
+  // Refs and states for the Walnut Bookcase video
+  const bookcaseVideoRef = useRef(null);
+  const [isBookcasePlaying, setIsBookcasePlaying] = useState(false);
+
+  const handleVideoClick = (videoRef, setIsPlaying) => {
     if (videoRef.current) {
       if (videoRef.current.paused) {
         videoRef.current.play();
@@ -72,10 +77,13 @@ const DesignsPage = () => {
             </div>
             <div className="box-two-images-bottom">
               <img id="finished-photo" src={image2} alt="wine celler" />
-              <div className="video-container" onClick={handleVideoClick}>
+              <div
+                className="video-container"
+                onClick={() => handleVideoClick(wineVideoRef, setIsWinePlaying)}
+              >
                 <video
                   id="wine-cellar-video"
-                  ref={videoRef}
+                  ref={wineVideoRef}
                   loop
                   muted
                   style={{ cursor: "pointer" }}
@@ -83,7 +91,9 @@ const DesignsPage = () => {
                   <source src={video2} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
-                {!isPlaying && <div className="play-button-overlay">▶️</div>}
+                {!isWinePlaying && (
+                  <div className="play-button-overlay">▶️</div>
+                )}
               </div>
 
               <img id="finished-photo" src={image1} alt="wine celler" />
@@ -93,15 +103,35 @@ const DesignsPage = () => {
         </div>
 
         <div className="design-box-three">
-          <h1>Custom Cabinetry</h1>
+          <h1 id="walnut-bookcase-title">Custom Walnut Veneer Bookcase</h1>
           <div className="box-three-top">
             <img src={image6} alt="Walnut bookcase" />
             <img src={image7} alt="Walnut bookcase" />
           </div>
           <div className="box-three-bottom">
+            <img id="finished-photo" src={image10} alt="Walnut bookcase" />
+            <div
+              className="video-container"
+              onClick={() =>
+                handleVideoClick(bookcaseVideoRef, setIsBookcasePlaying)
+              }
+            >
+              <video
+                id="wine-cellar-video"
+                ref={bookcaseVideoRef}
+                loop
+                muted
+                style={{ cursor: "pointer" }}
+              >
+                <source src={video3} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              {!isBookcasePlaying && (
+                <div className="play-button-overlay">▶️</div>
+              )}
+            </div>
             <img id="finished-photo" src={image9} alt="Walnut bookcase" />
             <img id="finished-photo" src={image8} alt="Walnut bookcase" />
-            <img id="finished-photo" src={image10} alt="Walnut bookcase" />
           </div>
         </div>
       </div>

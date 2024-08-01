@@ -105,3 +105,17 @@
   display: flex;
   gap: 0.5vw;
 }
+.box-three-bottom {
+  width: 100vw;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 0.5vw;
+}
+#walnut-bookcase-title {
+  display: flex;
+  justify-content: center;
+}
