@@ -119,3 +119,8 @@
   display: flex;
   justify-content: center;
 }
+.walnut-bookcase-description {
+  width: 50vw;
+  padding-left: 25vw;
+  font-size: 25px;
+}

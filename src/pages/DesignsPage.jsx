@@ -109,7 +109,7 @@ const DesignsPage = () => {
             <img src={image7} alt="Walnut bookcase" />
           </div>
           <br />
-          <div className="wine-cellar-description">
+          <div className="walnut-bookcase-description">
             <p>
               A beautiful Walnut Veneer bookcase custom made per customer
               requests and requirements down to the smallest of details. We
