@@ -17,9 +17,16 @@
   justify-content: center;
 }
 
+.wine-cellar-description {
+  width: 50vw;
+  padding-left: 25vw;
+}
+
 /* box two  */
 .design-box-two {
   position: relative;
+  justify-content: center;
+  align-items: center;
 }
 #wine-cellar-title {
   display: flex;
@@ -50,4 +57,7 @@
 #finished-photo:hover {
   transform: scale(1.5);
   z-index: 1000;
+}
+#wine-cellar-video {
+  height: 50vh;
 }
