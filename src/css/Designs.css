@@ -69,7 +69,7 @@
   z-index: 0;
 }
 #finished-photo:hover {
-  transform: scale(1.5);
+  transform: scale(1.35);
   z-index: 1000;
 }
 #wine-cellar-video {
@@ -93,7 +93,7 @@
   pointer-events: none;
 }
 .video-container:hover {
-  transform: scale(1.5);
+  transform: scale(1.35);
   z-index: 1000;
 }
 
