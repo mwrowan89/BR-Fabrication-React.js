@@ -58,9 +58,10 @@ const DesignsPage = () => {
           <div className="wine-cellar-description">
             <p>
               This wine cooler is located in a restaurant in Chicago, IL and
-              features hundreds of bottles of wine for their customers. The
-              custom wine cooler features built in cabinetry for the cooling
-              units as well as a solid Oak floor for looks and durability
+              features hundreds of bottles of wine for their customers as well
+              as custom lighting. The custom wine cooler features built in
+              cabinetry for the cooling units as well as a solid Oak floor for
+              looks and durability.
             </p>
           </div>
           <div className="box-two-images-bottom">
