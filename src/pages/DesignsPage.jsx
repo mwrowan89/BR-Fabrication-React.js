@@ -18,20 +18,21 @@ import image9 from "../assets/images/90.png";
 import image10 from "../assets/images/Bookcase/IMG_2627_Original.png";
 import video3 from "../assets/images/Bookcase/IMG_2654.MOV";
 //Dresser
-import image11 from "../assets/images/Dresser/Dresser.png";
 import image12 from "../assets/images/Dresser/IMG_6865_Original.png";
 import image13 from "../assets/images/Dresser/IMG_7044_Original.png";
 import image14 from "../assets/images/Dresser/Master Bedroom Chest Brooke Abrams 1.jpg";
-import image15 from "../assets/images/Dresser/Master Bedroom Chest Brooke Abrams 2.jpg";
 import image16 from "../assets/images/Dresser/Master Bedroom Chest Brooke Abrams-Dimensions.jpg";
+import video4 from "../assets/images/Dresser/Dresser-vid.mov";
 
 const DesignsPage = () => {
   const wineVideoRef = useRef(null);
   const [isWinePlaying, setIsWinePlaying] = useState(false);
 
-  // Refs and states for the Walnut Bookcase video
   const bookcaseVideoRef = useRef(null);
   const [isBookcasePlaying, setIsBookcasePlaying] = useState(false);
+
+  const dresserVideoRef = useState(null);
+  const [isDresserPlaying, setIsDresserPlaying] = useState(false);
 
   const handleVideoClick = (videoRef, setIsPlaying) => {
     if (videoRef.current) {
@@ -160,6 +161,24 @@ const DesignsPage = () => {
             <img src={image14} alt="dresser" />
           </div>
           <div className="box-four-bottom">
+            <div
+              className="video-container"
+              onClick={() =>
+                handleVideoClick(dresserVideoRef, setIsDresserPlaying)
+              }
+            >
+              <video
+                id="wine-cellar-video"
+                ref={dresserVideoRef}
+                loop
+                muted
+                style={{ cursor: "pointer" }}
+              >
+                <source src={video4} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              {!isWinePlaying && <div className="play-button-overlay">▶️</div>}
+            </div>
             <img id="finished-photo" src={image13} alt="dresser" />
             <img id="finished-photo" src={image12} alt="dresser" />
           </div>
