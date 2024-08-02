@@ -17,6 +17,13 @@ import image8 from "../assets/images/Bookcase/Bookcase Installed 1.png";
 import image9 from "../assets/images/90.png";
 import image10 from "../assets/images/Bookcase/IMG_2627_Original.png";
 import video3 from "../assets/images/Bookcase/IMG_2654.MOV";
+//Dresser
+import image11 from "../assets/images/Dresser/Dresser.png";
+import image12 from "../assets/images/Dresser/IMG_6865_Original.png";
+import image13 from "../assets/images/Dresser/IMG_7044_Original.png";
+import image14 from "../assets/images/Dresser/Master Bedroom Chest Brooke Abrams 1.jpg";
+import image15 from "../assets/images/Dresser/Master Bedroom Chest Brooke Abrams 2.jpg";
+import image16 from "../assets/images/Dresser/Master Bedroom Chest Brooke Abrams-Dimensions.jpg";
 
 const DesignsPage = () => {
   const wineVideoRef = useRef(null);
