@@ -10,12 +10,6 @@
 }
 
 /* Wine  Cooler Info */
-.wine-cellar {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 /* Box One */
 .design-box-one {
