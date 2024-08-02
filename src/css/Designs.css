@@ -119,3 +119,11 @@
   padding-left: 25vw;
   font-size: 25px;
 }
+
+/* dresser */
+.box-four-top {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  gap: 0.5vw;
+}
