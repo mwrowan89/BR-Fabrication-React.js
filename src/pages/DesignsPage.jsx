@@ -18,6 +18,9 @@ import image7 from "../assets/images/Bookcase/Bookcase 2.jpg";
 import image8 from "../assets/images/Bookcase/Bookcase Installed 1.png";
 import image9 from "../assets/images/90.png";
 import image10 from "../assets/images/Bookcase/IMG_2627_Original.png";
+import image20 from "../assets/images/Bookcase/167.png";
+import image21 from "../assets/images/Bookcase/IMG_2631.png";
+import image22 from "../assets/images/Bookcase/IMG_2157.PNG";
 import video3 from "../assets/images/Bookcase/IMG_2654.MOV";
 //Dresser
 import image12 from "../assets/images/Dresser/IMG_6865_Original.png";
@@ -137,7 +140,8 @@ const DesignsPage = () => {
             </p>
           </div>
           <div className="box-three-bottom">
-            <img id="finished-photo" src={image10} alt="Walnut bookcase" />
+            <img id="finished-photo" src={image8} alt="Walnut bookcase" />
+            <img id="finished-photo" src={image9} alt="Walnut bookcase" />
             <div
               className="video-container"
               onClick={() =>
@@ -158,8 +162,10 @@ const DesignsPage = () => {
                 <div className="play-button-overlay">▶️</div>
               )}
             </div>
-            <img id="finished-photo" src={image8} alt="Walnut bookcase" />
-            <img id="finished-photo" src={image9} alt="Walnut bookcase" />
+            <img id="finished-photo" src={image20} alt="Walnut bookcase" />
+            <img id="finished-photo" src={image10} alt="Walnut bookcase" />
+            <img id="finished-photo" src={image21} alt="Walnut bookcase" />
+            <img id="finished-photo" src={image22} alt="Walnut bookcase" />
           </div>
         </div>
         <br />
