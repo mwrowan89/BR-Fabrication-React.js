@@ -22,6 +22,7 @@ import image12 from "../assets/images/Dresser/IMG_6865_Original.png";
 import image13 from "../assets/images/Dresser/IMG_7044_Original.png";
 import image14 from "../assets/images/Dresser/Master Bedroom Chest Brooke Abrams 1.jpg";
 import image16 from "../assets/images/Dresser/Master Bedroom Chest Brooke Abrams-Dimensions.jpg";
+import image17 from "../assets/images/Dresser/IMG_6785.jpg";
 import video4 from "../assets/images/Dresser/Dresser-vid.mov";
 
 const DesignsPage = () => {
@@ -154,6 +155,9 @@ const DesignsPage = () => {
             <img id="finished-photo" src={image9} alt="Walnut bookcase" />
           </div>
         </div>
+
+        {/* Dresser */}
+
         <div className="design-box-four">
           <h1>White Washed Dresser</h1>
           <div className="box-four-top">
@@ -161,6 +165,7 @@ const DesignsPage = () => {
             <img src={image14} alt="dresser" />
           </div>
           <div className="box-four-bottom">
+            <img id="finished-photo" src={image17} alt="dresser" />
             <div
               className="video-container"
               onClick={() =>
@@ -181,8 +186,9 @@ const DesignsPage = () => {
                 <div className="play-button-overlay">▶️</div>
               )}
             </div>
-            <img id="finished-photo" src={image13} alt="dresser" />
+
             <img id="finished-photo" src={image12} alt="dresser" />
+            <img id="finished-photo" src={image13} alt="dresser" />
           </div>
         </div>
       </div>

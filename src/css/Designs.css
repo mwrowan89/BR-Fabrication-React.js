@@ -100,7 +100,7 @@
   width: 100vw;
   min-height: 70vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   overflow-x: auto;
   scroll-behavior: smooth;
@@ -127,7 +127,7 @@
   width: 100vw;
   min-height: 70vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   overflow-x: auto;
   scroll-behavior: smooth;
