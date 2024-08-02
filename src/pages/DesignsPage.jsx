@@ -12,6 +12,7 @@ import image5 from "../assets/images/Wine Cellar/IMG_7321.png";
 import image18 from "../assets/images/Wine Cellar/IMG_6915.jpg";
 import image19 from "../assets/images/Wine Cellar/IMG_6922.jpg";
 import video2 from "../assets/images/Wine Cellar/Cellarvideo2.mov";
+import video5 from "../assets/images/Wine Cellar/IMG_9383.MOV";
 //Walnut Bookcase
 import image6 from "../assets/images/Bookcase/Bookcase 1.jpg";
 import image7 from "../assets/images/Bookcase/Bookcase 2.jpg";
@@ -33,6 +34,9 @@ import video4 from "../assets/images/Dresser/Dresser-vid.mov";
 const DesignsPage = () => {
   const wineVideoRef = useRef(null);
   const [isWinePlaying, setIsWinePlaying] = useState(false);
+
+  const emptyWineVideoRef = useRef(null);
+  const [isEmptyWinePlaying, setIsEmptyWinePlaying] = useState(false);
 
   const bookcaseVideoRef = useRef(null);
   const [isBookcasePlaying, setIsBookcasePlaying] = useState(false);
@@ -94,7 +98,7 @@ const DesignsPage = () => {
           </div>
           <div className="box-two-images-bottom">
             <img id="finished-photo" src={image1} alt="wine celler" />
-            <img id="finished-photo" src={image5} alt="wine celler" />
+
             <div
               className="video-container"
               onClick={() => handleVideoClick(wineVideoRef, setIsWinePlaying)}
@@ -111,11 +115,30 @@ const DesignsPage = () => {
               </video>
               {!isWinePlaying && <div className="play-button-overlay">▶️</div>}
             </div>
-
+            <img id="finished-photo" src={image5} alt="wine celler" />
             <img id="finished-photo" src={image2} alt="wine celler" />
-
             <img id="finished-photo" src={image18} alt="wine celler" />
             <img id="finished-photo" src={image19} alt="wine celler" />
+            <div
+              className="video-container"
+              onClick={() =>
+                handleVideoClick(emptyWineVideoRef, setIsEmptyWinePlaying)
+              }
+            >
+              <video
+                id="wine-cellar-video"
+                ref={emptyWineVideoRef}
+                loop
+                muted
+                style={{ cursor: "pointer" }}
+              >
+                <source src={video5} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              {!isEmptyWinePlaying && (
+                <div className="play-button-overlay">▶️</div>
+              )}
+            </div>
           </div>
         </div>
         <br />
