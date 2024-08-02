@@ -9,6 +9,25 @@
   font-size: 25px;
 }
 
+/* Video controls */
+.video-container {
+  position: relative;
+  display: inline-block;
+  transition: transform 1s ease;
+  margin-top: 8px;
+}
+.play-button-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  pointer-events: none;
+}
+
 /* Wine  Cooler Info */
 
 /* Box One */
@@ -58,38 +77,15 @@
 }
 #finished-photo {
   transition: transform 1s ease;
-  height: 50vh;
+  height: 65vh;
   position: relative;
   z-index: 0;
 }
-#finished-photo:hover {
-  transform: scale(1.35);
-  z-index: 1000;
-}
+
 #wine-cellar-video,
-#bookcase-video {
-  height: 50vh;
-}
-.video-container {
-  position: relative;
-  display: inline-block;
-  transition: transform 1s ease;
-  margin-top: 8px;
-}
-.play-button-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3em;
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  cursor: pointer;
-  pointer-events: none;
-}
-.video-container:hover {
-  transform: scale(1.35);
-  z-index: 1000;
+#bookcase-video,
+#dresser-video {
+  height: 65vh;
 }
 
 /* Box three */
@@ -136,4 +132,6 @@
   overflow-x: auto;
   scroll-behavior: smooth;
   gap: 0.5vw;
+}
+#dresser-video {
 }

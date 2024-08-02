@@ -168,7 +168,7 @@ const DesignsPage = () => {
               }
             >
               <video
-                id="wine-cellar-video"
+                id="dresser-video"
                 ref={dresserVideoRef}
                 loop
                 muted
@@ -177,7 +177,9 @@ const DesignsPage = () => {
                 <source src={video4} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
-              {!isWinePlaying && <div className="play-button-overlay">▶️</div>}
+              {!isDresserPlaying && (
+                <div className="play-button-overlay">▶️</div>
+              )}
             </div>
             <img id="finished-photo" src={image13} alt="dresser" />
             <img id="finished-photo" src={image12} alt="dresser" />
