@@ -9,6 +9,8 @@
 --Transition from first photo to next image could be smoother (add a new banner)    
 --Gallery filter up top, turn drop down into icons 
 
---Add multiple photos to gallery
+--Add multiple photos to gallery pop-up
 
 --Updated imagedata for new photos
+
+--Add description in design page about dresser
