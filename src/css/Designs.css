@@ -5,8 +5,23 @@
   justify-content: center;
   align-items: center;
 }
+#design-page-main-title {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
 #design-page-desc {
+  width: 50vw;
   font-size: 25px;
+  border: 2px solid white;
+  padding: 1rem;
+}
+.design-box-one {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
 }
 
 /* Video controls */
@@ -28,34 +43,23 @@
   pointer-events: none;
 }
 
-/* Wine  Cooler Info */
-
-/* Box One */
-.design-box-one {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 70vw;
-}
+/* titles */
 #design-page-title {
   display: flex;
   justify-content: center;
+  text-decoration: underline;
 }
+
+/* Wine  Cellar Info */
 
 .wine-cellar-description {
   width: 50vw;
   padding-left: 25vw;
   font-size: 25px;
 }
-
-/* box two  */
 .design-box-two {
   justify-content: center;
   align-items: center;
-}
-#wine-cellar-title {
-  display: flex;
-  justify-content: center;
 }
 #sketch-up-wine {
   width: 50vw;
@@ -106,10 +110,6 @@
   scroll-behavior: smooth;
   gap: 0.5vw;
 }
-#walnut-bookcase-title {
-  display: flex;
-  justify-content: center;
-}
 .walnut-bookcase-description {
   width: 50vw;
   padding-left: 25vw;
@@ -132,6 +132,4 @@
   overflow-x: auto;
   scroll-behavior: smooth;
   gap: 0.5vw;
-}
-#dresser-video {
 }

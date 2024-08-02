@@ -53,7 +53,7 @@ const DesignsPage = () => {
       <Nav />
       <div className="design-page">
         <div className="design-box-one">
-          <h1 id="design-page-title">Custom Designs</h1>
+          <h1 id="design-page-main-title">Custom Designs</h1>
           <p id="design-page-desc">
             In addition to our woodworking expertise, BR Fabrication also
             specializes in creating custom computer designs tailored to the
@@ -67,11 +67,12 @@ const DesignsPage = () => {
             cater to a wide range of needs and tastes.
           </p>
         </div>
+        <br />
 
         {/* Wine cooler */}
 
         <div className="design-box-two">
-          <h1 id="wine-cellar-title">800 Bottle Wine Cooler</h1>
+          <h1 id="design-page-title">800 Bottle Wine Cooler</h1>
           <div className="box-two-images-top">
             <img id="sketch-up-wine" src={image4} alt="wine celler" />
             <img id="sketch-up-wine" src={image3} alt="wine celler" />
@@ -109,11 +110,12 @@ const DesignsPage = () => {
             <img id="finished-photo" src={image5} alt="wine celler" />
           </div>
         </div>
+        <br />
 
         {/* Walnut Bookcase */}
 
         <div className="design-box-three">
-          <h1 id="walnut-bookcase-title">Custom Walnut Veneer Bookcase</h1>
+          <h1 id="design-page-title">Custom Walnut Veneer Bookcase</h1>
           <div className="box-three-top">
             <img src={image6} alt="Walnut bookcase" />
             <img src={image7} alt="Walnut bookcase" />
@@ -155,11 +157,12 @@ const DesignsPage = () => {
             <img id="finished-photo" src={image9} alt="Walnut bookcase" />
           </div>
         </div>
+        <br />
 
         {/* Dresser */}
 
         <div className="design-box-four">
-          <h1>White Washed Dresser</h1>
+          <h1 id="design-page-title">White Washed Dresser</h1>
           <div className="box-four-top">
             <img src={image16} alt="dresser" />
             <img src={image14} alt="dresser" />
