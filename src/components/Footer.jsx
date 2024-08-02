@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/Footer.css";
 import InstagramLogo from "../assets/images/Screenshot (19).png";
-import FacebookLogo from "../assets/facbook logo11.png";
+import FacebookLogo from "../assets/images/facbook logo11.png";
 
 function Footer() {
   return (
