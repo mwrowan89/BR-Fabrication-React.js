@@ -9,6 +9,8 @@ import image2 from "../assets/images/Wine Cellar/IMG_1202.png";
 import image3 from "../assets/images/Wine Cellar/Wine Cellar 1.jpg";
 import image4 from "../assets/images/Wine Cellar/Wine Cellar 2.jpg";
 import image5 from "../assets/images/Wine Cellar/IMG_7321.png";
+import image18 from "../assets/images/Wine Cellar/IMG_6915.jpg";
+import image19 from "../assets/images/Wine Cellar/IMG_6922.jpg";
 import video2 from "../assets/images/Wine Cellar/Cellarvideo2.mov";
 //Walnut Bookcase
 import image6 from "../assets/images/Bookcase/Bookcase 1.jpg";
@@ -88,7 +90,8 @@ const DesignsPage = () => {
             </p>
           </div>
           <div className="box-two-images-bottom">
-            <img id="finished-photo" src={image2} alt="wine celler" />
+            <img id="finished-photo" src={image1} alt="wine celler" />
+            <img id="finished-photo" src={image5} alt="wine celler" />
             <div
               className="video-container"
               onClick={() => handleVideoClick(wineVideoRef, setIsWinePlaying)}
@@ -106,8 +109,10 @@ const DesignsPage = () => {
               {!isWinePlaying && <div className="play-button-overlay">▶️</div>}
             </div>
 
-            <img id="finished-photo" src={image1} alt="wine celler" />
-            <img id="finished-photo" src={image5} alt="wine celler" />
+            <img id="finished-photo" src={image2} alt="wine celler" />
+
+            <img id="finished-photo" src={image18} alt="wine celler" />
+            <img id="finished-photo" src={image19} alt="wine celler" />
           </div>
         </div>
         <br />
@@ -189,9 +194,8 @@ const DesignsPage = () => {
                 <div className="play-button-overlay">▶️</div>
               )}
             </div>
-
-            <img id="finished-photo" src={image12} alt="dresser" />
             <img id="finished-photo" src={image13} alt="dresser" />
+            <img id="finished-photo" src={image12} alt="dresser" />
           </div>
         </div>
       </div>
