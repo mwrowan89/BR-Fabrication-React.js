@@ -159,6 +159,10 @@ const DesignsPage = () => {
             <img src={image16} alt="dresser" />
             <img src={image14} alt="dresser" />
           </div>
+          <div className="box-four-bottom">
+            <img id="finished-photo" src={image13} alt="dresser" />
+            <img id="finished-photo" src={image12} alt="dresser" />
+          </div>
         </div>
       </div>
     </div>
