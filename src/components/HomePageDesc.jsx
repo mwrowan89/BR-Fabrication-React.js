@@ -35,7 +35,14 @@ const HomePageDesc = () => {
             <h3>BR Fabrications</h3>
             <p>
               Servicing restaurants and clients globally, BR Fabrication is a
-              premier manufacturer of high-quality tables.
+              premier manufacturer of high-quality tables. With a commitment to
+              excellence and a focus on craftsmanship, we create bespoke tables
+              tailored to meet the unique needs of each customer. Our products
+              are known for their durability, elegance, and innovative design,
+              making us a trusted partner for dining establishments and clients
+              worldwide. At BR Fabrication, we blend tradition with modern
+              technology to deliver exceptional furniture that enhances any
+              space.
             </p>
           </div>
         </div>
