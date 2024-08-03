@@ -4,8 +4,7 @@
 --Change up fonts
 --shop new arrivals icons (blurred background)
 
---Transition from first photo to next image could be smoother (add a new banner)    
---Gallery filter up top, turn drop down into icons 
+--Transition from first photo to next image could be smoother (add a new banner)
 
 --Add multiple photos to gallery pop-up
 
