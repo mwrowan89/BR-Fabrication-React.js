@@ -103,7 +103,7 @@
   gap: 0.5vw;
 }
 .box-three-bottom {
-  width: 100vw;
+  width: 98vw;
   min-height: 70vh;
   display: flex;
   justify-content: flex-start;
@@ -111,6 +111,7 @@
   overflow-x: auto;
   scroll-behavior: smooth;
   gap: 0.5vw;
+  margin-left: 1vw;
 }
 .walnut-bookcase-description {
   width: 50vw;
@@ -126,7 +127,7 @@
   gap: 0.5vw;
 }
 .box-four-bottom {
-  width: 100vw;
+  width: 98vw;
   min-height: 70vh;
   display: flex;
   justify-content: flex-start;
@@ -134,4 +135,5 @@
   overflow-x: auto;
   scroll-behavior: smooth;
   gap: 0.5vw;
+  margin-left: 1vw;
 }
