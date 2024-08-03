@@ -34,8 +34,8 @@ const HomePageDesc = () => {
           <div className="home-text">
             <h3>BR Fabrications</h3>
             <p>
-              Servicing restaurants and clients around the world, BR Fabrication
-              is a professional table manufacture.
+              Servicing restaurants and clients globally, BR Fabrication is a
+              premier manufacturer of high-quality tables.
             </p>
           </div>
         </div>
