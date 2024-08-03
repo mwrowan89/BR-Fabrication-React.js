@@ -96,6 +96,11 @@ const TopBanner = () => {
                 </a>
               </li>
               <li>
+                <a id="menu-link" href="/desigs">
+                  DESIGNS
+                </a>
+              </li>
+              <li>
                 <a id="menu-link" href="/contact">
                   CONTACT
                 </a>
