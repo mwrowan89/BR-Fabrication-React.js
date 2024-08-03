@@ -17,7 +17,9 @@ function PhotoSlide() {
       }
       return shuffled;
     };
-    setShuffledImages(shuffledArray(imageData));
+    setShuffledImages(
+      shuffledArray(imageData.filter((image) => image.feature === true))
+    );
   }, []);
 
   useEffect(() => {
@@ -39,7 +41,7 @@ function PhotoSlide() {
     setTimeout(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % shuffledImages.length);
       setFade(false);
-    }, 1000); // Match this duration with the CSS transition duration
+    }, 1000);
   };
 
   const prev = () => {
@@ -50,7 +52,7 @@ function PhotoSlide() {
           (prevIndex - 1 + shuffledImages.length) % shuffledImages.length
       );
       setFade(false);
-    }, 1000); // Match this duration with the CSS transition duration
+    }, 1000);
   };
 
   const handleClick = (selection) => {
