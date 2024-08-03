@@ -73,12 +73,13 @@
   transition: 0.7s ease;
   transform: translateX(100%);
 }
-/* .box-three-whole {
-} */
+.box-three-whole {
+  margin-top: -10vh;
+}
 .home-text {
   scale: 0.5;
   word-wrap: wrap;
-  margin-top: -12vw;
+  margin-top: -14vw;
 }
 .home-text p {
   width: 70vw;
@@ -93,7 +94,7 @@
   opacity: 0;
   transition: 2s ease;
   scale: 0.5;
-  margin: 2vw 0 -1vw 0vw;
+  margin: 2vw 0 0 0vw;
 }
 .box-one.show,
 .box-two.show,
