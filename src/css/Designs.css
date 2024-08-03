@@ -60,6 +60,7 @@
 .design-box-two {
   justify-content: center;
   align-items: center;
+  margin: 0 1vw 0 1vw;
 }
 #sketch-up-wine {
   width: 50vw;
@@ -69,7 +70,7 @@
   display: flex;
   gap: 0.5vw;
 }
-.box-two-images-bottom {
+.box-two-bottom {
   width: 100vw;
   min-height: 70vh;
   display: flex;

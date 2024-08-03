@@ -41,7 +41,7 @@ const DesignsPage = () => {
   const bookcaseVideoRef = useRef(null);
   const [isBookcasePlaying, setIsBookcasePlaying] = useState(false);
 
-  const dresserVideoRef = useState(null);
+  const dresserVideoRef = useRef(null);
   const [isDresserPlaying, setIsDresserPlaying] = useState(false);
 
   const handleVideoClick = (videoRef, setIsPlaying) => {
@@ -96,7 +96,7 @@ const DesignsPage = () => {
               looks and durability.
             </p>
           </div>
-          <div className="box-two-images-bottom">
+          <div className="box-two-bottom">
             <img id="finished-photo" src={image1} alt="wine celler" />
 
             <div
