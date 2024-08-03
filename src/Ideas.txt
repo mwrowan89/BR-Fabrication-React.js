@@ -1,4 +1,5 @@
 --Add collections restaurants, aspen etc.
+
 --Add ability to message directly about photos/create collections for inspo
 --Make page accessable on phone
 --Change up fonts
