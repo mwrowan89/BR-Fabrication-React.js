@@ -5,6 +5,8 @@
   display: flex;
   justify-content: space-between;
   margin-left: -0.5vw;
+  min-height: 100vh;
+  margin-top: 5vh;
 }
 .links-footer {
   display: flex;
