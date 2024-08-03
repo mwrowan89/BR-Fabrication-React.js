@@ -71,7 +71,7 @@
   gap: 0.5vw;
 }
 .box-two-bottom {
-  width: 100vw;
+  width: 99vw;
   min-height: 70vh;
   display: flex;
   justify-content: flex-start;
@@ -79,6 +79,7 @@
   overflow-x: auto;
   scroll-behavior: smooth;
   gap: 0.5vw;
+  margin-left: 1vw;
 }
 #finished-photo {
   transition: transform 1s ease;

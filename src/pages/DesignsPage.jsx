@@ -97,8 +97,9 @@ const DesignsPage = () => {
             </p>
           </div>
           <div className="box-two-bottom">
+            <br />
+            <br />
             <img id="finished-photo" src={image1} alt="wine celler" />
-
             <div
               className="video-container"
               onClick={() => handleVideoClick(wineVideoRef, setIsWinePlaying)}
@@ -139,6 +140,7 @@ const DesignsPage = () => {
                 <div className="play-button-overlay">▶️</div>
               )}
             </div>
+            <br />
           </div>
         </div>
         <br />
