@@ -50,9 +50,16 @@ const HomePageDesc = () => {
           <div id="box-two-p" className="home-text">
             <h3>Our Mission</h3>
             <p>
-              We strive to provide the most exceptionally crafted heirloom
-              quality furniture for every customer. The resources we use are all
-              ethically sourced and handcrafted in Chicago, Illinois.
+              At BR Fabrication, we are dedicated to delivering heirloom-quality
+              furniture, meticulously crafted to exceed the expectations of
+              every customer. Our commitment to excellence is reflected in the
+              superior craftsmanship and attention to detail that goes into each
+              piece. We take pride in using ethically sourced materials,
+              ensuring sustainability and integrity in our production process.
+              Every item is handcrafted in our Chicago, Illinois workshop by
+              skilled artisans who blend traditional techniques with modern
+              innovations. Our furniture not only stands the test of time but
+              also adds a touch of elegance and sophistication to any setting.
             </p>
           </div>
           <img id="bakan-desc-img-two" src={image3} alt="Bakan" />
