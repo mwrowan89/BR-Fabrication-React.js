@@ -18,9 +18,7 @@
 }
 .design-box-one {
   display: inline-flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
   width: 70vw;
 }
 

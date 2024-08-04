@@ -67,25 +67,25 @@ const DesignsPage = () => {
       <Header />
       <Nav />
       <div className="design-page">
+        <h1 id="design-page-main-title">Custom Designs</h1>
         <div className="design-box-one">
-          <h1 id="design-page-main-title">Custom Designs</h1>
-          <p id="design-page-desc">
-            <div
-              className="video-container"
-              onClick={() => handleVideoClick(deskVideoRef, setIsDeskPlaying)}
+          <div
+            className="video-container"
+            onClick={() => handleVideoClick(deskVideoRef, setIsDeskPlaying)}
+          >
+            <video
+              id="wine-cellar-video"
+              ref={deskVideoRef}
+              loop
+              muted
+              style={{ cursor: "pointer" }}
             >
-              <video
-                id="wine-cellar-video"
-                ref={deskVideoRef}
-                loop
-                muted
-                style={{ cursor: "pointer" }}
-              >
-                <source src={video6} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-              {!isDeskPlaying && <div className="play-button-overlay">▶️</div>}
-            </div>
+              <source src={video6} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            {!isDeskPlaying && <div className="play-button-overlay">▶️</div>}
+          </div>
+          <p id="design-page-desc">
             In addition to our woodworking expertise, BR Fabrication also
             specializes in creating custom computer designs tailored to the
             specific requirements and preferences of our clients. Whether it’s
