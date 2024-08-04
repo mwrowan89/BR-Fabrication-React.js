@@ -19,9 +19,11 @@
 .design-box-one {
   display: inline-flex;
   justify-content: center;
-  width: 70vw;
+  width: 100vw;
 }
-
+.design-box-one p {
+  margin-left: 30vw;
+}
 /* Video controls */
 .video-container {
   position: relative;
@@ -43,6 +45,7 @@
 #desk-vid {
   scale: 0.5;
   position: absolute;
+  margin: -10vw 0 0 -64vw;
 }
 
 /* titles */
