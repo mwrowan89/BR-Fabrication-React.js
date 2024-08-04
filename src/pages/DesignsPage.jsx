@@ -32,6 +32,7 @@ import image17 from "../assets/images/Dresser/IMG_6785.jpg";
 import video4 from "../assets/images/Dresser/Dresser-vid.mov";
 
 //Top display
+import video6 from "../assets/images/Deskvid.mov";
 
 const DesignsPage = () => {
   const wineVideoRef = useRef(null);
@@ -45,6 +46,9 @@ const DesignsPage = () => {
 
   const dresserVideoRef = useRef(null);
   const [isDresserPlaying, setIsDresserPlaying] = useState(false);
+
+  const deskVideoRef = useRef(null);
+  const [isDeskPlaying, setIsDeskPlaying] = useState(false);
 
   const handleVideoClick = (videoRef, setIsPlaying) => {
     if (videoRef.current) {
@@ -66,6 +70,22 @@ const DesignsPage = () => {
         <div className="design-box-one">
           <h1 id="design-page-main-title">Custom Designs</h1>
           <p id="design-page-desc">
+            <div
+              className="video-container"
+              onClick={() => handleVideoClick(deskVideoRef, setIsDeskPlaying)}
+            >
+              <video
+                id="wine-cellar-video"
+                ref={deskVideoRef}
+                loop
+                muted
+                style={{ cursor: "pointer" }}
+              >
+                <source src={video6} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              {!isDeskPlaying && <div className="play-button-overlay">▶️</div>}
+            </div>
             In addition to our woodworking expertise, BR Fabrication also
             specializes in creating custom computer designs tailored to the
             specific requirements and preferences of our clients. Whether it’s
