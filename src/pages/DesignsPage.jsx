@@ -31,6 +31,8 @@ import image16 from "../assets/images/Dresser/Master Bedroom Chest Brooke Abrams
 import image17 from "../assets/images/Dresser/IMG_6785.jpg";
 import video4 from "../assets/images/Dresser/Dresser-vid.mov";
 
+//Top display
+
 const DesignsPage = () => {
   const wineVideoRef = useRef(null);
   const [isWinePlaying, setIsWinePlaying] = useState(false);
