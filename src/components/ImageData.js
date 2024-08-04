@@ -1077,9 +1077,6 @@ const imageData = [
     type: ["com-table", "drip"],
     feature: false,
   },
-
-  //Need to update desc info from here on
-
   {
     id: 85,
     src: image85,
@@ -1281,14 +1278,17 @@ const imageData = [
   {
     id: 103,
     src: image103,
-    alt: "Golden Acacia Drip",
-    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
-    title: "Golden Acacia Drip",
+    alt: "Giant Golden Acacia Slab",
+    desc: "This photo is of owner and founder Ben Rioux infront of one of the largest 'slabs' we have recieved as building material for tables. This one inparticular measured in at over 33' and had to be stood up and moved with a crane.",
+    title: "Giant Golden Acacia Slab",
     customer: "com",
     page: 11,
-    type: ["com-table", "drip"],
+    type: ["com-table", "res-table"],
     feature: false,
   },
+
+  //Need to update desc info from here on
+
   {
     id: 104,
     src: image104,
