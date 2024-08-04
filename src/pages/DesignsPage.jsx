@@ -71,6 +71,7 @@ const DesignsPage = () => {
         <div className="design-box-one">
           <div
             className="video-container"
+            id="desk-vid"
             onClick={() => handleVideoClick(deskVideoRef, setIsDeskPlaying)}
           >
             <video

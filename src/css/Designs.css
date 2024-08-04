@@ -40,6 +40,10 @@
   cursor: pointer;
   pointer-events: none;
 }
+#desk-vid {
+  scale: 0.5;
+  position: absolute;
+}
 
 /* titles */
 #design-page-title {
