@@ -47,8 +47,7 @@ const DesignsPage = () => {
   const dresserVideoRef = useRef(null);
   const [isDresserPlaying, setIsDresserPlaying] = useState(false);
 
-  const deskVideoRef = useRef(null);
-  const [isDeskPlaying, setIsDeskPlaying] = useState(false);
+  // const deskVideoRef = useRef(deskVideoRef.current.play());
 
   const handleVideoClick = (videoRef, setIsPlaying) => {
     if (videoRef.current) {
@@ -69,22 +68,17 @@ const DesignsPage = () => {
       <div className="design-page">
         <h1 id="design-page-main-title">Custom Designs</h1>
         <div className="design-box-one">
-          <div
-            className="video-container"
-            id="desk-vid"
-            onClick={() => handleVideoClick(deskVideoRef, setIsDeskPlaying)}
-          >
+          <div className="video-container" id="desk-vid">
             <video
               id="wine-cellar-video"
-              ref={deskVideoRef}
               loop
               muted
+              autoPlay
               style={{ cursor: "pointer" }}
             >
               <source src={video6} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-            {!isDeskPlaying && <div className="play-button-overlay">▶️</div>}
           </div>
           <p id="design-page-desc">
             In addition to our woodworking expertise, BR Fabrication also
