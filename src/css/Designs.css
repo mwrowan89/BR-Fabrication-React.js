@@ -47,6 +47,11 @@
   position: absolute;
   margin: -10vw 0 0 -64vw;
 }
+#wine-cellar-video,
+#bookcase-video,
+#dresser-video {
+  height: 65vh;
+}
 
 /* titles */
 #design-page-title {
@@ -93,12 +98,6 @@
   z-index: 0;
 }
 
-#wine-cellar-video,
-#bookcase-video,
-#dresser-video {
-  height: 65vh;
-}
-
 /* Box three */
 
 .box-three-top {
@@ -141,4 +140,11 @@
   scroll-behavior: smooth;
   gap: 0.5vw;
   margin-left: 1vw;
+}
+.dresser-description {
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  padding-left: 25vw;
+  font-size: 25px;
 }
