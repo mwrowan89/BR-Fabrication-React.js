@@ -107,7 +107,7 @@ import image106 from "../assets/images/114.jpg";
 import image107 from "../assets/images/115.jpg";
 import image108 from "../assets/images/116.jpg";
 import image109 from "../assets/images/117.jpg";
-import image110 from "../assets/images/118.jpg";
+import image110 from "../assets/images/118.PNG";
 import image111 from "../assets/images/119.jpg";
 import image112 from "../assets/images/120.jpg";
 import image113 from "../assets/images/121.jpg";
@@ -1347,23 +1347,23 @@ const imageData = [
   {
     id: 109,
     src: image109,
-    alt: "Golden Acacia Drip",
-    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
-    title: "Golden Acacia Drip",
-    customer: "com",
+    alt: "16' Golden Acacia Dining Table",
+    desc: "Unique live edge Golden Acacia dining table with custom Acacia legs finished with a dark Walnut stain and a durable 2K polyurethane.",
+    title: "16' Golden Acacia Dining Table",
+    customer: "res",
     page: 11,
-    type: ["com-table", "drip"],
+    type: ["res-table"],
     feature: false,
   },
   {
     id: 110,
     src: image110,
-    alt: "Golden Acacia Drip",
-    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
-    title: "Golden Acacia Drip",
-    customer: "com",
+    alt: "Golden Acacia Cookie",
+    desc: "A beautiful Golden Acacia cookie featured in a customers home in New York. This kitchen was designed by Debra Kling and won a desgin award in 2019.",
+    title: "Golden Acacia Cookie",
+    customer: "res",
     page: 11,
-    type: ["com-table", "drip"],
+    type: ["res-table"],
     feature: true,
   },
   {
