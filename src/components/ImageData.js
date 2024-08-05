@@ -107,7 +107,7 @@ import image106 from "../assets/images/114.jpg";
 import image107 from "../assets/images/115.jpg";
 import image108 from "../assets/images/116.jpg";
 import image109 from "../assets/images/117.jpg";
-import image110 from "../assets/images/118.PNG";
+import image110 from "../assets/images/118.png";
 import image111 from "../assets/images/119.jpg";
 import image112 from "../assets/images/120.jpg";
 import image113 from "../assets/images/121.jpg";
@@ -1370,7 +1370,7 @@ const imageData = [
     id: 111,
     src: image111,
     alt: "Golden Acacia Drip",
-    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
+    desc: "A photo featuring three of many table installed in a food hall in Salt Lake City, Ut. All made from Golden Acacia and the main attraction being the 'drip' table. Cut from the fallen Acacia tree like this, the table creates a melting illusion and also serves as one leg for the table.",
     title: "Golden Acacia Drip",
     customer: "com",
     page: 11,
