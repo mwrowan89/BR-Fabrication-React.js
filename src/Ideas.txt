@@ -5,8 +5,6 @@
 --Change up fonts
 --shop new arrivals icons (blurred background)
 
---Transition from first photo to next image could be smoother (add a new banner)
-
 --Add multiple photos to gallery pop-up
 
 --Updated imagedata for new photos
