@@ -1286,9 +1286,6 @@ const imageData = [
     type: ["com-table", "res-table"],
     feature: false,
   },
-
-  //Need to update desc info from here on
-
   {
     id: 104,
     src: image104,
@@ -1476,6 +1473,9 @@ const imageData = [
     type: ["res-table", "res-deco"],
     feature: true,
   },
+
+  //Need to update desc info from here on
+
   {
     id: 121,
     src: image121,

@@ -220,6 +220,9 @@ const DesignsPage = () => {
             <img src={image16} alt="dresser" />
             <img src={image14} alt="dresser" />
           </div>
+          <div className="dresser-description">
+            <p>Dresser description</p>
+          </div>
           <div className="box-four-bottom">
             <img id="finished-photo" src={image17} alt="dresser" />
             <div
