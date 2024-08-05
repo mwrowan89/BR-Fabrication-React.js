@@ -1435,12 +1435,12 @@ const imageData = [
   {
     id: 117,
     src: image117,
-    alt: "Golden Acacia Drip",
-    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
-    title: "Golden Acacia Drip",
-    customer: "com",
+    alt: "Golden Acacia Log",
+    desc: "The raw material on which owner and founder Ben Rioux (shown here) started BR Fabrication. Ethically sourcing lumber from exotic locations around the world, Ben has sent over 20 shipping containers of raw material back to the US for manufacturing. ",
+    title: "Golden Acacia Log",
+    customer: "res",
     page: 11,
-    type: ["com-table", "drip"],
+    type: ["com-deco", "res-deco"],
     feature: true,
   },
   {
