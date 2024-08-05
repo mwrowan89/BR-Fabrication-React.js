@@ -13,7 +13,5 @@
 
 --Add description in design page about dresser
 
---Fix look and feel of design page
-
 --Add more designs to design page
-    ---Add videos to design page
+    ---Add videos to design page -- dresser vid
