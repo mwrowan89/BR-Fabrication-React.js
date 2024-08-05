@@ -1446,12 +1446,12 @@ const imageData = [
   {
     id: 118,
     src: image118,
-    alt: "Golden Acacia Drip",
-    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
-    title: "Golden Acacia Drip",
-    customer: "com",
+    alt: "Golden Acacia Stair Treads",
+    desc: "Natural Golden Acacia stair treads added to a friends home in New York for some added character. These stairs are finished with a clear and durable 2K polyurethane coating for maximum beauty and durability.",
+    title: "Golden Acacia Stair Treads",
+    customer: "res",
     page: 11,
-    type: ["com-table", "drip"],
+    type: ["res-deco"],
     feature: true,
   },
   {
