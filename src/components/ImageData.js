@@ -1534,12 +1534,12 @@ const imageData = [
   {
     id: 126,
     src: image126,
-    alt: "Golden Acacia Drip",
-    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
-    title: "Golden Acacia Drip",
+    alt: "Golden Acacia Shelves",
+    desc: "Our inventory includes smaller pieces of exotic woods with many purposes. These custom Golden Acacia shelves are perfect for bottle display at a restaurant in NYC.",
+    title: "Golden Acacia Shelves",
     customer: "com",
     page: 11,
-    type: ["com-table", "drip"],
+    type: ["com-deco"],
     feature: true,
   },
   {
