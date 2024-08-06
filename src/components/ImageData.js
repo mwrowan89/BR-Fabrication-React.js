@@ -1545,12 +1545,12 @@ const imageData = [
   {
     id: 127,
     src: image127,
-    alt: "Golden Acacia Drip",
-    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
-    title: "Golden Acacia Drip",
-    customer: "com",
+    alt: "Golden Acacia Office Desk",
+    desc: "A beautiful workspace piece with custom metal legs to liven up any office. Made from Golden Acacia and finsihed with a durable 2K polyurethane.",
+    title: "Golden Acacia Office Desk",
+    customer: "res",
     page: 11,
-    type: ["com-table", "drip"],
+    type: ["res-table", "res-deco"],
     feature: true,
   },
   {
