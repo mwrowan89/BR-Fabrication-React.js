@@ -221,7 +221,7 @@ const DesignsPage = () => {
             <img src={image14} alt="dresser" />
           </div>
           <div className="dresser-description">
-            <p>Dresser description</p>
+            <p>Custom made white washed dresser made out of rift White Oak.</p>
           </div>
           <div className="box-four-bottom">
             <img id="finished-photo" src={image17} alt="dresser" />
