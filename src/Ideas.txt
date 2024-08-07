@@ -13,3 +13,4 @@
 
 --Add more designs to design page
     ---Add videos to design page -- dresser vid
+    --Add movement to design page elements
