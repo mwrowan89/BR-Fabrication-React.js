@@ -1644,12 +1644,12 @@ const imageData = [
   {
     id: 136,
     src: image136,
-    alt: "Golden Acacia Drip",
-    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
-    title: "Golden Acacia Drip",
-    customer: "com",
+    alt: "Golden Acacia Waterfall Coffee Table",
+    desc: "This coffee table is made of Golden Acacia and considered a 'waterfall' due to the way it is built. For this piece, we utilized one slab of Golden Acacia and mitered the edges to give the table a flowing or continuous look.",
+    title: "Golden Acacia Waterfall Coffee Table",
+    customer: "res",
     page: 11,
-    type: ["com-table", "drip"],
+    type: ["res-coffee-table", "res-deco"],
     feature: true,
   },
   {
