@@ -71,6 +71,7 @@
   justify-content: center;
   align-items: center;
   margin: 0 1vw 0 1vw;
+  border-bottom: 4px solid white;
 }
 #sketch-up-wine {
   width: 50vw;
@@ -99,7 +100,9 @@
 }
 
 /* Box three */
-
+.design-box-three {
+  border-bottom: 4px solid white;
+}
 .box-three-top {
   width: 100vw;
   height: 50vh;
@@ -124,6 +127,7 @@
 }
 
 /* dresser */
+
 .box-four-top {
   width: 100vw;
   height: 50vh;

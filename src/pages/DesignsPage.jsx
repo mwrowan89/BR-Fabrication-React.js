@@ -66,7 +66,7 @@ const DesignsPage = () => {
       <Header />
       <Nav />
       <div className="design-page">
-        <h1 id="design-page-main-title">Custom Designs</h1>
+        <h1 id="design-page-main-title">Custom Designs for All Builds</h1>
         <div className="design-box-one">
           <div className="video-container" id="desk-vid">
             <video
