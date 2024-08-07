@@ -27,7 +27,7 @@ import video3 from "../assets/images/Bookcase/IMG_2654.MOV";
 import image12 from "../assets/images/Dresser/IMG_6865_Original.png";
 import image13 from "../assets/images/Dresser/IMG_7044_Original.png";
 import image14 from "../assets/images/Dresser/Master Bedroom Chest Brooke Abrams 1.jpg";
-import image16 from "../assets/images/Dresser/Master Bedroom Chest Brooke Abrams-Dimensions.PNG";
+import image16 from "../assets/images/Dresser/Master Bedroom Chest Brooke Abrams-Dimensions.png";
 import image17 from "../assets/images/Dresser/IMG_6785.jpg";
 import video4 from "../assets/images/Dresser/Dresser-vid.mov";
 
@@ -221,7 +221,10 @@ const DesignsPage = () => {
             <img src={image14} alt="dresser" />
           </div>
           <div className="dresser-description">
-            <p>Custom made white washed dresser made out of rift White Oak.</p>
+            <p>
+              Custom made white washed dresser made out of rift White Oak with
+              solid Oak trim.
+            </p>
           </div>
           <div className="box-four-bottom">
             <img id="finished-photo" src={image17} alt="dresser" />
