@@ -127,7 +127,10 @@
 }
 
 /* dresser */
-
+.design-box-four {
+  margin-top: 5vw;
+  border-bottom: 4px solid white;
+}
 .box-four-top {
   width: 100vw;
   height: 50vh;
