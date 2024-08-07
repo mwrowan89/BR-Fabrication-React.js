@@ -168,7 +168,7 @@ const DesignsPage = () => {
         {/* Walnut Bookcase */}
 
         <div className="design-box-three">
-          <h1 id="design-page-title">Custom Walnut Veneer Bookcase</h1>
+          <h1 id="design-page-title">Walnut Veneer Bookcase</h1>
           <div className="box-three-top">
             <img src={image6} alt="Walnut bookcase" />
             <img src={image7} alt="Walnut bookcase" />
