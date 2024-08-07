@@ -132,7 +132,7 @@ import image131 from "../assets/images/140.jpg";
 import image132 from "../assets/images/141.jpg";
 import image133 from "../assets/images/143.jpg";
 import image134 from "../assets/images/144.jpg";
-import image135 from "../assets/images/145.jpg";
+import image135 from "../assets/images/145.png";
 import image136 from "../assets/images/146.jpg";
 import image137 from "../assets/images/147.jpg";
 import image138 from "../assets/images/148.jpg";
@@ -1628,17 +1628,17 @@ const imageData = [
     customer: "res",
     page: 11,
     type: ["res-table"],
-    feature: true,
+    feature: false,
   },
   {
     id: 135,
     src: image135,
-    alt: "Golden Acacia Drip",
-    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
-    title: "Golden Acacia Drip",
+    alt: "Golden Acacia Bar Top",
+    desc: "A beautiful bar top made of Golden Acacia totaling over 40' of bar top for a restaurant in New Jersey.",
+    title: "Golden Acacia Bar Top",
     customer: "com",
     page: 11,
-    type: ["com-table", "drip"],
+    type: ["com-table", "com-deco"],
     feature: true,
   },
   {
