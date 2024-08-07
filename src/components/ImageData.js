@@ -1473,9 +1473,6 @@ const imageData = [
     type: ["res-table", "res-deco"],
     feature: true,
   },
-
-  //Need to update desc info from here on
-
   {
     id: 121,
     src: image121,
@@ -1677,25 +1674,28 @@ const imageData = [
   {
     id: 139,
     src: image139,
-    alt: "Golden Acacia Drip",
-    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
-    title: "Golden Acacia Drip",
-    customer: "com",
+    alt: "Golden Acacia Dining Table",
+    desc: "A very unique Golden Acacia dining table for a client in New Jersey. The customer wanted the table to flow with the kitchen hence the angle it is placed on.",
+    title: "Golden Acacia Dining Table",
+    customer: "res",
     page: 11,
-    type: ["com-table", "drip"],
+    type: ["res-table"],
     feature: true,
   },
   {
     id: 140,
     src: image140,
-    alt: "Golden Acacia Drip",
-    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
-    title: "Golden Acacia Drip",
+    alt: "Golden Acacia High-Tops and Leeche Root Sign",
+    desc: "Beautiful Golden Acacia high top tables and a custom made Leeche Root sign made for a restaurant in NYC.",
+    title: "Golden Acacia High-Tops and Leeche Root Sign",
     customer: "com",
     page: 11,
-    type: ["com-table", "drip"],
+    type: ["com-table", "com-deco"],
     feature: true,
   },
+
+  //Need to update desc info from here on
+
   {
     id: 141,
     src: image141,
