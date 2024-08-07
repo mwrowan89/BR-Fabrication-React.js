@@ -215,7 +215,7 @@ const DesignsPage = () => {
         {/* Dresser */}
 
         <div className="design-box-four">
-          <h1 id="design-page-title">White Washed Dresser</h1>
+          <h1 id="design-page-title">Rift White Oak Dresser</h1>
           <div className="box-four-top">
             <img src={image16} alt="dresser" />
             <img src={image14} alt="dresser" />
