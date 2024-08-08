@@ -1711,7 +1711,7 @@ const imageData = [
     id: 142,
     src: image142,
     alt: "Golden Acacia Dining Table",
-    desc: "",
+    desc: "Special dining table for a game room at a residence in New York.",
     title: "Golden Acacia Dining Table",
     customer: "com",
     page: 11,
