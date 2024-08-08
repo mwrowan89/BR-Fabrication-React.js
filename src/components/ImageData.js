@@ -1700,7 +1700,7 @@ const imageData = [
     id: 141,
     src: image141,
     alt: "Golden Acacia Coffee Table",
-    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
+    desc: "A large Golden Acacia coffee table fit for any living room finished in a natural oil for durability and shine.",
     title: "Golden Acacia Coffee Table",
     customer: "com",
     page: 11,
