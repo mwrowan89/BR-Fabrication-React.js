@@ -1713,9 +1713,9 @@ const imageData = [
     alt: "Golden Acacia Dining Table",
     desc: "Special dining table for a game room at a residence in New York.",
     title: "Golden Acacia Dining Table",
-    customer: "com",
+    customer: "res",
     page: 11,
-    type: ["com-table", "drip"],
+    type: ["res-table"],
     feature: true,
   },
   {
