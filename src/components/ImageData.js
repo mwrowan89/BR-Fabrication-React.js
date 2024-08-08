@@ -1702,9 +1702,9 @@ const imageData = [
     alt: "Golden Acacia Coffee Table",
     desc: "A large Golden Acacia coffee table fit for any living room finished in a natural oil for durability and shine.",
     title: "Golden Acacia Coffee Table",
-    customer: "com",
+    customer: "res",
     page: 11,
-    type: ["com-table", "drip"],
+    type: ["res-coffee-table"],
     feature: true,
   },
   {
