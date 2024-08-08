@@ -1737,7 +1737,7 @@ const imageData = [
     title: "Golden Acacia Dining Table",
     customer: "res",
     page: 11,
-    type: ["com-table", "drip"],
+    type: ["res-table", "res-deco"],
     feature: true,
   },
   {
