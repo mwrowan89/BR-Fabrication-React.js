@@ -1733,7 +1733,7 @@ const imageData = [
     id: 144,
     src: image144,
     alt: "Golden Acacia Dining Table",
-    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
+    desc: "A beautiful 12' Golden Acacia dining table in this colorful kitchen for a client in New Jersey.",
     title: "Golden Acacia Dining Table",
     customer: "res",
     page: 11,
