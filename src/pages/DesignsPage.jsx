@@ -33,7 +33,7 @@ import video4 from "../assets/images/Dresser/Dresser-vid.mov";
 
 //Top display
 import video6 from "../assets/images/Deskvid.mov";
-import video7 from "../assets/images/Dresser/Dresser-vid.mov";
+import video7 from "../assets/images/Rolling Cabinet/Rolling-cab-vid.mov";
 
 const DesignsPage = () => {
   const wineVideoRef = useRef(null);
@@ -93,7 +93,7 @@ const DesignsPage = () => {
           </p>
           <div className="video-container" id="desk-vid">
             <video
-              id="walnut-desk-video"
+              id="rolling-cab-video"
               loop
               muted
               autoPlay
