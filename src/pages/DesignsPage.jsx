@@ -91,6 +91,18 @@ const DesignsPage = () => {
             underscores our dedication to delivering personalized solutions that
             cater to a wide range of needs and tastes.
           </p>
+          <div className="video-container" id="desk-vid">
+            <video
+              id="walnut-desk-video"
+              loop
+              muted
+              autoPlay
+              style={{ cursor: "pointer" }}
+            >
+              <source src={video7} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
         <br />
 
