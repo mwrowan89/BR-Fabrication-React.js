@@ -20,6 +20,7 @@
   display: inline-flex;
   justify-content: center;
   width: 100vw;
+  height: 45vh;
 }
 .design-box-one p {
   margin-left: 30vw;
@@ -47,8 +48,12 @@
   position: absolute;
   margin: -10vw 0 0 -64vw;
 }
+#rolling-cab-vid {
+  scale: 0.5;
+}
 #wine-cellar-video,
 #walnut-desk-video,
+#rolling-cab-video,
 #bookcase-video,
 #dresser-video {
   height: 65vh;
