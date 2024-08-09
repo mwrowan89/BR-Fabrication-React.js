@@ -1820,13 +1820,13 @@ const imageData = [
   {
     id: 152,
     src: image152,
-    alt: "Golden Acacia Drip",
-    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
-    title: "Golden Acacia Drip",
-    customer: "com",
+    alt: "Massive Golden Acacia Coffee Table",
+    desc: "A large Golden Acacia coffee table custom made for this long L-shape couch.",
+    title: "Massive Golden Acacia Coffee Table",
+    customer: "res",
     page: 11,
-    type: ["com-table", "drip"],
-    feature: true,
+    type: ["res-coffee-table"],
+    feature: false,
   },
 ];
 export default imageData;
