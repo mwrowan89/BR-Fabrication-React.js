@@ -1798,13 +1798,13 @@ const imageData = [
   {
     id: 150,
     src: image150,
-    alt: "Dark Walnut Dining Table",
-    desc: "A one of a kind 7' Dark Walnut dining table made for a customer in New York City.",
-    title: "Dark Walnut Dining Table",
+    alt: "Golden Acacia Events Dining Table",
+    desc: "A one of a kind 32' dining table setup here for a wedding, seating 30+ people.",
+    title: "Golden Acacia Events Dining Table",
     customer: "res",
     page: 11,
-    type: ["res-table", "drip"],
-    feature: false,
+    type: ["res-table", "res-deco"],
+    feature: true,
   },
   {
     id: 151,
