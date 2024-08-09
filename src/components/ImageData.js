@@ -1787,13 +1787,13 @@ const imageData = [
   {
     id: 149,
     src: image149,
-    alt: "Golden Acacia Drip",
-    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
-    title: "Golden Acacia Drip",
-    customer: "com",
+    alt: "Dark Walnut Dining Table",
+    desc: "A one of a kind 7' Dark Walnut dining table made for a customer in New York City.",
+    title: "Dark Walnut Dining Table",
+    customer: "res",
     page: 11,
-    type: ["com-table", "drip"],
-    feature: true,
+    type: ["res-table"],
+    feature: false,
   },
   {
     id: 150,
@@ -1803,7 +1803,7 @@ const imageData = [
     title: "Dark Walnut Dining Table",
     customer: "res",
     page: 11,
-    type: ["res-table"],
+    type: ["res-table", "drip"],
     feature: false,
   },
   {
