@@ -1804,7 +1804,7 @@ const imageData = [
     customer: "res",
     page: 11,
     type: ["res-table"],
-    feature: true,
+    feature: false,
   },
   {
     id: 151,
