@@ -33,6 +33,7 @@ import video4 from "../assets/images/Dresser/Dresser-vid.mov";
 
 //Top display
 import video6 from "../assets/images/Deskvid.mov";
+import video7 from "../assets/images/Dresser/Dresser-vid.mov";
 
 const DesignsPage = () => {
   const wineVideoRef = useRef(null);
@@ -46,8 +47,6 @@ const DesignsPage = () => {
 
   const dresserVideoRef = useRef(null);
   const [isDresserPlaying, setIsDresserPlaying] = useState(false);
-
-  // const deskVideoRef = useRef(deskVideoRef.current.play());
 
   const handleVideoClick = (videoRef, setIsPlaying) => {
     if (videoRef.current) {
@@ -70,7 +69,7 @@ const DesignsPage = () => {
         <div className="design-box-one">
           <div className="video-container" id="desk-vid">
             <video
-              id="wine-cellar-video"
+              id="walnut-desk-video"
               loop
               muted
               autoPlay
