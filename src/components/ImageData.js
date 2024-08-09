@@ -1809,17 +1809,6 @@ const imageData = [
   {
     id: 151,
     src: image151,
-    alt: "Golden Acacia Drip",
-    desc: "On of our patented 'Drip' tables carved from the Acacia tree to create a flowing transition to the floor. This table is located in a food hall in Salt Lake City, Ut.",
-    title: "Golden Acacia Drip",
-    customer: "com",
-    page: 11,
-    type: ["com-table", "drip"],
-    feature: true,
-  },
-  {
-    id: 152,
-    src: image152,
     alt: "Massive Golden Acacia Coffee Table",
     desc: "A large Golden Acacia coffee table custom made for this long L-shape couch.",
     title: "Massive Golden Acacia Coffee Table",
@@ -1827,6 +1816,17 @@ const imageData = [
     page: 11,
     type: ["res-coffee-table"],
     feature: false,
+  },
+  {
+    id: 152,
+    src: image152,
+    alt: "Live Edge Dark Walnut Waterfall",
+    desc: "A beautiful Dark Walnut waterfall coffee table made for a lobby reception area in NYC.",
+    title: "Live Edge Dark Walnut Waterfall",
+    customer: "res",
+    page: 11,
+    type: ["res-coffee-table", "com-deco"],
+    feature: true,
   },
 ];
 export default imageData;
