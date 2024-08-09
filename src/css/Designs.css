@@ -11,7 +11,7 @@
   font-size: 40px;
 }
 #design-page-desc {
-  width: 50vw;
+  width: 60vw;
   font-size: 25px;
   border: 2px solid white;
   padding: 1rem;
@@ -20,10 +20,10 @@
   display: inline-flex;
   justify-content: center;
   width: 100vw;
-  height: 45vh;
+  height: fit-content;
 }
 .design-box-one p {
-  margin-left: 30vw;
+  margin-left: 40vw;
 }
 /* Video controls */
 .video-container {
