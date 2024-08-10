@@ -52,6 +52,7 @@
 #rolling-cab-vid {
   scale: 0.5;
   margin-top: 10vw;
+  cursor: default;
 }
 #wine-cellar-video,
 #walnut-desk-video,

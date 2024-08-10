@@ -68,13 +68,7 @@ const DesignsPage = () => {
         <h1 id="design-page-main-title">Custom Designs for All Builds</h1>
         <div className="design-box-one">
           <div className="video-container" id="desk-vid">
-            <video
-              id="walnut-desk-video"
-              loop
-              muted
-              autoPlay
-              style={{ cursor: "pointer" }}
-            >
+            <video id="walnut-desk-video" loop muted autoPlay>
               <source src={video6} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -92,13 +86,7 @@ const DesignsPage = () => {
             cater to a wide range of needs and tastes.
           </p>
           <div className="video-container" id="rolling-cab-vid">
-            <video
-              id="rolling-cab-video"
-              loop
-              muted
-              autoPlay
-              style={{ cursor: "pointer" }}
-            >
+            <video id="rolling-cab-video" loop muted autoPlay>
               <source src={video7} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
