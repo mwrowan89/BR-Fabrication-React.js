@@ -11,8 +11,8 @@
   font-size: 40px;
 }
 #design-page-desc {
-  width: 60vw;
-  font-size: 25px;
+  width: 100vw;
+  /* font-size: 25px; */
   border: 2px solid white;
   padding: 1rem;
 }
@@ -20,10 +20,11 @@
   display: flex;
   justify-content: center;
   width: 100vw;
-  height: fit-content;
+  height: 50vh;
 }
 .design-box-one p {
-  margin-left: 40vw;
+  /* margin-left: 40vw; */
+  width: 100vw;
 }
 /* Video controls */
 .video-container {
@@ -45,13 +46,12 @@
 }
 #desk-vid {
   scale: 0.5;
-  position: absolute;
-  margin: -10vw 0 0 -64vw;
+  /* margin: -10vw 0 0 -64vw; */
   cursor: default;
 }
 #rolling-cab-vid {
   scale: 0.5;
-  margin-top: 10vw;
+  /* margin-top: 10vw; */
   cursor: default;
 }
 #wine-cellar-video,
