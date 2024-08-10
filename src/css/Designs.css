@@ -17,7 +17,7 @@
   padding: 1rem;
 }
 .design-box-one {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   width: 100vw;
   height: fit-content;
@@ -47,6 +47,7 @@
   scale: 0.5;
   position: absolute;
   margin: -10vw 0 0 -64vw;
+  cursor: default;
 }
 #rolling-cab-vid {
   scale: 0.5;
