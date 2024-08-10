@@ -11,20 +11,20 @@
   font-size: 40px;
 }
 #design-page-desc {
-  width: 100vw;
   /* font-size: 25px; */
   border: 2px solid white;
   padding: 1rem;
+  width: 30vw;
 }
 .design-box-one {
-  display: flex;
-  justify-content: center;
   width: 100vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
   height: 50vh;
 }
 .design-box-one p {
   /* margin-left: 40vw; */
-  width: 100vw;
 }
 /* Video controls */
 .video-container {
