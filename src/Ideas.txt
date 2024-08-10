@@ -7,8 +7,6 @@
 
 --Add multiple photos to gallery pop-up
 
---Updated imagedata for new photos
-
 --Add description in design page about dresser
 
 --Add more designs to design page
