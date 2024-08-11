@@ -14,7 +14,7 @@
   border: 2px solid white;
   padding: 1rem;
   width: 40vw;
-  margin-left: 20vw;
+  margin-left: 18vw;
   font-size: 25px;
 }
 .design-box-one {
@@ -54,7 +54,7 @@
   scale: 0.5;
   position: absolute;
   cursor: default;
-  margin-left: 60vw;
+  margin-left: 75vw;
 }
 #wine-cellar-video,
 #walnut-desk-video,
