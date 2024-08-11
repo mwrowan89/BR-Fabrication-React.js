@@ -1,5 +1,5 @@
 import React from "react";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import Header from "../components/Header";
 import Nav from "../components/Nav";
 import "../css/Designs.css";
@@ -60,6 +60,26 @@ const DesignsPage = () => {
     }
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const buttons = document.querySelectorAll(
+        ".box-one, .box-two, .box-three-left, .box-three-right, #box-three-title"
+      );
+      const scrollPosition = window.scrollY + window.innerHeight;
+
+      buttons.forEach((button) => {
+        if (scrollPosition > button.offsetTop) {
+          button.classList.add("show");
+        }
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div>
       <Header />
