@@ -47,7 +47,7 @@
 }
 #desk-vid {
   scale: 0.5;
-  margin: -8vw 0 0 -64vw;
+  margin: -7vw 0 0 -64vw;
   cursor: default;
   position: absolute;
 }
@@ -56,7 +56,7 @@
   position: absolute;
   cursor: default;
   margin-left: 78vw;
-  margin-top: -8vw;
+  margin-top: -7vw;
 }
 #wine-cellar-video,
 #walnut-desk-video,
