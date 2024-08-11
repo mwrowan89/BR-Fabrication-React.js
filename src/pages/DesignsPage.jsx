@@ -87,12 +87,6 @@ const DesignsPage = () => {
       <div className="design-page">
         <h1 id="design-page-main-title">Custom Designs for All Builds</h1>
         <div className="design-box-one">
-          <div className="video-container" id="desk-vid">
-            <video id="walnut-desk-video" loop muted autoPlay>
-              <source src={video6} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
           <p id="design-page-desc">
             In addition to our woodworking expertise, BR Fabrication also
             specializes in creating custom computer designs tailored to the
@@ -105,12 +99,19 @@ const DesignsPage = () => {
             underscores our dedication to delivering personalized solutions that
             cater to a wide range of needs and tastes.
           </p>
+          {/* <div className="video-container" id="desk-vid">
+            <video id="walnut-desk-video" loop muted autoPlay>
+              <source src={video6} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
           <div className="video-container" id="rolling-cab-vid">
             <video id="rolling-cab-video" loop muted autoPlay>
               <source src={video7} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-          </div>
+          </div> */}
         </div>
         <br />
 
