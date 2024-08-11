@@ -117,6 +117,9 @@
   overflow: hidden;
   width: 100%;
 }
+.gallery-slide-track::-webkit-scrollbar {
+  display: none;
+}
 
 .gallery-slide-track {
   display: flex;
