@@ -27,7 +27,7 @@ const GalleryPhotoSlide = () => {
 
     const slideWidth = slide.offsetWidth;
     const gap = parseFloat(getComputedStyle(track).gap) || 0;
-    const scrollAmount = slideWidth + gap;
+    const scrollAmount = 1500;
 
     const handleScrollRight = () => {
       track.scrollBy({ left: scrollAmount, behavior: "smooth" });
