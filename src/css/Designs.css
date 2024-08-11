@@ -13,12 +13,14 @@
 #design-page-desc {
   border: 2px solid white;
   padding: 1rem;
+  width: 40vw;
+  margin-left: 20vw;
 }
 .design-box-one {
   width: 100vw;
   display: flex;
   align-items: flex-start;
-  justify-content: space-evenly;
+  justify-content: center;
   height: 50vh;
 }
 .design-box-one p {
@@ -44,13 +46,15 @@
 }
 #desk-vid {
   scale: 0.5;
-  /* margin: -10vw 0 0 -64vw; */
+  margin: -10vw 0 0 -64vw;
   cursor: default;
+  position: absolute;
 }
 #rolling-cab-vid {
   scale: 0.5;
-  /* margin-top: 10vw; */
+  position: absolute;
   cursor: default;
+  margin-left: 50vw;
 }
 #wine-cellar-video,
 #walnut-desk-video,
