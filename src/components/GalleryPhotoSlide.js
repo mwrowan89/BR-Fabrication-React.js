@@ -25,8 +25,8 @@ const GalleryPhotoSlide = () => {
     const slide = slideRef.current;
     if (!track || !slide) return;
 
-    const slideWidth = slide.offsetWidth;
-    const gap = parseFloat(getComputedStyle(track).gap) || 0;
+    // const slideWidth = slide.offsetWidth;
+    // const gap = parseFloat(getComputedStyle(track).gap) || 0;
     const scrollAmount = 1500;
 
     const handleScrollRight = () => {
