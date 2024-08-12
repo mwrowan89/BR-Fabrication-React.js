@@ -25,6 +25,9 @@
   justify-content: center;
   height: 40vh;
 }
+.design-box-one-bottom {
+  display: flex;
+}
 
 #bar-photo {
   height: 50vh;

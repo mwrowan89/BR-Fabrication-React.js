@@ -115,6 +115,7 @@ const DesignsPage = () => {
         </div>
         <div className="design-box-one-bottom">
           <img id="bar-photo" src={image23} alt="23-foot-bar" />
+          <div>Custom mesurements for all projects</div>
         </div>
         <br />
 
