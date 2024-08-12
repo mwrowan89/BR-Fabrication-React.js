@@ -130,7 +130,7 @@ const DesignsPage = () => {
             <img id="image-right" src={image3} alt="wine celler" />
           </div>
           <br />
-          <div className="bottom-description">
+          <div className="bottom-transition">
             <div className="wine-cellar-description">
               <p>
                 This state-of-the-art wine cooler, situated in a renowned
@@ -200,47 +200,49 @@ const DesignsPage = () => {
         <div className="design-box-three">
           <h1 id="design-page-title">Walnut Veneer Bookcase</h1>
           <div className="box-three-top">
-            <img src={image6} alt="Walnut bookcase" />
-            <img src={image7} alt="Walnut bookcase" />
+            <img id="image-left" src={image6} alt="Walnut bookcase" />
+            <img id="image-right" src={image7} alt="Walnut bookcase" />
           </div>
           <br />
-          <div className="walnut-bookcase-description">
-            <p>
-              A beautiful Walnut Veneer bookcase custom made per customer
-              requests and requirements down to the smallest of details. We
-              strive for excelence in customer service by keeping in close
-              contact with clients to ensure our builds are aligned with their
-              vision. Progress videos are sent to keep customers informed and
-              allow for adjustments or approvals if needed.
-            </p>
-          </div>
-          <div className="box-three-bottom">
-            <img id="finished-photo" src={image8} alt="Walnut bookcase" />
-            <img id="finished-photo" src={image9} alt="Walnut bookcase" />
-            <div
-              className="video-container"
-              onClick={() =>
-                handleVideoClick(bookcaseVideoRef, setIsBookcasePlaying)
-              }
-            >
-              <video
-                id="bookcase-video"
-                ref={bookcaseVideoRef}
-                loop
-                muted
-                style={{ cursor: "pointer" }}
-              >
-                <source src={video3} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-              {!isBookcasePlaying && (
-                <div className="play-button-overlay">▶️</div>
-              )}
+          <div className="bottom-transition">
+            <div className="walnut-bookcase-description">
+              <p>
+                A beautiful Walnut Veneer bookcase custom made per customer
+                requests and requirements down to the smallest of details. We
+                strive for excelence in customer service by keeping in close
+                contact with clients to ensure our builds are aligned with their
+                vision. Progress videos are sent to keep customers informed and
+                allow for adjustments or approvals if needed.
+              </p>
             </div>
-            <img id="finished-photo" src={image20} alt="Walnut bookcase" />
-            <img id="finished-photo" src={image10} alt="Walnut bookcase" />
-            <img id="finished-photo" src={image21} alt="Walnut bookcase" />
-            <img id="finished-photo" src={image22} alt="Walnut bookcase" />
+            <div className="box-three-bottom">
+              <img id="finished-photo" src={image8} alt="Walnut bookcase" />
+              <img id="finished-photo" src={image9} alt="Walnut bookcase" />
+              <div
+                className="video-container"
+                onClick={() =>
+                  handleVideoClick(bookcaseVideoRef, setIsBookcasePlaying)
+                }
+              >
+                <video
+                  id="bookcase-video"
+                  ref={bookcaseVideoRef}
+                  loop
+                  muted
+                  style={{ cursor: "pointer" }}
+                >
+                  <source src={video3} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                {!isBookcasePlaying && (
+                  <div className="play-button-overlay">▶️</div>
+                )}
+              </div>
+              <img id="finished-photo" src={image20} alt="Walnut bookcase" />
+              <img id="finished-photo" src={image10} alt="Walnut bookcase" />
+              <img id="finished-photo" src={image21} alt="Walnut bookcase" />
+              <img id="finished-photo" src={image22} alt="Walnut bookcase" />
+            </div>
           </div>
         </div>
         <br />

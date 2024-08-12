@@ -129,11 +129,11 @@
 }
 #image-left.show,
 #image-right.show,
-.wine-celler-bottom.show {
+.bottom-transition.show {
   opacity: 1;
   transform: translateX(0);
 }
-.wine-celler-bottom {
+.bottom-transition {
   opacity: 0;
   transition: 5s ease;
 }
