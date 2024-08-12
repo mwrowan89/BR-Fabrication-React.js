@@ -64,7 +64,7 @@ const DesignsPage = () => {
   useEffect(() => {
     const handleScroll = () => {
       const buttons = document.querySelectorAll(
-        "#sketch-up-wine-left, #sketch-up-wine-right"
+        "#sketch-up-wine-left, #sketch-up-wine-right, .wine-celler-bottom"
       );
       const scrollPosition = window.scrollY + window.innerHeight;
 
@@ -128,63 +128,67 @@ const DesignsPage = () => {
             <img id="sketch-up-wine-right" src={image3} alt="wine celler" />
           </div>
           <br />
-          <div className="wine-cellar-description">
-            <p>
-              This state-of-the-art wine cooler, situated in a renowned Chicago,
-              IL restaurant, houses an extensive collection of fine wines,
-              carefully curated for discerning customers. The cooler boasts
-              custom-built cabinetry to accommodate advanced cooling units and
-              is complemented by a solid Oak floor, chosen for its aesthetic
-              appeal and durability. The addition of bespoke lighting enhances
-              the overall ambiance, creating a sophisticated atmosphere for wine
-              connoisseurs.
-            </p>
-          </div>
-          <div className="box-two-bottom">
-            <br />
-            <br />
-            <img id="finished-photo" src={image1} alt="wine celler" />
-            <div
-              className="video-container"
-              onClick={() => handleVideoClick(wineVideoRef, setIsWinePlaying)}
-            >
-              <video
-                id="wine-cellar-video"
-                ref={wineVideoRef}
-                loop
-                muted
-                style={{ cursor: "pointer" }}
-              >
-                <source src={video2} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-              {!isWinePlaying && <div className="play-button-overlay">▶️</div>}
+          <div className="wine-celler-bottom">
+            <div className="wine-cellar-description">
+              <p>
+                This state-of-the-art wine cooler, situated in a renowned
+                Chicago, IL restaurant, houses an extensive collection of fine
+                wines, carefully curated for discerning customers. The cooler
+                boasts custom-built cabinetry to accommodate advanced cooling
+                units and is complemented by a solid Oak floor, chosen for its
+                aesthetic appeal and durability. The addition of bespoke
+                lighting enhances the overall ambiance, creating a sophisticated
+                atmosphere for wine connoisseurs.
+              </p>
             </div>
-            <img id="finished-photo" src={image5} alt="wine celler" />
-            <img id="finished-photo" src={image2} alt="wine celler" />
-            <img id="finished-photo" src={image18} alt="wine celler" />
-            <img id="finished-photo" src={image19} alt="wine celler" />
-            <div
-              className="video-container"
-              onClick={() =>
-                handleVideoClick(emptyWineVideoRef, setIsEmptyWinePlaying)
-              }
-            >
-              <video
-                id="wine-cellar-video"
-                ref={emptyWineVideoRef}
-                loop
-                muted
-                style={{ cursor: "pointer" }}
+            <div className="box-two-bottom">
+              <br />
+              <br />
+              <img id="finished-photo" src={image1} alt="wine celler" />
+              <div
+                className="video-container"
+                onClick={() => handleVideoClick(wineVideoRef, setIsWinePlaying)}
               >
-                <source src={video5} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-              {!isEmptyWinePlaying && (
-                <div className="play-button-overlay">▶️</div>
-              )}
+                <video
+                  id="wine-cellar-video"
+                  ref={wineVideoRef}
+                  loop
+                  muted
+                  style={{ cursor: "pointer" }}
+                >
+                  <source src={video2} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                {!isWinePlaying && (
+                  <div className="play-button-overlay">▶️</div>
+                )}
+              </div>
+              <img id="finished-photo" src={image5} alt="wine celler" />
+              <img id="finished-photo" src={image2} alt="wine celler" />
+              <img id="finished-photo" src={image18} alt="wine celler" />
+              <img id="finished-photo" src={image19} alt="wine celler" />
+              <div
+                className="video-container"
+                onClick={() =>
+                  handleVideoClick(emptyWineVideoRef, setIsEmptyWinePlaying)
+                }
+              >
+                <video
+                  id="wine-cellar-video"
+                  ref={emptyWineVideoRef}
+                  loop
+                  muted
+                  style={{ cursor: "pointer" }}
+                >
+                  <source src={video5} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                {!isEmptyWinePlaying && (
+                  <div className="play-button-overlay">▶️</div>
+                )}
+              </div>
+              <br />
             </div>
-            <br />
           </div>
         </div>
         <br />

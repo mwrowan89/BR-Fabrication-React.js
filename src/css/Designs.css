@@ -128,9 +128,14 @@
   transform: translateX(100%);
 }
 #sketch-up-wine-left.show,
-#sketch-up-wine-right.show {
+#sketch-up-wine-right.show,
+.wine-celler-bottom.show {
   opacity: 1;
   transform: translateX(0);
+}
+.wine-celler-bottom {
+  opacity: 0;
+  transition: 5s ease;
 }
 /* Box three */
 .design-box-three {
