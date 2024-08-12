@@ -34,6 +34,7 @@ import video4 from "../assets/images/Dresser/Dresser-vid.mov";
 //Top display
 import video6 from "../assets/images/Deskvid.mov";
 import video7 from "../assets/images/Rolling Cabinet/Rolling-cab-vid.mov";
+import image23 from "../assets/images/23-foot-bar.png";
 
 const DesignsPage = () => {
   const wineVideoRef = useRef(null);
