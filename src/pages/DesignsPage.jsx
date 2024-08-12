@@ -64,7 +64,7 @@ const DesignsPage = () => {
   useEffect(() => {
     const handleScroll = () => {
       const buttons = document.querySelectorAll(
-        "#sketch-up-wine-left, #sketch-up-wine-left"
+        "#sketch-up-wine-left, #sketch-up-wine-right"
       );
       const scrollPosition = window.scrollY + window.innerHeight;
 

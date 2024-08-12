@@ -115,11 +115,17 @@
   position: relative;
   z-index: 0;
 }
-#sketch-up-wine-left,
+#sketch-up-wine-left {
+  opacity: 0;
+  transition: 1s ease;
+  width: 50vw;
+  transform: translateX(-100%);
+}
 #sketch-up-wine-right {
   opacity: 0;
-  transition: 0.7s ease;
+  transition: 1s ease;
   width: 50vw;
+  transform: translateX(100%);
 }
 #sketch-up-wine-left.show,
 #sketch-up-wine-right.show {
