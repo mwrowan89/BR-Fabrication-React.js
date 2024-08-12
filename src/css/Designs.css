@@ -93,10 +93,6 @@
   border-bottom: 4px solid white;
   margin-top: 5vw;
 }
-#sketch-up-wine-left,
-#sketch-up-wine-right {
-  width: 50vw;
-}
 .box-two-images-top {
   width: 100vw;
   display: flex;
@@ -119,6 +115,13 @@
   position: relative;
   z-index: 0;
 }
+#sketch-up-wine-left,
+#sketch-up-wine-right {
+  opacity: 0;
+  transition: 0.7s ease;
+  width: 50vw;
+}
+#sketch-up-wine-left.show,
 #sketch-up-wine-right.show {
   opacity: 1;
   transform: translateX(0);
