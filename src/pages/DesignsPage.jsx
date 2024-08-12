@@ -112,6 +112,7 @@ const DesignsPage = () => {
             </video>
           </div>
         </div>
+        <div className="design-box-one-bottom">Hello</div>
         <br />
 
         {/* Wine cooler */}
