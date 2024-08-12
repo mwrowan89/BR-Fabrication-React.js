@@ -114,7 +114,7 @@ const DesignsPage = () => {
           </div>
         </div>
         <div className="design-box-one-bottom">
-          <img id="23-foot-bar" src={image23} alt="23-foot-bar" />
+          <img id="bar-photo" src={image23} alt="23-foot-bar" />
         </div>
         <br />
 

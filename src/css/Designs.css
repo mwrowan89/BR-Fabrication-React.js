@@ -24,7 +24,10 @@
   align-items: flex-start;
   justify-content: center;
   height: 40vh;
-  margin-bottom: -5vw;
+}
+
+#bar-photo {
+  height: 50vh;
 }
 
 /* Video controls */
