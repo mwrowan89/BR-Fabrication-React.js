@@ -64,13 +64,15 @@ const DesignsPage = () => {
   useEffect(() => {
     const handleScroll = () => {
       const buttons = document.querySelectorAll(
-        "#sketch-up-wine-left, #sketch-up-wine-right, .wine-celler-bottom"
+        "#image-left, #image-right, .bottom-transition"
       );
       const scrollPosition = window.scrollY + window.innerHeight;
 
       buttons.forEach((button) => {
         if (scrollPosition > button.offsetTop) {
           button.classList.add("show");
+        } else {
+          button.classList.remove("show");
         }
       });
     };
@@ -124,11 +126,11 @@ const DesignsPage = () => {
         <div className="design-box-two">
           <h1 id="design-page-title">800 Bottle Wine Cooler</h1>
           <div className="box-two-images-top">
-            <img id="sketch-up-wine-left" src={image4} alt="wine celler" />
-            <img id="sketch-up-wine-right" src={image3} alt="wine celler" />
+            <img id="image-left" src={image4} alt="wine celler" />
+            <img id="image-right" src={image3} alt="wine celler" />
           </div>
           <br />
-          <div className="wine-celler-bottom">
+          <div className="bottom-description">
             <div className="wine-cellar-description">
               <p>
                 This state-of-the-art wine cooler, situated in a renowned
