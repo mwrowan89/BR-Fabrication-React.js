@@ -124,8 +124,8 @@ const DesignsPage = () => {
         <div className="design-box-two">
           <h1 id="design-page-title">800 Bottle Wine Cooler</h1>
           <div className="box-two-images-top">
-            <img id="sketch-up-wine" src={image4} alt="wine celler" />
-            <img id="sketch-up-wine" src={image3} alt="wine celler" />
+            <img id="sketch-up-wine-left" src={image4} alt="wine celler" />
+            <img id="sketch-up-wine-right" src={image3} alt="wine celler" />
           </div>
           <br />
           <div className="wine-cellar-description">
