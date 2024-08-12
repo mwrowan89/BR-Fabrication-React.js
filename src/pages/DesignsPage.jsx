@@ -255,36 +255,39 @@ const DesignsPage = () => {
             <img id="image-left" src={image16} alt="dresser" />
             <img id="image-right" src={image14} alt="dresser" />
           </div>
-          <div className="dresser-description">
-            <p>
-              Custom made white washed dresser made out of rift White Oak with
-              solid Oak trim.
-            </p>
-          </div>
-          <div className="box-four-bottom">
-            <img id="finished-photo" src={image17} alt="dresser" />
-            <div
-              className="video-container"
-              onClick={() =>
-                handleVideoClick(dresserVideoRef, setIsDresserPlaying)
-              }
-            >
-              <video
-                id="dresser-video"
-                ref={dresserVideoRef}
-                loop
-                muted
-                style={{ cursor: "pointer" }}
-              >
-                <source src={video4} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-              {!isDresserPlaying && (
-                <div className="play-button-overlay">▶️</div>
-              )}
+          <div className="bottom-transition">
+            <div className="dresser-description">
+              <p>
+                Custom made white washed dresser made out of rift White Oak with
+                solid Oak trim.
+              </p>
             </div>
-            <img id="finished-photo" src={image13} alt="dresser" />
-            <img id="finished-photo" src={image12} alt="dresser" />
+
+            <div className="box-four-bottom">
+              <img id="finished-photo" src={image17} alt="dresser" />
+              <div
+                className="video-container"
+                onClick={() =>
+                  handleVideoClick(dresserVideoRef, setIsDresserPlaying)
+                }
+              >
+                <video
+                  id="dresser-video"
+                  ref={dresserVideoRef}
+                  loop
+                  muted
+                  style={{ cursor: "pointer" }}
+                >
+                  <source src={video4} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                {!isDresserPlaying && (
+                  <div className="play-button-overlay">▶️</div>
+                )}
+              </div>
+              <img id="finished-photo" src={image13} alt="dresser" />
+              <img id="finished-photo" src={image12} alt="dresser" />
+            </div>
           </div>
         </div>
       </div>
