@@ -35,6 +35,7 @@ import video4 from "../assets/images/Dresser/Dresser-vid.mov";
 import video6 from "../assets/images/Deskvid.mov";
 import video7 from "../assets/images/Rolling Cabinet/Rolling-cab-vid.mov";
 import image23 from "../assets/images/23-foot-bar.png";
+import image24 from "../assets/images/Oakville.png";
 
 const DesignsPage = () => {
   const wineVideoRef = useRef(null);
@@ -116,6 +117,7 @@ const DesignsPage = () => {
           </div>
         </div>
         <div className="design-box-one-bottom">
+          <img id="bar-photo" src={image24} alt="Oakville Storage" />
           <img id="bar-photo" src={image23} alt="23-foot-bar" />
           <div>Custom mesurements for all projects</div>
         </div>
