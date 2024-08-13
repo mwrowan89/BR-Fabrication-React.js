@@ -1,6 +1,5 @@
 --Add collections restaurants, aspen etc.
 
---Add ability to message directly about photos/create collections for inspo
 --Make page accessable on phone
 --Change up fonts
 --shop new arrivals icons (blurred background)
@@ -10,5 +9,7 @@
 --Add more designs to design page?
     --Add description in design page about dresser
 
+--Add ability to message directly about photos/create collections for inspo
+ --Fix this 
 *
 --Create connection for sending emails
