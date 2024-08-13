@@ -32,8 +32,8 @@ const PopUpDetails = ({ isOpen, onRequestClose, image }) => {
                 <h5 id="pop-up-image-desc">{image.desc}</h5>
                 <img id="pop-up-image" src={image.src} alt={image.desc} />
                 <br />
-                <h2 onClick={getMoreInfo(image)}>Request More Info</h2>
               </div>
+              <h2 onClick={getMoreInfo(image)}>Request More Info</h2>
             </div>
           )}
         </div>
