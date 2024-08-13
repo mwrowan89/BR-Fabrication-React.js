@@ -107,7 +107,7 @@
 }
 .bottom-transition {
   opacity: 0;
-  transition: 2.8s ease;
+  transition: 1s ease;
 }
 
 /* Wine  Cellar Info */
