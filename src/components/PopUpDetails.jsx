@@ -5,6 +5,7 @@ Modal.setAppElement("#root");
 
 const PopUpDetails = ({ isOpen, onRequestClose, image }) => {
   const getMoreInfo = (image) => {
+    console.log("getMoreInfo called");
     const subject = encodeURIComponent(
       `More Information Request: ${image.title}`
     );
@@ -14,10 +15,12 @@ const PopUpDetails = ({ isOpen, onRequestClose, image }) => {
 
     const mailtoLink = `mailto:?subject=${subject}&body=${body}`;
 
-    window.location.href = mailtoLink;
+    setTimeout(() => {
+      window.location.href = mailtoLink;
+    }, 0);
   };
   return (
-    <div className="pop-up-conatiner">
+    <div className="pop-up-container">
       <Modal
         className={"pop-up-window"}
         isOpen={isOpen}
@@ -33,9 +36,9 @@ const PopUpDetails = ({ isOpen, onRequestClose, image }) => {
                 <img id="pop-up-image" src={image.src} alt={image.desc} />
                 <br />
               </div>
-              <h2 onClick={getMoreInfo(image)}>Request More Info</h2>
             </div>
           )}
+          <button onClick={() => getMoreInfo(image)}>Request More Info</button>
         </div>
       </Modal>
     </div>
