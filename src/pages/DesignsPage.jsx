@@ -72,9 +72,10 @@ const DesignsPage = () => {
       buttons.forEach((button) => {
         if (scrollPosition > button.offsetTop) {
           button.classList.add("show");
-        } else {
-          button.classList.remove("show");
         }
+        // else {
+        //   button.classList.remove("show");
+        // }
       });
     };
 
