@@ -27,10 +27,17 @@
 }
 .design-box-one-bottom {
   display: flex;
+  justify-content: space-between;
 }
 
 #bar-photo {
-  height: 50vh;
+  height: 40vh;
+}
+#design-box-one-bottom-descrip {
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  padding: 12px;
 }
 
 /* Video controls */
