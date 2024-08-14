@@ -120,7 +120,8 @@
   #home-page-background-image {
     width: 100vw;
     scale: 3;
-    margin-top: 30vw;
+    margin-top: 20vw;
+    margin-left: -10vw;
     overflow: hidden;
     position: fixed;
   }
@@ -138,8 +139,20 @@
   #aspen-desc-img-two {
     height: 40vh;
   }
+  #bakan-desc-img-one {
+    margin-bottom: -20vw;
+  }
   .box-one {
     opacity: 1;
+    margin-bottom: -50vw;
+  }
+  #box-two-p {
+    margin-left: -1vw;
+  }
+  .home-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .box-one,

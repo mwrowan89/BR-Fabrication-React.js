@@ -31,7 +31,7 @@ const HomePageDesc = () => {
       <div className="description-box">
         <div className="box-one">
           <img id="bakan-desc-img-one" src={image2} alt="Bakan Feature" />
-          <div className="home-text">
+          <div id="box-one-p" className="home-text">
             <h3>BR Fabrications</h3>
             <p>
               Servicing restaurants and clients globally, BR Fabrication is a
