@@ -32,7 +32,7 @@ const HomePageDesc = () => {
         <div className="box-one">
           <img id="bakan-desc-img-one" src={image2} alt="Bakan Feature" />
           <div id="box-one-p" className="home-text">
-            <h3>BR Fabrications</h3>
+            <h3 id="home-title">BR Fabrications</h3>
             <p>
               Servicing restaurants and clients globally, BR Fabrication is a
               premier manufacturer of high-quality tables. With a commitment to
@@ -48,7 +48,7 @@ const HomePageDesc = () => {
         </div>
         <div className="box-two">
           <div id="box-two-p" className="home-text">
-            <h3>Our Mission</h3>
+            <h3 id="home-title">Our Mission</h3>
             <p>
               At BR Fabrication, we are dedicated to delivering heirloom-quality
               furniture, meticulously crafted to exceed the expectations of
@@ -65,7 +65,7 @@ const HomePageDesc = () => {
           <img id="bakan-desc-img-two" src={image3} alt="Bakan" />
         </div>
         <div className="box-three-whole">
-          <h1 id="box-three-title">Your Dream is Our Passion</h1>
+          <h1 id="home-title">Your Dream is Our Passion</h1>
 
           <div className="box-three">
             <div className="box-three-left">
