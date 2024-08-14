@@ -78,7 +78,6 @@
 }
 .home-text {
   scale: 0.5;
-  word-wrap: wrap;
   margin-top: -14vw;
 }
 .home-text p {
@@ -155,8 +154,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    scale: 0.8;
+    margin-top: -5vw;
   }
-
+  .home-text p {
+    width: 90vw;
+  }
   .box-one,
   .box-two {
     width: 90vw;
@@ -183,11 +186,6 @@
   #box-three-title {
     text-decoration: underline;
     place-content: center;
-  }
-
-  .home-text {
-    scale: 0.8;
-    margin-top: -5vw;
   }
 
   #box-three-title {
