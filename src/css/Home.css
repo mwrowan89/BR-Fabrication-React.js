@@ -109,3 +109,57 @@
   border-top: none;
   margin-top: 2vw;
 }
+
+/* Responsive design attributes */
+@media only screen and (max-width: 450px) {
+  .home-container {
+    font-size: 30px;
+    margin-top: 50vh;
+    overflow: hidden;
+  }
+  #home-page-background-image {
+    width: 100vw;
+    scale: 2;
+    margin-top: 30vw;
+    overflow: hidden;
+    position: fixed;
+  }
+
+  .description-box {
+    padding: 5vw;
+  }
+
+  #bakan-desc-img-one,
+  #bakan-desc-img-two,
+  #aspen-desc-img-one,
+  #aspen-desc-img-two {
+    height: 40vh;
+  }
+
+  .box-one,
+  .box-two {
+    width: 90vw;
+    margin-left: 0;
+    transform: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-three {
+    align-items: center;
+  }
+
+  .box-three-whole {
+    margin-top: 0;
+  }
+
+  .home-text {
+    scale: 0.8;
+    margin-top: -5vw;
+  }
+
+  #box-three-title {
+    scale: 0.8;
+    margin-top: 5vw;
+  }
+}
