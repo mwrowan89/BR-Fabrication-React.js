@@ -5,7 +5,6 @@ Modal.setAppElement("#root");
 
 const PopUpDetails = ({ isOpen, onRequestClose, image }) => {
   const getMoreInfo = (image) => {
-    console.log("getMoreInfo called");
     const subject = encodeURIComponent(
       `More Information Request: ${image.title}`
     );
