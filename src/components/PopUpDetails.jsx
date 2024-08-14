@@ -9,7 +9,7 @@ const PopUpDetails = ({ isOpen, onRequestClose, image }) => {
       `More Information Request: ${image.title}`
     );
     const body = encodeURIComponent(
-      `I would like to request more information about the following image:\n\nTitle: ${image.title}\nDescription: ${image.desc}\nImage Source: ${image.id}`
+      `I would like to request more information about the following image:\n\nTitle: ${image.title}\nDescription: ${image.desc}\nImage ID: ${image.id}`
     );
 
     const mailtoLink = `mailto:?subject=${subject}&body=${body}`;
