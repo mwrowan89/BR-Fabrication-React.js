@@ -126,7 +126,10 @@
   }
 
   .description-box {
-    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   #bakan-desc-img-one,
@@ -146,6 +149,8 @@
   }
 
   .box-three {
+    display: flex;
+    flex-direction: column;
     align-items: center;
   }
 
