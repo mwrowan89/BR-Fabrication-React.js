@@ -115,7 +115,9 @@
   .home-container {
     font-size: 30px;
     margin-top: 50vh;
+    margin-left: -2vw;
     overflow: hidden;
+    width: 101vw;
   }
   #home-page-background-image {
     width: 100vw;
