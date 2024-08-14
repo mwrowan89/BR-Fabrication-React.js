@@ -17,3 +17,5 @@
 --Make page accessable on phone
     --update nav comp
     --update footer comp
+    --update gallery
+    --update photo slide
