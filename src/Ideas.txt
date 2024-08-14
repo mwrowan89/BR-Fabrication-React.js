@@ -19,3 +19,5 @@
     --update footer comp
     --update gallery
     --update photo slide
+    --update about
+    --update contact page
