@@ -184,8 +184,17 @@
     padding-left: 1vw;
   }
   #home-title {
+    display: flex;
+    align-items: center;
     text-decoration: underline;
     place-content: center;
+  }
+  #home-title-three {
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12vw;
   }
 
   #box-three-title {

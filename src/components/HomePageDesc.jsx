@@ -65,8 +65,7 @@ const HomePageDesc = () => {
           <img id="bakan-desc-img-two" src={image3} alt="Bakan" />
         </div>
         <div className="box-three-whole">
-          <h1 id="home-title">Your Dream is Our Passion</h1>
-
+          <h3 id="home-title-three">Your Dream is Our Passion</h3>
           <div className="box-three">
             <div className="box-three-left">
               <img id="aspen-desc-img-one" src={image4} alt={image4.desc} />
