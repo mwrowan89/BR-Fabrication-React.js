@@ -178,11 +178,6 @@
   .box-three-whole {
     margin-top: 0;
   }
-  #slide-show-title {
-    text-decoration: underline;
-    width: 95vw;
-    padding-left: 1vw;
-  }
   #home-title {
     display: flex;
     align-items: center;
@@ -200,5 +195,19 @@
   #box-three-title {
     scale: 0.8;
     margin-top: 5vw;
+  }
+  .box-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  #slide-show-title {
+    text-decoration: underline;
+    width: 95vw;
+    padding-left: 1vw;
+  }
+  .photo-slide-whole {
+    width: 102vw;
   }
 }
