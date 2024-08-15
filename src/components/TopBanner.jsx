@@ -113,7 +113,7 @@ const TopBanner = () => {
                 </a>
               </li>
               <li>
-                <a id="menu-link" href="/desigs">
+                <a id="menu-link" href="/designs">
                   DESIGNS
                 </a>
               </li>
