@@ -36,4 +36,18 @@ a {
   .footer-middle {
     width: 25vw;
   }
+  .links-footer {
+    display: flex;
+    flex-direction: column;
+    scale: 1.2;
+  }
+  #footer-insta {
+    margin: -2.5vw;
+  }
+  .footer {
+    background-color: black;
+    width: 102vw;
+    margin-left: -2vw;
+    overflow: hidden;
+  }
 }
