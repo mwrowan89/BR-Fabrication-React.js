@@ -61,29 +61,32 @@ const TopBanner = () => {
           </a>
         </h1>
       </div>
-      <div className="top-banner-center">
-        <h3 id="menu-link">HOME</h3>
-        <h3>
-          <a id="menu-link" href="/about">
-            ABOUT
-          </a>
-        </h3>
-        <h3>
-          <a id="menu-link" href="/gallery">
-            GALLERY
-          </a>
-        </h3>
-        <h3>
-          <a id="menu-link" href="/designs">
-            DESIGNS
-          </a>
-        </h3>
-        <h3>
-          <a id="menu-link" href="/contact">
-            CONTACT
-          </a>
-        </h3>
-      </div>
+      {isWindowSize && (
+        <div className="top-banner-center">
+          <h3 id="menu-link">HOME</h3>
+          <h3>
+            <a id="menu-link" href="/about">
+              ABOUT
+            </a>
+          </h3>
+          <h3>
+            <a id="menu-link" href="/gallery">
+              GALLERY
+            </a>
+          </h3>
+          <h3>
+            <a id="menu-link" href="/designs">
+              DESIGNS
+            </a>
+          </h3>
+          <h3>
+            <a id="menu-link" href="/contact">
+              CONTACT
+            </a>
+          </h3>
+        </div>
+      )}
+
       <div className="top-banner-right">
         <div onClick={toggleMenu}>
           <MenuIcon />
