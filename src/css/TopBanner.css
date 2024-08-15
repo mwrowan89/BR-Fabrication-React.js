@@ -79,9 +79,9 @@ ul {
 }
 @media only screen and (max-width: 500px) {
   .banner-container {
-    width: fit-content;
+    width: 96vw;
   }
-  .top-banner-center {
-    opacity: 0;
+  .menu {
+    width: 20vw;
   }
 }
