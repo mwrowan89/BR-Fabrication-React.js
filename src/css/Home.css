@@ -132,6 +132,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0;
+    width: 105vw;
   }
 
   #bakan-desc-img-one,
@@ -141,11 +143,21 @@
     height: 40vh;
   }
   #bakan-desc-img-one {
-    margin-bottom: -20vw;
+    margin: 5vw 0 -10vw 0;
+    width: 70vw;
   }
   .box-one {
+    display: flex;
+    align-items: center;
     opacity: 1;
     margin-bottom: -50vw;
+  }
+  .box-two {
+    display: flex;
+    align-items: center;
+  }
+  #bakan-desc-img-two {
+    margin: 0;
   }
   #box-two-p {
     margin-left: -1vw;
