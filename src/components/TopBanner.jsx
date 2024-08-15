@@ -16,7 +16,7 @@ const TopBanner = () => {
   const [isWindowSize, setIsWindowSize] = useState(true);
 
   const windowSize = () => {
-    if (window.innerWidth < 768) {
+    if (window.innerWidth < 500) {
       setIsWindowSize(false);
     } else {
       setIsWindowSize(true);
