@@ -77,3 +77,11 @@ ul {
   align-items: center;
   padding: 0;
 }
+@media only screen and (max-width: 500px) {
+  .banner-container {
+    width: fit-content;
+  }
+  .top-banner-center {
+    opacity: 0;
+  }
+}
