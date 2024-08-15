@@ -37,6 +37,7 @@ const TopBanner = () => {
         setScrollDirection("down");
       } else {
         setScrollDirection("up");
+        setMenuVisible(false);
       }
 
       lastScrollY = currentScrollY;
