@@ -13,6 +13,19 @@ const TopBanner = () => {
   const toggleMenu = () => {
     setMenuVisible(!menuVisible);
   };
+  const [isWindowSize, setIsWindowSize] = useState(true);
+
+  const windowSize = () => {
+    if (window.innerWidth < 768) {
+      setIsWindowSize(false);
+    } else {
+      setIsWindowSize(true);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("resize", windowSize);
+    windowSize();
+  }, []);
 
   useEffect(() => {
     let lastScrollY = window.scrollY;
