@@ -71,10 +71,11 @@ function About() {
           </div>
           <div className="about-third-box">
             <img
+              id="ben-wine-cellar"
               src={image79}
               height="800vh"
               width="600vw"
-              alt="Ben W/ Headboard"
+              alt="Ben W/ Wine Cellar"
             />
             <h1 className="about-description">
               Versatility in All Areas
