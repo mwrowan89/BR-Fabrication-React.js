@@ -15,8 +15,6 @@ function Header() {
   };
   useEffect(() => {
     window.addEventListener("resize", windowSize);
-    console.log(isWindowSize);
-    console.log(window.innerWidth);
     windowSize();
   }, []);
   return (

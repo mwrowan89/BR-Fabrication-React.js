@@ -47,8 +47,13 @@
     overflow: hidden;
   }
   .about-first-box {
+    margin-top: 4vh;
     display: flex;
     flex-direction: column;
+  }
+  .about-description {
+    padding: 0;
+    color: white;
   }
 
   #ben-sanding {
