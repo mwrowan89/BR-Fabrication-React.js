@@ -1,7 +1,21 @@
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 import "../css/Nav.css";
 
 export default function Nav() {
+  const [isWindowSize, setIsWindowSize] = useState(true);
+
+  const windowSize = () => {
+    if (window.innerWidth < 500) {
+      setIsWindowSize(false);
+    } else {
+      setIsWindowSize(true);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("resize", windowSize);
+    windowSize();
+  }, []);
   return (
     <>
       <div>

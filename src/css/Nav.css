@@ -44,12 +44,3 @@
 .nav-link:focus {
   background-color: transparent !important;
 }
-
-/* responsive design */
-@media only screen and (max-width: 500px) {
-  /* .nav-bar {
-    display: flex;
-    flex-direction: column;
-    background-color: red;
-  } */
-}
