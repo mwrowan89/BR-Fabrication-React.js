@@ -37,6 +37,7 @@ function About() {
         <div className="about">
           <div className="about-first-box">
             <img
+              id="ben-sanding"
               src={BenSanding}
               height="800vh"
               width="600vw"
