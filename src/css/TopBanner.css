@@ -79,9 +79,11 @@ ul {
 }
 @media only screen and (max-width: 500px) {
   .banner-container {
-    width: 96vw;
+    margin-left: -2vw;
+    width: 102vw;
+    margin-top: -2vw;
   }
-  .menu {
-    width: 20vw;
+  .top-banner-right {
+    margin-right: 6vw;
   }
 }
