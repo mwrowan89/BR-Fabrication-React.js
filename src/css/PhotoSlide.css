@@ -111,4 +111,7 @@
   .photo-slide-whole {
     width: 103vw;
   }
+  .slide-image {
+    height: 30vh;
+  }
 }
