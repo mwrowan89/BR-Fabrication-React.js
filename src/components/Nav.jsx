@@ -14,7 +14,6 @@ export default function Nav() {
   };
   useEffect(() => {
     window.addEventListener("resize", windowSize);
-    console.log(isWindowSize);
     windowSize();
   }, []);
   return (

@@ -41,6 +41,9 @@
 #ben-sanding {
   height: 40vh;
 }
+#about-titles {
+  font-size: 28px;
+}
 
 @media only screen and (max-width: 500px) {
   .about {
@@ -59,6 +62,8 @@
     flex-direction: column-reverse;
   }
   .about-description {
+    display: flex;
+    flex-direction: column;
     padding: 0;
     color: white;
   }

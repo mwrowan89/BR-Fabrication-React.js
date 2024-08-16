@@ -54,13 +54,16 @@ function About() {
             </h1>
           </div>
           <div className="about-second-box">
-            <h1 className="about-description">
-              Ben Rioux - Owner and Founder
+            <div className="about-description">
+              <h1 id="about-titles">Ben Rioux - Owner and Founder</h1>
               <br />
               <br />
-              Standing next to a dark walnut headboard prior to it being crane
-              lifted into a customers bedroom on the third floor of their home.
-            </h1>
+              <p>
+                Standing next to a dark walnut headboard prior to it being crane
+                lifted into a customers bedroom on the third floor of their
+                home.
+              </p>
+            </div>
             <img
               id="ben-headboard"
               src={image50}
@@ -77,21 +80,24 @@ function About() {
               width="600vw"
               alt="Ben W/ Wine Cellar"
             />
-            <h1 className="about-description">
-              Versatility in All Areas
+            <div className="about-description">
+              <h1 id="about-titles">Versatility in All Areas</h1>
               <br />
               <br />
-              BR Fabrication is renowned for its versatility in woodworking,
-              catering to a wide range of custom projects. From crafting
-              exquisite dining tables that become the centerpiece of any home to
-              designing elegant wine cellars that add a touch of sophistication,
-              our expertise is showcased in every piece. Our works extend beyond
-              these specialties, embracing a diverse array of woodworking
-              projects that highlight our commitment to quality and innovation.
-              Whether it's for a residential or commercial space, BR Fabrication
-              consistently delivers unique and finely crafted solutions that
-              meet the diverse needs and tastes of our clients.
-            </h1>
+              <p>
+                BR Fabrication is renowned for its versatility in woodworking,
+                catering to a wide range of custom projects. From crafting
+                exquisite dining tables that become the centerpiece of any home
+                to designing elegant wine cellars that add a touch of
+                sophistication, our expertise is showcased in every piece. Our
+                works extend beyond these specialties, embracing a diverse array
+                of woodworking projects that highlight our commitment to quality
+                and innovation. Whether it's for a residential or commercial
+                space, BR Fabrication consistently delivers unique and finely
+                crafted solutions that meet the diverse needs and tastes of our
+                clients.
+              </p>
+            </div>
           </div>
         </div>
       </div>
