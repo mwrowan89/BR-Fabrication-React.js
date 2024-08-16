@@ -47,10 +47,16 @@
     overflow: hidden;
   }
   .about-first-box,
-  .about-second-box {
+  .about-second-box,
+  .about-third-box {
     margin-top: 4vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .about-second-box {
+    flex-direction: column-reverse;
   }
   .about-description {
     padding: 0;
