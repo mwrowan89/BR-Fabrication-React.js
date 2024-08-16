@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "../css/Header.css";
+import TopBanner from "./TopBanner";
 
 function Header() {
   const [isWindowSize, setIsWindowSize] = useState(false);
@@ -20,7 +21,7 @@ function Header() {
   }, []);
   return (
     <>
-      {isWindowSize === true && (
+      {isWindowSize && (
         <div className="header-container">
           <h1 id="header-title"> BR Fabrication</h1>
           <h3 id="header-desc">
@@ -29,6 +30,7 @@ function Header() {
           <br />
         </div>
       )}
+      {!isWindowSize && <TopBanner />}
     </>
   );
 }
