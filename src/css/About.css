@@ -38,9 +38,21 @@
   opacity: 1;
   transform: translateX(0);
 }
-/* #ben-sanding {
-  width: 35vw;
-} */
+#ben-sanding {
+  height: 40vh;
+}
 
 @media only screen and (max-width: 500px) {
+  .about {
+    overflow: hidden;
+  }
+  .about-first-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #ben-sanding {
+    height: 40vh;
+    width: 70vw;
+  }
 }
