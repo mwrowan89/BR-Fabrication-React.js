@@ -46,7 +46,8 @@
   .about {
     overflow: hidden;
   }
-  .about-first-box {
+  .about-first-box,
+  .about-second-box {
     margin-top: 4vh;
     display: flex;
     flex-direction: column;
@@ -56,7 +57,8 @@
     color: white;
   }
 
-  #ben-sanding {
+  #ben-sanding,
+  #ben-headboard {
     height: 40vh;
     width: 70vw;
   }

@@ -62,6 +62,7 @@ function About() {
               lifted into a customers bedroom on the third floor of their home.
             </h1>
             <img
+              id="ben-headboard"
               src={image50}
               height="800vh"
               width="600vw"
