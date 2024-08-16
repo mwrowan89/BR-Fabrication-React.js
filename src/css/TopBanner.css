@@ -86,4 +86,7 @@ ul {
   .top-banner-right {
     margin-right: 6vw;
   }
+  .menu {
+    width: 20vw;
+  }
 }
