@@ -195,4 +195,15 @@
     z-index: 0;
     margin-top: 6vw;
   }
+  .gallery-type-filter {
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    margin-top: 2vw;
+    gap: 20vw;
+  }
+  #gallery-filter-title {
+    width: 30vw;
+  }
 }
