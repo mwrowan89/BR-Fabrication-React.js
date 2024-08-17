@@ -1,5 +1,6 @@
 import React from "react";
 import Modal from "react-modal";
+import "../css/PopUp.css";
 
 Modal.setAppElement("#root");
 
