@@ -32,3 +32,8 @@
 #pop-up-title {
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 500px) {
+  .pop-up {
+  }
+}
