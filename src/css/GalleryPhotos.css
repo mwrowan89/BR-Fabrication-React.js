@@ -222,4 +222,11 @@
     width: 70vw;
     height: fit-content;
   }
+  .gallery-slide-container {
+    margin-top: 5vh;
+  }
+  .gallery-arrow {
+    scale: 0.5;
+    margin-top: 6vw;
+  }
 }
