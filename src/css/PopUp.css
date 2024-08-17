@@ -34,6 +34,8 @@
 }
 
 @media only screen and (max-width: 500px) {
-  .pop-up {
+  #pop-up-title {
+    width: 60vw;
+    text-align: center;
   }
 }
