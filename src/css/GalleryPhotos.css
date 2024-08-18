@@ -206,4 +206,9 @@
   #gallery-filter-title {
     width: 30vw;
   }
+  .gallery-slide-image {
+    max-height: 25vh;
+    max-width: fit-content;
+    border-radius: 5px;
+  }
 }
