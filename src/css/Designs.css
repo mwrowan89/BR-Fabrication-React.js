@@ -212,17 +212,16 @@
   }
   .design-box-one {
     height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
   #desk-vid {
-    scale: 0.5;
-    margin: -7vw 0 0 -64vw;
     cursor: default;
   }
   #rolling-cab-vid {
-    scale: 0.5;
     cursor: default;
-    margin-left: 78vw;
-    margin-top: -7vw;
   }
   #bar-photo {
     overflow: hidden;

@@ -2,6 +2,7 @@ import React from "react";
 import { useRef, useState, useEffect } from "react";
 import Header from "../components/Header";
 import Nav from "../components/Nav";
+import TopBanner from "../components/TopBanner";
 import "../css/Designs.css";
 // Wine Cooler
 import image1 from "../assets/images/Wine Cellar/IMG_1201.png";
@@ -106,6 +107,7 @@ const DesignsPage = () => {
           <Nav />
         </>
       )}
+      {!isWindowSize && <TopBanner />}
 
       <div className="design-page">
         <h1 id="design-page-main-title">Custom Designs for All Builds</h1>
