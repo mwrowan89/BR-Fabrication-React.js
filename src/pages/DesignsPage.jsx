@@ -49,6 +49,7 @@ const DesignsPage = () => {
 
   const dresserVideoRef = useRef(null);
   const [isDresserPlaying, setIsDresserPlaying] = useState(false);
+  const [isWindowSize, setIsWindowSize] = useState(false);
 
   const handleVideoClick = (videoRef, setIsPlaying) => {
     if (videoRef.current) {
@@ -61,6 +62,18 @@ const DesignsPage = () => {
       }
     }
   };
+
+  const windowSize = () => {
+    if (window.innerWidth < 500) {
+      setIsWindowSize(false);
+    } else {
+      setIsWindowSize(true);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("resize", windowSize);
+    windowSize();
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -87,8 +100,13 @@ const DesignsPage = () => {
   }, []);
   return (
     <div>
-      <Header />
-      <Nav />
+      {isWindowSize && (
+        <>
+          <Header />
+          <Nav />
+        </>
+      )}
+
       <div className="design-page">
         <h1 id="design-page-main-title">Custom Designs for All Builds</h1>
         <div className="design-box-one">

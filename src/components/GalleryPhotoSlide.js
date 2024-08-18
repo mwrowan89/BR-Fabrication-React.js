@@ -18,10 +18,6 @@ const GalleryPhotoSlide = () => {
       setIsWindowSize(true);
     }
   };
-  useEffect(() => {
-    window.addEventListener("resize", windowSize);
-    windowSize();
-  }, []);
 
   const openModal = (image) => {
     setSelectedImage(image);
@@ -32,6 +28,8 @@ const GalleryPhotoSlide = () => {
     setModalIsOpen(false);
     setSelectedImage(null);
   };
+
+  // need to fix this logic
   let scrollAmount = () => {
     if (isWindowSize) {
       console.log("not working");
@@ -42,6 +40,11 @@ const GalleryPhotoSlide = () => {
       scrollAmount = 500;
     }
   };
+  useEffect(() => {
+    window.addEventListener("resize", windowSize);
+    windowSize();
+    scrollAmount();
+  }, []);
 
   useEffect(() => {
     const track = trackRef.current;
