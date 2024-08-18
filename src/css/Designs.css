@@ -217,12 +217,6 @@
     align-items: center;
   }
 
-  #desk-vid {
-    cursor: default;
-  }
-  #rolling-cab-vid {
-    cursor: default;
-  }
   #bar-photo {
     overflow: hidden;
   }
