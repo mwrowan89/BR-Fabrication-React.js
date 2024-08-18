@@ -9,6 +9,19 @@ const GalleryPhotoSlide = () => {
   const slideRef = useRef(null);
   const rightArrowRef = useRef(null);
   const leftArrowRef = useRef(null);
+  const [isWindowSize, setIsWindowSize] = useState(false);
+
+  const windowSize = () => {
+    if (window.innerWidth < 500) {
+      setIsWindowSize(false);
+    } else {
+      setIsWindowSize(true);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("resize", windowSize);
+    windowSize();
+  }, []);
 
   const openModal = (image) => {
     setSelectedImage(image);
@@ -25,7 +38,13 @@ const GalleryPhotoSlide = () => {
     const slide = slideRef.current;
     if (!track || !slide) return;
 
-    const scrollAmount = 1500;
+    let scrollAmount = () => {
+      if (isWindowSize) {
+        scrollAmount = 1500;
+      } else {
+        scrollAmount = 100;
+      }
+    };
 
     const handleScrollRight = () => {
       track.scrollBy({ left: scrollAmount, behavior: "smooth" });
