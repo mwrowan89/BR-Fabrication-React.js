@@ -204,3 +204,27 @@
   padding-left: 25vw;
   font-size: 25px;
 }
+
+@media only screen and (max-width: 500px) {
+  .design-page {
+    overflow: hidden;
+    height: fit-content;
+  }
+  .design-box-one {
+    height: fit-content;
+  }
+  #desk-vid {
+    scale: 0.5;
+    margin: -7vw 0 0 -64vw;
+    cursor: default;
+  }
+  #rolling-cab-vid {
+    scale: 0.5;
+    cursor: default;
+    margin-left: 78vw;
+    margin-top: -7vw;
+  }
+  #bar-photo {
+    overflow: hidden;
+  }
+}
