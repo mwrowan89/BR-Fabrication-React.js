@@ -16,10 +16,10 @@
 *
 --Make page accessable on phone
     --update nav comp
-    --update top banner
+    
     --update gallery
     --update photo slide
-    --update about
+        --fix arrows scroll length
     --update contact page
 
 
