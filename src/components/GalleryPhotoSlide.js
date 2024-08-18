@@ -32,19 +32,21 @@ const GalleryPhotoSlide = () => {
     setModalIsOpen(false);
     setSelectedImage(null);
   };
+  let scrollAmount = () => {
+    if (isWindowSize) {
+      console.log("not working");
+      scrollAmount = 1500;
+    }
+    if (!windowSize) {
+      console.log("working");
+      scrollAmount = 500;
+    }
+  };
 
   useEffect(() => {
     const track = trackRef.current;
     const slide = slideRef.current;
     if (!track || !slide) return;
-
-    let scrollAmount = () => {
-      if (isWindowSize) {
-        scrollAmount = 1500;
-      } else {
-        scrollAmount = 100;
-      }
-    };
 
     const handleScrollRight = () => {
       track.scrollBy({ left: scrollAmount, behavior: "smooth" });
