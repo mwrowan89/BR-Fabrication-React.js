@@ -211,13 +211,15 @@
     height: fit-content;
   }
   .design-box-one {
-    height: fit-content;
+    height: 180vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 10vh;
   }
   #design-page-desc {
     height: fit-content;
+    width: 70vw;
     margin: 0;
   }
 
@@ -234,8 +236,7 @@
     scale: 0.5;
     position: relative;
     cursor: default;
-    margin-left: 78vw;
-    margin-top: -7vw;
+    margin: 0;
   }
   .design-box-two {
     position: relative;
