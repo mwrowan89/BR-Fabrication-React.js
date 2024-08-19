@@ -10,13 +10,12 @@ const GalleryPhotoSlide = () => {
   const slideRef = useRef(null);
   const rightArrowRef = useRef(null);
   const leftArrowRef = useRef(null);
-  const [isWindowSize, setIsWindowSize] = useState(false);
 
   const updateScrollAmount = () => {
     if (window.innerWidth < 500) {
-      scrollAmount(500);
+      setScrollAmount(500);
     } else {
-      scrollAmount(1500);
+      setScrollAmount(1500);
     }
   };
 
@@ -64,7 +63,7 @@ const GalleryPhotoSlide = () => {
         rightArrow.removeEventListener("click", handleScrollRight);
       if (leftArrow) leftArrow.removeEventListener("click", handleScrollLeft);
     };
-  }, []);
+  }, [scrollAmount]);
 
   const shuffleArray = (array) => {
     for (let i = array.length - 1; i > 0; i--) {
