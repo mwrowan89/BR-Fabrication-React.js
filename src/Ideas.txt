@@ -20,6 +20,3 @@
     --update photo slide
         --fix arrows scroll length
     --update contact page
-
-
---update dropdown menu
