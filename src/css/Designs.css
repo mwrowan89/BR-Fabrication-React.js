@@ -226,9 +226,9 @@
   }
   #desk-vid {
     scale: 0.5;
-    margin: -7vw 0 0 -64vw;
     cursor: default;
     position: relative;
+    margin: 0;
   }
   #rolling-cab-vid {
     scale: 0.5;
