@@ -227,9 +227,12 @@
     align-items: center;
     margin-top: 10vh;
   }
-
-  #bar-photo {
-    overflow: hidden;
+  .design-box-one-bottom {
+    display: inline;
+  }
+  #bar-photo,
+  #wardrobe-photo {
+    width: 90vw;
   }
   #desk-vid {
     scale: 0.5;

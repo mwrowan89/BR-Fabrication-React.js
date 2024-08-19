@@ -18,5 +18,4 @@
     --update nav comp
     --update gallery
     --update photo slide
-        --fix arrows scroll length
     --update contact page

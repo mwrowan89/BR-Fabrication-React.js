@@ -138,7 +138,7 @@ const DesignsPage = () => {
           </div>
         </div>
         <div className="design-box-one-bottom">
-          <img id="bar-photo" src={image24} alt="Oakville Storage" />
+          <img id="wardrobe-photo" src={image24} alt="Oakville Storage" />
           <div id="design-box-one-bottom-descrip">
             Custom drawings for all projects
           </div>
@@ -157,7 +157,7 @@ const DesignsPage = () => {
           <br />
           <div className="bottom-transition">
             <div className="wine-cellar-description">
-              <p>
+              <p id="wine-cooler-desc">
                 This state-of-the-art wine cooler, situated in a renowned
                 Chicago, IL restaurant, houses an extensive collection of fine
                 wines, carefully curated for discerning customers. The cooler
