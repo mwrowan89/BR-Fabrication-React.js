@@ -223,7 +223,6 @@
   }
   .design-box-one {
     height: 180vh;
-    display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10vh;
