@@ -5,17 +5,18 @@ import PopUpDetails from "./PopUpDetails";
 const GalleryPhotoSlide = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
+  const [scrollAmount, setScrollAmount] = useState(1500);
   const trackRef = useRef(null);
   const slideRef = useRef(null);
   const rightArrowRef = useRef(null);
   const leftArrowRef = useRef(null);
   const [isWindowSize, setIsWindowSize] = useState(false);
 
-  const windowSize = () => {
+  const updateScrollAmount = () => {
     if (window.innerWidth < 500) {
-      setIsWindowSize(false);
+      scrollAmount(500);
     } else {
-      setIsWindowSize(true);
+      scrollAmount(1500);
     }
   };
 
