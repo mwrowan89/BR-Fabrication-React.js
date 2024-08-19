@@ -217,6 +217,11 @@
     align-items: center;
     margin-top: 10vh;
   }
+  #design-page-main-title {
+    margin-top: 6vh;
+    text-align: center;
+    text-decoration: underline;
+  }
   #design-page-desc {
     height: fit-content;
     width: 70vw;
