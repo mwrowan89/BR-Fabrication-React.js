@@ -220,4 +220,17 @@
   #bar-photo {
     overflow: hidden;
   }
+  #desk-vid {
+    scale: 0.5;
+    margin: -7vw 0 0 -64vw;
+    cursor: default;
+    position: relative;
+  }
+  #rolling-cab-vid {
+    scale: 0.5;
+    position: relative;
+    cursor: default;
+    margin-left: 78vw;
+    margin-top: -7vw;
+  }
 }
