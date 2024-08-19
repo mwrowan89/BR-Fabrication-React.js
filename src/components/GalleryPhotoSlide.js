@@ -29,7 +29,6 @@ const GalleryPhotoSlide = () => {
     setSelectedImage(null);
   };
 
-  // need to fix this logic
   let scrollAmount = () => {
     if (isWindowSize) {
       console.log("not working");
