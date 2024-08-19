@@ -30,20 +30,10 @@ const GalleryPhotoSlide = () => {
     setSelectedImage(null);
   };
 
-  let scrollAmount = () => {
-    if (isWindowSize) {
-      console.log("not working");
-      scrollAmount = 1500;
-    }
-    if (!windowSize) {
-      console.log("working");
-      scrollAmount = 500;
-    }
-  };
   useEffect(() => {
-    window.addEventListener("resize", windowSize);
-    windowSize();
-    scrollAmount();
+    window.addEventListener("resize", updateScrollAmount);
+    updateScrollAmount();
+    return () => window.removeEventListener("resize", updateScrollAmount);
   }, []);
 
   useEffect(() => {
