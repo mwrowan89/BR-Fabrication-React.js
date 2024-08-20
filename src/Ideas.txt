@@ -16,5 +16,6 @@
 *
 --Make page accessable on phone
     --update nav comp
+    --update design page
     --update gallery
     --update contact page
