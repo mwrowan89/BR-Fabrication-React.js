@@ -139,9 +139,7 @@ const DesignsPage = () => {
         </div>
         <div className="design-box-one-bottom">
           <img id="wardrobe-photo" src={image24} alt="Oakville Storage" />
-          <div id="design-box-one-bottom-descrip">
-            Custom drawings for all projects
-          </div>
+          <div id="design-box-one-bottom-descrip">Precision Measurements</div>
           <img id="bar-photo" src={image23} alt="23-foot-bar" />
         </div>
         <br />
