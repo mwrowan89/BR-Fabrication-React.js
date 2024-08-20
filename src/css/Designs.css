@@ -87,20 +87,20 @@
 }
 
 /* transitions */
-#image-left {
+.image-left {
   opacity: 0;
   transition: 1s ease;
   width: 50vw;
   transform: translateX(-100%);
 }
-#image-right {
+.image-right {
   opacity: 0;
   transition: 1s ease;
   width: 50vw;
   transform: translateX(100%);
 }
-#image-left.show,
-#image-right.show,
+.image-left.show,
+.image-right.show,
 .bottom-transition.show {
   opacity: 1;
   transform: translateX(0);
