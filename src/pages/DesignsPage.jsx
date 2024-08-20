@@ -165,7 +165,7 @@ const DesignsPage = () => {
           <br />
           <div className="bottom-transition">
             <div className="wine-cellar-description">
-              <p id="wine-cooler-desc">
+              <p id="section-description">
                 This state-of-the-art wine cooler, situated in a renowned
                 Chicago, IL restaurant, houses an extensive collection of fine
                 wines, carefully curated for discerning customers. The cooler
@@ -249,7 +249,7 @@ const DesignsPage = () => {
           <br />
           <div className="bottom-transition">
             <div className="walnut-bookcase-description">
-              <p>
+              <p id="section-description">
                 A beautiful Walnut Veneer bookcase custom made per customer
                 requests and requirements down to the smallest of details. We
                 strive for excelence in customer service by keeping in close

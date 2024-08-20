@@ -260,6 +260,13 @@
     margin: 0 0 -10vh 0;
   }
 
+  /* General */
+  #section-description {
+    border: 2px solid white;
+    width: 80vw;
+    margin-left: -15vw;
+  }
+
   /* Wine Cooler */
   .design-box-two {
     position: relative;
@@ -280,11 +287,6 @@
     height: fit-content;
     width: 90vw;
   }
-  #wine-cooler-desc {
-    border: 2px solid white;
-    width: 80vw;
-    margin-left: -15vw;
-  }
 
   /* Walnut Bookcase */
   .box-three-top {
@@ -296,5 +298,9 @@
   #bookcase-two {
     height: fit-content;
     width: 90vw;
+  }
+  .walnut-bookcase-description {
+    width: fit-content;
+    text-align: center;
   }
 }
