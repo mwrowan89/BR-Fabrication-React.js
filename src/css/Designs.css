@@ -268,6 +268,10 @@
     flex-direction: column;
     gap: 10px;
   }
+  .wine-cellar-description {
+    margin-left: 15vw;
+    padding: 0;
+  }
   #wine-cooler-one,
   #wine-cooler-two {
     height: fit-content;
