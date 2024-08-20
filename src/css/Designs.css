@@ -225,7 +225,6 @@
     height: fit-content;
     flex-direction: column;
     align-items: center;
-    margin-top: 10vh;
     justify-content: space-around;
   }
   .design-box-one-bottom {
