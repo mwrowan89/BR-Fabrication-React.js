@@ -79,7 +79,7 @@ const DesignsPage = () => {
   useEffect(() => {
     const handleScroll = () => {
       const buttons = document.querySelectorAll(
-        "#image-left, #image-right, .bottom-transition"
+        ".image-left, .image-right, .bottom-transition"
       );
       const scrollPosition = window.scrollY + window.innerHeight;
 
@@ -149,8 +149,8 @@ const DesignsPage = () => {
         <div className="design-box-two">
           <h1 id="design-page-title">800 Bottle Wine Cooler</h1>
           <div className="box-two-images-top">
-            <img id="image-left" src={image4} alt="wine celler" />
-            <img id="image-right" src={image3} alt="wine celler" />
+            <img className="image-left" src={image4} alt="wine celler" />
+            <img className="image-right" src={image3} alt="wine celler" />
           </div>
           <br />
           <div className="bottom-transition">
@@ -223,8 +223,8 @@ const DesignsPage = () => {
         <div className="design-box-three">
           <h1 id="design-page-title">Walnut Veneer Bookcase</h1>
           <div className="box-three-top">
-            <img id="image-left" src={image6} alt="Walnut bookcase" />
-            <img id="image-right" src={image7} alt="Walnut bookcase" />
+            <img className="image-left" src={image6} alt="Walnut bookcase" />
+            <img className="image-right" src={image7} alt="Walnut bookcase" />
           </div>
           <br />
           <div className="bottom-transition">
@@ -275,8 +275,8 @@ const DesignsPage = () => {
         <div className="design-box-four">
           <h1 id="design-page-title">Rift White Oak Dresser</h1>
           <div className="box-four-top">
-            <img id="image-left" src={image16} alt="dresser" />
-            <img id="image-right" src={image14} alt="dresser" />
+            <img className="image-left" src={image16} alt="dresser" />
+            <img className="image-right" src={image14} alt="dresser" />
           </div>
           <div className="bottom-transition">
             <div className="dresser-description">
