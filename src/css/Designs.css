@@ -254,7 +254,15 @@
     cursor: default;
     margin: 0 0 -10vh 0;
   }
+
+  /* Wine Cooler */
   .design-box-two {
     position: relative;
+    text-align: center;
+  }
+  .box-two-images-top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 }
