@@ -30,7 +30,8 @@
   justify-content: space-between;
 }
 
-#bar-photo {
+#bar-photo,
+#wardrobe-photo {
   height: 40vh;
 }
 #design-box-one-bottom-descrip {
