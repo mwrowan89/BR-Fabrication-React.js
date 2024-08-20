@@ -233,8 +233,18 @@ const DesignsPage = () => {
         <div className="design-box-three">
           <h1 id="design-page-title">Walnut Veneer Bookcase</h1>
           <div className="box-three-top">
-            <img className="image-left" src={image6} alt="Walnut bookcase" />
-            <img className="image-right" src={image7} alt="Walnut bookcase" />
+            <img
+              className="image-left"
+              id="bookcase-one"
+              src={image6}
+              alt="Walnut bookcase"
+            />
+            <img
+              className="image-right"
+              id="bookcase-two"
+              src={image7}
+              alt="Walnut bookcase"
+            />
           </div>
           <br />
           <div className="bottom-transition">
