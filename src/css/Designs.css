@@ -115,8 +115,12 @@
 
 .wine-cellar-description {
   width: 50vw;
-  padding-left: 25vw;
   font-size: 25px;
+}
+.bottom-transition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .design-box-two {
   justify-content: center;
@@ -206,7 +210,7 @@
   font-size: 25px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .design-page {
     overflow: hidden;
     height: fit-content;
@@ -269,7 +273,6 @@
     gap: 10px;
   }
   .wine-cellar-description {
-    margin-left: 15vw;
     padding: 0;
   }
   #wine-cooler-one,
@@ -280,5 +283,6 @@
   #wine-cooler-desc {
     border: 2px solid white;
     width: 70vw;
+    margin-left: -10vw;
   }
 }
