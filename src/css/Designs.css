@@ -231,13 +231,12 @@
     margin-top: 2vh;
     text-align: center;
     display: inline;
+    border-bottom: 2px solid white;
+    padding-bottom: 2vw;
   }
   #walnut-desk-video,
   #rolling-cab-video {
     margin-top: -18vh;
-  }
-  #rolling-cab-video {
-    margin-bottom: -10vh;
   }
   #bar-photo,
   #wardrobe-photo {
@@ -253,7 +252,7 @@
     scale: 0.5;
     position: relative;
     cursor: default;
-    margin: 0;
+    margin: 0 0 -10vh 0;
   }
   .design-box-two {
     position: relative;
