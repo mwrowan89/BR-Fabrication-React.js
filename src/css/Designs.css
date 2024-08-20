@@ -259,15 +259,21 @@
   .design-box-two {
     position: relative;
     text-align: center;
+    align-items: center;
   }
   .box-two-images-top {
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 10px;
   }
   #wine-cooler-one,
   #wine-cooler-two {
     height: fit-content;
     width: 90vw;
+  }
+  #wine-cooler-desc {
+    border: 2px solid white;
+    width: 70vw;
   }
 }
