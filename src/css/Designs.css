@@ -265,4 +265,9 @@
     align-items: center;
     flex-direction: column;
   }
+  #wine-cooler-one,
+  #wine-cooler-two {
+    height: fit-content;
+    width: 90vw;
+  }
 }
