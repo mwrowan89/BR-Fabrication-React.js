@@ -64,13 +64,20 @@ h2 {
   .contact-us {
     overflow: hidden;
     margin-top: 5vh;
-    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   #contact-us-image {
     width: fit-content;
   }
   #contact-us-title {
     text-align: center;
+  }
+  .contact-us-container {
+    width: 80vw;
+    padding: 2vw;
+    height: fit-content;
+    flex-direction: column;
   }
 }
