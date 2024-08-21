@@ -303,4 +303,10 @@
     width: fit-content;
     text-align: center;
   }
+
+  /* Dresser */
+  .box-four-top {
+    display: flex;
+    flex-direction: column;
+  }
 }
