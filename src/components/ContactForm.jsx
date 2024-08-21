@@ -5,25 +5,16 @@ import InstagramLogo from "../assets/images/Screenshot (19).png";
 import FacebookLogo from "../assets/images/facbook logo11.png";
 
 const ContactForm = () => {
+  const windowSize = () => {
+    if (window.innerWidth < 500) {
+      setIsWindowSize(false);
+    } else {
+      setIsWindowSize(true);
+    }
+  };
   useEffect(() => {
-    const handleScroll = () => {
-      const buttons = document.querySelectorAll(
-        ".box-one, .box-two, .box-three-left, .box-three-right, #box-three-title"
-      );
-      const scrollPosition = window.scrollY + window.innerHeight;
-
-      buttons.forEach((button) => {
-        if (scrollPosition > button.offsetTop) {
-          button.classList.add("show");
-        }
-      });
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    window.addEventListener("resize", windowSize);
+    windowSize();
   }, []);
 
   const [contact, setContact] = useState({
