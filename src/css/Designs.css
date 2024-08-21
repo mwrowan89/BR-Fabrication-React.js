@@ -315,4 +315,7 @@
     height: fit-content;
     width: 90vw;
   }
+  .dresser-description {
+    padding: 0;
+  }
 }
