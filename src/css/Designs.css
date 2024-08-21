@@ -263,8 +263,7 @@
   /* General */
   #section-description {
     border: 2px solid white;
-    width: 80vw;
-    margin-left: -15vw;
+    width: fit-content;
   }
 
   /* Wine Cooler */
@@ -280,7 +279,7 @@
     gap: 10px;
   }
   .wine-cellar-description {
-    padding: 0;
+    width: 80vw;
   }
   #wine-cooler-one,
   #wine-cooler-two {
@@ -290,7 +289,6 @@
 
   /* Walnut Bookcase */
   .box-three-top {
-    display: flex;
     flex-direction: column;
     align-items: center;
   }
@@ -300,8 +298,9 @@
     width: 90vw;
   }
   .walnut-bookcase-description {
-    width: fit-content;
+    width: 80vw;
     text-align: center;
+    padding: 12.5vw;
   }
 
   /* Dresser */
