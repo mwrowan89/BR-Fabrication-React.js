@@ -291,6 +291,7 @@
   .box-three-top {
     flex-direction: column;
     align-items: center;
+    width: 110vw;
   }
   #bookcase-one,
   #bookcase-two {
