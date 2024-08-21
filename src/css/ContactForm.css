@@ -67,4 +67,10 @@ h2 {
     display: flex;
     flex-direction: column;
   }
+  #contact-us-image {
+    width: fit-content;
+  }
+  #contact-us-title {
+    text-align: center;
+  }
 }
