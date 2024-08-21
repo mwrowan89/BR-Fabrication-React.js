@@ -7,7 +7,7 @@ function Header() {
   const [isWindowSize, setIsWindowSize] = useState(false);
 
   const windowSize = () => {
-    if (window.innerWidth < 500) {
+    if (window.innerWidth < 700) {
       setIsWindowSize(false);
     } else {
       setIsWindowSize(true);

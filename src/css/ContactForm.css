@@ -10,7 +10,8 @@
   align-items: center;
   border: 2px solid white;
   height: 45vh;
-  width: 30vw;
+  width: fit-content;
+  padding: 4vw;
   margin: 10px;
 }
 .contact-us-form {
@@ -26,8 +27,8 @@
   margin: 3vw;
 }
 #contact-us-image {
-  height: 65vh;
-  width: 25vw;
+  max-height: 65vh;
+  max-width: 30vw;
 }
 #contact-us-title {
   font-size: 60px;
@@ -60,7 +61,7 @@ h2 {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
   .contact-us {
     overflow: hidden;
     margin-top: 5vh;
