@@ -210,7 +210,7 @@
   font-size: 25px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .design-page {
     overflow: hidden;
     height: fit-content;

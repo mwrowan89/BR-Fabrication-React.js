@@ -33,7 +33,7 @@
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
   #pop-up-title {
     width: 60vw;
     text-align: center;

@@ -178,7 +178,7 @@
   background-color: rgba(0, 0, 0, 0.149);
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
   .gallery-images-container {
     display: flex;
     flex-direction: column;
