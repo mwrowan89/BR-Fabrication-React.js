@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../css/ContactForm.css";
 import image from "../assets/images/Andros.png";
 import InstagramLogo from "../assets/images/Screenshot (19).png";

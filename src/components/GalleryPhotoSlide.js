@@ -12,7 +12,7 @@ const GalleryPhotoSlide = () => {
   const leftArrowRef = useRef(null);
 
   const updateScrollAmount = () => {
-    if (window.innerWidth < 500) {
+    if (window.innerWidth < 700) {
       setScrollAmount(225);
     } else {
       setScrollAmount(1500);
