@@ -1,10 +1,31 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../css/ContactForm.css";
 import image from "../assets/images/Andros.png";
 import InstagramLogo from "../assets/images/Screenshot (19).png";
 import FacebookLogo from "../assets/images/facbook logo11.png";
 
 const ContactForm = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const buttons = document.querySelectorAll(
+        ".box-one, .box-two, .box-three-left, .box-three-right, #box-three-title"
+      );
+      const scrollPosition = window.scrollY + window.innerHeight;
+
+      buttons.forEach((button) => {
+        if (scrollPosition > button.offsetTop) {
+          button.classList.add("show");
+        }
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   const [contact, setContact] = useState({
     full: "",
     email: "",
