@@ -20,6 +20,21 @@ const ContactForm = () => {
     console.log(contact);
   };
 
+  const getMoreInfo = (image) => {
+    const subject = encodeURIComponent(
+      `More Information Request: ${image.title}`
+    );
+    const body = encodeURIComponent(
+      `I would like to request more information about the following image:\n\nTitle: ${image.title}\nDescription: ${image.desc}\nImage ID: ${image.id}`
+    );
+
+    const mailtoLink = `mailto:?subject=${subject}&body=${body}`;
+
+    setTimeout(() => {
+      window.location.href = mailtoLink;
+    }, 0);
+  };
+
   return (
     <div className="contact-us">
       <div className="contact-us-image">
