@@ -20,12 +20,13 @@ const ContactForm = () => {
     console.log(contact);
   };
 
-  const getMoreInfo = (image) => {
+  const sendEmail = (e, contact) => {
+    e.preventDefault();
     const subject = encodeURIComponent(
-      `More Information Request: ${image.title}`
+      `More Information Request: ${contact.full}`
     );
     const body = encodeURIComponent(
-      `I would like to request more information about the following image:\n\nTitle: ${image.title}\nDescription: ${image.desc}\nImage ID: ${image.id}`
+      `I would like to request more information about the following:\n\nTitle: ${contact.message}`
     );
 
     const mailtoLink = `mailto:?subject=${subject}&body=${body}`;
@@ -75,7 +76,11 @@ const ContactForm = () => {
               />
             </label>
             <br />
-            <button id="contact-us-button" type="submit">
+            <button
+              id="contact-us-button"
+              type="submit"
+              onClick={(e) => sendEmail(e, contact)}
+            >
               Contact Us
             </button>
           </div>
