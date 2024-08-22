@@ -20,7 +20,6 @@ const PopUpDetails = ({ isOpen, onRequestClose, image }) => {
     }, 0);
   };
   const closeModal = () => {
-    console.log(onRequestClose, isOpen);
     onRequestClose();
   };
   return (
