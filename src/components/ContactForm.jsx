@@ -23,10 +23,10 @@ const ContactForm = () => {
   const sendEmail = (e, contact) => {
     e.preventDefault();
     const subject = encodeURIComponent(
-      `More Information Request: ${contact.full}`
+      `More Information Request from: ${contact.full}`
     );
     const body = encodeURIComponent(
-      `I would like to request more information about the following:\n\nTitle: ${contact.message}`
+      `I would like to request more information about the following:\n\n ${contact.message}`
     );
 
     const mailtoLink = `mailto:?subject=${subject}&body=${body}`;
