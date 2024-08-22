@@ -49,7 +49,6 @@ const GalleryPhotos = ({ filteredImages = [] }) => {
           <img
             onClick={() => {
               openModal(image);
-              console.table(image);
             }}
             id="gallery-image"
             key={image.id}
