@@ -21,7 +21,7 @@ const PopUpDetails = ({ isOpen, onRequestClose, image }) => {
   };
   const closeModal = () => {
     console.log(onRequestClose, isOpen);
-    isOpen = false;
+    onRequestClose();
   };
   return (
     <div className="pop-up-container">
