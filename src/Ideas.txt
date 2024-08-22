@@ -11,6 +11,3 @@
 
 *
 --Create connection for sending emails
-
-*
---Fix pop up comp on mobile to close popup
