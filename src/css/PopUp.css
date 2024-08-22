@@ -32,6 +32,9 @@
 #pop-up-title {
   text-decoration: underline;
 }
+#close-out-popup-btn {
+  opacity: 0;
+}
 
 @media only screen and (max-width: 700px) {
   #pop-up-title {
@@ -41,5 +44,9 @@
   #pop-up-image {
     height: 55vw;
     width: fit-content;
+  }
+  #close-out-popup-btn {
+    position: relative;
+    opacity: 1;
   }
 }
