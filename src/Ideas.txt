@@ -8,6 +8,7 @@
 --Add more designs to design page?
     --Add description in design page about dresser
 
+--fix image transition on design page
 
 *
 --Create connection for sending emails
