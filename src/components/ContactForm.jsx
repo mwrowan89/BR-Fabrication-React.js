@@ -17,6 +17,7 @@ const ContactForm = () => {
       ...contact,
       [name]: value,
     });
+    console.log(contact);
   };
 
   return (
@@ -64,10 +65,10 @@ const ContactForm = () => {
             </button>
           </div>
           <div className="our-info">
-            <h2>Contact</h2>
+            {/* <h2>Contact</h2>
             <p>ben@fromcheftotable.com</p>
             <h2>Based in</h2>
-            <p>Chicago, IL</p>
+            <p>Chicago, IL</p> */}
             <br />
             <br />
             <div className="links">
