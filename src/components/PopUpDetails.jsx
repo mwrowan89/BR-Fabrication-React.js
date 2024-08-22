@@ -19,6 +19,10 @@ const PopUpDetails = ({ isOpen, onRequestClose, image }) => {
       window.location.href = mailtoLink;
     }, 0);
   };
+  const closeModal = () => {
+    console.log(onRequestClose, isOpen);
+    isOpen = false;
+  };
   return (
     <div className="pop-up-container">
       <Modal
@@ -31,7 +35,9 @@ const PopUpDetails = ({ isOpen, onRequestClose, image }) => {
           {image && (
             <div className="pop-up-results">
               <div className="pop-up-result-info">
-                <div id="close-out-popup-btn">X</div>
+                <div id="close-out-popup-btn" onClick={closeModal}>
+                  X
+                </div>
                 <h1 id="pop-up-title">{image.title}</h1>
                 <h5 id="pop-up-image-desc">{image.desc}</h5>
                 <img id="pop-up-image" src={image.src} alt={image.desc} />
