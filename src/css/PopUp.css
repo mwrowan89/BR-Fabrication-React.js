@@ -47,6 +47,10 @@
   }
   #close-out-popup-btn {
     position: relative;
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 50vw;
+    margin-top: -20vw;
     opacity: 1;
   }
 }
