@@ -38,6 +38,8 @@ import video7 from "../assets/images/Rolling Cabinet/Rolling-cab-vid.mov";
 import image23 from "../assets/images/23-foot-bar.png";
 import image24 from "../assets/images/Oakville.png";
 const DesignApp = () => {
+  const wineVideoRef = useRef(null);
+  const [isWinePlaying, setIsWinePlaying] = useState(false);
   return <div>DesignApp</div>;
 };
 
