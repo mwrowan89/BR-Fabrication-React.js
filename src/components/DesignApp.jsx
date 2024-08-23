@@ -24,6 +24,10 @@ import image20 from "../assets/images/Bookcase/167.png";
 import image21 from "../assets/images/Bookcase/IMG_2631.png";
 import image22 from "../assets/images/Bookcase/IMG_2157.PNG";
 import video3 from "../assets/images/Bookcase/IMG_2654.MOV";
+//Dresser
+import image12 from "../assets/images/Dresser/IMG_6865_Original.png";
+import image13 from "../assets/images/Dresser/IMG_7044_Original.png";
+import image14 from "../assets/images/Dresser/Master Bedroom Chest Brooke Abrams 1.jpg";
 const DesignApp = () => {
   return <div>DesignApp</div>;
 };
