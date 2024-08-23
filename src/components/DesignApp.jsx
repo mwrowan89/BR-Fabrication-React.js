@@ -31,6 +31,12 @@ import image14 from "../assets/images/Dresser/Master Bedroom Chest Brooke Abrams
 import image16 from "../assets/images/Dresser/Master Bedroom Chest Brooke Abrams-Dimensions.png";
 import image17 from "../assets/images/Dresser/IMG_6785.jpg";
 import video4 from "../assets/images/Dresser/Dresser-vid.mov";
+
+//Top display
+import video6 from "../assets/images/Deskvid.mov";
+import video7 from "../assets/images/Rolling Cabinet/Rolling-cab-vid.mov";
+import image23 from "../assets/images/23-foot-bar.png";
+import image24 from "../assets/images/Oakville.png";
 const DesignApp = () => {
   return <div>DesignApp</div>;
 };
