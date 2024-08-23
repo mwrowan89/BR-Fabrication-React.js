@@ -12,3 +12,5 @@
 
 *
 --Create connection for sending emails
+
+--finish seperating design page 
