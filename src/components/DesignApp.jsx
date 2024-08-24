@@ -44,6 +44,9 @@ const DesignApp = () => {
   const emptyWineVideoRef = useRef(null);
   const [isEmptyWinePlaying, setIsEmptyWinePlaying] = useState(false);
 
+  const bookcaseVideoRef = useRef(null);
+  const [isBookcasePlaying, setIsBookcasePlaying] = useState(false);
+
   return <div>DesignApp</div>;
 };
 
