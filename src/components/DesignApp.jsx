@@ -51,6 +51,18 @@ const DesignApp = () => {
   const [isDresserPlaying, setIsDresserPlaying] = useState(false);
   const [isWindowSize, setIsWindowSize] = useState(false);
 
+  const handleVideoClick = (videoRef, setIsPlaying) => {
+    if (videoRef.current) {
+      if (videoRef.current.paused) {
+        videoRef.current.play();
+        setIsPlaying(true);
+      } else {
+        videoRef.current.pause();
+        setIsPlaying(false);
+      }
+    }
+  };
+
   return <div>DesignApp</div>;
 };
 
