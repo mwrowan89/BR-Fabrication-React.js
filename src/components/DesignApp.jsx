@@ -175,6 +175,54 @@ const DesignApp = () => {
                 atmosphere for wine connoisseurs.
               </p>
             </div>
+            <div className="box-two-bottom">
+              <br />
+              <br />
+              <img id="finished-photo" src={image1} alt="wine celler" />
+              <div
+                className="video-container"
+                onClick={() => handleVideoClick(wineVideoRef, setIsWinePlaying)}
+              >
+                <video
+                  id="wine-cellar-video"
+                  ref={wineVideoRef}
+                  loop
+                  muted
+                  style={{ cursor: "pointer" }}
+                >
+                  <source src={video2} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                {!isWinePlaying && (
+                  <div className="play-button-overlay">▶️</div>
+                )}
+              </div>
+              <img id="finished-photo" src={image5} alt="wine celler" />
+              <img id="finished-photo" src={image2} alt="wine celler" />
+              <img id="finished-photo" src={image18} alt="wine celler" />
+              <img id="finished-photo" src={image19} alt="wine celler" />
+              <div
+                className="video-container"
+                onClick={() =>
+                  handleVideoClick(emptyWineVideoRef, setIsEmptyWinePlaying)
+                }
+              >
+                <video
+                  id="wine-cellar-video"
+                  ref={emptyWineVideoRef}
+                  loop
+                  muted
+                  style={{ cursor: "pointer" }}
+                >
+                  <source src={video5} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                {!isEmptyWinePlaying && (
+                  <div className="play-button-overlay">▶️</div>
+                )}
+              </div>
+              <br />
+            </div>
           </div>
         </div>
       </div>
