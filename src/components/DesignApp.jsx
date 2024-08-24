@@ -108,6 +108,35 @@ const DesignApp = () => {
         </>
       )}
       {!isWindowSize && <TopBanner />}
+      <div className="design-page">
+        <h1 id="design-page-main-title">Custom Designs for All Builds</h1>
+        <div className="design-box-one">
+          <div className="video-container" id="desk-vid">
+            <video id="walnut-desk-video" loop muted autoPlay>
+              <source src={video6} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <p id="design-page-desc">
+            In addition to our woodworking expertise, BR Fabrication also
+            specializes in creating custom computer designs tailored to the
+            specific requirements and preferences of our clients. Whether it’s
+            building high-performance workstations for professional use or
+            personalized gaming setups, we ensure that each design meets the
+            unique specifications of our customers. Our attention to detail and
+            commitment to quality extend to this area, resulting in bespoke
+            systems that blend functionality with aesthetic appeal. This service
+            underscores our dedication to delivering personalized solutions that
+            cater to a wide range of needs and tastes.
+          </p>
+          <div className="video-container" id="rolling-cab-vid">
+            <video id="rolling-cab-video" loop muted autoPlay>
+              <source src={video7} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
