@@ -63,6 +63,14 @@ const DesignApp = () => {
     }
   };
 
+  const windowSize = () => {
+    if (window.innerWidth < 700) {
+      setIsWindowSize(false);
+    } else {
+      setIsWindowSize(true);
+    }
+  };
+
   return <div>DesignApp</div>;
 };
 
