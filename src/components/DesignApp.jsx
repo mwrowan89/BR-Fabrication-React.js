@@ -226,6 +226,9 @@ const DesignApp = () => {
           </div>
         </div>
         <br />
+
+        {/* Walnut Bookcase */}
+
         <div className="design-box-three">
           <h1 id="design-page-title">Walnut Veneer Bookcase</h1>
           <div className="box-three-top">
