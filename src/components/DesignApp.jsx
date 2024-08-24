@@ -70,6 +70,10 @@ const DesignApp = () => {
       setIsWindowSize(true);
     }
   };
+  useEffect(() => {
+    window.addEventListener("resize", windowSize);
+    windowSize();
+  }, []);
 
   return <div>DesignApp</div>;
 };
