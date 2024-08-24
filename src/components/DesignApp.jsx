@@ -40,6 +40,10 @@ import image24 from "../assets/images/Oakville.png";
 const DesignApp = () => {
   const wineVideoRef = useRef(null);
   const [isWinePlaying, setIsWinePlaying] = useState(false);
+
+  const emptyWineVideoRef = useRef(null);
+  const [isEmptyWinePlaying, setIsEmptyWinePlaying] = useState(false);
+
   return <div>DesignApp</div>;
 };
 
