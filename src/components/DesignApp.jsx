@@ -99,7 +99,17 @@ const DesignApp = () => {
     };
   }, []);
 
-  return <div>DesignApp</div>;
+  return (
+    <div>
+      {isWindowSize && (
+        <>
+          <Header />
+          <Nav />
+        </>
+      )}
+      {!isWindowSize && <TopBanner />}
+    </div>
+  );
 };
 
 export default DesignApp;
