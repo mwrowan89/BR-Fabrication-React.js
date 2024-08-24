@@ -47,6 +47,10 @@ const DesignApp = () => {
   const bookcaseVideoRef = useRef(null);
   const [isBookcasePlaying, setIsBookcasePlaying] = useState(false);
 
+  const dresserVideoRef = useRef(null);
+  const [isDresserPlaying, setIsDresserPlaying] = useState(false);
+  const [isWindowSize, setIsWindowSize] = useState(false);
+
   return <div>DesignApp</div>;
 };
 
