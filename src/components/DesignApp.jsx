@@ -142,6 +142,27 @@ const DesignApp = () => {
           <img id="bar-photo" src={image23} alt="23-foot-bar" />
         </div>
         <br />
+
+        {/* Wine cooler */}
+
+        <div className="design-box-two">
+          <h1 id="design-page-title">800 Bottle Wine Cooler</h1>
+          <div className="box-two-images-top">
+            <img
+              className="image-left"
+              id="wine-cooler-one"
+              src={image4}
+              alt="wine celler"
+            />
+            <img
+              className="image-right"
+              id="wine-cooler-two"
+              src={image3}
+              alt="wine celler"
+            />
+          </div>
+          <br />
+        </div>
       </div>
     </div>
   );
