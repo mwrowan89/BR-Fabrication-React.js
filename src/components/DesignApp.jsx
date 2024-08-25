@@ -101,13 +101,6 @@ const DesignApp = () => {
 
   return (
     <div>
-      {isWindowSize && (
-        <>
-          <Header />
-          <Nav />
-        </>
-      )}
-      {!isWindowSize && <TopBanner />}
       <div className="design-page">
         <h1 id="design-page-main-title">Custom Designs for All Builds</h1>
         <div className="design-box-one">
