@@ -307,6 +307,14 @@ const DesignApp = () => {
               alt="dresser"
             />
           </div>
+          <div className="bottom-transition">
+            <div className="dresser-description">
+              <p id="section-description">
+                Custom made white washed dresser made out of rift White Oak with
+                solid Oak trim.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
