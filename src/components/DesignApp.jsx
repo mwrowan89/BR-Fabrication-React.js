@@ -287,6 +287,27 @@ const DesignApp = () => {
             </div>
           </div>
         </div>
+        <br />
+
+        {/* Dresser */}
+
+        <div className="design-box-four">
+          <h1 id="design-page-title">Rift White Oak Dresser</h1>
+          <div className="box-four-top">
+            <img
+              className="image-left"
+              id="dresser-one"
+              src={image16}
+              alt="dresser"
+            />
+            <img
+              className="image-right"
+              id="dresser-two"
+              src={image14}
+              alt="dresser"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
