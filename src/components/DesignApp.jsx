@@ -257,6 +257,34 @@ const DesignApp = () => {
                 allow for adjustments or approvals if needed.
               </p>
             </div>
+            <div className="box-three-bottom">
+              <img id="finished-photo" src={image8} alt="Walnut bookcase" />
+              <img id="finished-photo" src={image9} alt="Walnut bookcase" />
+              <div
+                className="video-container"
+                onClick={() =>
+                  handleVideoClick(bookcaseVideoRef, setIsBookcasePlaying)
+                }
+              >
+                <video
+                  id="bookcase-video"
+                  ref={bookcaseVideoRef}
+                  loop
+                  muted
+                  style={{ cursor: "pointer" }}
+                >
+                  <source src={video3} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                {!isBookcasePlaying && (
+                  <div className="play-button-overlay">▶️</div>
+                )}
+              </div>
+              <img id="finished-photo" src={image20} alt="Walnut bookcase" />
+              <img id="finished-photo" src={image10} alt="Walnut bookcase" />
+              <img id="finished-photo" src={image21} alt="Walnut bookcase" />
+              <img id="finished-photo" src={image22} alt="Walnut bookcase" />
+            </div>
           </div>
         </div>
       </div>
