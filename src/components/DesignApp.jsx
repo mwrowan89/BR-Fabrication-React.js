@@ -1,8 +1,5 @@
 import React from "react";
 import { useRef, useState, useEffect } from "react";
-import Header from "../components/Header";
-import Nav from "../components/Nav";
-import TopBanner from "../components/TopBanner";
 import "../css/Designs.css";
 // Wine Cooler
 import image1 from "../assets/images/Wine Cellar/IMG_1201.png";
@@ -37,6 +34,7 @@ import video6 from "../assets/images/Deskvid.mov";
 import video7 from "../assets/images/Rolling Cabinet/Rolling-cab-vid.mov";
 import image23 from "../assets/images/23-foot-bar.png";
 import image24 from "../assets/images/Oakville.png";
+
 const DesignApp = () => {
   const wineVideoRef = useRef(null);
   const [isWinePlaying, setIsWinePlaying] = useState(false);
