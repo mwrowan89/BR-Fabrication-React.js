@@ -28,13 +28,13 @@ a {
   margin-top: 7vw;
 }
 #facebook-logo {
-  padding: 3.5px;
-  margin-top: -0.2vw;
+  padding: 5px;
 }
 #insta-logo {
 }
 #insta-logo,
 #facebook-logo {
+  display: flex;
   border: 1px solid white;
 }
 
