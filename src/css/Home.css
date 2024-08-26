@@ -160,6 +160,7 @@
   .box-two {
     display: flex;
     align-items: center;
+    margin-top: 16vw;
   }
   #bakan-desc-img-two {
     margin: 0;
@@ -222,6 +223,7 @@
     text-decoration: underline;
     width: 95vw;
     padding-left: 1vw;
+    text-align: center;
   }
   .photo-slide-whole {
     width: 102vw;
