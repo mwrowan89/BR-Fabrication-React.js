@@ -28,9 +28,13 @@ a {
   margin-top: 7vw;
 }
 #facebook-logo {
-  padding: 2px;
+  padding: 3.5px;
+  margin-top: -0.2vw;
 }
 #insta-logo {
+}
+#insta-logo,
+#facebook-logo {
   border: 1px solid white;
 }
 
