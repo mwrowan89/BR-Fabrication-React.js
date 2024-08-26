@@ -24,15 +24,16 @@ function Footer() {
             rel="noopener noreferrer"
           >
             <img
-              id="footer-insta"
+              id="insta-logo"
               src={InstagramLogo}
               width="33"
               height="33"
               alt="Instagram link"
             />
           </a>
-          &nbsp;||&nbsp;
+
           <a
+            id="facebook-logo"
             href="https://www.facebook.com/fromcheftotable/?locale=it_IT"
             target="_blank"
             rel="noopener noreferrer"
