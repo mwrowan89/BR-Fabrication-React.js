@@ -67,6 +67,7 @@
     flex-direction: column;
     padding: 0;
     color: white;
+    height: fit-content;
   }
 
   #ben-sanding,
