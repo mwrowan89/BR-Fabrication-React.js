@@ -46,15 +46,16 @@ a {
   }
   .footer-middle {
     width: 25vw;
+    margin-top: 16vw;
   }
   .links-footer {
     display: flex;
     flex-direction: column;
     scale: 1.2;
   }
-  #insta-logo {
+  /* #insta-logo {
     margin: -2.5vw;
-  }
+  } */
   .footer {
     background-color: black;
     border-top: 2px solid white;
