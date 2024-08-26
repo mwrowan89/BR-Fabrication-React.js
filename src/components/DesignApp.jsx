@@ -47,7 +47,6 @@ const DesignApp = () => {
 
   const dresserVideoRef = useRef(null);
   const [isDresserPlaying, setIsDresserPlaying] = useState(false);
-  const [isWindowSize, setIsWindowSize] = useState(false);
 
   const handleVideoClick = (videoRef, setIsPlaying) => {
     if (videoRef.current) {
@@ -60,18 +59,6 @@ const DesignApp = () => {
       }
     }
   };
-
-  const windowSize = () => {
-    if (window.innerWidth < 700) {
-      setIsWindowSize(false);
-    } else {
-      setIsWindowSize(true);
-    }
-  };
-  useEffect(() => {
-    window.addEventListener("resize", windowSize);
-    windowSize();
-  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
