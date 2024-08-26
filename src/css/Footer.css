@@ -13,6 +13,7 @@
   justify-content: center;
   margin-top: -6vh;
   color: white;
+  gap: 10px;
 }
 .footer-left {
   align-items: center;
@@ -30,8 +31,7 @@ a {
 #facebook-logo {
   padding: 5px;
 }
-#insta-logo {
-}
+
 #insta-logo,
 #facebook-logo {
   display: flex;
