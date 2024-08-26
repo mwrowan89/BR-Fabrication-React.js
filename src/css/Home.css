@@ -76,6 +76,11 @@
 .box-three-whole {
   margin-top: -10vh;
 }
+#home-title-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .home-text {
   scale: 0.5;
   margin-top: -14vw;
