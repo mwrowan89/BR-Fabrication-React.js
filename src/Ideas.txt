@@ -1,7 +1,6 @@
 --Add collections restaurants, aspen etc.
 
 --Change up fonts
---shop new arrivals icons (blurred background)
 
 --Add multiple photos to gallery pop-up
 
