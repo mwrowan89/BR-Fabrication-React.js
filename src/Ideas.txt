@@ -12,5 +12,4 @@
 *
 --Create connection for sending emails
 
---Finish seperating design page 
 --Fix image transition on design page for box-two
