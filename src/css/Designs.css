@@ -14,7 +14,7 @@
   border: 2px solid white;
   padding: 1rem;
   width: 40vw;
-  height: 29vh;
+  height: fit-content;
   margin-left: 14vw;
   font-size: 26px;
 }
