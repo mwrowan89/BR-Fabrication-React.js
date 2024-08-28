@@ -21,7 +21,7 @@
 .design-box-one {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   height: fit-content;
   gap: 20px;
   width: 95vw;
@@ -65,14 +65,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30vw; /* Set the container width */
+  width: 30vw;
+  height: 40vh;
 }
 
 #rolling-cab-video,
 #walnut-desk-video {
   flex: 1;
   width: 30vw;
-  height: auto;
 }
 #wine-cellar-video,
 #walnut-desk-video,
