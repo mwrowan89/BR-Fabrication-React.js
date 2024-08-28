@@ -19,11 +19,10 @@
   font-size: 26px;
 }
 .design-box-one {
-  width: 100vw;
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  height: 40vh;
+  height: fit-content;
 }
 .design-box-one-bottom {
   display: flex;
@@ -62,16 +61,16 @@
 }
 #desk-vid {
   scale: 0.5;
-  margin: -7vw 0 0 -64vw;
+  /* margin: -7vw 0 0 -64vw;
   cursor: default;
-  position: absolute;
+  position: absolute; */
 }
 #rolling-cab-vid {
   scale: 0.5;
-  position: absolute;
+  /* position: absolute;
   cursor: default;
   margin-left: 78vw;
-  margin-top: -7vw;
+  margin-top: -7vw; */
 }
 #wine-cellar-video,
 #walnut-desk-video,
@@ -208,6 +207,12 @@
   justify-content: center;
   width: 50vw;
   font-size: 25px;
+}
+
+@media only screen and (max-width: 1900px) {
+  .design-box-one {
+    display: flex;
+  }
 }
 
 @media only screen and (max-width: 700px) {
