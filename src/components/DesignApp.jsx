@@ -89,7 +89,7 @@ const DesignApp = () => {
       <div className="design-page">
         <h1 id="design-page-main-title">Custom Designs for All Builds</h1>
         <div className="design-box-one">
-          <div className="video-container" id="desk-vid">
+          <div className="video-container-top" id="desk-vid">
             <video id="walnut-desk-video" loop muted autoPlay>
               <source src={video6} type="video/mp4" />
               Your browser does not support the video tag.
@@ -107,7 +107,7 @@ const DesignApp = () => {
             underscores our dedication to delivering personalized solutions that
             cater to a wide range of needs and tastes.
           </p>
-          <div className="video-container" id="rolling-cab-vid">
+          <div className="video-container-top" id="rolling-cab-vid">
             <video id="rolling-cab-video" loop muted autoPlay>
               <source src={video7} type="video/mp4" />
               Your browser does not support the video tag.
