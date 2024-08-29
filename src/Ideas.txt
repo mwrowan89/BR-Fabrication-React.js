@@ -8,7 +8,7 @@
     --Add description in design page about dresser
 
 --add intermediate resizing css for pages
-    --home
+    --home fix resize at 1500
     --about
     
 
