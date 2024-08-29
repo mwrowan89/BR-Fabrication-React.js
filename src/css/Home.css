@@ -123,6 +123,7 @@
     flex-direction: column;
     justify-content: center;
     height: fit-content;
+    width: 90vw;
   }
   .box-two {
     flex-direction: column-reverse;
