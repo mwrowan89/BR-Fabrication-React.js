@@ -122,18 +122,21 @@
   .box-one {
     flex-direction: column;
     justify-content: center;
+    height: fit-content;
   }
   .box-two {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     margin: 0;
+    height: fit-content;
   }
   #box-two-p {
     margin: 0;
   }
   .home-text p {
-    width: 100vw;
+    width: fit-content;
+    height: fit-content;
     margin: 0;
   }
   #bakan-desc-img-two {
@@ -149,6 +152,7 @@
     justify-content: center;
   }
 }
+
 @media only screen and (max-width: 700px) {
   .home-container {
     font-size: 30px;
