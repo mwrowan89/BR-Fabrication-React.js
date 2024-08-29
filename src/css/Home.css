@@ -142,8 +142,10 @@
   .box-three {
     display: flex;
     flex-direction: column;
+    gap: 3vw;
   }
-  .box-three-right {
+  .box-three-right,
+  .box-three-left {
     justify-content: center;
   }
 }
