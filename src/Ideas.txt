@@ -17,4 +17,5 @@
 
 --Add request form to request comp
     --Request showing
+    --Request more info
     --Request comission
