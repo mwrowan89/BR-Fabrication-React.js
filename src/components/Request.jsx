@@ -122,6 +122,15 @@ const Request = () => {
               onChange={handleChange}
             />
           </label>
+          <label>
+            Message <br />
+            <textarea
+              id="textarea"
+              name="message"
+              value={contact.notes}
+              onChange={handleChange}
+            />
+          </label>
         </div>
       </div>
     </div>
