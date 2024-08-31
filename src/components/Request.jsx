@@ -36,6 +36,18 @@ const Request = () => {
     <div>
       <h1>Send Request</h1>
       <p>To ask for custom requests please use the input form below</p>
+      <div>
+        <label>
+          Full Name <br />
+          <input
+            id="textarea"
+            type="text"
+            name="full"
+            value={contact.first}
+            onChange={handleChange}
+          />
+        </label>
+      </div>
     </div>
   );
 };
