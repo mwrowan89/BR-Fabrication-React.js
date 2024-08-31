@@ -66,6 +66,13 @@ const Request = () => {
             onChange={handleChange}
           />
         </label>
+        <button
+          id="contact-us-button"
+          type="submit"
+          onClick={(e) => sendEmail(e, contact)}
+        >
+          Send
+        </button>
       </div>
     </div>
   );
