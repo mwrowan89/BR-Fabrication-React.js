@@ -99,6 +99,21 @@ const Request = () => {
           <img src={FacebookLogo} width="22" height="22" alt="FaceBook Link" />
         </a>
       </div>
+      <div>
+        <h1>Request Private Showing</h1>
+        <div>
+          <label>
+            Full Name <br />
+            <input
+              id="textarea"
+              type="text"
+              name="full"
+              value={contact.first}
+              onChange={handleChange}
+            />
+          </label>
+        </div>
+      </div>
     </div>
   );
 };
