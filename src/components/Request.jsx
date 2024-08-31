@@ -1,6 +1,12 @@
 import React from "react";
+import { useState } from "react";
 
 const Request = () => {
+  const [contact, setContact] = useState({
+    full: "",
+    email: "",
+    message: "Some notes",
+  });
   return (
     <div>
       <h1>Send Request</h1>
