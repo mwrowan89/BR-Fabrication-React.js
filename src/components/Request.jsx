@@ -47,6 +47,16 @@ const Request = () => {
             onChange={handleChange}
           />
         </label>
+        <label>
+          Email <br />
+          <input
+            id="textarea"
+            type="text"
+            name="email"
+            value={contact.email}
+            onChange={handleChange}
+          />
+        </label>
       </div>
     </div>
   );
