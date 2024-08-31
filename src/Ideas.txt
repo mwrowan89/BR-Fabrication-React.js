@@ -16,6 +16,5 @@
 --Create connection for sending emails
 
 --Add request form to request comp
-    --Request showing
     --Request more info
     --Request comission
