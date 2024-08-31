@@ -74,6 +74,21 @@ const Request = () => {
           Send
         </button>
       </div>
+      <div>
+        <a
+          href="https://www.instagram.com/fromcheftotable/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            id="insta"
+            src={InstagramLogo}
+            width="33"
+            height="33"
+            alt="Instagram link"
+          />
+        </a>{" "}
+      </div>
     </div>
   );
 };
