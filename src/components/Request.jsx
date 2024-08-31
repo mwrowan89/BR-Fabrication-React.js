@@ -88,6 +88,14 @@ const Request = () => {
             alt="Instagram link"
           />
         </a>{" "}
+        &nbsp; &nbsp;
+        <a
+          href="https://www.facebook.com/fromcheftotable/?locale=it_IT"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={FacebookLogo} width="22" height="22" alt="FaceBook Link" />
+        </a>
       </div>
     </div>
   );
