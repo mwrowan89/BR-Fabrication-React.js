@@ -73,4 +73,10 @@ h2 {
     gap: 2vw;
     margin-bottom: 5vh;
   }
+  #contact-us-button {
+    place-self: center;
+  }
+  .links {
+    justify-content: center;
+  }
 }
