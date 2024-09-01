@@ -19,6 +19,4 @@
 --Create connection for sending emails
 
 --Add request form to request comp
-    --Request more info
-    --Request comission
     --update css for requests
