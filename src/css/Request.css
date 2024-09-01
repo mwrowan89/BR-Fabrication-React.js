@@ -1,0 +1,6 @@
+.contact-us {
+  display: flex;
+  color: white;
+  min-height: 65vh;
+  justify-content: space-evenly;
+}
