@@ -26,3 +26,10 @@
 .contact-us-image {
   margin: 3vw;
 }
+#contact-us-image {
+  max-height: 65vh;
+  max-width: 30vw;
+}
+#contact-us-title {
+  font-size: 60px;
+}
