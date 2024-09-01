@@ -41,3 +41,13 @@
   padding: 3px;
   background-color: rgb(34, 34, 168);
 }
+input {
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  background-color: #181818;
+  color: white;
+}
+h2 {
+  text-decoration: underline;
+}
