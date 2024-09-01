@@ -14,3 +14,15 @@
   padding: 4vw;
   margin: 10px;
 }
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-us-labels {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.contact-us-image {
+  margin: 3vw;
+}
