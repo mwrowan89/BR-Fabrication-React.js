@@ -10,7 +10,8 @@
 --add intermediate resizing css for pages
     --home fix resize at 1500
     --about
-    
+
+--fix footer logo placements 
 
 *
 --Create connection for sending emails
