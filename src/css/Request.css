@@ -65,18 +65,4 @@ h2 {
   #contact-us-title {
     text-align: center;
   }
-  .contact-us-container {
-    width: 80vw;
-    padding: 4vw;
-    height: fit-content;
-    flex-direction: column;
-    gap: 2vw;
-    margin-bottom: 5vh;
-  }
-  #contact-us-button {
-    place-self: center;
-  }
-  .links {
-    justify-content: center;
-  }
 }

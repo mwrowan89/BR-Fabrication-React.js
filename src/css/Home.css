@@ -50,7 +50,6 @@
   display: inline-flex;
   transition: 0.7s ease;
   transform: translateX(100%);
-  margin-top: 4vw;
   margin-left: -10vw;
 }
 .box-three {
