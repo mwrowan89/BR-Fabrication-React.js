@@ -123,22 +123,6 @@ const Request = () => {
               onChange={handleChange}
             />
           </label>
-          <label>
-            Message <br />
-            <textarea
-              id="textarea"
-              name="message"
-              value={contact.notes}
-              onChange={handleChange}
-            />
-          </label>
-          <button
-            id="contact-us-button"
-            type="submit"
-            onClick={(e) => sendEmail(e, contact)}
-          >
-            Send
-          </button>
         </div>
       </div>
     </div>
