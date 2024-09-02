@@ -77,33 +77,7 @@ const Request = () => {
           Send
         </button>
       </div>
-      <div>
-        <a
-          href="https://www.instagram.com/fromcheftotable/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            id="insta"
-            src={InstagramLogo}
-            width="33"
-            height="33"
-            alt="Instagram link"
-          />
-        </a>{" "}
-        &nbsp; &nbsp;
-        <a
-          href="https://www.facebook.com/fromcheftotable/?locale=it_IT"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={FacebookLogo} width="22" height="22" alt="FaceBook Link" />
-        </a>
-      </div>
-      <div>
-        <h1>Request Private Showing</h1>
-        <div></div>
-      </div>
+      <div></div>
     </div>
   );
 };
