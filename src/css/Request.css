@@ -18,26 +18,3 @@
   display: flex;
   flex-direction: column;
 }
-.contact-us-labels {
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
-}
-.contact-us-image {
-  margin: 3vw;
-}
-#contact-us-image {
-  max-height: 65vh;
-  max-width: 30vw;
-}
-#contact-us-title {
-  font-size: 60px;
-}
-#contact-us-button {
-  border-radius: 10px;
-  scale: 1.2;
-  width: 6rem;
-  color: white;
-  padding: 3px;
-  background-color: rgb(34, 34, 168);
-}
