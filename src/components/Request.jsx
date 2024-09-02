@@ -102,28 +102,7 @@ const Request = () => {
       </div>
       <div>
         <h1>Request Private Showing</h1>
-        <div>
-          <label>
-            Full Name <br />
-            <input
-              id="textarea"
-              type="text"
-              name="full"
-              value={contact.first}
-              onChange={handleChange}
-            />
-          </label>
-          <label>
-            Email <br />
-            <input
-              id="textarea"
-              type="text"
-              name="email"
-              value={contact.email}
-              onChange={handleChange}
-            />
-          </label>
-        </div>
+        <div></div>
       </div>
     </div>
   );
