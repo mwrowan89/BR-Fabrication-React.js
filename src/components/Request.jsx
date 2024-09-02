@@ -11,15 +11,6 @@ const Request = () => {
     message: "Some notes",
   });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setContact({
-      ...contact,
-      [name]: value,
-    });
-    console.log(contact);
-  };
-
   return (
     <div>
       <h1>Send Request</h1>
