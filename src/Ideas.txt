@@ -18,5 +18,4 @@
 *
 --Create connection for sending emails
 
---Add request form to request comp
-    --update css for requests
+--Updated resize on home page 
