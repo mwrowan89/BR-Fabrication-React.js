@@ -17,7 +17,6 @@
 }
 .footer-left {
   align-items: center;
-  margin-left: 5vw;
 }
 .footer-right {
   margin-right: 5vw;
@@ -53,9 +52,6 @@ a {
     flex-direction: column;
     scale: 1.2;
   }
-  /* #insta-logo {
-    margin: -2.5vw;
-  } */
   .footer {
     background-color: black;
     border-top: 2px solid white;
