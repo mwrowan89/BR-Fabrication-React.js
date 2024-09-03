@@ -17,5 +17,3 @@
 
 *
 --Create connection for sending emails
-
---Updated resize on home page 
