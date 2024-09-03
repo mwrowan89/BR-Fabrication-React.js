@@ -62,8 +62,9 @@ const HomePageDesc = () => {
               also adds a touch of elegance and sophistication to any setting.
             </p>
           </div>
+          <img id="bakan-desc-img-two" src={image3} alt="Bakan" />
         </div>
-        <img id="bakan-desc-img-two" src={image3} alt="Bakan" />
+
         <div className="box-three-whole">
           <h3 id="home-title-three">Your Dream is Our Passion</h3>
           <div className="box-three">
