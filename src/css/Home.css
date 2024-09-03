@@ -121,8 +121,13 @@
   .box-one {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: fit-content;
-    width: 90vw;
+    width: 100vw;
+    margin: 0;
+  }
+  #box-one-p {
+    margin-top: 0;
   }
   .box-two {
     flex-direction: column-reverse;
@@ -147,6 +152,11 @@
     flex-direction: column;
     gap: 3vw;
   }
+  .home-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .box-three-right,
   .box-three-left {
     justify-content: center;
@@ -155,6 +165,7 @@
   #bakan-desc-img-two {
     width: 50vw;
     height: auto;
+    margin: 0;
   }
 }
 
