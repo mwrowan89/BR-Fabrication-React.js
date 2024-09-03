@@ -30,7 +30,7 @@
   height: 70vh;
 }
 #bakan-desc-img-two {
-  margin: -20vw 0vw 0vw -8vw;
+  margin: -10vw 0vw 0vw -8vw;
 }
 
 #aspen-desc-img-one,
@@ -50,7 +50,7 @@
   display: inline-flex;
   transition: 0.7s ease;
   transform: translateX(100%);
-  margin-left: -10vw;
+  margin-left: -8vw;
 }
 .box-three {
   display: flex;
@@ -88,7 +88,8 @@
   width: 70vw;
 }
 #box-two-p {
-  margin-left: 5vw;
+  margin-bottom: -10vw;
+  margin-top: -10vw;
 }
 #box-three-title {
   display: flex;
