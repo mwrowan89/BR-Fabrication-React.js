@@ -11,8 +11,5 @@
     --home fix resize at 1500
     --about
 
-
-
-
 *
 --Create connection for sending emails
