@@ -6,6 +6,7 @@
   justify-content: space-between;
   margin-left: -0.5vw;
   margin-top: 5vh;
+  padding: 0vw 2vw 0vw 2vw;
 }
 .links-footer {
   display: flex;
