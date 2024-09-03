@@ -151,6 +151,11 @@
   .box-three-left {
     justify-content: center;
   }
+  #bakan-desc-img-one,
+  #bakan-desc-img-two {
+    width: 50vw;
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 700px) {
