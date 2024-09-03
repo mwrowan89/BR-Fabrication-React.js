@@ -90,6 +90,13 @@
   height: 65vh;
 }
 
+#rolling-cab-video {
+  margin-top: -5vw;
+}
+#walnut-desk-video {
+  width: 42vw;
+}
+
 /* titles */
 #design-page-title {
   display: flex;
