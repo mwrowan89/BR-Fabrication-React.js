@@ -13,7 +13,7 @@
 
 --fix footer logo placements 
 
---Update top of desings page
+
 
 *
 --Create connection for sending emails
