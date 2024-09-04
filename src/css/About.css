@@ -46,6 +46,18 @@
   font-size: 28px;
 }
 
+@media only screen and (max-width: 1500px) {
+  .about-first-box,
+  .about-second-box,
+  .about-third-box {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   .about {
     overflow: hidden;
