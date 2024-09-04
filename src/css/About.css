@@ -60,6 +60,10 @@
   .about-second-box {
     flex-direction: column-reverse;
   }
+  #ben-sanding {
+    height: 40vh;
+    width: auto;
+  }
 }
 
 @media only screen and (max-width: 700px) {
