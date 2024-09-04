@@ -177,8 +177,12 @@
 #gallery-dropdown-item:hover {
   background-color: rgba(0, 0, 0, 0.149);
 }
-
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1200px) {
+  .gallery-slide-container {
+    margin-top: 5vh;
+  }
+}
+@media only screen and (max-width: 900px) {
   .gallery-images-container {
     display: flex;
     flex-direction: column;
