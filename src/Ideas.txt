@@ -8,8 +8,6 @@
     --Add description in design page about dresser
 
 --add intermediate resizing css for pages
-    --home fix resize at 1500
     --about
 
-*
---Create connection for sending emails
+
