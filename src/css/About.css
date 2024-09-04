@@ -54,7 +54,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
+  }
+  .about-second-box {
+    flex-direction: column-reverse;
   }
 }
 
