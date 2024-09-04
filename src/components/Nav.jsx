@@ -6,7 +6,7 @@ export default function Nav() {
   const [isWindowSize, setIsWindowSize] = useState(false);
 
   const windowSize = () => {
-    if (window.innerWidth < 700) {
+    if (window.innerWidth < 1200) {
       setIsWindowSize(false);
     } else {
       setIsWindowSize(true);
