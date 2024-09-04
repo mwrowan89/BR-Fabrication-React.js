@@ -71,7 +71,6 @@ const DesignsPage = () => {
     <>
       <Header />
       <Nav />
-
       <DesignApp />
     </>
   );
